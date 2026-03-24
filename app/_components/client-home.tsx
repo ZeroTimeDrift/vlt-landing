@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { TrendingUp, ArrowDownLeft, ArrowUpRight } from "lucide-react";
+import { TrendingUp, ArrowDownLeft, ArrowUpRight, Landmark, Wallet } from "lucide-react";
 
 // ── Hooks ────────────────────────────────────────────────────────────────────
 function useWaitlistCount() {
@@ -276,7 +276,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
         {/* ── HERO ─────────────────────────────────────────────────────── */}
         <section
           id="waitlist"
-          className="min-h-screen flex items-center px-6 pt-20 pb-16 bg-vault-hero"
+          className="min-h-screen flex items-center px-6 pt-20 pb-16 bg-vault-hero hero-grid"
         >
           <div className="max-w-6xl mx-auto w-full">
             <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
@@ -347,24 +347,27 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                     n: "1",
                     title: "Connect your bank",
                     desc: "Link your bank account. Deposit in USD, AED, or any major currency. No minimum.",
+                    icon: <Landmark className="w-4.5 h-4.5" />,
                   },
                   {
                     n: "2",
                     title: "Your balance earns automatically",
                     desc: "Your money goes into vetted lending markets. Borrowers pay fees to access it — those fees flow directly to your balance. ~5.4% currently.",
+                    icon: <TrendingUp className="w-4.5 h-4.5" />,
                   },
                   {
                     n: "3",
                     title: "Withdraw anytime",
                     desc: "Pull your full balance plus earnings within 24 hours. No lock-ups, no penalties.",
+                    icon: <Wallet className="w-4.5 h-4.5" />,
                   },
                 ].map((step, i, arr) => (
                   <div key={step.n} className={`flex gap-5 items-start ${i < arr.length - 1 ? "step-connector" : ""}`}>
                     <div
-                      className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white"
+                      className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white"
                       style={{ background: "#0066FF" }}
                     >
-                      {step.n}
+                      {step.icon}
                     </div>
                     <div className="pt-1">
                       <h3 className="text-[15px] font-semibold text-vault-text mb-1.5">{step.title}</h3>

@@ -67,6 +67,21 @@ html, body {
   50%       { box-shadow: 0 0 60px -8px rgba(0, 102, 255, 0.55); }
 }
 
+/* Hero dot grid */
+.hero-grid {
+  position: relative;
+}
+.hero-grid::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: radial-gradient(ellipse 70% 50% at 50% 40%, black 20%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 50% at 50% 40%, black 20%, transparent 70%);
+  pointer-events: none;
+}
+
 /* Hero entrance */
 @keyframes hero-up {
   from { opacity: 0; transform: translateY(22px); }
