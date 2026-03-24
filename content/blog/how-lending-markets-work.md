@@ -13,7 +13,7 @@ A lending market is exactly what it sounds like: a marketplace where people or i
 
 When demand for loans is high, borrowers pay higher fees to secure capital. When supply of available capital is high, rates come down. It's a live market, which is why rates are variable rather than fixed.
 
-Traditional banks participate in these markets. They borrow your deposits at 0.5% and lend them out at 5–8%. The spread is profit.
+Traditional banks participate in these markets. They pay you 1–2% on your savings and lend those same deposits out at 6–10%. The spread is profit.
 
 ## Why the rates are higher
 
