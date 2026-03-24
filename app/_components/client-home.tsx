@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { TrendingUp, ArrowDownLeft, ArrowUpRight, Landmark, Wallet, Shield, Scale, Building2, Clock } from "lucide-react";
+import { TrendingUp, ArrowDownLeft, ArrowUpRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers } from "lucide-react";
 
 // ── Hooks ────────────────────────────────────────────────────────────────────
 function useReveal<T extends HTMLElement>() {
@@ -476,23 +476,48 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
         <div className="section-divider max-w-5xl mx-auto" />
 
-        {/* ── FOR NEOBANKS ───────────────────────────────────────────── */}
+        {/* ── FOR PLATFORMS (B2B) ────────────────────────────────────── */}
         <section className="py-28 px-6">
-          <div className="reveal max-w-xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight mb-6">
+          <div className="reveal max-w-4xl mx-auto text-center">
+            <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">For platforms</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight">
               For neobanks &amp; fintechs
             </h2>
-            <div className="vault-card p-8">
-              <p className="text-sm text-vault-muted leading-relaxed">
-                Vault offers a yield API for fintechs. Offer your users ~5.4% on idle balances with a single integration — no infrastructure build required.
-              </p>
-              <p className="text-sm text-vault-muted leading-relaxed mt-4">
-                Get in touch:{" "}
-                <a href="mailto:hevar@vlt.money" className="text-vault-text-dim hover:text-vault-text transition-colors font-medium">
-                  hevar@vlt.money
-                </a>
-              </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+              {[
+                {
+                  icon: Zap,
+                  label: "One integration",
+                  body: "Single API call to activate yield on idle balances. No infrastructure build required.",
+                },
+                {
+                  icon: Layers,
+                  label: "Your brand, our rails",
+                  body: "White-label ready. Users see your product — Vault handles the yield infrastructure.",
+                },
+                {
+                  icon: TrendingUp,
+                  label: "~5.4% current yield",
+                  body: "Pass through real market rates. We earn only when your users earn.",
+                },
+              ].map((card) => (
+                <div key={card.label} className="vault-card p-6 text-center">
+                  <div className="w-10 h-10 rounded-xl bg-[rgba(0,102,255,0.1)] flex items-center justify-center mx-auto mb-3">
+                    <card.icon className="w-5 h-5 text-vault-accent" />
+                  </div>
+                  <p className="text-[15px] font-semibold text-vault-text mt-3">{card.label}</p>
+                  <p className="text-sm text-vault-muted leading-relaxed mt-2">{card.body}</p>
+                </div>
+              ))}
             </div>
+
+            <p className="text-sm text-vault-muted mt-8 text-center">
+              Get in touch:{" "}
+              <a href="mailto:hevar@vlt.money" className="text-vault-text-dim hover:text-vault-text transition-colors font-medium">
+                hevar@vlt.money
+              </a>
+            </p>
           </div>
         </section>
 
