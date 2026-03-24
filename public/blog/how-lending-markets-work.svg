@@ -1,0 +1,71 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0066FF"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="rgba(255,255,255,0.2)"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+
+  <!-- Top gradient glow -->
+  <ellipse cx="600" cy="0" rx="500" ry="200" fill="rgba(0,102,255,0.06)"/>
+
+  <!-- Title -->
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)" text-transform="uppercase">HOW LENDING MARKETS WORK</text>
+
+  <!-- Node 1: Capital Providers -->
+  <rect x="80" y="120" width="240" height="120" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="200" y="162" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)">CAPITAL PROVIDERS</text>
+  <text x="200" y="192" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="rgba(255,255,255,0.9)">You + Others</text>
+  <text x="200" y="218" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">Supply idle capital</text>
+
+  <!-- Arrow 1→2 (top, deploy) -->
+  <line x1="322" y1="165" x2="438" y2="165" stroke="#0066FF" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <text x="380" y="155" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(0,102,255,0.9)">deploy</text>
+
+  <!-- Arrow 2→1 (bottom, fees back) -->
+  <line x1="438" y1="213" x2="322" y2="213" stroke="rgba(0,163,255,0.6)" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <text x="380" y="235" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(0,163,255,0.8)">~4% fees flow back</text>
+
+  <!-- Node 2: Lending Market -->
+  <rect x="440" y="96" width="320" height="168" rx="12" fill="rgba(0,102,255,0.06)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="440" y="96" width="320" height="3" rx="12" fill="url(#blueGrad)"/>
+  <text x="600" y="144" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.1em" fill="rgba(0,153,255,0.7)">LENDING MARKET</text>
+  <text x="600" y="178" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="white">Live Marketplace</text>
+  <text x="600" y="206" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.45)">Supply &amp; demand set rates</text>
+  <text x="600" y="228" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Audited · Liquid · Variable</text>
+
+  <!-- Arrow 2→3 (top, lend) -->
+  <line x1="762" y1="165" x2="878" y2="165" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <text x="820" y="155" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">lend</text>
+
+  <!-- Arrow 3→2 (bottom, repay fees) -->
+  <line x1="878" y1="213" x2="762" y2="213" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <text x="820" y="235" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">repay + fees</text>
+
+  <!-- Node 3: Borrowers -->
+  <rect x="880" y="120" width="240" height="120" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="1000" y="162" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)">BORROWERS</text>
+  <text x="1000" y="192" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="rgba(255,255,255,0.9)">Institutions</text>
+  <text x="1000" y="218" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">Pay fees for capital access</text>
+
+  <!-- Bottom stat bar -->
+  <rect x="280" y="330" width="640" height="1" fill="rgba(255,255,255,0.06)"/>
+  <text x="380" y="368" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">No bank overhead</text>
+  <rect x="480" y="350" width="1" height="32" fill="rgba(255,255,255,0.06)"/>
+  <text x="600" y="368" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Market-rate pricing</text>
+  <rect x="720" y="350" width="1" height="32" fill="rgba(255,255,255,0.06)"/>
+  <text x="820" y="368" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">24-hour withdrawals</text>
+</svg>

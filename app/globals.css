@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  background: #000000;
+  color: #f4f4f5;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Numbers */
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Card */
+.vault-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: border-color 0.2s ease;
+}
+.vault-card:hover {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Accent button */
+.btn-accent {
+  background: #0066FF;
+  color: white;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 16px rgba(0, 102, 255, 0.25);
+}
+.btn-accent:hover {
+  background: #3385FF;
+  box-shadow: 0 6px 24px rgba(0, 102, 255, 0.35);
+  transform: translateY(-1px);
+}
+.btn-accent:active {
+  transform: translateY(0);
+}
+
+/* Glow on balance card */
+.glow-accent {
+  box-shadow: 0 0 40px -12px rgba(0, 102, 255, 0.45);
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 40px -12px rgba(0, 102, 255, 0.4); }
+  50%       { box-shadow: 0 0 60px -8px rgba(0, 102, 255, 0.55); }
+}
+
+/* Hero entrance */
+@keyframes hero-up {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes card-enter {
+  from { opacity: 0; transform: translateY(28px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.hero-animate {
+  opacity: 0;
+  animation: hero-up 0.8s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+.card-animate {
+  opacity: 0;
+  animation: card-enter 1s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+
+.delay-0  { animation-delay: 0ms; }
+.delay-1  { animation-delay: 100ms; }
+.delay-2  { animation-delay: 200ms; }
+.delay-3  { animation-delay: 320ms; }
+.delay-4  { animation-delay: 440ms; }
+.delay-5  { animation-delay: 560ms; }
+.delay-card { animation-delay: 280ms; }
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Divider */
+.section-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* Step connector line */
+.step-connector { position: relative; }
+.step-connector::after {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 44px;
+  bottom: -32px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Text accent */
+.text-accent {
+  color: #0066FF;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 2px; }
+
+/* Selection */
+::selection { background: rgba(0, 102, 255, 0.3); color: white; }
+
+/* Focus */
+input:focus-visible, button:focus-visible, a:focus-visible {
+  outline: 2px solid rgba(0, 102, 255, 0.5);
+  outline-offset: 2px;
+}

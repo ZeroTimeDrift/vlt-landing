@@ -1,0 +1,19 @@
+# Next.js
+.next/
+out/
+node_modules/
+.env*.local
+
+# Build
+dist/
+build/
+
+# Vercel
+.vercel
+
+# OS
+.DS_Store
+*.log
+
+# Waitlist data (local only)
+/tmp/vault/
