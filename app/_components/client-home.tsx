@@ -378,7 +378,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   {
                     n: "2",
                     title: "Your balance earns automatically",
-                    desc: "Your money goes into vetted lending markets — including Kamino Finance on Solana. Borrowers pay fees to access it — those fees flow directly to your balance. ~5.4% currently.",
+                    desc: "Your money goes into vetted, over-collateralised lending markets — including Kamino Finance on Solana. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
                     icon: <TrendingUp className="w-4.5 h-4.5" />,
                   },
                   {
@@ -648,7 +648,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               <span className="text-vault-text font-semibold text-sm tracking-tight">Vault</span>
             </div>
             <div className="flex flex-col items-center sm:items-end gap-1">
-              <span className="text-[13px] text-vault-muted">Prometheus Labs — incorporated in Abu Dhabi, UAE</span>
+              <span className="text-[13px] text-vault-muted">Prometheus Labs — Abu Dhabi, UAE · Pursuing FSRA authorisation under ADGM</span>
               <div className="flex items-center gap-4 text-[13px] text-vault-muted">
                 <a href="/privacy" className="hover:text-vault-text-dim transition-colors">Privacy</a>
                 <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>

@@ -3,16 +3,16 @@ title: "Why Your Savings Account Is a Bad Deal"
 slug: "why-your-savings-account-is-a-bad-deal"
 date: "2026-03-24"
 author: "Vault Team"
-excerpt: "Your bank is earning 8–10% on your money and paying you 0.5%. Here's what that actually costs you."
+excerpt: "Your bank is earning 8–10% on your money and paying you 1–2%. Here's what that actually costs you."
 ---
 
-![The rate gap: your savings account earns 0.5%, Vault earns ~5.4%, but your bank keeps 8–10% on your deposits](/blog/why-your-savings-account-is-a-bad-deal.svg)
+![The rate gap: your savings account earns 1–2%, Vault earns ~5.4%, but your bank keeps 8–10% on your deposits](/blog/why-your-savings-account-is-a-bad-deal.svg)
 
 # Why Your Savings Account Is a Bad Deal
 
 Let's do a quick thought experiment.
 
-You have $10,000 sitting in a savings account. Your bank pays you 0.5% — about $50 a year. That's less than a tank of gas. You're not growing your money; you're barely keeping it alive.
+You have $10,000 sitting in a savings account. In the UAE, most flexible savings accounts pay 1–2% — that's $100–200 a year. Less than a weekend away. You're not growing your money; you're barely keeping it alive.
 
 Now here's the part your bank doesn't advertise: they take those same deposits and lend them out at 8%, 10%, sometimes more. The spread between what they pay you and what they earn? That's profit. Bank profit. Not yours.
 
@@ -24,10 +24,10 @@ Here's what $10,000 looks like over 5 years at different rates:
 
 | Rate | Annual Earnings | 5-Year Total |
 |------|----------------|--------------|
-| 0.5% (typical savings) | $50 | ~$253 |
+| 1–2% (typical flexible savings) | $100–$200 | ~$510–$1,040 |
 | ~5.4% (Vault) | $540 | ~$3,007 |
 
-That's not a rounding error. That's $2,754 left on the table — every five years, on just $10,000. Scale that up to $50,000 and you're looking at nearly $14,000 in missed earnings over the same period.
+That's not a rounding error. That's $2,000–$2,500 left on the table — every five years, on just $10,000. Scale that up to $50,000 and you're looking at over $10,000 in missed earnings over the same period.
 
 ## Why Does This Happen?
 
@@ -61,7 +61,7 @@ The ~5.4% current rate we show isn't guaranteed — rates move with market condi
 
 ## The Honest Ask
 
-If your savings account is paying you 0.5%, ask yourself: why?
+If your savings account is paying you 1–2%, ask yourself: why?
 
 Not as a rhetorical question — actually ask it. Your bank has an answer. It's just not one that benefits you.
 
