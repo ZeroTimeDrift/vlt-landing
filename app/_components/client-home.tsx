@@ -464,7 +464,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
           <div ref={b2bRef} className="reveal max-w-4xl mx-auto text-center">
             <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">For platforms</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight">
-              For neobanks &amp; fintechs
+              One API. Your users earn ~5.4%.
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
@@ -495,12 +495,17 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               ))}
             </div>
 
-            <p className="text-sm text-vault-muted mt-8 text-center">
-              Get in touch:{" "}
-              <a href="mailto:hevar@vlt.money" className="text-vault-text-dim hover:text-vault-text transition-colors font-medium">
+            <div className="mt-10 text-center">
+              <p className="text-sm text-vault-muted mb-3">
+                Idle balances are a missed feature. Let&apos;s add one to your product.
+              </p>
+              <a
+                href="mailto:hevar@vlt.money"
+                className="text-[15px] font-semibold text-vault-text hover:text-vault-accent transition-colors"
+              >
                 hevar@vlt.money
               </a>
-            </p>
+            </div>
           </div>
         </section>
 

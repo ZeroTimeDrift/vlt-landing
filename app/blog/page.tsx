@@ -40,7 +40,7 @@ export default function BlogIndex() {
       <nav
         className="fixed top-0 inset-x-0 z-50"
         style={{
-          background: "rgba(15,17,23,0.80)",
+          background: "rgba(2,8,16,0.80)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
           borderBottom: "1px solid rgba(255,255,255,0.04)",
