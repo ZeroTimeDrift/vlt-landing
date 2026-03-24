@@ -35,32 +35,17 @@ function VaultLogo({ size = 28 }: { size?: number }) {
 }
 
 // ── Live Balance Card (matches app design exactly) ────────────────────────────
-function LiveBalanceCard() {
-  const BASE = 10_432.67;
-  const [balance, setBalance] = useState(BASE);
-  const APY = 5.42;
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const delta = 0.01 + Math.random() * 0.03;
-      setBalance((prev) => Math.round((prev + delta) * 100) / 100);
-    }, 2800);
-    return () => clearInterval(interval);
-  }, []);
-
-  const dollars = Math.floor(balance);
-  const cents = String(Math.round((balance - dollars) * 100)).padStart(2, "0");
-
+function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
   return (
-    <div className="vault-card glow-accent p-6 w-full max-w-sm">
+    <div className={`vault-card glow-accent w-full ${compact ? "p-4" : "p-6 max-w-sm"}`}>
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
+      <div className={`flex items-center justify-between ${compact ? "mb-4" : "mb-6"}`}>
         <div className="flex items-center gap-2">
-          <VaultLogo size={20} />
-          <span className="text-vault-text-dim text-xs font-medium uppercase tracking-wider">Your Vault</span>
+          <VaultLogo size={compact ? 16 : 20} />
+          <span className={`text-vault-text-dim font-medium uppercase tracking-wider ${compact ? "text-[10px]" : "text-xs"}`}>Your Vault</span>
         </div>
         <span
-          className="text-[10px] px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5"
+          className={`px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5 ${compact ? "text-[9px]" : "text-[10px]"}`}
           style={{ background: "rgba(16,185,129,0.08)", color: "#10B981", border: "1px solid rgba(16,185,129,0.15)" }}
         >
           <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#10B981" }} />
@@ -69,41 +54,41 @@ function LiveBalanceCard() {
       </div>
 
       {/* Balance */}
-      <div className="mb-6">
-        <p className="text-xs text-vault-muted mb-2">Total balance</p>
+      <div className={compact ? "mb-4" : "mb-6"}>
+        <p className={`text-vault-muted ${compact ? "text-[10px] mb-1.5" : "text-xs mb-2"}`}>Total balance</p>
         <div className="flex items-baseline gap-1">
-          <span className="text-vault-text-dim text-lg font-medium">$</span>
-          <span className="text-5xl font-bold tabular tracking-tight text-vault-text">
-            {dollars.toLocaleString()}
+          <span className={`text-vault-text-dim font-medium ${compact ? "text-sm" : "text-lg"}`}>$</span>
+          <span className={`font-bold tabular tracking-tight text-vault-text ${compact ? "text-3xl" : "text-5xl"}`}>
+            0
           </span>
-          <span className="text-xl font-semibold tabular text-vault-text-dim">.{cents}</span>
+          <span className={`font-semibold tabular text-vault-text-dim ${compact ? "text-sm" : "text-xl"}`}>.00</span>
         </div>
 
         {/* APY badge */}
-        <div className="flex items-center gap-2 mt-3">
+        <div className={`flex items-center gap-2 ${compact ? "mt-2" : "mt-3"}`}>
           <div
             className="flex items-center gap-1.5 rounded-full px-3 py-1"
             style={{ background: "rgba(16,185,129,0.08)", border: "1px solid rgba(16,185,129,0.15)" }}
           >
-            <TrendingUp className="w-3.5 h-3.5" style={{ color: "#10B981" }} />
-            <span className="text-sm font-semibold tabular" style={{ color: "#10B981" }}>
-              ~{APY.toFixed(2)}% current
+            <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#10B981" }} />
+            <span className={`font-semibold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
+              ~5.42% current
             </span>
           </div>
-          <span className="text-xs text-vault-muted">via vetted markets</span>
+          {!compact && <span className="text-xs text-vault-muted">via vetted markets</span>}
         </div>
       </div>
 
       {/* Actions */}
       <div className="flex gap-3">
-        <button className="flex-1 flex items-center justify-center gap-2 btn-accent py-3 rounded-xl text-sm">
-          <ArrowDownLeft className="w-4 h-4" />
+        <button className={`flex-1 flex items-center justify-center gap-2 btn-accent rounded-xl text-sm ${compact ? "py-2.5" : "py-3"}`}>
+          <ArrowDownLeft className={compact ? "w-3.5 h-3.5" : "w-4 h-4"} />
           Deposit
         </button>
         <button
-          className="flex-1 flex items-center justify-center gap-2 border border-vault-border text-vault-text-dim py-3 rounded-xl text-sm font-semibold transition-colors hover:border-vault-accent/40 hover:text-vault-accent-light"
+          className={`flex-1 flex items-center justify-center gap-2 border border-vault-border text-vault-text-dim rounded-xl text-sm font-semibold transition-colors hover:border-vault-accent/40 hover:text-vault-accent-light ${compact ? "py-2.5" : "py-3"}`}
         >
-          <ArrowUpRight className="w-4 h-4" />
+          <ArrowUpRight className={compact ? "w-3.5 h-3.5" : "w-4 h-4"} />
           Withdraw
         </button>
       </div>
@@ -280,25 +265,22 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
               {/* Right: Phone Frame + LiveBalanceCard */}
               <div className="card-animate delay-card flex-shrink-0 w-full max-w-sm">
-                {/* Phone mockup — hidden on mobile, LiveBalanceCard shows instead */}
+                {/* Phone mockup with LiveBalanceCard — desktop */}
                 <div className="hidden lg:block">
                   <div
                     className="relative mx-auto overflow-hidden"
-                    style={{ width: 280, height: 560, borderRadius: 40 }}
+                    style={{ width: 280, height: 560, borderRadius: 40, background: "#020810" }}
                   >
-                    {/* App screenshot */}
-                    <img
-                      src="/app-screenshot.jpg"
-                      alt="Vault iOS app — home screen showing balance and earnings"
-                      className="absolute inset-0 w-full h-full object-cover"
-                      style={{ zIndex: 0 }}
-                    />
+                    {/* LiveBalanceCard inside phone frame */}
+                    <div className="absolute inset-0 flex items-center justify-center p-4" style={{ zIndex: 0 }}>
+                      <LiveBalanceCard compact />
+                    </div>
                     {/* Phone frame overlay */}
                     <svg
                       viewBox="0 0 280 560"
                       fill="none"
                       className="absolute inset-0 w-full h-full"
-                      style={{ zIndex: 1 }}
+                      style={{ zIndex: 1, pointerEvents: "none" }}
                     >
                       <rect x="2" y="2" width="276" height="556" rx="38" stroke="rgba(255,255,255,0.12)" strokeWidth="3" fill="none" />
                       <rect x="104" y="12" width="72" height="6" rx="3" fill="rgba(255,255,255,0.1)" />
