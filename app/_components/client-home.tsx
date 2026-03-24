@@ -254,7 +254,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 <h1 className="hero-animate delay-1 text-4xl sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6">
                   Your savings account
                   <br />
-                  earns 0.5%.
+                  earns 1–2%.
                   <br />
                   <span style={{ color: "#0066FF" }}>Yours could earn&nbsp;~5.4%.</span>
                 </h1>
@@ -338,7 +338,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   {
                     n: "2",
                     title: "Your balance earns automatically",
-                    desc: "Your money goes into vetted lending markets. Borrowers pay fees to access it — those fees flow directly to your balance. ~5.4% currently.",
+                    desc: "Your money goes into vetted lending markets — including Kamino Finance on Solana. Borrowers pay fees to access it — those fees flow directly to your balance. ~5.4% currently.",
                     icon: <TrendingUp className="w-4.5 h-4.5" />,
                   },
                   {
@@ -405,7 +405,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 <div className="text-center text-[11px] font-medium uppercase tracking-wider" style={{ color: "#0066FF" }}>Vault</div>
               </div>
               {[
-                { label: "Returns",    bank: "~0.5% per year",  vault: "~5.4% current",     win: true },
+                { label: "Returns",    bank: "~1–2% per year",   vault: "~5.4% current",     win: true },
                 { label: "Access",     bank: "Limited",          vault: "Withdraw anytime", win: true },
                 { label: "Minimum",    bank: "Often $1,000+",   vault: "No minimum",       win: true },
               ].map((row, i, arr) => (
@@ -436,6 +436,28 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
         <div className="section-divider max-w-5xl mx-auto" />
 
+        {/* ── FOR NEOBANKS ───────────────────────────────────────────── */}
+        <section className="py-28 px-6">
+          <div className="reveal max-w-xl mx-auto text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight mb-6">
+              For neobanks &amp; fintechs
+            </h2>
+            <div className="vault-card p-8">
+              <p className="text-sm text-vault-muted leading-relaxed">
+                Vault offers a yield API for fintechs. Offer your users ~5.4% on idle balances with a single integration — no infrastructure build required.
+              </p>
+              <p className="text-sm text-vault-muted leading-relaxed mt-4">
+                Get in touch:{" "}
+                <a href="mailto:hevar@vlt.money" className="text-vault-text-dim hover:text-vault-text transition-colors font-medium">
+                  hevar@vlt.money
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div className="section-divider max-w-5xl mx-auto" />
+
         {/* ── FAQ ──────────────────────────────────────────────────────── */}
         <section id="faq" className="py-28 px-6 scroll-mt-16">
           <div ref={faqRef} className="reveal max-w-3xl mx-auto">
@@ -450,7 +472,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {[
                 {
                   q: "Is my money safe?",
-                  a: "Your funds are deployed into vetted lending markets with established collateral requirements and track records of responsible risk management. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
+                  a: "Your funds are deployed into established lending markets including Kamino Finance, with collateral requirements and institutional borrowers. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
                 },
                 {
                   q: "How does Vault make money?",
@@ -470,6 +492,31 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   <p className="text-sm text-vault-muted leading-relaxed">{item.a}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <div className="section-divider max-w-5xl mx-auto" />
+
+        {/* ── FOUNDER ────────────────────────────────────────────────── */}
+        <section className="py-28 px-6">
+          <div className="reveal max-w-lg mx-auto">
+            <div className="vault-card p-8 text-center">
+              <p className="text-lg font-semibold text-vault-text mb-2">Hevar</p>
+              <p className="text-sm text-vault-muted leading-relaxed mb-4">
+                Building Vault to close the savings gap for UAE and the world.
+              </p>
+              <a
+                href="https://linkedin.com/in/ZeroTimeDrift"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-vault-muted hover:text-vault-text-dim transition-colors"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                LinkedIn
+              </a>
             </div>
           </div>
         </section>
