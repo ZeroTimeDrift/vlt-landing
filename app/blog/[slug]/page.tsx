@@ -111,6 +111,18 @@ export default function BlogPost({ params }: Props) {
             All posts
           </a>
 
+          {/* Hero image */}
+          {post.heroImage && (
+            <div className="mb-10 rounded-xl overflow-hidden" style={{ maxHeight: 360 }}>
+              <img
+                src={post.heroImage}
+                alt={post.title}
+                className="w-full object-cover"
+                style={{ maxHeight: 360, display: "block" }}
+              />
+            </div>
+          )}
+
           {/* Article header */}
           <header className="mb-10">
             <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight leading-tight mb-5">

@@ -64,6 +64,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     excerpt: data.excerpt ?? "",
     author: data.author,
     readingTime: calcReadingTime(content),
+    heroImage: extractHeroImage(content),
     content: html,
   };
 }

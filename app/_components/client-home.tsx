@@ -182,6 +182,7 @@ interface BlogPostData {
   date: string;
   excerpt: string;
   readingTime?: string;
+  heroImage?: string;
 }
 
 // ── Main Page ─────────────────────────────────────────────────────────────────
@@ -615,9 +616,15 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                     <a
                       key={post.slug}
                       href={`/blog/${post.slug}`}
-                      className="vault-card p-6 flex flex-col no-underline group"
+                      className="vault-card overflow-hidden flex flex-col no-underline group"
                       style={{ textDecoration: "none" }}
                     >
+                      {post.heroImage && (
+                        <div className="w-full h-40 overflow-hidden">
+                          <img src={post.heroImage} alt={post.title} className="w-full h-full object-cover" />
+                        </div>
+                      )}
+                      <div className="p-6 flex flex-col flex-1">
                       <h3 className="text-[15px] font-semibold text-vault-text mb-2 leading-snug group-hover:text-white transition-colors">
                         {post.title}
                       </h3>
@@ -639,6 +646,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                             <span>{post.readingTime}</span>
                           </>
                         )}
+                      </div>
                       </div>
                     </a>
                   ))}
