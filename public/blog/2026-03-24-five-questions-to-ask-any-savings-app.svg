@@ -1,0 +1,64 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="160" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Title -->
+  <text x="600" y="54" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">BEFORE YOU DEPOSIT</text>
+
+  <!-- Question 1 -->
+  <rect x="140" y="90" width="184" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="180" cy="122" r="14" fill="rgba(0,102,255,0.12)" stroke="rgba(0,102,255,0.3)" stroke-width="1"/>
+  <text x="180" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0066FF">1</text>
+  <text x="204" y="120" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">Where does</text>
+  <text x="204" y="136" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">the yield come</text>
+  <text x="204" y="152" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">from?</text>
+  <rect x="162" y="172" width="140" height="3" rx="1.5" fill="rgba(16,185,129,0.4)"/>
+
+  <!-- Question 2 -->
+  <rect x="348" y="90" width="184" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="388" cy="122" r="14" fill="rgba(0,102,255,0.12)" stroke="rgba(0,102,255,0.3)" stroke-width="1"/>
+  <text x="388" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0066FF">2</text>
+  <text x="412" y="120" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">Can I withdraw</text>
+  <text x="412" y="136" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">anytime?</text>
+  <rect x="370" y="172" width="140" height="3" rx="1.5" fill="rgba(16,185,129,0.4)"/>
+
+  <!-- Question 3 -->
+  <rect x="556" y="90" width="184" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="596" cy="122" r="14" fill="rgba(0,102,255,0.12)" stroke="rgba(0,102,255,0.3)" stroke-width="1"/>
+  <text x="596" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0066FF">3</text>
+  <text x="620" y="120" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">Who holds</text>
+  <text x="620" y="136" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">my money?</text>
+  <rect x="578" y="172" width="140" height="3" rx="1.5" fill="rgba(16,185,129,0.4)"/>
+
+  <!-- Question 4 -->
+  <rect x="764" y="90" width="184" height="100" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="804" cy="122" r="14" fill="rgba(0,102,255,0.12)" stroke="rgba(0,102,255,0.3)" stroke-width="1"/>
+  <text x="804" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0066FF">4</text>
+  <text x="828" y="120" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">Is it</text>
+  <text x="828" y="136" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">regulated?</text>
+  <rect x="786" y="172" width="140" height="3" rx="1.5" fill="rgba(16,185,129,0.4)"/>
+
+  <!-- Question 5 (highlighted) -->
+  <rect x="452" y="220" width="296" height="120" rx="12" fill="rgba(0,102,255,0.07)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="452" y="220" width="296" height="3" rx="12" fill="url(#blueGrad)"/>
+  <circle cx="504" cy="264" r="14" fill="rgba(0,102,255,0.15)" stroke="rgba(0,102,255,0.4)" stroke-width="1"/>
+  <text x="504" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0066FF">5</text>
+  <text x="530" y="258" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="white">What are the real risks?</text>
+  <text x="530" y="280" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">And does the app tell you about them?</text>
+  <rect x="474" y="318" width="252" height="3" rx="1.5" fill="rgba(0,102,255,0.4)"/>
+
+  <!-- Footer -->
+  <text x="600" y="390" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.25)">Ask these five questions before you deposit anywhere. Including Vault.</text>
+</svg>

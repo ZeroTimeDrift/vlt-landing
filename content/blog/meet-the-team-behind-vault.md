@@ -1,5 +1,5 @@
 ---
-title: "Meet the Team Behind Vault"
+title: "Who's Building Vault"
 slug: "meet-the-team-behind-vault"
 date: "2026-03-24"
 author: "Vault Team"
@@ -8,7 +8,7 @@ excerpt: "Prometheus Labs is building Vault to give everyone access to the yield
 
 ![Prometheus Labs — the team building Vault, based in Abu Dhabi under the ADGM regulatory framework](/blog/meet-the-team-behind-vault.svg)
 
-# Meet the Team Behind Vault
+# Who's Building Vault
 
 Every financial product tells you it's different. We'll let you decide — but first, let us tell you who we are and why we built this.
 
@@ -18,7 +18,7 @@ Vault is built by **Prometheus Labs**, a fintech company based in Abu Dhabi. We'
 
 **Hevar** is the founder. He's spent time in banking infrastructure, financial technology, and consumer product — watching institutional lending markets generate real returns while savings accounts paid almost nothing. [LinkedIn →](https://linkedin.com/in/ZeroTimeDrift)
 
-The team around him has backgrounds in financial infrastructure, engineering, and consumer technology. We've seen, up close, how lending markets work at the institutional level. We've watched banks and funds earn 8–10% on capital while offering depositors 1–2%.
+The rest of the team has backgrounds in financial infrastructure, engineering, and consumer technology. We're a small group, and for now we prefer to build quietly — fintech is a small industry and we're focused on getting the product right before we introduce everyone. Hevar is reachable directly if you want to talk. We've seen, up close, how lending markets work at the institutional level. We've watched banks and funds earn 8–10% on capital while offering depositors 1–2%.
 
 That gap bothered us. So we decided to close it.
 
