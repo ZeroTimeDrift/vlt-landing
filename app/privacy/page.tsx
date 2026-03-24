@@ -28,7 +28,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="text-white font-semibold text-base mb-3">Data storage</h2>
-            <p>Waitlist data is stored securely via Vercel Edge Config. We use industry-standard encryption in transit (TLS) and at rest.</p>
+            <p>Waitlist data is stored securely via encrypted cloud infrastructure. We use industry-standard encryption in transit (TLS) and at rest.</p>
           </section>
 
           <section>

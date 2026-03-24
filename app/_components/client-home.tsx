@@ -261,7 +261,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
                 <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0">
                   Vault puts your money to work in vetted lending markets.
-                  Borrowers pay fees — you keep them. Withdraw anytime.
+                  Borrowers pay fees to access capital. You keep those fees. Withdraw anytime.
                 </p>
 
                 <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-6">
@@ -332,7 +332,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   {
                     n: "1",
                     title: "Connect your bank",
-                    desc: "Link your bank account. Deposit in USD, AED, or any major currency. No minimum.",
+                    desc: "Link your bank account. Deposit in USD or any major currency. No minimum.",
                     icon: <Landmark className="w-4.5 h-4.5" />,
                   },
                   {
@@ -408,12 +408,11 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 { label: "Returns",    bank: "~0.5% per year",  vault: "~5.4% current",     win: true },
                 { label: "Access",     bank: "Limited",          vault: "Withdraw anytime", win: true },
                 { label: "Minimum",    bank: "Often $1,000+",   vault: "No minimum",       win: true },
-                { label: "Complexity", bank: "Simple",           vault: "Simple",            win: false },
-              ].map((row, i) => (
+              ].map((row, i, arr) => (
                 <div
                   key={row.label}
                   className="grid grid-cols-3 px-6 py-4"
-                  style={i < 3 ? { borderBottom: "1px solid rgba(255,255,255,0.06)" } : undefined}
+                  style={i < arr.length - 1 ? { borderBottom: "1px solid rgba(255,255,255,0.06)" } : undefined}
                 >
                   <span className="text-sm text-vault-text-dim font-medium">{row.label}</span>
                   <span className="text-center text-sm text-vault-muted">{row.bank}</span>
@@ -562,7 +561,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               <span className="text-vault-text font-semibold text-sm tracking-tight">Vault</span>
             </div>
             <div className="flex flex-col items-center sm:items-end gap-1">
-              <span className="text-[13px] text-vault-muted">Prometheus Labs · Abu Dhabi, UAE</span>
+              <span className="text-[13px] text-vault-muted">Prometheus Labs — incorporated in Abu Dhabi, UAE</span>
               <div className="flex items-center gap-4 text-[13px] text-vault-muted">
                 <a href="/privacy" className="hover:text-vault-text-dim transition-colors">Privacy</a>
                 <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>

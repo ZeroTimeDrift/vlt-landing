@@ -1,11 +1,12 @@
 ---
-title: "Why Your Savings Account Is Losing You Money"
+title: "The Inflation Tax on Your Savings"
+slug: "the-inflation-tax-on-your-savings"
 date: "2026-03-20"
 excerpt: "The average US savings account pays 0.5%. Inflation runs at 3–4%. Every year you leave money in a traditional savings account, you're falling behind."
 author: "Vault Team"
 ---
 
-![Purchasing power over 5 years: a $50,000 savings account loses ground to inflation while Vault keeps pace](/blog/why-your-savings-account-is-losing-you-money.svg)
+![Purchasing power over 5 years: a $50,000 savings account loses ground to inflation while Vault keeps pace](/blog/the-inflation-tax-on-your-savings.svg)
 
 ## The silent wealth drain
 
