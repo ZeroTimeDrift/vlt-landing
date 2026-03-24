@@ -72,7 +72,7 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
           >
             <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#10B981" }} />
             <span className={`font-semibold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
-              ~5.42% current
+              ~5.4% current
             </span>
           </div>
           {!compact && <span className="text-xs text-vault-muted">via vetted markets</span>}
@@ -191,6 +191,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
   const b2bRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
   const blogRef = useReveal<HTMLDivElement>();
+  const founderRef = useReveal<HTMLDivElement>();
   const ctaRef = useReveal<HTMLDivElement>();
 
   return (
@@ -553,7 +554,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
         {/* ── FOUNDER ────────────────────────────────────────────────── */}
         <section className="py-28 px-6">
-          <div className="reveal max-w-lg mx-auto">
+          <div ref={founderRef} className="reveal max-w-lg mx-auto">
             <div className="vault-card p-8 text-center">
               <p className="text-lg font-semibold text-vault-text mb-2">Hevar</p>
               <p className="text-sm text-vault-muted leading-relaxed mb-4">
