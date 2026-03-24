@@ -90,7 +90,7 @@ Hey [Name] — wanted to share something we've been building. A savings app that
 
 - Never say "APY" — use "~4%" or "up to 24%"
 - Never say "interest" for Vault earnings — say "fees"
-- Never mention Solana, Kamino, MarginFi, DeFi, USDC
+- Never mention Solana, Sentora, MarginFi, DeFi, USDC
 - Never say "guaranteed" or "risk-free"
 - Always include UTM tracking in links
 - Log every post to `growth/distribution-log.md`

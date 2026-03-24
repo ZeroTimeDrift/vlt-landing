@@ -43,7 +43,7 @@ These are operational responsibilities — not ownership of your assets.
 
 ## On audited markets
 
-The lending markets Vault deploys into — including Kamino Finance — have been independently reviewed by third-party security firms. These reviews cover collateral management, liquidation mechanisms, and technical infrastructure.
+The lending markets Vault deploys into — including Sentora PYUSD vault — have been independently reviewed by third-party security firms. These reviews cover collateral management, liquidation mechanisms, and technical infrastructure.
 
 Audits are not guarantees. No review catches every failure mode. But they are a meaningful signal of operational maturity.
 

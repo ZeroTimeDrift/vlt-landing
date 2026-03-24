@@ -47,7 +47,7 @@ In the UAE, there's no incumbent yield layer provider. The banks that power fint
 
 That gap is exactly what Vault is built to fill — a yield layer for platforms that want to offer their users meaningful earnings on idle balances, without building the infrastructure themselves.
 
-Vault earns from borrower fees in vetted, over-collateralised lending markets (including Kamino Finance on Solana). Currently around ~5.4% — variable, not guaranteed, reflecting real market activity. The underlying mechanics are handled by Vault; the app presents earnings simply.
+Vault earns from borrower fees in vetted, over-collateralised lending markets (including Sentora PYUSD vault on Solana). Currently around ~5.4% — variable, not guaranteed, reflecting real market activity. The underlying mechanics are handled by Vault; the app presents earnings simply.
 
 For a payments wallet with 8.5 million users and significant idle balances, adding that layer has a clear product and retention case.
 

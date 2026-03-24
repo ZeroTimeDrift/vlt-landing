@@ -31,11 +31,11 @@ For example: to borrow $100, a borrower might need to lock up $130 in collateral
 
 This mechanism is what allows variable rates without a fund manager making discretionary credit decisions. The market manages risk through collateral thresholds, not through someone's judgment about whether a borrower is trustworthy.
 
-## The market we primarily use: Kamino Finance
+## The market we primarily use: Sentora PYUSD vault
 
-Vault's primary lending market is Kamino Finance, which manages over $2 billion in total value locked. Kamino has been independently audited by security firms who review its collateral mechanisms, liquidation logic, and technical infrastructure.
+Vault's primary lending market is Sentora PYUSD vault, which manages over $2 billion in total value locked. Sentora has been independently audited by security firms who review its collateral mechanisms, liquidation logic, and technical infrastructure.
 
-Kamino isn't controlled by Vault, and that's the point. It's a third-party market with its own governance and security structure. Vault routes your deposits into it — we don't hold your money or manage the borrower relationships directly.
+Sentora isn't controlled by Vault, and that's the point. It's a third-party market with its own governance and security structure. Vault routes your deposits into it — we don't hold your money or manage the borrower relationships directly.
 
 ## What "variable rate" actually means
 

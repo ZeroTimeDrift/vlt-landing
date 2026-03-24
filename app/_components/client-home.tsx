@@ -239,10 +239,10 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   Early access · Now open
                 </p>
 
-                <h1 className="hero-animate delay-1 text-4xl sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6">
+                <h1 className="hero-animate delay-1 text-3xl sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
                   Your savings account
                   <br />
-                  earns 1–2%.
+                  earns 0.5%.
                   <br />
                   <span style={{ color: "#0066FF" }}>Yours could earn&nbsp;~5.4%.</span>
                 </h1>
@@ -315,7 +315,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               },
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
-                label: "Built on Kamino Finance",
+                label: "Built on Sentora PYUSD vault",
                 desc: "$2B+ TVL, institutional-grade",
               },
               {
@@ -362,7 +362,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   {
                     n: "2",
                     title: "Your balance earns automatically",
-                    desc: "Your money goes into vetted, over-collateralised lending markets — including Kamino Finance on Solana. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
+                    desc: "Your money goes into vetted, over-collateralised lending markets — including Sentora PYUSD vault on Solana. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
                     icon: <TrendingUp className="w-4.5 h-4.5" />,
                   },
                   {
@@ -526,7 +526,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {[
                 {
                   q: "Is my money safe?",
-                  a: "Your funds are deployed into established lending markets including Kamino Finance, with collateral requirements and institutional borrowers. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
+                  a: "Your funds are deployed into established lending markets including Sentora PYUSD vault, with collateral requirements and institutional borrowers. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
                 },
                 {
                   q: "How does Vault make money?",
