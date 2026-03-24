@@ -194,7 +194,7 @@ function SocialProofStrip({ joined = false }: { joined?: boolean }) {
         {joined ? (
           <>You&apos;re in — we&apos;ll be in touch soon.</>
         ) : (
-          <>Early access · Limited spots</>
+          <>No commitment required · Limited spots</>
         )}
       </span>
     </div>
