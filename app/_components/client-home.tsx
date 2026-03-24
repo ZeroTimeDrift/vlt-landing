@@ -282,24 +282,26 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 {/* Phone mockup — hidden on mobile, LiveBalanceCard shows instead */}
                 <div className="hidden lg:block">
                   <div
-                    className="relative mx-auto"
+                    className="relative mx-auto overflow-hidden"
                     style={{ width: 280, height: 560, borderRadius: 40 }}
                   >
-                    {/* Phone frame SVG */}
+                    {/* App screenshot */}
+                    <img
+                      src="/app-screenshot.jpg"
+                      alt="Vault iOS app — home screen showing balance and earnings"
+                      className="absolute inset-0 w-full h-full object-cover"
+                      style={{ zIndex: 0 }}
+                    />
+                    {/* Phone frame overlay */}
                     <svg
                       viewBox="0 0 280 560"
                       fill="none"
                       className="absolute inset-0 w-full h-full"
                       style={{ zIndex: 1 }}
                     >
-                      <rect x="2" y="2" width="276" height="556" rx="38" stroke="rgba(255,255,255,0.12)" strokeWidth="3" fill="rgba(255,255,255,0.02)" />
+                      <rect x="2" y="2" width="276" height="556" rx="38" stroke="rgba(255,255,255,0.12)" strokeWidth="3" fill="none" />
                       <rect x="104" y="12" width="72" height="6" rx="3" fill="rgba(255,255,255,0.1)" />
                     </svg>
-                    {/* Placeholder content */}
-                    <div className="absolute inset-0 flex flex-col items-center justify-center" style={{ zIndex: 2, padding: "60px 24px 40px" }}>
-                      <VaultLogo size={48} />
-                      <p className="text-sm text-vault-muted mt-4 text-center">iOS app coming soon</p>
-                    </div>
                   </div>
                 </div>
                 {/* LiveBalanceCard on mobile and tablet */}
