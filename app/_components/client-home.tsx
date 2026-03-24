@@ -87,7 +87,7 @@ function LiveBalanceCard() {
           >
             <TrendingUp className="w-3.5 h-3.5" style={{ color: "#10B981" }} />
             <span className="text-sm font-semibold tabular" style={{ color: "#10B981" }}>
-              {APY.toFixed(2)}% APY
+              ~{APY.toFixed(2)}% current
             </span>
           </div>
           <span className="text-xs text-vault-muted">via vetted markets</span>
@@ -450,7 +450,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {[
                 {
                   q: "Is my money safe?",
-                  a: "Your funds are deployed into markets with established collateral requirements and track records of principal preservation. Vault never holds your principal — you maintain control at all times.",
+                  a: "Your funds are deployed into vetted lending markets with established collateral requirements and track records of responsible risk management. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
                 },
                 {
                   q: "How does Vault make money?",
