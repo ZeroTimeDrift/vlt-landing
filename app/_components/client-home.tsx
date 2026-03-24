@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { TrendingUp, ArrowDownLeft, ArrowUpRight, Landmark, Wallet } from "lucide-react";
+import { TrendingUp, ArrowDownLeft, ArrowUpRight, Landmark, Wallet, Shield, Scale, Building2, Clock } from "lucide-react";
 
 // ── Hooks ────────────────────────────────────────────────────────────────────
 function useReveal<T extends HTMLElement>() {
@@ -311,6 +311,46 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               </div>
 
             </div>
+          </div>
+        </section>
+
+        {/* ── TRUST BAR ────────────────────────────────────────────────── */}
+        <section className="py-10 px-6">
+          <div className="max-w-5xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                icon: <Shield className="w-5 h-5 text-vault-accent" />,
+                label: "Non-custodial",
+                desc: "You always control your funds",
+              },
+              {
+                icon: <Scale className="w-5 h-5 text-vault-accent" />,
+                label: "Pursuing ADGM regulation",
+                desc: "Abu Dhabi regulatory framework",
+              },
+              {
+                icon: <Building2 className="w-5 h-5 text-vault-accent" />,
+                label: "Built on Kamino Finance",
+                desc: "$2B+ TVL, institutional-grade",
+              },
+              {
+                icon: <Clock className="w-5 h-5 text-vault-accent" />,
+                label: "Withdraw anytime",
+                desc: "No lock-ups, 24-hour access",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="flex flex-col items-center text-center gap-2 py-4 px-3 rounded-2xl"
+                style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}
+              >
+                <div className="flex items-center justify-center w-9 h-9 rounded-xl" style={{ background: "rgba(0,102,255,0.1)" }}>
+                  {item.icon}
+                </div>
+                <p className="text-sm font-semibold text-vault-text">{item.label}</p>
+                <p className="text-xs text-vault-muted leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </section>
 
