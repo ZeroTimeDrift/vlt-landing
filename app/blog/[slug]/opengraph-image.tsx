@@ -25,7 +25,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px 80px",
-          background: "#0F1117",
+          background: "#020810",
           position: "relative",
           overflow: "hidden",
         }}

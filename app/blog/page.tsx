@@ -83,7 +83,7 @@ export default function BlogIndex() {
                   {post.heroImage && (
                     <div
                       className="sm:flex-shrink-0 sm:w-64"
-                      style={{ height: "160px", background: "#0F1117" }}
+                      style={{ height: "160px", background: "#020810" }}
                     >
                       <img
                         src={post.heroImage}
