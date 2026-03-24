@@ -188,6 +188,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
   const trustRef = useReveal<HTMLDivElement>();
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
+  const b2bRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
   const blogRef = useReveal<HTMLDivElement>();
   const ctaRef = useReveal<HTMLDivElement>();
@@ -303,8 +304,8 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             {[
               {
                 icon: <Shield className="w-5 h-5 text-vault-accent" />,
-                label: "Non-custodial",
-                desc: "You always control your funds",
+                label: "Your money, your control",
+                desc: "Vault never holds your funds",
               },
               {
                 icon: <Scale className="w-5 h-5 text-vault-accent" />,
@@ -459,14 +460,14 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
         <div className="section-divider max-w-5xl mx-auto" />
 
         {/* ── FOR PLATFORMS (B2B) ────────────────────────────────────── */}
-        <section className="py-28 px-6">
-          <div className="reveal max-w-4xl mx-auto text-center">
+        <section id="for-platforms" className="py-28 px-6">
+          <div ref={b2bRef} className="reveal max-w-4xl mx-auto text-center">
             <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">For platforms</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight">
               For neobanks &amp; fintechs
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
               {[
                 {
                   icon: Zap,

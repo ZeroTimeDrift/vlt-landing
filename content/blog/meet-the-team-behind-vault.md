@@ -16,7 +16,9 @@ Every financial product tells you it's different. We'll let you decide — but f
 
 Vault is built by **Prometheus Labs**, a fintech company based in Abu Dhabi. We're pursuing regulation under the Abu Dhabi Global Market (ADGM) — one of the world's most respected financial regulatory frameworks.
 
-We're a small team of people who've spent time in banking, financial infrastructure, and consumer technology. We've seen, up close, how yields work at the institutional level. We've watched banks and funds earn 8–10% on capital while offering depositors 0.5%.
+**Hevar** is the founder. He's spent time in banking infrastructure, financial technology, and consumer product — watching institutional lending markets generate real returns while savings accounts paid almost nothing. [LinkedIn →](https://linkedin.com/in/ZeroTimeDrift)
+
+The team around him has backgrounds in financial infrastructure, engineering, and consumer technology. We've seen, up close, how lending markets work at the institutional level. We've watched banks and funds earn 8–10% on capital while offering depositors 0.5%.
 
 That gap bothered us. So we decided to close it.
 

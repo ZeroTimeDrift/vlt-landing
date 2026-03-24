@@ -37,9 +37,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 function VaultLogo({ size = 28 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 32 32" fill="none">
-      <rect width="32" height="32" rx="8" fill="#0066FF" />
-      <circle cx="16" cy="16" r="7" stroke="white" strokeWidth="1.8" fill="none" />
+      <rect width="32" height="32" rx="9" fill="#0066FF" />
+      <circle cx="16" cy="16" r="7.5" stroke="white" strokeWidth="1.8" fill="none" />
       <circle cx="16" cy="16" r="2.5" fill="white" />
+      <line x1="16" y1="8.5" x2="16" y2="11" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="16" y1="21" x2="16" y2="23.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="8.5" y1="16" x2="11" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="21" y1="16" x2="23.5" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   );
 }
@@ -87,7 +91,7 @@ export default function BlogPost({ params }: Props) {
           </a>
           <div className="flex items-center gap-4">
             <a href="/blog" className="text-sm text-white/40 hover:text-white/70 transition-colors">Blog</a>
-            <a href="/#waitlist" className="px-4 py-1.5 rounded-lg text-sm font-medium text-white btn-primary">
+            <a href="/#waitlist" className="px-4 py-2 rounded-lg text-sm btn-accent">
               Get Early Access
             </a>
           </div>
@@ -154,7 +158,7 @@ export default function BlogPost({ params }: Props) {
             <p className="text-white/40 text-sm mb-6 leading-relaxed">
               Join the waitlist and be first in line when Vault launches.
             </p>
-            <a href="/#waitlist" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold text-white btn-primary">
+            <a href="/#waitlist" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold text-white btn-accent">
               Get Early Access
             </a>
           </div>

@@ -16,9 +16,13 @@ export const metadata: Metadata = {
 function VaultLogo({ size = 28 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 32 32" fill="none">
-      <rect width="32" height="32" rx="8" fill="#0066FF" />
-      <circle cx="16" cy="16" r="7" stroke="white" strokeWidth="1.8" fill="none" />
+      <rect width="32" height="32" rx="9" fill="#0066FF" />
+      <circle cx="16" cy="16" r="7.5" stroke="white" strokeWidth="1.8" fill="none" />
       <circle cx="16" cy="16" r="2.5" fill="white" />
+      <line x1="16" y1="8.5" x2="16" y2="11" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="16" y1="21" x2="16" y2="23.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="8.5" y1="16" x2="11" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="21" y1="16" x2="23.5" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   );
 }
@@ -30,7 +34,7 @@ export default function BlogIndex() {
     <>
       <div
         className="fixed inset-0 pointer-events-none"
-        style={{ background: "#0F1117", zIndex: 0 }}
+        style={{ background: "#020810", zIndex: 0 }}
       />
 
       <nav
@@ -47,7 +51,7 @@ export default function BlogIndex() {
             <VaultLogo size={24} />
             <span className="text-white font-semibold text-[15px]">Vault</span>
           </a>
-          <a href="/#waitlist" className="px-4 py-1.5 rounded-lg text-sm font-medium text-white btn-primary">
+          <a href="/#waitlist" className="px-4 py-2 rounded-lg text-sm btn-accent">
             Get Early Access
           </a>
         </div>
