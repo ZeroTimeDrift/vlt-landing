@@ -1,59 +1,55 @@
 ---
-title: "Non-Custodial: What It Actually Means for Your Money"
+title: "Vault Never Holds Your Money. Here's What That Means."
 date: "2026-03-10"
-excerpt: "When Vault says your funds are non-custodial, it means we never hold your principal. Here's what that means in practice — and why it matters."
+excerpt: "Your funds go directly into lending markets — not into a Vault account. Here's exactly what happens to your money and why the structure is different from a bank."
 author: "Vault Team"
 ---
 
-![Custodial vs non-custodial: with a traditional bank your funds are held by the bank, with Vault they're deployed directly into lending markets under your control](/blog/non-custodial-what-it-means-for-you.svg)
+![When you deposit with Vault, your funds go directly into lending markets — not a Vault account](/blog/non-custodial-what-it-means-for-you.svg)
 
-## Custody and why it matters
+## What happens at a bank
 
-When you deposit money at a bank, the bank takes legal custody of your funds. You have a claim on that money, but the bank controls it. If the bank fails, you're an unsecured creditor — protected by deposit insurance up to a limit, but exposed above that.
+When you deposit money at a bank, the bank takes legal ownership of your funds. You have a legal claim against the bank, but the bank controls the money. If the bank fails, you become an unsecured creditor — protected by deposit insurance up to a limit, exposed above it.
 
-This is why "your money is safe at the bank" comes with an asterisk.
+This is why "your money is safe at the bank" always comes with an asterisk.
 
-## What non-custodial means
+## What's different with Vault
 
-Non-custodial means that Vault never takes possession of your principal. When you deposit funds, they are deployed directly into lending markets under your account's control — Vault facilitates and manages the deployment, but we don't hold the underlying assets.
+Vault never takes possession of your principal. When you deposit funds, they go directly into lending markets under your account — Vault manages the deployment, but we don't hold the underlying money.
 
 In practice, this means:
-- Vault can't misappropriate your principal
-- A Vault operational failure doesn't mean your funds disappear
-- You're not exposed to Vault's balance sheet risk
+
+- Vault cannot misuse your principal
+- An operational failure at Vault does not mean your funds disappear
+- You are not exposed to Vault's balance sheet
 
 ## What Vault does control
 
-We're transparent about what we do manage:
+We're transparent about our role:
 
 - **Market selection**: We choose which lending markets your deposits go into
-- **Rebalancing**: We move funds between markets to maintain yield and liquidity
+- **Rebalancing**: We move funds between markets to maintain earnings and liquidity
 - **Withdrawals**: We process your withdrawal requests and ensure timely settlement
 
-These are operational responsibilities — not custody of your assets.
+These are operational responsibilities — not ownership of your assets.
 
 ## How this compares
 
 | Structure | Who holds your funds? | Risk if provider fails |
 |-----------|----------------------|------------------------|
-| Traditional bank | Bank takes custody | FDIC covers up to $250k |
-| Brokerage | Custodial | SIPC covers up to $500k |
-| Vault | Non-custodial | Markets hold funds directly |
+| Traditional bank | Bank takes custody | ADIB/FAB: DICE-covered up to AED 500K |
+| Brokerage | Custodial | Depends on structure and regulation |
+| Vault | Funds held in market, not by Vault | Markets hold funds directly |
 
-## The audited piece
+## On audited markets
 
-We regularly reference "audited markets." This means the lending protocols we deploy into have been independently reviewed by third-party security firms. These audits cover:
+The lending markets Vault deploys into — including Kamino Finance — have been independently reviewed by third-party security firms. These reviews cover collateral management, liquidation mechanisms, and technical infrastructure.
 
-- Technical infrastructure and logic (where applicable)
-- Collateral management
-- Liquidation mechanisms
-- Governance structure
-
-Audits aren't guarantees — no audit can catch every possible failure mode. But they're a meaningful signal of operational maturity.
+Audits are not guarantees. No review catches every failure mode. But they are a meaningful signal of operational maturity.
 
 ## The bottom line
 
-Non-custodial isn't a marketing term. It's a structural commitment that limits Vault's exposure to your funds and, in turn, limits your exposure to Vault's operational risk. Combine that with audited markets and 24-hour withdrawal guarantees, and it's a meaningfully different structure from leaving money in a bank.
+Vault is structured so that we never take custody of your money. Your funds sit in lending markets, earning fees from institutional borrowers. Vault's role is to route, manage, and give you access. That's a fundamentally different structure from leaving money in a bank account — or trusting a company that holds your balance on its books.
 
 [Get early access to Vault →](https://vlt.money)
 

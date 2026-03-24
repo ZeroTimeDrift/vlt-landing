@@ -2,7 +2,7 @@
 title: "The Inflation Tax on Your Savings"
 slug: "the-inflation-tax-on-your-savings"
 date: "2026-03-20"
-excerpt: "The average US savings account pays 0.5%. Inflation runs at 3–4%. Every year you leave money in a traditional savings account, you're falling behind."
+excerpt: "Most UAE savings accounts pay 1–2%. UAE inflation runs at around 2.3%. Every year you leave money idle, you're falling behind in real terms."
 author: "Vault Team"
 ---
 
@@ -12,15 +12,15 @@ author: "Vault Team"
 
 Most people think of a savings account as safe. And technically, it is — your principal isn't going anywhere. But there's a slower, quieter form of loss happening every year: your money earns less than inflation.
 
-The average US savings account pays around **0.5%**. The Federal Reserve targets 2% inflation. In practice, inflation has averaged closer to 3–4% over the past few years.
+Standard flexible savings accounts at UAE banks pay **1–2%**. UAE inflation runs at around 2.3%. Current accounts earn even less — often 0% to 0.5%.
 
-The math is simple: if your money grows at 0.5% but your cost of living grows at 3%, you're losing 2.5% of your purchasing power every year.
+The math is simple: if your money grows at 1% but your cost of living grows at 2.3%, you're losing purchasing power every year.
 
-On $50,000, that's $1,250 in lost value — each year.
+On $50,000, that's over $650 in lost value annually — and that's before accounting for the higher rates banks earn by deploying your money into lending markets.
 
 ## Where does the rest of the money go?
 
-Your bank isn't keeping your deposits idle. It lends your money to businesses, homebuyers, and institutions — and collects 4–8% on those loans. The difference between what they earn and what they pay you is how banks generate billions in profit.
+Your bank isn't keeping your deposits idle. It lends your money to businesses, property buyers, and institutions — and collects 4–8% on those loans. The difference between what they earn and what they pay you is how banks generate billions in profit.
 
 This isn't hidden. It's just not advertised.
 
