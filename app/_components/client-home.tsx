@@ -280,10 +280,8 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
                 <div className="hero-animate delay-4 flex items-center justify-center lg:justify-start gap-5 text-xs text-vault-muted flex-wrap">
                   <span>No minimum deposit</span>
-                  <span className="text-vault-border">·</span>
+                  <span className="text-vault-muted">·</span>
                   <span>Withdraw anytime</span>
-                  <span className="text-vault-border">·</span>
-                  <span>Early access · Limited spots</span>
                 </div>
               </div>
 
@@ -338,7 +336,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
                 label: "Built on Sentora PYUSD vault",
-                desc: "$2B+ TVL, institutional-grade",
+                desc: "$3B+ TVL, institutional-grade",
               },
               {
                 icon: <Clock className="w-5 h-5 text-vault-accent" />,

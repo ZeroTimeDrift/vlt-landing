@@ -1,5 +1,8 @@
 # Next.js
 .next/
+.next-*/
+.build-out*/
+.dist-*/
 out/
 node_modules/
 .env*.local
@@ -7,6 +10,9 @@ node_modules/
 # Build
 dist/
 build/
+tmp/
+tmp-old/
+test-write
 
 # Vercel
 .vercel
