@@ -262,7 +262,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   <br />
                   earns 1–2%.
                   <br />
-                  <span style={{ color: "#0066FF" }}>Yours could earn&nbsp;~5.4%.</span>
+                  <span style={{ color: "#0066FF" }}>Yours could earn ~5.4%.</span>
                 </h1>
 
                 <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0">

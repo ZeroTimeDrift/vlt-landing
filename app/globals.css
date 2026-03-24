@@ -148,6 +148,123 @@ html, body {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 2px; }
 
+/* Card (blog pages) */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.card-hover {
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.card-hover:hover {
+  border-color: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+}
+
+/* Blog prose */
+.prose-vault {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  line-height: 1.8;
+}
+.prose-vault h1,
+.prose-vault h2,
+.prose-vault h3 {
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+.prose-vault h1 { font-size: 1.75em; }
+.prose-vault h2 { font-size: 1.35em; }
+.prose-vault h3 { font-size: 1.1em; }
+.prose-vault p {
+  margin-bottom: 1.25em;
+}
+.prose-vault a {
+  color: #3385FF;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-vault a:hover {
+  color: #66a3ff;
+}
+.prose-vault ul,
+.prose-vault ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.25em;
+}
+.prose-vault li {
+  margin-bottom: 0.5em;
+}
+.prose-vault ul li { list-style-type: disc; }
+.prose-vault ol li { list-style-type: decimal; }
+.prose-vault blockquote {
+  border-left: 3px solid rgba(0, 102, 255, 0.4);
+  padding-left: 1em;
+  margin: 1.5em 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+.prose-vault strong {
+  color: #fff;
+  font-weight: 600;
+}
+.prose-vault em {
+  color: rgba(255, 255, 255, 0.6);
+}
+.prose-vault hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.07);
+  margin: 2em 0;
+}
+.prose-vault img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin: 1.5em 0;
+}
+.prose-vault code {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.prose-vault pre {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1em;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+.prose-vault pre code {
+  background: none;
+  padding: 0;
+}
+.prose-vault table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+.prose-vault th,
+.prose-vault td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  text-align: left;
+}
+.prose-vault th {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 /* Selection */
 ::selection { background: rgba(0, 102, 255, 0.3); color: white; }
 

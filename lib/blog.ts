@@ -61,7 +61,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     slug,
     title: data.title ?? slug,
     date: data.date ? String(data.date) : "",
-    excerpt: data.excerpt ?? "",
+    excerpt: data.excerpt ?? data.description ?? "",
     author: data.author,
     readingTime: calcReadingTime(content),
     heroImage: extractHeroImage(content),
