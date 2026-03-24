@@ -97,7 +97,7 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
 }
 
 // ── Waitlist Form ─────────────────────────────────────────────────────────────
-function WaitlistForm({ id, compact = false }: { id?: string; compact?: boolean }) {
+function WaitlistForm({ id, compact = false, onSuccess }: { id?: string; compact?: boolean; onSuccess?: () => void }) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
@@ -122,6 +122,7 @@ function WaitlistForm({ id, compact = false }: { id?: string; compact?: boolean 
       });
       if (!res.ok) throw new Error("fail");
       setStatus("success");
+      onSuccess?.();
     } catch {
       setErrorMsg("Something went wrong.");
       setStatus("error");
@@ -184,7 +185,43 @@ interface BlogPostData {
 }
 
 // ── Main Page ─────────────────────────────────────────────────────────────────
+// ── Social Proof Strip ────────────────────────────────────────────────────────
+function SocialProofStrip({ joined = false }: { joined?: boolean }) {
+  const count = "1,200";
+  return (
+    <div className="flex items-center gap-2.5">
+      <div className="flex items-center">
+        {[
+          "linear-gradient(135deg, #0066FF, #3385FF)",
+          "linear-gradient(135deg, #10B981, #059669)",
+          "linear-gradient(135deg, #6366F1, #4F46E5)",
+        ].map((bg, i) => (
+          <div
+            key={i}
+            className="w-6 h-6 rounded-full"
+            style={{
+              background: bg,
+              border: "1.5px solid #020810",
+              marginRight: i < 2 ? "-8px" : 0,
+              zIndex: 3 - i,
+              position: "relative",
+            }}
+          />
+        ))}
+      </div>
+      <span className="text-[13px] font-medium" style={{ color: "#9CA3AF" }}>
+        {joined ? (
+          <>You&apos;re in — along with <span className="text-white">{count}+</span> others.</>
+        ) : (
+          <><span className="text-white">{count}+</span> people already on the waitlist</>
+        )}
+      </span>
+    </div>
+  );
+}
+
 export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostData[] }) {
+  const [heroJoined, setHeroJoined] = useState(false);
   const trustRef = useReveal<HTMLDivElement>();
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
@@ -239,10 +276,10 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   Early access · Now open
                 </p>
 
-                <h1 className="hero-animate delay-1 text-3xl sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
+                <h1 className="hero-animate delay-1 text-[1.65rem] sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
                   Your savings account
                   <br />
-                  earns 0.5%.
+                  earns 1–2%.
                   <br />
                   <span style={{ color: "#0066FF" }}>Yours could earn&nbsp;~5.4%.</span>
                 </h1>
@@ -252,8 +289,12 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   Borrowers pay fees to access capital. You keep those fees. Withdraw anytime.
                 </p>
 
+                <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-4">
+                  <SocialProofStrip joined={heroJoined} />
+                </div>
+
                 <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-6">
-                  <WaitlistForm id="hero" />
+                  <WaitlistForm id="hero" onSuccess={() => setHeroJoined(true)} />
                 </div>
 
                 <div className="hero-animate delay-4 flex items-center justify-center lg:justify-start gap-5 text-xs text-vault-muted flex-wrap">

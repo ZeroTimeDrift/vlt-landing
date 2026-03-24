@@ -29,7 +29,7 @@ If a savings product offers returns, someone somewhere is borrowing at a higher 
 
 Consumer peer-to-peer lending, high-risk debt, promotional bonuses funded by the company — these are different risk profiles. Know which one you're looking at.
 
-**Vault's answer:** Your balance goes into over-collateralised lending markets — meaning borrowers must pledge more value than they borrow before accessing capital. The primary market is Kamino Finance on Solana, which has more than $2 billion in total value locked and uses institutional collateral requirements. Borrowers are primarily traders and institutions seeking leverage, not consumers seeking personal loans.
+**Vault's answer:** Your balance goes into over-collateralised lending markets — meaning borrowers must pledge more value than they borrow before accessing capital. The primary market is the Sentora PYUSD vault on Solana, which manages more than $2 billion in total value locked and uses institutional collateral requirements. Borrowers are primarily traders and institutions seeking leverage, not consumers seeking personal loans.
 
 ---
 
