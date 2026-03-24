@@ -200,6 +200,7 @@ interface BlogPostData {
 
 // ── Main Page ─────────────────────────────────────────────────────────────────
 export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostData[] }) {
+  const trustRef = useReveal<HTMLDivElement>();
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
@@ -316,7 +317,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
         {/* ── TRUST BAR ────────────────────────────────────────────────── */}
         <section className="py-10 px-6">
-          <div className="max-w-5xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div ref={trustRef} className="reveal max-w-5xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               {
                 icon: <Shield className="w-5 h-5 text-vault-accent" />,
@@ -341,8 +342,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             ].map((item, i) => (
               <div
                 key={i}
-                className="flex flex-col items-center text-center gap-2 py-4 px-3 rounded-2xl"
-                style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}
+                className="vault-card flex flex-col items-center text-center gap-2 py-4 px-3"
               >
                 <div className="flex items-center justify-center w-9 h-9 rounded-xl" style={{ background: "rgba(0,102,255,0.1)" }}>
                   {item.icon}
