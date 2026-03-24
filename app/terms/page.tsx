@@ -18,7 +18,7 @@ export default function TermsPage() {
         <div className="space-y-8 text-sm text-white/40 leading-relaxed">
           <section>
             <h2 className="text-white font-semibold text-base mb-3">Overview</h2>
-            <p>Vault is operated by Prometheus Labs, a financial technology company registered under the Abu Dhabi Global Market (ADGM). By using our website and services, you agree to these terms.</p>
+            <p>Vault is operated by Prometheus Labs, a financial technology company incorporated in Abu Dhabi, UAE. By using our website and services, you agree to these terms.</p>
           </section>
 
           <section>
@@ -43,7 +43,7 @@ export default function TermsPage() {
 
           <section>
             <h2 className="text-white font-semibold text-base mb-3">Contact</h2>
-            <p>Prometheus Labs — Abu Dhabi Global Market, Abu Dhabi, UAE.</p>
+            <p>Prometheus Labs — Abu Dhabi, UAE.<br />Email: hevar@vlt.money</p>
           </section>
         </div>
       </article>

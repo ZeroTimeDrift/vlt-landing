@@ -4,17 +4,6 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { TrendingUp, ArrowDownLeft, ArrowUpRight, Landmark, Wallet } from "lucide-react";
 
 // ── Hooks ────────────────────────────────────────────────────────────────────
-function useWaitlistCount() {
-  const [count, setCount] = useState(0);
-  useEffect(() => {
-    fetch("/api/waitlist/count")
-      .then((r) => r.json())
-      .then((d) => { if (d.count > 0) setCount(d.count); })
-      .catch(() => {});
-  }, []);
-  return count;
-}
-
 function useReveal<T extends HTMLElement>() {
   const ref = useRef<T>(null);
   useEffect(() => {
@@ -49,17 +38,12 @@ function VaultLogo({ size = 28 }: { size?: number }) {
 function LiveBalanceCard() {
   const BASE = 10_432.67;
   const [balance, setBalance] = useState(BASE);
-  const [totalEarned, setTotalEarned] = useState(12.84);
-  const [flash, setFlash] = useState(false);
   const APY = 5.42;
 
   useEffect(() => {
     const interval = setInterval(() => {
       const delta = 0.01 + Math.random() * 0.03;
       setBalance((prev) => Math.round((prev + delta) * 100) / 100);
-      setTotalEarned((prev) => Math.round((prev + delta) * 10000) / 10000);
-      setFlash(true);
-      setTimeout(() => setFlash(false), 700);
     }, 2800);
     return () => clearInterval(interval);
   }, []);
@@ -107,29 +91,6 @@ function LiveBalanceCard() {
             </span>
           </div>
           <span className="text-xs text-vault-muted">via vetted markets</span>
-        </div>
-      </div>
-
-      {/* Stats */}
-      <div
-        className={`grid grid-cols-2 gap-4 mb-6 p-4 rounded-xl transition-all duration-500`}
-        style={{
-          background: flash ? "rgba(16,185,129,0.04)" : "rgba(255,255,255,0.02)",
-          border: `1px solid ${flash ? "rgba(16,185,129,0.1)" : "rgba(255,255,255,0.06)"}`,
-        }}
-      >
-        <div>
-          <p className="text-xs text-vault-muted mb-1">Total earned</p>
-          <p
-            className={`text-sm font-semibold tabular transition-colors duration-300`}
-            style={{ color: flash ? "#10B981" : "#34D399" }}
-          >
-            +${totalEarned.toFixed(2)}
-          </p>
-        </div>
-        <div>
-          <p className="text-xs text-vault-muted mb-1">Earning since</p>
-          <p className="text-sm font-medium text-vault-text-dim">Today</p>
         </div>
       </div>
 
@@ -239,7 +200,6 @@ interface BlogPostData {
 
 // ── Main Page ─────────────────────────────────────────────────────────────────
 export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostData[] }) {
-  const waitlistCount = useWaitlistCount();
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
@@ -252,7 +212,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
       <nav
         className="fixed top-0 inset-x-0 z-50"
         style={{
-          background: "rgba(0,0,0,0.88)",
+          background: "rgba(15,17,23,0.92)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
           borderBottom: "1px solid rgba(255,255,255,0.08)",
@@ -263,12 +223,16 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             <VaultLogo size={24} />
             <span className="text-vault-text font-semibold text-[15px] tracking-tight">Vault</span>
           </div>
-          <a
-            href="#waitlist"
-            className="px-4 py-2 rounded-lg text-sm btn-accent"
-          >
-            Get Early Access
-          </a>
+          <div className="flex items-center gap-6">
+            <a href="#how-it-works" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">How it works</a>
+            <a href="#faq" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">FAQ</a>
+            <a
+              href="#waitlist"
+              className="px-4 py-2 rounded-lg text-sm btn-accent"
+            >
+              Get Early Access
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -309,19 +273,39 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   <span className="text-vault-border">·</span>
                   <span>Withdraw anytime</span>
                   <span className="text-vault-border">·</span>
-                  <span>ADGM regulation in progress</span>
-                  {waitlistCount > 0 && (
-                    <>
-                      <span className="text-vault-border">·</span>
-                      <span>{waitlistCount.toLocaleString()}+ on waitlist</span>
-                    </>
-                  )}
+                  <span>Early access · Limited spots</span>
                 </div>
               </div>
 
-              {/* Right: Live Balance Card */}
+              {/* Right: Phone Frame + LiveBalanceCard */}
               <div className="card-animate delay-card flex-shrink-0 w-full max-w-sm">
-                <LiveBalanceCard />
+                {/* Phone mockup — hidden on mobile, LiveBalanceCard shows instead */}
+                <div className="hidden lg:block">
+                  <div
+                    className="relative mx-auto"
+                    style={{ width: 280, height: 560, borderRadius: 40 }}
+                  >
+                    {/* Phone frame SVG */}
+                    <svg
+                      viewBox="0 0 280 560"
+                      fill="none"
+                      className="absolute inset-0 w-full h-full"
+                      style={{ zIndex: 1 }}
+                    >
+                      <rect x="2" y="2" width="276" height="556" rx="38" stroke="rgba(255,255,255,0.12)" strokeWidth="3" fill="rgba(255,255,255,0.02)" />
+                      <rect x="104" y="12" width="72" height="6" rx="3" fill="rgba(255,255,255,0.1)" />
+                    </svg>
+                    {/* Placeholder content */}
+                    <div className="absolute inset-0 flex flex-col items-center justify-center" style={{ zIndex: 2, padding: "60px 24px 40px" }}>
+                      <VaultLogo size={48} />
+                      <p className="text-sm text-vault-muted mt-4 text-center">iOS app coming soon</p>
+                    </div>
+                  </div>
+                </div>
+                {/* LiveBalanceCard on mobile and tablet */}
+                <div className="lg:hidden">
+                  <LiveBalanceCard />
+                </div>
               </div>
 
             </div>
@@ -331,7 +315,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
         <div className="section-divider max-w-5xl mx-auto" />
 
         {/* ── HOW IT WORKS ─────────────────────────────────────────────── */}
-        <section className="py-28 px-6">
+        <section id="how-it-works" className="py-28 px-6 scroll-mt-16">
           <div ref={howRef} className="reveal max-w-3xl mx-auto">
             <div className="text-center mb-16">
               <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">How it works</p>
@@ -440,7 +424,10 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 </div>
               ))}
             </div>
-            <p className="text-xs text-vault-muted text-center">
+            <p className="text-sm text-vault-muted text-center mt-4">
+              On a $50,000 balance, that&apos;s ~$2,450 more per year.
+            </p>
+            <p className="text-xs text-vault-muted text-center mt-2">
               ~5.4% is current, not guaranteed. Earnings vary with market activity.
             </p>
           </div>
@@ -449,7 +436,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
         <div className="section-divider max-w-5xl mx-auto" />
 
         {/* ── FAQ ──────────────────────────────────────────────────────── */}
-        <section className="py-28 px-6">
+        <section id="faq" className="py-28 px-6 scroll-mt-16">
           <div ref={faqRef} className="reveal max-w-3xl mx-auto">
             <div className="text-center mb-16">
               <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">Common questions</p>
@@ -462,7 +449,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {[
                 {
                   q: "Is my money safe?",
-                  a: "Your funds are deployed into independently audited lending markets with strong collateral requirements and proven track records. Vault never holds your principal — you maintain control at all times.",
+                  a: "Your funds are deployed into markets with established collateral requirements and track records of principal preservation. Vault never holds your principal — you maintain control at all times.",
                 },
                 {
                   q: "How does Vault make money?",
@@ -573,7 +560,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               <span className="text-vault-text font-semibold text-sm tracking-tight">Vault</span>
             </div>
             <div className="flex flex-col items-center sm:items-end gap-1">
-              <span className="text-[13px] text-vault-muted">Prometheus Labs · Abu Dhabi, UAE · Pursuing ADGM regulation</span>
+              <span className="text-[13px] text-vault-muted">Prometheus Labs · Abu Dhabi, UAE</span>
               <div className="flex items-center gap-4 text-[13px] text-vault-muted">
                 <a href="/privacy" className="hover:text-vault-text-dim transition-colors">Privacy</a>
                 <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
@@ -582,7 +569,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             </div>
           </div>
           <p className="mt-6 text-[11px] text-vault-muted/50 text-center max-w-2xl mx-auto leading-relaxed">
-            Vault earnings are fees paid by borrowers for access to capital — not interest or guaranteed returns. Rates vary with market conditions.
+            Vault is a product of Prometheus Labs, incorporated in Abu Dhabi, UAE. Earnings are fees paid by borrowers for access to capital — not interest or guaranteed returns. Rates vary with market conditions.
           </p>
         </footer>
       </main>

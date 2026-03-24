@@ -38,7 +38,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="text-white font-semibold text-base mb-3">Contact</h2>
-            <p>Prometheus Labs — Abu Dhabi Global Market, Abu Dhabi, UAE.</p>
+            <p>Prometheus Labs — Abu Dhabi, UAE.<br />Email: hevar@vlt.money</p>
           </section>
         </div>
       </article>
