@@ -187,33 +187,13 @@ interface BlogPostData {
 // ── Main Page ─────────────────────────────────────────────────────────────────
 // ── Social Proof Strip ────────────────────────────────────────────────────────
 function SocialProofStrip({ joined = false }: { joined?: boolean }) {
-  const count = "1,200";
   return (
     <div className="flex items-center gap-2.5">
-      <div className="flex items-center">
-        {[
-          "linear-gradient(135deg, #0066FF, #3385FF)",
-          "linear-gradient(135deg, #10B981, #059669)",
-          "linear-gradient(135deg, #6366F1, #4F46E5)",
-        ].map((bg, i) => (
-          <div
-            key={i}
-            className="w-6 h-6 rounded-full"
-            style={{
-              background: bg,
-              border: "1.5px solid #020810",
-              marginRight: i < 2 ? "-8px" : 0,
-              zIndex: 3 - i,
-              position: "relative",
-            }}
-          />
-        ))}
-      </div>
       <span className="text-[13px] font-medium" style={{ color: "#9CA3AF" }}>
         {joined ? (
-          <>You&apos;re in — along with <span className="text-white">{count}+</span> others.</>
+          <>You&apos;re in — we&apos;ll be in touch soon.</>
         ) : (
-          <><span className="text-white">{count}+</span> people already on the waitlist</>
+          <>Early access · Limited spots</>
         )}
       </span>
     </div>
