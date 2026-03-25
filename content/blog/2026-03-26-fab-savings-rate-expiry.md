@@ -3,6 +3,7 @@ title: "The UAE's Best Bank Savings Rate Just Ended. What Now?"
 date: "2026-03-26"
 slug: "fab-savings-rate-expiry"
 description: "FAB's 4% promotional savings rate expires March 31. Here's what UAE savers are left with — and where the real alternatives are."
+heroImage: "/blog/fab-savings-rate-expiry.svg"
 readTime: "3 min read"
 ---
 
@@ -10,7 +11,7 @@ For the past several months, First Abu Dhabi Bank has been offering a promotiona
 
 That rate expires March 31, 2026.
 
-After the promotion ends, FAB's standard flexible savings rate drops to around 3.25%. If you've been relying on that account as your primary savings vehicle, your yield just got cut by 18%.
+After the promotion ends, FAB's standard flexible savings rate drops to around 3.25%. If you've been relying on that account as your primary savings vehicle, your earnings just got cut by around 18%.
 
 ## What the UAE flexible savings market looks like now
 
@@ -40,7 +41,7 @@ If the Fed cuts further in 2026, bank savings rates will follow.
 
 ## What Vault does differently
 
-Vault's yield comes from institutional lending demand on Solana — specifically, the Sentora lending market, where institutions pay fees to access short-term liquidity. That mechanism is not the same as a bank holding your money in T-bills. It is driven by borrower demand in DeFi lending markets, which does not move in lockstep with US monetary policy.
+Vault's earnings come from the Sentora lending market, where institutions pay fees to access short-term liquidity. That mechanism is not the same as a bank holding your money in T-bills. It is driven by borrower demand in vetted lending markets, which does not move in lockstep with US monetary policy.
 
 The current rate is approximately 5.4% (variable — it moves with borrowing demand, not a central bank decision).
 
