@@ -23,7 +23,7 @@ The typical conditions: route your salary through the account, maintain a minimu
 
 For many expats, meeting all conditions consistently isn't practical — especially if your salary comes from outside the UAE, if you hold multiple accounts, or if your balance fluctuates.
 
-**FAB's 4% promotional savings rate expires March 31, 2026.** After that, standard flexible FAB balances will earn approximately 3.25%. That is one of the cleaner flexible offers in the market currently; its upcoming expiry will narrow the field.
+**FAB's 4% promotional savings rate expires March 31, 2026.** After that, standard flexible FAB balances will earn approximately 2.5% for typical users — one of the bigger drops in the market when a promo ends. The 3.25% rate only applies to balances of AED 500,000 or more.
 
 Wio Bank still advertises 6% — but only for accounts with active salary routing. Their unrestricted flexible balance pays 3.25%. Mashreq NEO PLUS shows 6.25% with the same salary requirement. They also offer a 5% non-salary tier — but only if you maintain an AED 50,000 average monthly balance (~$13,600) and make no more than two withdrawals per month. Exceed that limit and you forfeit that month's interest entirely.
 
@@ -56,7 +56,8 @@ It will change — markets move. But the change will track actual economic condi
 | Standard UAE bank savings | 0.5–2% | Full |
 | Wio / Mashreq NEO PLUS (salary tier) | 6–6.25% | Salary routing required |
 | Mashreq NEO PLUS (non-salary tier) | 5% AED | AED 50K min; forfeit interest if >2 withdrawals/month |
-| Wio / FAB (unrestricted post-promo) | 3.25% | Full |
+| Wio (flexible, no lock-in) | 3.25% AED / 2.75% USD | Full |
+| FAB (post-promo, typical balance) | ~2.5% | Full |
 | StashAway Simple UAE | 3.9% | Full — money market fund, DFSA-regulated |
 | UAE 12-month fixed deposit | 2–4.25% | Locked |
 | **Vault** | **~5.4% (variable)** | **Withdraw anytime, no minimum** |

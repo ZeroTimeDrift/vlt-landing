@@ -31,7 +31,7 @@ There's a catch: Aave's new app is built for the United States. It integrates wi
 
 So while the category just got mainstream validation globally, the gap for UAE and MENA savers remains.
 
-The best no-condition flexible savings rate in the UAE market as of this week — after FAB's 4% promotional rate expired on March 31 — sits at around 3.25%. Major banks pay 0.5–2.5%. The savings apps with fees deliver around 3.8% net after their annual management charges.
+The best no-condition flexible savings rate in the UAE market after FAB's 4% promotional rate expired — excluding Vault — is StashAway Simple at 3.9%, followed by Wio's flexible account at 3.25% AED and FAB's post-promo standard rate of around 2.5%. Major banks pay 0.5–2.5%. The savings apps with fees deliver around 3.8% net after their annual management charges.
 
 By the standard Aave's US launch has set, UAE savers are significantly underserved.
 
