@@ -33,7 +33,8 @@ Post-expiry, here's the realistic picture for UAE flexible savings accounts:
 |---------|------|-----------|
 | FAB (post-promo) | ~3.25% | Flexible |
 | Wio Bank | 3.25% | Flexible (6% with salary) |
-| Mashreq Neo | ~4–6.25% | Requires salary routing |
+| Mashreq NEO PLUS (salary tier) | 6.25% | Salary routing required |
+| Mashreq NEO PLUS (non-salary) | 5% AED | AED 50K min; max 2 withdrawals/month |
 | Most UAE banks | 1–2% | Standard flexible |
 | Vault | ~5.4% current | No lock-in, variable |
 

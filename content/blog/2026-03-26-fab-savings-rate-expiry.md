@@ -24,7 +24,8 @@ Here's where things stand for savers who want liquidity — no lock-in, no fixed
 | Sarwa Save+ | ~3.8% net | 0.5% annual fee deducted |
 | Wio Bank flexible | 3.25% | No condition |
 | Wio Bank (full rate) | 6% | Salary routing required |
-| Mashreq Neo | 6.25% | Salary routing required |
+| Mashreq NEO PLUS (salary tier) | 6.25% | Salary routing required |
+| Mashreq NEO PLUS (non-salary) | 5% AED | AED 50K min; max 2 withdrawals/month |
 | UAE banks (standard) | 0.5–2.5% | No condition |
 | Vault | ~5.4% | No condition, no fee |
 

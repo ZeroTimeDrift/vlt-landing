@@ -25,7 +25,7 @@ For many expats, meeting all conditions consistently isn't practical — especia
 
 **FAB's 4% promotional savings rate expires March 31, 2026.** After that, standard flexible FAB balances will earn approximately 3.25%. That is one of the cleaner flexible offers in the market currently; its upcoming expiry will narrow the field.
 
-Wio Bank still advertises 6% — but only for accounts with active salary routing. Their unrestricted flexible balance pays 3.25%. Mashreq Neo shows 6.25% with the same salary requirement.
+Wio Bank still advertises 6% — but only for accounts with active salary routing. Their unrestricted flexible balance pays 3.25%. Mashreq NEO PLUS shows 6.25% with the same salary requirement. They also offer a 5% non-salary tier — but only if you maintain an AED 50,000 average monthly balance (~$13,600) and make no more than two withdrawals per month. Exceed that limit and you forfeit that month's interest entirely.
 
 ## Fixed deposits
 
@@ -54,10 +54,11 @@ It will change — markets move. But the change will track actual economic condi
 | Product | Rate | Flexibility |
 |---|---|---|
 | Standard UAE bank savings | 0.5–2% | Full |
-| Wio / Mashreq Neo (conditional) | 6–6.25% | Salary routing required |
+| Wio / Mashreq NEO PLUS (salary tier) | 6–6.25% | Salary routing required |
+| Mashreq NEO PLUS (non-salary tier) | 5% AED | AED 50K min; forfeit interest if >2 withdrawals/month |
 | Wio / FAB (unrestricted post-promo) | 3.25% | Full |
 | UAE 12-month fixed deposit | 2–4.25% | Locked |
-| **Vault** | **~5.4% (variable)** | **Withdraw anytime** |
+| **Vault** | **~5.4% (variable)** | **Withdraw anytime, no minimum** |
 
 Not a complete market survey. Rates accurate as of late March 2026.
 

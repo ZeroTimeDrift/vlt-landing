@@ -35,7 +35,7 @@ Still leaving significant money on the table.
 The honest picture of UAE savings rates in 2026:
 
 - **Standard savings accounts**: 0.5–1.5% — widely available, no conditions
-- **Digital bank flexible accounts**: 3.25–4% — Wio, Mashreq Neo, but often require salary routing
+- **Digital bank flexible accounts**: 3.25–5% — Wio (3.25%), Mashreq NEO PLUS (up to 5% with AED 50K balance, but withdrawals capped at 2/month)
 - **Promotional rates**: 4–6.25% — always come with conditions (salary, minimum balance, lock-in) and typically end after 3–6 months
 
 Most UAE residents don't qualify for the headline rates. Or they qualify, earn the promo rate for a quarter, and then the rate quietly drops.

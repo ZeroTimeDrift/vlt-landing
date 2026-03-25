@@ -37,7 +37,7 @@ Consumer peer-to-peer lending, high-risk debt, promotional bonuses funded by the
 
 ## 3. Is the rate real — or a promotion?
 
-In the UAE, the difference is significant. FAB's 4% savings rate was a promotion that expired March 31, 2026. Post-promo, it reverts. Wio Bank's 6% requires salary routing. Mashreq Neo's 6.25% has conditions.
+In the UAE, the difference is significant. FAB's 4% savings rate was a promotion that expired March 31, 2026. Post-promo, it reverts. Wio Bank's 6% requires salary routing. Mashreq NEO PLUS's 6.25% has the same requirement; their non-salary tier pays 5% AED but only if you keep AED 50,000 on deposit and make no more than two withdrawals per month.
 
 A promotional rate is a marketing tool. A real rate fluctuates with actual market demand.
 
