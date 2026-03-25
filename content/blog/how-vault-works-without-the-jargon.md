@@ -69,7 +69,7 @@ Because the markets we work with are real, and real markets have real rates. We 
 
 We don't use technical jargon because we don't think it's helpful. What matters to most people is: can I earn more on my savings, can I access my money when I need it, and is this legitimate? The answer to all three is yes.
 
-The underlying mechanics involve financial infrastructure that's newer than traditional banking — that's what makes the yields different. But the core concept — lending capital to creditworthy borrowers and earning fees — is as old as finance itself.
+The underlying mechanics involve financial infrastructure that's newer than traditional banking — that's what makes the returns different. But the core concept — lending capital to creditworthy borrowers and earning fees — is as old as finance itself.
 
 ## What We're Not
 

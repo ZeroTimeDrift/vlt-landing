@@ -57,7 +57,7 @@ Ask specifically: are you licensed to take deposits or manage savings products? 
 
 ## 5. What happens when I want my money back?
 
-Lock-up periods, notice requirements, penalties for early withdrawal — these are common in higher-yield products. A 12-month fixed deposit offering 4% means your money is inaccessible for 12 months. A "notice account" may require 30–90 days before withdrawal.
+Lock-up periods, notice requirements, penalties for early withdrawal — these are common in higher-rate products. A 12-month fixed deposit offering 4% means your money is inaccessible for 12 months. A "notice account" may require 30–90 days before withdrawal.
 
 **Vault's answer:** Withdraw your full balance plus earnings within 24 hours. No lock-ups, no notice periods, no penalties. This is not a promotional feature — it is how the underlying lending markets work. Liquidity in over-collateralised markets means withdrawal requests can be settled without notice.
 

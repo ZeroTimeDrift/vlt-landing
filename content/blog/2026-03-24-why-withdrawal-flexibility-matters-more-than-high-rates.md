@@ -11,7 +11,7 @@ When people compare savings options, they usually look at one number: the rate. 
 
 ## The lock-up problem
 
-High-yield products often come with strings attached.
+High-rate products often come with strings attached.
 
 Fixed-term deposits offer better rates than current accounts — but your money is locked for 3, 6, or 12 months. Withdraw early and you lose the earnings, or pay a penalty.
 

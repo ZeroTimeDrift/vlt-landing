@@ -27,13 +27,13 @@ That gap bothered us. So we decided to close it.
 
 The financial system has tiers.
 
-At the top, institutions, funds, and ultra-high-net-worth individuals access lending markets that generate real returns — 4%, 6%, sometimes more. The infrastructure exists. The yields are real. But access has always been restricted by capital minimums, geographic limits, or simply not knowing where to look.
+At the top, institutions, funds, and ultra-high-net-worth individuals access lending markets that generate real returns — 4%, 6%, sometimes more. The infrastructure exists. The returns are real. But access has always been restricted by capital minimums, geographic limits, or simply not knowing where to look.
 
 The rest of the world gets savings accounts.
 
 We built Vault because we think that's wrong. Not in a crusading, disrupt-everything way — just in a "this seems like something that can be fixed" way. The technology and infrastructure now exist to route everyday savers into the same types of vetted lending markets that institutions have always used. The margins are different, but the opportunity is real.
 
-Our mission is simple: give everyone access to the yields that used to belong to a privileged few.
+Our mission is simple: give everyone access to the earnings that used to belong to a privileged few.
 
 ## Where We're Based
 
@@ -45,7 +45,7 @@ Pursuing a credible regulatory licence isn't just a legal requirement — it's a
 
 **Transparency over mystique.** We explain how our product works, including the risks. We don't hide behind jargon or obscure the mechanics.
 
-**Access over exclusivity.** The yields we're offering were never unavailable because they were dangerous. They were unavailable because the people who had access to them didn't need to share. We think that should change.
+**Access over exclusivity.** The returns we're offering were never unavailable because they were dangerous. They were unavailable because the people who had access to them didn't need to share. We think that should change.
 
 **Simplicity over complexity.** Finance is made to seem complicated. Most of it isn't. We build products that feel like they should — intuitive, honest, and uncomplicated.
 
@@ -61,4 +61,4 @@ If you're interested in earning more on your savings with a product built on tra
 
 ---
 
-*Vault is a product of Prometheus Labs. We are not a bank. Yields are variable and not guaranteed. Please review our terms before depositing.*
+*Vault is a product of Prometheus Labs. We are not a bank. Returns are variable and not guaranteed. Please review our terms before depositing.*

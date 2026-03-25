@@ -38,7 +38,7 @@ The result: **~5.4% earnings**, with no lock-up and no minimum deposit.
 You don't need to move your emergency fund or restructure your finances. Start small:
 
 1. Keep 1–2 months of expenses in your regular bank account for immediate access
-2. Move longer-term savings (3+ months of expenses) to a higher-yield option
+2. Move longer-term savings (3+ months of expenses) to a higher-rate option
 3. Monitor performance and withdraw anytime if you need the funds
 
 The goal isn't to take on risk. It's to stop leaving money on the table.

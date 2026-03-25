@@ -32,7 +32,7 @@ That's not a rounding error. That's $2,000–$2,500 left on the table — every 
 
 ## Why Does This Happen?
 
-Banks have had a captive audience for decades. Your paycheck gets deposited, your bills get paid, and the rest just sits there. Moving money to a higher-yield account feels complicated, or risky, or just not worth the hassle.
+Banks have had a captive audience for decades. Your paycheck gets deposited, your bills get paid, and the rest just sits there. Moving money to a higher-rate account feels complicated, or risky, or just not worth the hassle.
 
 Banks know this. They've built entire businesses on your inertia.
 
@@ -58,7 +58,7 @@ We won't pretend this is risk-free. Lending always carries some risk — that's 
 
 At Vault, we work exclusively with vetted lending markets that have track records and risk controls. We're transparent about how the process works. And unlike a bank, we're not hiding the mechanics from you.
 
-The ~5.4% current rate we show isn't guaranteed — rates move with market conditions. But the structural advantage is real and durable: you're accessing the same type of yield that banks have always kept for themselves.
+The ~5.4% current rate we show isn't guaranteed — rates move with market conditions. But the structural advantage is real and durable: you're accessing the same type of return that banks have always kept for themselves.
 
 ## The Honest Ask
 

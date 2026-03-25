@@ -16,7 +16,7 @@ Here's what that means in practice.
 
 ## Gross vs. net: the number that actually matters
 
-A platform charging a 0.5% annual management fee on a 4.3% gross yield delivers approximately **3.8% net** to you.
+A platform charging a 0.5% annual management fee on a 4.3% gross rate delivers approximately **3.8% net** to you.
 
 That's not a rounding error. On a $10,000 deposit, the difference is around $50 per year. On $50,000, it's $250 per year — money that leaves your account and funds the platform's operations instead of your savings.
 
@@ -40,7 +40,7 @@ A savings product tied to a rate-tracking fund will always drift downward in an 
 
 ---
 
-## A different yield mechanism
+## A different earnings mechanism
 
 Not all savings rates are built the same way.
 
@@ -56,7 +56,7 @@ When evaluating any savings product in the UAE:
 
 1. **Net rate**: subtract all management and platform fees from the headline rate
 2. **Fee structure**: annual management fees are often buried in pricing pages, not the main product page
-3. **Yield mechanism**: money market fund (Fed-linked and declining), or something else?
+3. **Earnings mechanism**: money market fund (Fed-linked and declining), or something else?
 4. **Withdrawal terms**: is there a lock-in, a notice period, or minimum balance requirement attached to the rate?
 
 A product showing 4.3% gross with a 0.5% fee is delivering 3.8% net. A product showing 5.4% with zero fee is delivering 5.4% net. The gap is 160 basis points — real money on any meaningful deposit.

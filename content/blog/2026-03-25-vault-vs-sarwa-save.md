@@ -2,7 +2,7 @@
 title: "Vault vs Sarwa Save: A Direct Comparison (March 2026)"
 date: "2026-03-25"
 slug: "vault-vs-sarwa-save"
-description: "Both are app-based savings products in the UAE. Here's how the rates, fees, and yield mechanics actually compare."
+description: "Both are app-based savings products in the UAE. Here's how the rates, fees, and earnings mechanics actually compare."
 heroImage: "/blog/vault-vs-sarwa-save.svg"
 readTime: "5 min read"
 ---
@@ -36,7 +36,7 @@ This is where the two products differ most.
 
 **Sarwa Save+** holds your money in the [Pictet Short-Term Money Market USD-I fund](https://www.fundinfo.com). This is a well-regarded institutional fund — US Treasury bills, agency paper, investment-grade commercial paper. It's safe and liquid. It also tracks the US Federal Reserve rate closely. When the Fed cuts rates (as it did three times in 2025), Sarwa's rate falls with it. Sarwa Save+ peaked at 5.1% in June 2024 when Fed rates were at 5.25%. It has declined since.
 
-**Vault** earns its return from fees paid by institutional borrowers in the Sentora PYUSD lending market. This is not a money market fund. The yield isn't tied directly to the Fed funds rate — it's set by supply and demand from institutions borrowing capital. That means it follows a different cycle than traditional savings products.
+**Vault** earns its return from fees paid by institutional borrowers in the Sentora PYUSD lending market. This is not a money market fund. The rate isn't tied directly to the Fed funds rate — it's set by supply and demand from institutions borrowing capital. That means it follows a different cycle than traditional savings products.
 
 Neither mechanism is risk-free. Vault's rate is variable and not guaranteed. But they respond to different conditions.
 
@@ -70,7 +70,7 @@ Sarwa has been operating in the UAE for eight years. It manages over $800M in cl
 
 - **Net rate.** ~5.4% vs ~3.8% after fees — roughly 160 basis points more in your account.
 - **No fee drag.** A 0.5% annual fee compounds quietly. There's no equivalent on Vault.
-- **Different yield mechanism.** Not purely Fed-rate-dependent. When traditional savings rates continue declining (the direction of travel given UAE base rate cuts in 2025), Vault's yield is set by a different market.
+- **Different earnings mechanism.** Not purely Fed-rate-dependent. When traditional savings rates continue declining (the direction of travel given UAE base rate cuts in 2025), Vault's rate is set by a different market.
 
 ---
 

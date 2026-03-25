@@ -4,7 +4,7 @@ slug: "revolut-uae-what-it-means-for-your-savings"
 heroImage: "/blog/revolut-uae-what-it-means-for-your-savings.svg"
 date: "2026-03-25"
 author: "Vault Team"
-excerpt: "Revolut has in-principle approval to operate in UAE. It's a useful app. But its licence doesn't cover savings or yield — and that matters for your money."
+excerpt: "Revolut has in-principle approval to operate in UAE. It's a useful app. But its licence doesn't cover savings or earnings on your balance — and that matters for your money."
 readingTime: "4 min read"
 ---
 
@@ -18,7 +18,7 @@ That excitement is reasonable. But there's an important detail worth understandi
 
 Revolut's UAE approval covers two categories: stored value facility (SVF) and retail payments. In plain English, that means it can hold your money for spending and send it places.
 
-What it doesn't cover: savings accounts, investment products, or yield on your balance.
+What it doesn't cover: savings accounts, investment products, or earnings on your balance.
 
 This isn't a technicality. It's the core of what a financial licence determines. A payments licence lets you move money. A savings or investment licence lets you grow it.
 

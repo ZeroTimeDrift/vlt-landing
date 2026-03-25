@@ -47,7 +47,7 @@ Here's what you'll find in Vault's communications:
 
 **"Variable"** — earnings are driven by institutional borrowing demand in vetted lending markets. When demand is high, rates are higher. When demand falls, rates adjust. This is not a promotional floor.
 
-**"Fees from institutional borrowers"** — because that's actually what it is. Not interest income, not a yield product, not guaranteed upside. Borrowers pay fees to access short-term liquidity. That fee flow is what Vault passes to depositors.
+**"Fees from institutional borrowers"** — because that's actually what it is. Not interest income, not a fixed product, not guaranteed upside. Borrowers pay fees to access short-term liquidity. That fee flow is what Vault passes to depositors.
 
 **"In the process of obtaining ADGM regulatory approval"** — because we're not approved yet. We're being honest about where we are. You deserve to know this before you deposit money.
 
