@@ -81,12 +81,13 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
 
       {/* Actions */}
       <div className="flex gap-3">
-        <button className={`flex-1 flex items-center justify-center gap-2 btn-accent rounded-xl text-sm ${compact ? "py-2.5" : "py-3"}`}>
+        <button className={`flex-1 flex items-center justify-center gap-2 btn-accent rounded-2xl text-sm ${compact ? "py-2.5" : "py-3"}`}>
           <ArrowDownLeft className={compact ? "w-3.5 h-3.5" : "w-4 h-4"} />
           Deposit
         </button>
         <button
-          className={`flex-1 flex items-center justify-center gap-2 border border-vault-border text-vault-text-dim rounded-xl text-sm font-bold transition-colors hover:border-vault-accent/40 hover:text-vault-accent-light ${compact ? "py-2.5" : "py-3"}`}
+          className={`flex-1 flex items-center justify-center gap-2 border rounded-2xl text-sm font-bold transition-colors hover:border-vault-accent/40 hover:text-vault-accent-light ${compact ? "py-2.5" : "py-3"}`}
+          style={{ borderColor: "rgba(255,255,255,0.2)", color: "#9CA3AF" }}
         >
           <ArrowUpRight className={compact ? "w-3.5 h-3.5" : "w-4 h-4"} />
           Withdraw
