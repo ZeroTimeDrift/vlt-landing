@@ -167,7 +167,7 @@ function SavingsCalculator() {
       <div className="mb-6">
         <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
           <p className="text-xs text-vault-muted uppercase tracking-[0.15em]">My savings balance</p>
-          <div className="flex rounded-full" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", padding: "3px" }}>
+          <div className="flex rounded-full" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", padding: "3px" }}>
             {(["AED", "USD"] as const).map((c) => (
               <button
                 key={c}
@@ -175,7 +175,7 @@ function SavingsCalculator() {
                 className="text-xs font-semibold rounded-full transition-colors"
                 style={{
                   padding: "4px 12px",
-                  background: currency === c ? "#0066FF" : "rgba(255,255,255,0.06)",
+                  background: currency === c ? "#0066FF" : "rgba(255,255,255,0.05)",
                   color: currency === c ? "#FFFFFF" : "#9CA3AF",
                   border: currency === c ? "none" : "1px solid rgba(255,255,255,0.08)",
                 }}
@@ -590,7 +590,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 <div
                   key={row.label}
                   className="grid grid-cols-3 px-6 py-4"
-                  style={i < arr.length - 1 ? { borderBottom: "1px solid rgba(255,255,255,0.06)" } : undefined}
+                  style={i < arr.length - 1 ? { borderBottom: "1px solid rgba(255,255,255,0.08)" } : undefined}
                 >
                   <span className="text-sm text-vault-text-dim font-medium">{row.label}</span>
                   <span className="text-center text-sm text-vault-muted">{row.bank}</span>

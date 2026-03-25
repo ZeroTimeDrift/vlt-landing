@@ -16,7 +16,7 @@ What it doesn't do is work.
 
 ## The Default Is Zero
 
-Current accounts at UAE banks typically pay 0% on balances. Some pay a token amount — fractions of a percent. The money is there. It just isn't doing anything.
+Current accounts at UAE banks typically pay 0% on balances. Some pay a nominal amount — fractions of a percent. The money is there. It just isn't doing anything.
 
 This isn't a small issue. The UAE has one of the highest average incomes in the world and a large population of internationally mobile professionals. A lot of people here have meaningful savings sitting in accounts designed for spending, not earning.
 

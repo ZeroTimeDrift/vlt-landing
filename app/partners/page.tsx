@@ -408,7 +408,7 @@ export default function PartnersPage() {
                 </div>
                 <span
                   className="text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded"
-                  style={{ background: "rgba(255,255,255,0.06)", color: "#6B7280" }}
+                  style={{ background: "rgba(255,255,255,0.05)", color: "#6B7280" }}
                 >
                   Preview
                 </span>

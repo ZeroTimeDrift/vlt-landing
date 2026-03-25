@@ -35,7 +35,7 @@ Building toward ADGM regulation means we're designing the company to meet a real
 
 ## What unregulated alternatives look like
 
-Many savings and investment apps operate in grey areas — registered in offshore jurisdictions with minimal oversight, or operating without a licence indefinitely.
+Many savings and investment apps operate in grey areas — registered in offshore jurisdictions with minimal oversight, or operating without a licence with no end date in sight.
 
 That's a meaningful risk. Not because every unregulated app is a scam, but because there's no structural backstop. If something goes wrong, you're relying entirely on the goodwill of whoever is running it.
 

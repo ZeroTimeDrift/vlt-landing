@@ -41,7 +41,7 @@ export default function NotFound() {
         <div className="text-center max-w-sm">
           <div
             className="text-[160px] font-bold leading-none select-none mb-2"
-            style={{ color: "rgba(255,255,255,0.03)" }}
+            style={{ color: "rgba(255,255,255,0.05)" }}
           >
             404
           </div>
