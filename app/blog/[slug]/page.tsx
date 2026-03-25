@@ -76,7 +76,7 @@ export default function BlogPost({ params }: Props) {
 
       <div
         className="fixed inset-0 pointer-events-none"
-        style={{ background: "#0F1117", zIndex: 0 }}
+        style={{ background: "#020810", zIndex: 0 }}
       />
 
       <nav

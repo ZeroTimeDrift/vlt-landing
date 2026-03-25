@@ -238,11 +238,14 @@ html, body {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5em 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
 }
 .prose-vault th,
 .prose-vault td {
-  padding: 0.5em 1em;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 0.625em 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
   text-align: left;
 }
 .prose-vault th {
@@ -251,6 +254,7 @@ html, body {
   font-size: 0.85em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 /* Range slider thumb */
