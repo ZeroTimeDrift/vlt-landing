@@ -235,7 +235,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             <a href="/blog" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">Blog</a>
             <a
               href="#waitlist"
-              className="px-4 py-2 rounded-lg text-sm btn-accent"
+              className="px-4 py-2 rounded-2xl text-sm btn-accent"
             >
               Get Early Access
             </a>

@@ -51,7 +51,7 @@ export default function BlogIndex() {
             <VaultLogo size={24} />
             <span className="text-white font-semibold text-[15px]">Vault</span>
           </a>
-          <a href="/#waitlist" className="px-4 py-2 rounded-lg text-sm btn-accent">
+          <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
             Get Early Access
           </a>
         </div>

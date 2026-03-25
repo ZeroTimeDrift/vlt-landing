@@ -93,7 +93,7 @@ export default function BlogPost({ params }: Props) {
           </a>
           <div className="flex items-center gap-4">
             <a href="/blog" className="text-sm text-white/40 hover:text-white/70 transition-colors">Blog</a>
-            <a href="/#waitlist" className="px-4 py-2 rounded-lg text-sm btn-accent">
+            <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
               Get Early Access
             </a>
           </div>

@@ -139,7 +139,7 @@ export default function PartnersPage() {
             </a>
             <a
               href="#get-access"
-              className="px-4 py-2 rounded-lg text-sm btn-accent"
+              className="px-4 py-2 rounded-2xl text-sm btn-accent"
             >
               Get Early API Access
             </a>
