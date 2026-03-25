@@ -47,6 +47,28 @@ export default function TermsPage() {
           </section>
         </div>
       </article>
+
+      <footer className="relative z-10 py-12 px-6" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+          <a href="/" className="flex items-center gap-2.5 no-underline">
+            <svg width={20} height={20} viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="9" fill="#0066FF" /><circle cx="16" cy="16" r="7.5" stroke="white" strokeWidth="1.8" fill="none" /><circle cx="16" cy="16" r="2.5" fill="white" /><line x1="16" y1="8.5" x2="16" y2="11" stroke="white" strokeWidth="1.5" strokeLinecap="round" /><line x1="16" y1="21" x2="16" y2="23.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" /><line x1="8.5" y1="16" x2="11" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" /><line x1="21" y1="16" x2="23.5" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" /></svg>
+            <span className="text-white font-bold text-sm tracking-tight">Vault</span>
+          </a>
+          <div className="flex flex-col items-center sm:items-end gap-1">
+            <span className="text-[13px] text-white/40">Prometheus Labs — Abu Dhabi, UAE · Pursuing FSRA authorisation under ADGM</span>
+            <div className="flex items-center gap-4 text-[13px] text-white/40">
+              <a href="/blog" className="hover:text-white/60 transition-colors">Blog</a>
+              <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
+              <a href="/privacy" className="hover:text-white/60 transition-colors">Privacy</a>
+              <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
+              <a href="/terms" className="hover:text-white/60 transition-colors">Terms</a>
+            </div>
+          </div>
+        </div>
+        <p className="mt-6 text-[11px] text-white/20 text-center max-w-2xl mx-auto leading-relaxed">
+          Vault is a product of Prometheus Labs, incorporated in Abu Dhabi, UAE. Earnings are fees paid by borrowers for access to capital — not interest or guaranteed returns. Rates vary with market conditions.
+        </p>
+      </footer>
     </main>
   );
 }

@@ -488,6 +488,8 @@ export default function PartnersPage() {
             <div className="flex flex-col items-center sm:items-end gap-1">
               <span className="text-[13px] text-vault-muted">Prometheus Labs — Abu Dhabi, UAE · Pursuing FSRA authorisation under ADGM</span>
               <div className="flex items-center gap-4 text-[13px] text-vault-muted">
+                <a href="/blog" className="hover:text-vault-text-dim transition-colors">Blog</a>
+                <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
                 <a href="/privacy" className="hover:text-vault-text-dim transition-colors">Privacy</a>
                 <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
                 <a href="/terms" className="hover:text-vault-text-dim transition-colors">Terms</a>

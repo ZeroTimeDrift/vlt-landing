@@ -90,6 +90,8 @@ export default function BlogIndex() {
           <div className="flex flex-col items-center sm:items-end gap-1">
             <span className="text-[13px] text-white/40">Prometheus Labs — Abu Dhabi, UAE · Pursuing FSRA authorisation under ADGM</span>
             <div className="flex items-center gap-4 text-[13px] text-white/40">
+              <a href="/blog" className="hover:text-white/60 transition-colors">Blog</a>
+              <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
               <a href="/privacy" className="hover:text-white/60 transition-colors">Privacy</a>
               <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
               <a href="/terms" className="hover:text-white/60 transition-colors">Terms</a>
