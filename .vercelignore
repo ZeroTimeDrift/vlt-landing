@@ -1,0 +1,15 @@
+# Build artifacts (root-owned, can't delete)
+.next/
+.next-*/
+node_modules/
+.git/
+
+# OS
+.DS_Store
+*.log
+
+# Local data
+/tmp/vault/
+
+# Build info
+tsconfig.tsbuildinfo
