@@ -80,10 +80,10 @@ export default function BlogPost({ params }: Props) {
       <nav
         className="fixed top-0 inset-x-0 z-50"
         style={{
-          background: "rgba(2,8,16,0.80)",
+          background: "rgba(15,17,23,0.92)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
-          borderBottom: "1px solid rgba(255,255,255,0.04)",
+          borderBottom: "1px solid rgba(255,255,255,0.08)",
         }}
       >
         <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
@@ -179,7 +179,7 @@ export default function BlogPost({ params }: Props) {
         </div>
       </main>
 
-      <footer className="relative z-10 py-10 px-6" style={{ borderTop: "1px solid rgba(255,255,255,0.04)" }}>
+      <footer className="relative z-10 py-10 px-6" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <a href="/" className="flex items-center gap-2 no-underline">
             <VaultLogo size={18} />

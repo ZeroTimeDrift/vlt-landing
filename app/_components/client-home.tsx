@@ -491,19 +491,19 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                     n: "1",
                     title: "Connect your bank",
                     desc: "Link your bank account. Deposit in USD or any major currency. No minimum.",
-                    icon: <Landmark className="w-4.5 h-4.5" />,
+                    icon: <Landmark className="w-4 h-4" />,
                   },
                   {
                     n: "2",
                     title: "Your balance earns automatically",
                     desc: "Your money goes into vetted, overcollateralised lending markets. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
-                    icon: <TrendingUp className="w-4.5 h-4.5" />,
+                    icon: <TrendingUp className="w-4 h-4" />,
                   },
                   {
                     n: "3",
                     title: "Withdraw anytime",
                     desc: "Pull your full balance plus earnings within 24 hours. No lock-ups, no penalties.",
-                    icon: <Wallet className="w-4.5 h-4.5" />,
+                    icon: <Wallet className="w-4 h-4" />,
                   },
                 ].map((step, i, arr) => (
                   <div key={step.n} className={`flex gap-5 items-start ${i < arr.length - 1 ? "step-connector" : ""}`}>
