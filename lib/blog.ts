@@ -42,7 +42,7 @@ export function getAllPosts(): BlogPost[] {
       excerpt: data.excerpt ?? data.description ?? "",
       author: data.author,
       readingTime: calcReadingTime(content),
-      heroImage: extractHeroImage(content),
+      heroImage: data.heroImage ?? extractHeroImage(content),
     };
   });
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -66,7 +66,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
       excerpt: data.excerpt ?? data.description ?? "",
       author: data.author,
       readingTime: calcReadingTime(content),
-      heroImage: extractHeroImage(content),
+      heroImage: data.heroImage ?? extractHeroImage(content),
       content: html,
     };
   }
@@ -85,7 +85,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
         excerpt: data.excerpt ?? data.description ?? "",
         author: data.author,
         readingTime: calcReadingTime(content),
-        heroImage: extractHeroImage(content),
+        heroImage: data.heroImage ?? extractHeroImage(content),
         content: html,
       };
     }
