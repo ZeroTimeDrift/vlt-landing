@@ -1,6 +1,7 @@
 ---
 title: "Who Borrows Your Money When You Use Vault?"
 date: "2026-03-24"
+slug: "who-are-the-borrowers"
 excerpt: "When you earn through Vault, someone is paying those fees. Here's exactly who, what they put up as collateral, and what happens if they can't pay."
 author: "Vault Team"
 readTime: "4 min read"

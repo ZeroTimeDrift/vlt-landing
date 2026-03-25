@@ -1,6 +1,7 @@
 ---
 title: "Why We're Pursuing ADGM Regulation (And What It Means for You)"
 date: "2026-03-24"
+slug: "what-adgm-regulation-means-for-your-money"
 description: "We're building Vault to be regulated by ADGM. Here's what that means and why it matters."
 readTime: "4 min read"
 ---

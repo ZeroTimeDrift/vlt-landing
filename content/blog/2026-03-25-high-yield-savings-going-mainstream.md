@@ -1,6 +1,7 @@
 ---
 title: "High-Yield Savings Is Going Mainstream. Here's What That Means for You."
 date: "2026-03-25"
+slug: "high-yield-savings-going-mainstream"
 description: "Major platforms are launching savings products that pay 5%+. Most are crypto-native or US-only. Vault is built for people who want the rate without the complexity."
 readTime: "4 min read"
 ---

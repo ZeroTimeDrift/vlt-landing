@@ -1,6 +1,7 @@
 ---
 title: "What to Do with Your UAE End-of-Service Gratuity"
 date: "2026-03-25"
+slug: "what-to-do-with-uae-end-of-service-gratuity"
 description: "UAE gratuity is meant to be a financial cushion — but most expats park it in a current account earning nothing. Here's what to do with it instead."
 readTime: "5 min read"
 tags: ["UAE end of service gratuity", "EOSB UAE savings", "UAE expat savings", "gratuity UAE"]

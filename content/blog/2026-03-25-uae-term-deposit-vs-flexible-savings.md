@@ -1,6 +1,7 @@
 ---
 title: "UAE Term Deposits in 2026: Why Flexible Might Now Beat Fixed"
 date: "2026-03-25"
+slug: "uae-term-deposit-vs-flexible-savings"
 description: "Fixed deposit rates are falling and lock-in still applies. Here's why flexible savings at ~5.4% may now be the better option for UAE residents."
 author: "Vault Team"
 ---

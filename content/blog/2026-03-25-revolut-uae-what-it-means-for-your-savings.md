@@ -1,6 +1,6 @@
 ---
 title: "Revolut Is Coming to UAE. Here's What It Can (and Can't) Do for Your Money."
-slug: "2026-03-25-revolut-uae-what-it-means-for-your-savings"
+slug: "revolut-uae-what-it-means-for-your-savings"
 date: "2026-03-25"
 author: "Vault Team"
 excerpt: "Revolut has in-principle approval to operate in UAE. It's a useful app. But its licence doesn't cover savings or yield — and that matters for your money."

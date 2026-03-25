@@ -1,6 +1,7 @@
 ---
 title: "Five Questions to Ask Any Savings App (Including Vault)"
 date: "2026-03-24"
+slug: "five-questions-to-ask-any-savings-app"
 excerpt: "Before you deposit a single dirham, here's what to actually check. We answer all five questions about Vault — including the uncomfortable ones."
 author: "Vault Team"
 ---

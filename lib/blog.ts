@@ -31,9 +31,10 @@ export function getAllPosts(): BlogPost[] {
   if (!fs.existsSync(BLOG_DIR)) return [];
   const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md"));
   const posts = files.map((filename) => {
-    const slug = filename.replace(/\.md$/, "");
+    const filenameSlug = filename.replace(/\.md$/, "");
     const raw = fs.readFileSync(path.join(BLOG_DIR, filename), "utf8");
     const { data, content } = matter(raw);
+    const slug = data.slug ?? filenameSlug;
     return {
       slug,
       title: data.title ?? slug,
@@ -52,19 +53,42 @@ export function getLatestPosts(n = 3): BlogPost[] {
 }
 
 export function getPostBySlug(slug: string): BlogPost | null {
-  const filePath = path.join(BLOG_DIR, `${slug}.md`);
-  if (!fs.existsSync(filePath)) return null;
-  const raw = fs.readFileSync(filePath, "utf8");
-  const { data, content } = matter(raw);
-  const html = marked.parse(content) as string;
-  return {
-    slug,
-    title: data.title ?? slug,
-    date: data.date ? String(data.date) : "",
-    excerpt: data.excerpt ?? data.description ?? "",
-    author: data.author,
-    readingTime: calcReadingTime(content),
-    heroImage: extractHeroImage(content),
-    content: html,
-  };
+  // Try direct filename match first
+  const directPath = path.join(BLOG_DIR, `${slug}.md`);
+  if (fs.existsSync(directPath)) {
+    const raw = fs.readFileSync(directPath, "utf8");
+    const { data, content } = matter(raw);
+    const html = marked.parse(content) as string;
+    return {
+      slug: data.slug ?? slug,
+      title: data.title ?? slug,
+      date: data.date ? String(data.date) : "",
+      excerpt: data.excerpt ?? data.description ?? "",
+      author: data.author,
+      readingTime: calcReadingTime(content),
+      heroImage: extractHeroImage(content),
+      content: html,
+    };
+  }
+  // Search by frontmatter slug
+  if (!fs.existsSync(BLOG_DIR)) return null;
+  const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md"));
+  for (const filename of files) {
+    const raw = fs.readFileSync(path.join(BLOG_DIR, filename), "utf8");
+    const { data, content } = matter(raw);
+    if (data.slug === slug) {
+      const html = marked.parse(content) as string;
+      return {
+        slug,
+        title: data.title ?? slug,
+        date: data.date ? String(data.date) : "",
+        excerpt: data.excerpt ?? data.description ?? "",
+        author: data.author,
+        readingTime: calcReadingTime(content),
+        heroImage: extractHeroImage(content),
+        content: html,
+      };
+    }
+  }
+  return null;
 }
