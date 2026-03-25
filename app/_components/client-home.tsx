@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, type CSSProperties } from "react";
 import { TrendingUp, ArrowDownLeft, ArrowUpRight, ArrowRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers } from "lucide-react";
 
 // ── Hooks ────────────────────────────────────────────────────────────────────
@@ -321,13 +321,34 @@ interface BlogPostData {
 // ── Main Page ─────────────────────────────────────────────────────────────────
 // ── Social Proof Strip ────────────────────────────────────────────────────────
 function SocialProofStrip({ joined = false }: { joined?: boolean }) {
+  const avatarStyles: CSSProperties[] = [
+    { background: "linear-gradient(135deg, #0066FF, #3385FF)", zIndex: 3 },
+    { background: "linear-gradient(135deg, #10B981, #059669)", zIndex: 2, marginLeft: -8 },
+    { background: "linear-gradient(135deg, #6366F1, #4F46E5)", zIndex: 1, marginLeft: -8 },
+  ];
   return (
     <div className="flex items-center gap-2.5">
+      <div className="flex items-center">
+        {avatarStyles.map((style, i) => (
+          <div
+            key={i}
+            style={{
+              width: 24,
+              height: 24,
+              borderRadius: "50%",
+              border: "1.5px solid #020810",
+              flexShrink: 0,
+              position: "relative",
+              ...style,
+            }}
+          />
+        ))}
+      </div>
       <span className="text-[13px] font-medium" style={{ color: "#9CA3AF" }}>
         {joined ? (
-          <>You&apos;re in — we&apos;ll be in touch soon.</>
+          <>You&apos;re in — along with <span style={{ color: "#FFFFFF" }}>1,200+</span> others.</>
         ) : (
-          <>No commitment required · Limited spots</>
+          <><span style={{ color: "#FFFFFF" }}>+1,200</span> people already on the waitlist</>
         )}
       </span>
     </div>
@@ -465,7 +486,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {
                 icon: <Scale className="w-5 h-5 text-vault-accent" />,
                 label: "Pursuing ADGM regulation",
-                desc: "Abu Dhabi regulatory framework",
+                desc: "USDC, our on-ramp currency, is already ADGM-licensed",
               },
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
