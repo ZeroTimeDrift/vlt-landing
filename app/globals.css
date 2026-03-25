@@ -15,7 +15,7 @@ html {
 }
 
 html, body {
-  background: #020810;
+  background: #0F1117;
   color: #f4f4f5;
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,11 +28,9 @@ html, body {
 
 /* Card */
 .vault-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 20px;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
   transition: border-color 0.2s ease;
 }
 .vault-card:hover {
@@ -54,17 +52,6 @@ html, body {
 }
 .btn-accent:active {
   transform: translateY(0);
-}
-
-/* Glow on balance card */
-.glow-accent {
-  box-shadow: 0 0 40px -12px rgba(0, 102, 255, 0.45);
-  animation: glowPulse 3s ease-in-out infinite;
-}
-
-@keyframes glowPulse {
-  0%, 100% { box-shadow: 0 0 40px -12px rgba(0, 102, 255, 0.4); }
-  50%       { box-shadow: 0 0 60px -8px rgba(0, 102, 255, 0.55); }
 }
 
 /* Hero dot grid */

@@ -37,7 +37,7 @@ function VaultLogo({ size = 28 }: { size?: number }) {
 // ── Live Balance Card (matches app design exactly) ────────────────────────────
 function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
   return (
-    <div className={`vault-card glow-accent w-full ${compact ? "p-4" : "p-6 max-w-sm"}`}>
+    <div className={`vault-card w-full ${compact ? "p-4" : "p-6 max-w-sm"}`}>
       {/* Header */}
       <div className={`flex items-center justify-between ${compact ? "mb-4" : "mb-6"}`}>
         <div className="flex items-center gap-2">
@@ -46,9 +46,9 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         </div>
         <span
           className={`px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5 ${compact ? "text-[9px]" : "text-[10px]"}`}
-          style={{ background: "rgba(16,185,129,0.08)", color: "#10B981", border: "1px solid rgba(16,185,129,0.15)" }}
+          style={{ background: "rgba(34,197,94,0.08)", color: "#22c55e", border: "1px solid rgba(34,197,94,0.15)" }}
         >
-          <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#10B981" }} />
+          <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#22c55e" }} />
           Active
         </span>
       </div>
@@ -68,10 +68,10 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         <div className={`flex items-center gap-2 ${compact ? "mt-2" : "mt-3"}`}>
           <div
             className="flex items-center gap-1.5 rounded-full px-3 py-1"
-            style={{ background: "rgba(16,185,129,0.08)", border: "1px solid rgba(16,185,129,0.15)" }}
+            style={{ background: "rgba(34,197,94,0.08)", border: "1px solid rgba(34,197,94,0.15)" }}
           >
-            <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#10B981" }} />
-            <span className={`font-bold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
+            <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#22c55e" }} />
+            <span className={`font-bold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#22c55e" }}>
               ~5.4% current
             </span>
           </div>
@@ -170,7 +170,7 @@ function SavingsCalculator() {
       </div>
 
       <p className="mt-4 text-center text-sm text-vault-muted">
-        You could earn <span className="font-bold" style={{ color: "#10B981" }}>${fmt(delta)}</span> more per year with Vault
+        You could earn <span className="font-bold" style={{ color: "#22c55e" }}>${fmt(delta)}</span> more per year with Vault
       </p>
     </div>
   );
@@ -327,7 +327,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
         {/* ── HERO ─────────────────────────────────────────────────────── */}
         <section
           id="waitlist"
-          className="min-h-screen flex items-center px-6 pt-20 pb-16 bg-vault-hero hero-grid"
+          className="min-h-screen flex items-center px-6 pt-20 pb-16 hero-grid"
         >
           <div className="max-w-6xl mx-auto w-full">
             <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
@@ -543,7 +543,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   <span className="text-center text-sm text-vault-muted">{row.bank}</span>
                   <span
                     className="text-center text-sm font-bold"
-                    style={row.win ? { color: "#10B981" } : undefined}
+                    style={row.win ? { color: "#22c55e" } : undefined}
                   >
                     {row.win ? `✓ ${row.vault}` : row.vault}
                   </span>
@@ -601,7 +601,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="/partners"
+                  href="mailto:hevar@vlt.money"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl text-sm btn-accent"
                 >
                   Learn more
