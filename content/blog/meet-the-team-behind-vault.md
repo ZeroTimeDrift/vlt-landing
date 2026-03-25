@@ -7,7 +7,7 @@ author: "Vault Team"
 excerpt: "Prometheus Labs is building Vault to give everyone access to the earnings that used to belong to banks and institutions."
 ---
 
-![Prometheus Labs — the team building Vault, based in Abu Dhabi under the ADGM regulatory framework](/blog/meet-the-team-behind-vault.svg)
+![Prometheus Labs — the team building Vault, based in Abu Dhabi, pursuing ADGM regulatory approval](/blog/meet-the-team-behind-vault.svg)
 
 # Who's Building Vault
 
