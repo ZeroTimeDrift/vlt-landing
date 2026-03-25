@@ -167,7 +167,7 @@ function WaitlistForm({ id, compact = false, onSuccess }: { id?: string; compact
       <button
         type="submit"
         disabled={status === "loading"}
-        className="flex-shrink-0 px-6 py-3 rounded-xl text-sm btn-accent disabled:opacity-60"
+        className="flex-shrink-0 px-6 py-3 rounded-2xl text-sm btn-accent disabled:opacity-60"
       >
         {status === "loading" ? "Joining…" : "Get Early Access"}
       </button>
@@ -335,8 +335,8 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               },
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
-                label: "Built on Sentora PYUSD vault",
-                desc: "$3B+ TVL, institutional-grade",
+                label: "Institutional-grade infrastructure",
+                desc: "$3B+ deployed in vetted lending markets",
               },
               {
                 icon: <Clock className="w-5 h-5 text-vault-accent" />,
@@ -382,7 +382,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   {
                     n: "2",
                     title: "Your balance earns automatically",
-                    desc: "Your money goes into vetted, over-collateralised lending markets — including Sentora PYUSD vault on Solana. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
+                    desc: "Your money goes into vetted, overcollateralised lending markets. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
                     icon: <TrendingUp className="w-4.5 h-4.5" />,
                   },
                   {
@@ -555,7 +555,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {[
                 {
                   q: "Is my money safe?",
-                  a: "Your funds are deployed into established lending markets including Sentora PYUSD vault, with collateral requirements and institutional borrowers. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
+                  a: "Your funds are deployed into established, audited lending markets with collateral requirements and institutional borrowers. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
                 },
                 {
                   q: "How does Vault make money?",
