@@ -13,7 +13,9 @@ author: "Vault Team"
 
 When you deposit money at a bank, the bank takes legal ownership of your funds. You have a legal claim against the bank, but the bank controls the money. If the bank fails, you become an unsecured creditor — protected by deposit insurance up to a limit, exposed above it.
 
-This is why "your money is safe at the bank" always comes with an asterisk.
+This is why "your money is safe at the bank" always comes with an asterisk. In the UAE, the Deposit Insurance Corporation (DICORP) covers balances up to AED 500,000. Above that threshold, exposure is to the bank's balance sheet.
+
+The bigger point: when you deposit with a bank, you're trusting the institution. You're not retaining any direct relationship with where the money goes.
 
 ## What's different with Vault
 
@@ -24,6 +26,8 @@ In practice, this means:
 - Vault cannot misuse your principal
 - An operational failure at Vault does not mean your funds disappear
 - You are not exposed to Vault's balance sheet
+
+Your money isn't sitting in a Vault account. It's working in a lending market, earning fees from institutional borrowers, with Vault acting as the manager — not the custodian.
 
 ## What Vault does control
 
@@ -39,22 +43,28 @@ These are operational responsibilities — not ownership of your assets.
 
 | Structure | Who holds your funds? | Risk if provider fails |
 |-----------|----------------------|------------------------|
-| Traditional bank | Bank takes custody | ADIB/FAB: DICE-covered up to AED 500K |
+| Traditional bank | Bank takes custody | DICORP-covered up to AED 500K |
 | Brokerage | Custodial | Depends on structure and regulation |
 | Vault | Funds held in market, not by Vault | Markets hold funds directly |
+
+The distinction matters in a failure scenario. If Vault had a serious operational problem tomorrow, the funds deployed in lending markets don't evaporate. They sit in the market, still earning, accessible once any operational issues are resolved. Vault's failure is not the same as your money disappearing.
 
 ## On audited markets
 
 The lending markets Vault deploys into have been independently reviewed by third-party security firms. These reviews cover collateral management, liquidation mechanisms, and technical infrastructure.
 
-Audits are not guarantees. No review catches every failure mode. But they are a meaningful signal of operational maturity.
+Audits are not guarantees. No review catches every failure mode. But they are a meaningful signal of operational maturity — and they're one of the criteria we use when selecting which markets to use at all.
 
-## The bottom line
+## What this means for trust
 
-Vault is structured so that we never take custody of your money. Your funds sit in lending markets, earning fees from institutional borrowers. Vault's role is to route, manage, and give you access. That's a fundamentally different structure from leaving money in a bank account — or trusting a company that holds your balance on its books.
+The question "can I trust this company with my money?" is different when the company doesn't actually hold your money.
 
-[Get early access to Vault →](https://vlt.money)
+With a bank or a traditional savings app, trust is in the institution. With Vault, trust is distributed: trust in Vault's market selection, trust in the market's own infrastructure, and trust that the fee mechanism is what we say it is.
+
+We think that's a better structure. It removes the single point of failure that comes from any one institution holding your balance.
 
 ---
 
-*Vault earnings are fees paid by borrowers for access to capital — not guaranteed returns. Rates vary with market conditions.*
+Join the waitlist at [vlt.money](https://vlt.money)
+
+*Vault earnings are fees paid by borrowers for access to capital — not guaranteed returns. Rates vary with market conditions. Withdrawals processed within 24 hours.*
