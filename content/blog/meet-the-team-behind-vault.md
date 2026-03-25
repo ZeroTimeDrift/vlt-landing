@@ -1,6 +1,6 @@
 ---
 title: "Who's Building Vault"
-slug: "meet-the-team-behind-vault"
+slug: "whos-building-vault"
 date: "2026-03-24"
 author: "Vault Team"
 excerpt: "Prometheus Labs is building Vault to give everyone access to the yields that used to belong to banks and institutions."
