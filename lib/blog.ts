@@ -38,22 +38,30 @@ function extractHeroImage(content: string): string | undefined {
 export function getAllPosts(): BlogPost[] {
   if (!fs.existsSync(BLOG_DIR)) return [];
   const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md"));
-  const posts = files.map((filename) => {
+  const entries = files.map((filename) => {
     const filenameSlug = filename.replace(/\.md$/, "");
     const raw = fs.readFileSync(path.join(BLOG_DIR, filename), "utf8");
     const { data, content } = matter(raw);
     const slug = data.slug ?? filenameSlug;
     return {
-      slug,
-      title: data.title ?? slug,
-      date: normalizeDate(data.date),
-      excerpt: data.excerpt ?? data.description ?? "",
-      author: data.author,
-      readingTime: calcReadingTime(content),
-      heroImage: data.heroImage ?? extractHeroImage(content),
+      filename,
+      post: {
+        slug,
+        title: data.title ?? slug,
+        date: normalizeDate(data.date),
+        excerpt: data.excerpt ?? data.description ?? "",
+        author: data.author,
+        readingTime: calcReadingTime(content),
+        heroImage: data.heroImage ?? extractHeroImage(content),
+      },
     };
   });
-  return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+  return entries
+    .sort((a, b) => {
+      if (a.post.date !== b.post.date) return a.post.date < b.post.date ? 1 : -1;
+      return a.filename < b.filename ? 1 : -1;
+    })
+    .map((e) => e.post);
 }
 
 export function getLatestPosts(n = 3): BlogPost[] {
