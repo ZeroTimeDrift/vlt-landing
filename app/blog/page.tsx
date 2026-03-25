@@ -46,14 +46,17 @@ export default function BlogIndex() {
           borderBottom: "1px solid rgba(255,255,255,0.08)",
         }}
       >
-        <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 no-underline">
             <VaultLogo size={24} />
-            <span className="text-white font-bold text-[15px]">Vault</span>
+            <span className="text-white font-bold text-[15px] tracking-tight">Vault</span>
           </a>
-          <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
-            Get Early Access
-          </a>
+          <div className="flex items-center gap-6">
+            <a href="/blog" className="hidden md:inline text-sm text-white/40 hover:text-white/60 transition-colors">Blog</a>
+            <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
+              Get Early Access
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -130,20 +133,24 @@ export default function BlogIndex() {
         </div>
       </main>
 
-      <footer className="relative z-10 py-10 px-6" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <a href="/" className="flex items-center gap-2 no-underline">
-            <VaultLogo size={18} />
-            <span className="text-white/30 text-sm">vlt.money</span>
-          </a>
-          <div className="flex items-center gap-4 text-xs text-vault-muted">
-            <span>Prometheus Labs</span>
-            <span className="text-white/15">·</span>
-            <a href="/privacy" className="hover:text-white/30 transition-colors">Privacy</a>
-            <span className="text-white/15">·</span>
-            <a href="/terms" className="hover:text-white/30 transition-colors">Terms</a>
+      <footer className="relative z-10 py-12 px-6" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-2.5">
+            <VaultLogo size={20} />
+            <span className="text-white font-bold text-sm tracking-tight">Vault</span>
+          </div>
+          <div className="flex flex-col items-center sm:items-end gap-1">
+            <span className="text-[13px] text-white/40">Prometheus Labs — Abu Dhabi, UAE · Pursuing FSRA authorisation under ADGM</span>
+            <div className="flex items-center gap-4 text-[13px] text-white/40">
+              <a href="/privacy" className="hover:text-white/60 transition-colors">Privacy</a>
+              <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
+              <a href="/terms" className="hover:text-white/60 transition-colors">Terms</a>
+            </div>
           </div>
         </div>
+        <p className="mt-6 text-[11px] text-white/20 text-center max-w-2xl mx-auto leading-relaxed">
+          Vault is a product of Prometheus Labs, incorporated in Abu Dhabi, UAE. Earnings are fees paid by borrowers for access to capital — not interest or guaranteed returns. Rates vary with market conditions.
+        </p>
       </footer>
     </>
   );

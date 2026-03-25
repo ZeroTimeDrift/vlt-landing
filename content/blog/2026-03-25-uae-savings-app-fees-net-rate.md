@@ -2,13 +2,13 @@
 title: "Why Your UAE Savings App Fee Matters More Than the Headline Rate"
 date: "2026-03-25"
 slug: "uae-savings-app-fees-net-rate"
-description: "Some UAE savings platforms advertise 3.7%. After fees, you keep 3.2%. Here's why the number on the tin is rarely the number you earn."
+description: "Some UAE savings platforms advertise 4.3%. After fees, you keep 3.8%. Here's why the number on the tin is rarely the number you earn."
 heroImage: "/blog/uae-savings-app-fees-net-rate.svg"
 ---
 
 The savings rate advertised in a headline is not always the rate you earn.
 
-Some UAE savings platforms show 3.7% or 4%. What they don't headline is the annual management fee sitting on top — typically 0.5% or more. That fee comes straight out of your return.
+Some UAE savings platforms show 4.3% or higher. What they don't headline is the annual management fee sitting on top — typically 0.5% or more. That fee comes straight out of your return.
 
 Here's what that means in practice.
 
@@ -16,7 +16,7 @@ Here's what that means in practice.
 
 ## Gross vs. net: the number that actually matters
 
-A platform charging a 0.5% annual management fee on a 3.7% gross yield delivers approximately **3.2% net** to you.
+A platform charging a 0.5% annual management fee on a 4.3% gross yield delivers approximately **3.8% net** to you.
 
 That's not a rounding error. On a $10,000 deposit, the difference is around $50 per year. On $50,000, it's $250 per year — money that leaves your account and funds the platform's operations instead of your savings.
 
@@ -59,7 +59,7 @@ When evaluating any savings product in the UAE:
 3. **Yield mechanism**: money market fund (Fed-linked and declining), or something else?
 4. **Withdrawal terms**: is there a lock-in, a notice period, or minimum balance requirement attached to the rate?
 
-A product showing 3.7% gross with a 0.5% fee is delivering 3.2% net. A product showing 5.4% with zero fee is delivering 5.4% net. The gap is 220 basis points — real money on any meaningful deposit.
+A product showing 4.3% gross with a 0.5% fee is delivering 3.8% net. A product showing 5.4% with zero fee is delivering 5.4% net. The gap is 160 basis points — real money on any meaningful deposit.
 
 ---
 

@@ -20,7 +20,7 @@ Here's where things stand for savers who want liquidity — no lock-in, no fixed
 | Option | Rate | Condition |
 |---|---|---|
 | FAB (post-promo) | ~3.25% | No condition |
-| Sarwa Save | ~3.2% net | 0.5% annual fee deducted |
+| Sarwa Save+ | ~3.8% net | 0.5% annual fee deducted |
 | Wio Bank flexible | 3.25% | No condition |
 | Wio Bank (full rate) | 6% | Salary routing required |
 | Mashreq Neo | 6.25% | Salary routing required |

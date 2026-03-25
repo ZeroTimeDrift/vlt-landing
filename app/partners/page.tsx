@@ -299,19 +299,19 @@ export default function PartnersPage() {
                     n: "1",
                     title: "Integrate",
                     desc: "Add a single API call to your deposit flow. Vault handles conversion, deployment, and settlement.",
-                    icon: <Zap className="w-4.5 h-4.5" />,
+                    icon: <Zap className="w-4 h-4" />,
                   },
                   {
                     n: "2",
                     title: "Users earn",
                     desc: "Your users' idle balances are deployed into vetted lending markets. Borrowers pay fees — those fees flow to your users automatically.",
-                    icon: <TrendingUp className="w-4.5 h-4.5" />,
+                    icon: <TrendingUp className="w-4 h-4" />,
                   },
                   {
                     n: "3",
                     title: "You earn fees",
                     desc: "Vault shares revenue on every dollar deployed through your platform. The more your users earn, the more you earn.",
-                    icon: <Layers className="w-4.5 h-4.5" />,
+                    icon: <Layers className="w-4 h-4" />,
                   },
                 ].map((step, i, arr) => (
                   <div key={step.n} className={`flex gap-5 items-start ${i < arr.length - 1 ? "step-connector" : ""}`}>
