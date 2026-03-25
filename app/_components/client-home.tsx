@@ -417,7 +417,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
                 label: "Institutional-grade infrastructure",
-                desc: "$3B+ deployed in vetted lending markets",
+                desc: "Vetted institutional lending markets",
               },
               {
                 icon: <Clock className="w-5 h-5 text-vault-accent" />,
