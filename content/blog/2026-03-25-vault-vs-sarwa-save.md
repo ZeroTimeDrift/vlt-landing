@@ -56,7 +56,7 @@ Vault is pursuing ADGM regulatory authorisation. It is not yet licensed. That's 
 
 Sarwa has integrated UAE Pass, which enables near-instant onboarding with near-100% approval for eligible residents. AED transfers work via Lean Technologies (open banking from UAE banks). If friction-free local banking access matters to you, Sarwa has invested heavily here.
 
-Vault is built for simplicity — the goal is no crypto knowledge required — but onboarding is at an earlier stage. The app is in waitlist phase.
+Vault is built for simplicity — no specialist knowledge required — but onboarding is at an earlier stage. The app is in waitlist phase.
 
 ---
 

@@ -24,7 +24,7 @@ Higher rate, but it takes on more market exposure. The rate moves more, and the 
 
 **Vault: ~5.4% current**
 
-Vault earns from fees paid by institutional borrowers on the Sentora lending market — part of Kamino's vetted market infrastructure. The rate moves with borrower demand, but the source is one consistent, institutional market. Not a blend of different protocol exposures.
+Vault earns from fees paid by institutional borrowers on the Sentora lending market — part of Kamino's vetted market infrastructure. The rate moves with borrower demand, but the source is one consistent, institutional market. Not a blend of different market exposures.
 
 At 5.4% vs 4.76%, Vault's stable rate is now ahead of Lulo Protected.
 
@@ -32,7 +32,7 @@ At 5.4% vs 4.76%, Vault's stable rate is now ahead of Lulo Protected.
 
 This is the more important difference.
 
-Lulo Protected works by spreading deposits across multiple Solana lending markets — Kamino Prime, Jupiter, Drift, MarginFi — and blending the output. Diversification, yes. But also complexity: you're exposed to the performance of multiple protocols, and when those rates move, so does your return.
+Lulo Protected works by spreading deposits across multiple Solana lending markets — Kamino Prime, Jupiter, Drift, MarginFi — and blending the output. Diversification, yes. But also complexity: you're exposed to the performance of multiple lending markets, and when those rates move, so does your return.
 
 Vault uses a single source: the Sentora institutional PYUSD lending market. $3B+ deployed in institutional lending. Borrowers are institutions, not retail. The rate reflects real market demand, not a blended average of whatever's available.
 
@@ -40,27 +40,27 @@ Simple. Consistent. Institutional.
 
 ## Accessibility
 
-Lulo requires a Solana wallet and some understanding of how to navigate DeFi apps. You need to know which tier to pick, what the protocols underneath mean, and how to manage your position.
+Lulo requires a Solana account and some understanding of how to navigate its interface. You need to know which tier to pick, what the lending markets underneath mean, and how to manage your position.
 
-Vault requires none of that. You deposit AED or USD. Your money earns. You withdraw when you want. No wallet setup. No protocol research. No decisions beyond "how much."
+Vault requires none of that. You deposit AED or USD. Your money earns. You withdraw when you want. No account setup. No market research. No decisions beyond "how much."
 
-The target user is different. Lulo is built for people who understand DeFi. Vault is built for people who understand savings — and want a better version of what banks offer.
+The target user is different. Lulo is built for people who actively manage lending positions. Vault is built for people who understand savings — and want a better version of what banks offer.
 
-## TVL as a Signal
+## Total Deposits as a Signal
 
-Lulo's total value locked has shifted significantly. In earlier data, Lulo was tracking $95–112M in deposits. At last check, it was $21.69M — $9.61M in Protected, $12.07M in Boosted.
+Lulo's total deposits have shifted significantly. In earlier data, Lulo was tracking $95–112M. At last check, it was $21.69M — $9.61M in Protected, $12.07M in Boosted.
 
 That's a meaningful drop. It likely reflects a combination of users chasing higher rates elsewhere as Lulo's stable tier compressed, and market normalisation.
 
-TVL isn't everything. But when the rate falls and deposits leave, the market is voting.
+Total deposits aren't everything. But when the rate falls and deposits leave, the market is voting.
 
 ## When Lulo Makes Sense
 
-Lulo Boosted at 7.67% is a real number. If you want more rate and you're comfortable with crypto-native products, protocol exposure, and more volatility — Lulo Boosted is a legitimate option.
+Lulo Boosted at 7.67% is a real number. If you want more rate and you're comfortable with actively managed lending positions and more volatility — Lulo Boosted is a legitimate option.
 
 Vault isn't trying to compete with that. Vault is trying to compete with what most people are actually using: UAE bank savings accounts paying 1–2%, term deposits with lock-ins, FAB promo rates that expire.
 
-Compared to those, both Vault and Lulo win. But if you're in the UAE and you want the simplest path to a competitive return — without crypto complexity — Vault is the better fit.
+Compared to those, both Vault and Lulo win. But if you're in the UAE and you want the simplest path to a competitive return — Vault is the better fit.
 
 ## The Summary
 
@@ -68,9 +68,9 @@ Compared to those, both Vault and Lulo win. But if you're in the UAE and you wan
 |---|---|---|---|
 | Current rate | ~5.4% | 4.76% | 7.67% |
 | Lock-in | None | None | None |
-| Yield source | Single institutional market | Blended lending protocols | Higher-risk protocol blend |
-| Setup complexity | No wallet needed | Solana wallet required | Solana wallet required |
-| Target user | UAE savers | Crypto-comfortable | DeFi-native |
+| Earnings source | Single institutional market | Blended lending markets | Higher-risk market blend |
+| Setup complexity | Simple deposit | Solana account required | Solana account required |
+| Target user | UAE savers | Tech-comfortable | Advanced users |
 
 Rates are variable and not guaranteed.
 

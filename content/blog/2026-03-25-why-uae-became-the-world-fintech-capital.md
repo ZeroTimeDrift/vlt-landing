@@ -6,7 +6,7 @@ description: "10,000 fintech leaders are flying to Dubai in May. Here's why the 
 heroImage: "/blog/why-uae-fintech-capital.svg"
 ---
 
-In May, roughly 10,000 financial leaders are flying to Dubai for the Dubai FinTech Summit. In December, Abu Dhabi hosts Abu Dhabi Finance Week at the same time as GITEX — 200,000+ attendees, 1,200 investors, and the world's largest gathering of blockchain and fintech talent, all in one week.
+In May, roughly 10,000 financial leaders are flying to Dubai for the Dubai FinTech Summit. In December, Abu Dhabi hosts Abu Dhabi Finance Week at the same time as GITEX — 200,000+ attendees, 1,200 investors, and the world's largest gathering of digital finance and fintech talent, all in one week.
 
 This is not a coincidence. The UAE has deliberately positioned itself as the place where financial innovation happens. And if you live here, that matters — not as an abstract fact, but for the financial products available to you right now.
 

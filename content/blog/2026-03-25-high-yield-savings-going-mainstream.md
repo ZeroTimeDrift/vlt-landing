@@ -3,7 +3,7 @@ title: "High-Yield Savings Is Going Mainstream. Here's What That Means for You."
 date: "2026-03-25"
 slug: "high-yield-savings-going-mainstream"
 heroImage: "/blog/high-yield-savings-going-mainstream.svg"
-description: "Major platforms are launching savings products that pay 5%+. Most are crypto-native or US-only. Vault is built for people who want the rate without the complexity."
+description: "Major platforms are launching savings products that pay 5%+. Most are built for specialist users or are US-only. Vault is built for people who want the rate without the complexity."
 readTime: "4 min read"
 ---
 
@@ -25,7 +25,7 @@ Rates of 5–6% are now available on USD-denominated savings products with no lo
 
 Here's the problem: most of the new high-rate savings products are built for a different user.
 
-They assume you have a crypto wallet. They require you to interact with interfaces designed for people who are comfortable with blockchain terminology. They're blocked for users in certain jurisdictions. And they carry regulatory uncertainty in the markets where they operate.
+They assume technical knowledge. They require you to interact with interfaces designed for specialist users. They're blocked for users in certain jurisdictions. And they carry regulatory uncertainty in the markets where they operate.
 
 For a UAE expat who wants a better savings rate — but doesn't want to learn what a "vault contract" is — these products aren't actually accessible.
 
@@ -33,9 +33,9 @@ For a UAE expat who wants a better savings rate — but doesn't want to learn wh
 
 There are a few things that make a savings product genuinely accessible to someone who isn't a financial professional:
 
-**No crypto UX required.** You should be able to deposit money without knowing what a wallet address is or how to manage gas fees.
+**Simple to use.** You should be able to deposit money without any specialist knowledge or technical setup.
 
-**Your home currency.** If you're earning in AED or USD, the product should work in those terms — not require you to convert into tokens.
+**Your home currency.** If you're earning in AED or USD, the product should work in those terms — not require you to convert into unfamiliar assets.
 
 **Withdraw when you need to.** A high rate that comes with a lock-in period is a constraint, not a feature. Flexibility matters.
 
@@ -47,7 +47,7 @@ Vault was built with one design principle: the rates that institutions have alwa
 
 When you deposit through Vault, your money goes into a vetted institutional lending market. Borrowers pay fees to access capital. Those fees flow back to you. Current rate: approximately 5.4% (variable — it moves with market conditions, not a promotional calendar).
 
-No crypto knowledge needed. No lock-in. Withdraw anytime.
+No specialist knowledge needed. No lock-in. Withdraw anytime.
 
 ## What the regulatory attention means
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/blog";
+import { getAllPosts, getLatestPosts, getPostBySlug } from "@/lib/blog";
 
 interface Props {
   params: { slug: string };
@@ -53,6 +53,8 @@ function VaultLogo({ size = 28 }: { size?: number }) {
 export default function BlogPost({ params }: Props) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
+
+  const relatedPosts = getLatestPosts(10).filter(p => p.slug !== post.slug).slice(0, 2);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -162,6 +164,49 @@ export default function BlogPost({ params }: Props) {
             className="prose-vault"
             dangerouslySetInnerHTML={{ __html: post.content ?? "" }}
           />
+
+          {/* Related posts */}
+          {relatedPosts.length > 0 && (
+            <>
+              <div className="section-divider mt-16 mb-10" />
+              <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-6">
+                More from Vault
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {relatedPosts.map((related) => (
+                  <a
+                    key={related.slug}
+                    href={`/blog/${related.slug}`}
+                    className="vault-card p-6 flex flex-col no-underline group"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <h3 className="text-[15px] font-bold text-vault-text mb-2 leading-snug group-hover:text-white transition-colors">
+                      {related.title}
+                    </h3>
+                    <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2 flex-1">
+                      {related.excerpt}
+                    </p>
+                    <div className="flex items-center gap-2 text-[11px] text-vault-muted">
+                      {related.date && (
+                        <span>
+                          {new Date(related.date).toLocaleDateString("en-US", {
+                            month: "short",
+                            day: "numeric",
+                          })}
+                        </span>
+                      )}
+                      {related.readingTime && (
+                        <>
+                          <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
+                          <span>{related.readingTime}</span>
+                        </>
+                      )}
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </>
+          )}
 
           <div className="section-divider mt-16 mb-12" />
 

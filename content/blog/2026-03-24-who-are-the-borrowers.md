@@ -16,7 +16,7 @@ Vault is different. Here's who's actually on the other side of your earnings.
 
 ## The borrowers: institutions, not individuals
 
-Vault deploys into lending markets where the participants are institutional — funds, market makers, trading firms, and crypto-native institutions that need short-term capital to run their operations.
+Vault deploys into lending markets where the participants are institutional — funds, market makers, trading firms, and financial institutions that need short-term capital to run their operations.
 
 These are not retail borrowers. They're not people taking out personal loans. They're sophisticated counterparties who borrow capital as part of how they operate: to manage liquidity, to take advantage of short-term market opportunities, to smooth operational cash flow.
 
@@ -45,7 +45,7 @@ Your earnings rate isn't arbitrary. It's set by real-time borrowing demand: when
 
 The ~5.4% current rate reflects the actual fees borrowers are paying today. It's not subsidised, not promotional, and not manufactured by Vault. It moves because markets move.
 
-This is different from a promotional savings rate that a bank sets as a marketing tactic and then cuts after a few months. It's also different from the 0% a savings account pays on idle balances in a mobile wallet.
+This is different from a promotional savings rate that a bank sets as a marketing tactic and then cuts after a few months. It's also different from the 0% a savings account pays on idle balances in a mobile app.
 
 ## What Vault doesn't do
 
