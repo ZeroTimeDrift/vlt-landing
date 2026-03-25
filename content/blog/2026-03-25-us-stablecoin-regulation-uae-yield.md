@@ -1,21 +1,21 @@
 ---
-title: "US Stablecoin Rules Are Changing. Here's Why It Doesn't Affect Your Earnings in the UAE."
+title: "The US Senate Just Agreed to Ban Stablecoin Yield. Here's Why It Doesn't Affect Your Earnings in the UAE."
 date: "2026-03-25"
 slug: "us-stablecoin-regulation-uae-yield"
 heroImage: "/blog/us-stablecoin-regulation-uae-yield.svg"
-description: "The US CLARITY Act would ban stablecoin interest for American users. Vault operates in the UAE under a different regulatory framework — and that distinction matters."
+description: "The US Senate reached a bipartisan compromise banning passive stablecoin yield for American users. Vault operates in the UAE under a different regulatory framework — and that distinction matters more than ever."
 readTime: "4 min read"
 ---
 
-A draft of the US CLARITY Act circulated this week. Its key provision: banning anything "economically equivalent to interest" on stablecoin balances for US users. Circle, one of the largest stablecoin issuers, saw its stock drop 18% on the news.
+The US Senate reached a bipartisan compromise on the CLARITY Act on March 20, 2026. The White House endorsed the deal. Senate Banking Committee markup is scheduled for late April. Its core provision: passive stablecoin yield is banned for US users — anything "economically equivalent to interest" on a stablecoin balance. Circle saw its stock drop 18% when news first broke.
 
-If you're based in the UAE and earning on your savings through Vault, none of this affects you. Here's why — and why the regulatory geography actually matters.
+If you're based in the UAE and earning on your savings through Vault, none of this affects you. Here's why — and why the regulatory geography now matters more than ever.
 
-## What the CLARITY Act proposes
+## What the CLARITY Act does
 
-The bill is US domestic legislation targeting stablecoin issuers and yield products operating within US jurisdiction. It would require that stablecoins held by US residents not bear yield. The concern driving it is straightforward: regulators worry that "stablecoins paying interest" are functionally bank deposits without deposit insurance, and they want to bring them under the same rules.
+The bill is US domestic legislation targeting stablecoin issuers and yield products within US jurisdiction. The Senate compromise bans digital asset service providers from offering yield — directly or indirectly — on stablecoin balances held by US residents. Activity-based rewards (tied to payments, transactions, or platform use) remain permitted, but passive savings yield does not.
 
-The bill has not passed. It is a draft. The US legislative process is slow. But the direction of travel is clear enough that markets reacted.
+This is no longer a draft. It has bipartisan Senate backing and White House support. Senate markup is April — passage is a question of timing, not direction.
 
 ## Why it doesn't apply to UAE residents
 
@@ -25,9 +25,9 @@ This is not a loophole or an evasion. It's how international finance works. A UK
 
 ## What this means for the broader landscape
 
-The CLARITY Act — if passed — would significantly narrow where Americans can earn yield on stablecoin-denominated savings. US-based platforms would be restricted. US users would be locked out of a growing category of financial products.
+With the Senate compromise confirmed, American access to passive stablecoin yield is being legislated away. US-based platforms will be restricted. US users will be locked out of a growing category of financial products.
 
-This has a predictable effect on demand: the portions of the world that want USD-denominated yield but aren't subject to US regulation become more valuable venues. The UAE, with its USD-pegged currency, large international workforce, and developing regulatory framework for digital assets, is one of those venues.
+This has a predictable effect: the parts of the world that want USD-denominated yield but aren't subject to US jurisdiction become structurally more valuable. The UAE — USD-pegged currency, large international workforce, active regulatory framework for digital assets — is one of those venues. The window the CLARITY Act closes in the US is one the UAE is opening.
 
 ## Vault's regulatory approach
 
