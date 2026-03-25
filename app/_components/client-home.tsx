@@ -232,6 +232,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
           <div className="flex items-center gap-6">
             <a href="#how-it-works" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">How it works</a>
             <a href="#faq" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">FAQ</a>
+            <a href="/blog" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">Blog</a>
             <a
               href="#waitlist"
               className="px-4 py-2 rounded-lg text-sm btn-accent"
