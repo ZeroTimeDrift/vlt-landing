@@ -29,7 +29,7 @@ export default function NotFound() {
         <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 no-underline">
             <VaultLogo size={24} />
-            <span className="text-white font-semibold text-[15px]">Vault</span>
+            <span className="text-white font-bold text-[15px]">Vault</span>
           </a>
           <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
             Get Early Access
@@ -56,7 +56,7 @@ export default function NotFound() {
 
           <Link
             href="/"
-            className="inline-block px-6 py-3 rounded-2xl text-sm font-semibold text-white btn-accent"
+            className="inline-block px-6 py-3 rounded-2xl text-sm font-bold text-white btn-accent"
           >
             ← Back to homepage
           </Link>

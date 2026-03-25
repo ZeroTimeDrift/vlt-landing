@@ -17,27 +17,27 @@ export default function PrivacyPage() {
 
         <div className="space-y-8 text-sm text-vault-text-dim leading-relaxed">
           <section>
-            <h2 className="text-white font-semibold text-base mb-3">What we collect</h2>
+            <h2 className="text-white font-bold text-base mb-3">What we collect</h2>
             <p>When you sign up for the Vault waitlist, we collect your email address and the referral source (if any). We do not collect payment information, identity documents, or browsing data at this stage.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-base mb-3">How we use it</h2>
+            <h2 className="text-white font-bold text-base mb-3">How we use it</h2>
             <p>Your email is used solely to notify you when Vault launches and to send product updates. We do not sell, rent, or share your email address with third parties for marketing purposes.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-base mb-3">Data storage</h2>
+            <h2 className="text-white font-bold text-base mb-3">Data storage</h2>
             <p>Waitlist data is stored securely via encrypted cloud infrastructure. We use industry-standard encryption in transit (TLS) and at rest.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-base mb-3">Your rights</h2>
+            <h2 className="text-white font-bold text-base mb-3">Your rights</h2>
             <p>You may request deletion of your data at any time by emailing us. We will remove your information within 30 days of receiving your request.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-base mb-3">Contact</h2>
+            <h2 className="text-white font-bold text-base mb-3">Contact</h2>
             <p>Prometheus Labs — Abu Dhabi, UAE.<br />Email: hevar@vlt.money</p>
           </section>
         </div>

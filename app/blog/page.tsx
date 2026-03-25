@@ -34,7 +34,7 @@ export default function BlogIndex() {
     <>
       <div
         className="fixed inset-0 pointer-events-none"
-        style={{ background: "#020810", zIndex: 0 }}
+        style={{ background: "#0F1117", zIndex: 0 }}
       />
 
       <nav
@@ -49,7 +49,7 @@ export default function BlogIndex() {
         <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 no-underline">
             <VaultLogo size={24} />
-            <span className="text-white font-semibold text-[15px]">Vault</span>
+            <span className="text-white font-bold text-[15px]">Vault</span>
           </a>
           <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
             Get Early Access
@@ -83,7 +83,7 @@ export default function BlogIndex() {
                   {post.heroImage && (
                     <div
                       className="sm:flex-shrink-0 sm:w-64"
-                      style={{ height: "160px", background: "#020810" }}
+                      style={{ height: "160px", background: "#0F1117" }}
                     >
                       <img
                         src={post.heroImage}
@@ -102,7 +102,7 @@ export default function BlogIndex() {
                     className="flex flex-col justify-center p-6 sm:p-8"
                     style={{ flex: 1 }}
                   >
-                    <h2 className="text-[17px] font-semibold text-white mb-2 leading-snug">{post.title}</h2>
+                    <h2 className="text-[17px] font-bold text-white mb-2 leading-snug">{post.title}</h2>
                     <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2">{post.excerpt}</p>
                     <div className="flex items-center gap-3 text-[11px] text-vault-text-dim font-medium">
                       {post.date && (

@@ -131,7 +131,7 @@ export default function PartnersPage() {
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2.5 no-underline">
             <VaultLogo size={24} />
-            <span className="text-vault-text font-semibold text-[15px] tracking-tight">Vault</span>
+            <span className="text-vault-text font-bold text-[15px] tracking-tight">Vault</span>
           </a>
           <div className="flex items-center gap-6">
             <a href="/" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">
@@ -216,7 +216,7 @@ export default function PartnersPage() {
                       {step.icon}
                     </div>
                     <div className="pt-1">
-                      <h3 className="text-[15px] font-semibold text-vault-text mb-1.5">{step.title}</h3>
+                      <h3 className="text-[15px] font-bold text-vault-text mb-1.5">{step.title}</h3>
                       <p className="text-sm text-vault-muted leading-relaxed">{step.desc}</p>
                     </div>
                   </div>
@@ -264,7 +264,7 @@ export default function PartnersPage() {
                   <div className="w-10 h-10 rounded-xl bg-[rgba(0,102,255,0.1)] flex items-center justify-center mb-3">
                     <card.icon className="w-5 h-5 text-vault-accent" />
                   </div>
-                  <p className="text-[15px] font-semibold text-vault-text mt-3">{card.label}</p>
+                  <p className="text-[15px] font-bold text-vault-text mt-3">{card.label}</p>
                   <p className="text-sm text-vault-muted leading-relaxed mt-2">{card.body}</p>
                 </div>
               ))}
@@ -362,7 +362,7 @@ export default function PartnersPage() {
               Or reach out directly:{" "}
               <a
                 href="mailto:hevar@vlt.money"
-                className="font-semibold text-vault-text hover:text-vault-accent transition-colors"
+                className="font-bold text-vault-text hover:text-vault-accent transition-colors"
               >
                 hevar@vlt.money
               </a>
@@ -375,7 +375,7 @@ export default function PartnersPage() {
           <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
             <a href="/" className="flex items-center gap-2.5 no-underline">
               <VaultLogo size={20} />
-              <span className="text-vault-text font-semibold text-sm tracking-tight">Vault</span>
+              <span className="text-vault-text font-bold text-sm tracking-tight">Vault</span>
             </a>
             <div className="flex flex-col items-center sm:items-end gap-1">
               <span className="text-[13px] text-vault-muted">Prometheus Labs — Abu Dhabi, UAE · Pursuing FSRA authorisation under ADGM</span>

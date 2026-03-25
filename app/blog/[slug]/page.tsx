@@ -74,7 +74,7 @@ export default function BlogPost({ params }: Props) {
 
       <div
         className="fixed inset-0 pointer-events-none"
-        style={{ background: "#020810", zIndex: 0 }}
+        style={{ background: "#0F1117", zIndex: 0 }}
       />
 
       <nav
@@ -89,7 +89,7 @@ export default function BlogPost({ params }: Props) {
         <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 no-underline">
             <VaultLogo size={24} />
-            <span className="text-white font-semibold text-[15px]">Vault</span>
+            <span className="text-white font-bold text-[15px]">Vault</span>
           </a>
           <div className="flex items-center gap-4">
             <a href="/blog" className="text-sm text-white/40 hover:text-white/70 transition-colors">Blog</a>
@@ -168,11 +168,11 @@ export default function BlogPost({ params }: Props) {
           {/* CTA */}
           <div className="card p-8 text-center" style={{ background: "rgba(0,102,255,0.03)", borderColor: "rgba(0,102,255,0.10)" }}>
             <p className="text-white/30 text-xs font-medium uppercase tracking-[0.2em] mb-3">Ready to earn more?</p>
-            <p className="text-white text-[17px] font-semibold mb-2">Put your savings to work.</p>
+            <p className="text-white text-[17px] font-bold mb-2">Put your savings to work.</p>
             <p className="text-white/40 text-sm mb-6 leading-relaxed">
               Join the waitlist and be first in line when Vault launches.
             </p>
-            <a href="/#waitlist" className="inline-block px-6 py-3 rounded-2xl text-sm font-semibold text-white btn-accent">
+            <a href="/#waitlist" className="inline-block px-6 py-3 rounded-2xl text-sm font-bold text-white btn-accent">
               Get Early Access
             </a>
           </div>
