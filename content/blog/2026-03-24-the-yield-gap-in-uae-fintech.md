@@ -47,7 +47,7 @@ This is already how the most successful yield-adjacent features work in global f
 
 In the UAE, there's no incumbent yield layer provider. The banks that power fintech infrastructure aren't incentivised to share their lending spread with app users. The asset managers building savings products are building consumer products, not APIs.
 
-That gap is exactly what Vault is built to fill — a yield layer for platforms that want to offer their users meaningful earnings on idle balances, without building the infrastructure themselves.
+That gap is exactly what Vault is built to fill — an earnings API for platforms that want to offer their users meaningful returns on idle balances, without building the infrastructure themselves.
 
 Vault earns from borrower fees in vetted, over-collateralised lending markets (including Sentora PYUSD vault on Solana). Currently around ~5.4% — variable, not guaranteed, reflecting real market activity. The underlying mechanics are handled by Vault; the app presents earnings simply.
 

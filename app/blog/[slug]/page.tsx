@@ -23,13 +23,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Vault",
       type: "article",
       publishedTime: post.date,
-      images: [{ url: "https://vlt.money/opengraph-image", width: 1200, height: 630, alt: "Vault — A savings app with real returns" }],
+      images: post.heroImage
+        ? [{ url: `https://vlt.money${post.heroImage}`, width: 1200, height: 420, alt: post.title }]
+        : [{ url: "https://vlt.money/opengraph-image", width: 1200, height: 630, alt: "Vault — A savings app with real returns" }],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
-      images: ["https://vlt.money/opengraph-image"],
+      images: post.heroImage ? [`https://vlt.money${post.heroImage}`] : ["https://vlt.money/opengraph-image"],
     },
   };
 }
@@ -113,7 +115,7 @@ export default function BlogPost({ params }: Props) {
 
           {/* Hero image */}
           {post.heroImage && (
-            <div className="mb-10 rounded-xl overflow-hidden" style={{ maxHeight: 360 }}>
+            <div className="mb-10 overflow-hidden" style={{ maxHeight: 360, borderRadius: 20 }}>
               <img
                 src={post.heroImage}
                 alt={post.title}

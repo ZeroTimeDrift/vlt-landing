@@ -39,7 +39,7 @@ Every time a borrower uses the pool you're contributing to, they pay fees. Think
 
 **4. Fees are distributed back to depositors.**
 
-Those fees don't stay with Vault. They flow back to the people who provided the capital — you. The yield you see (~5.4%) reflects the current fee rates across the lending markets we use.
+Those fees don't stay with Vault. They flow back to the people who provided the capital — you. The rate you see (~5.4%) reflects the current fee rates across the lending markets we use.
 
 **5. You can withdraw anytime.**
 
@@ -75,7 +75,7 @@ The underlying mechanics involve financial infrastructure that's newer than trad
 
 We're not a bank. We don't offer FDIC insurance. We're not investment advisors, and nothing here is investment advice.
 
-We're a product that makes a previously inaccessible type of yield accessible to more people. If you're comfortable with how it works and the risks involved, Vault might be a better place for savings you don't need immediate access to.
+We're a product that makes a previously inaccessible type of earnings accessible to more people. If you're comfortable with how it works and the risks involved, Vault might be a better place for savings you don't need immediate access to.
 
 If you have questions we haven't answered here, [reach out](https://vlt.money). We'd rather you understand what you're signing up for.
 
