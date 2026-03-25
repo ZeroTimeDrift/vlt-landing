@@ -39,26 +39,20 @@ export default async function Image() {
               gap: "12px",
             }}
           >
-            <div
-              style={{
-                width: "48px",
-                height: "48px",
-                borderRadius: "12px",
-                background: "linear-gradient(135deg, #0066FF, #00A3FF)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
+            <svg
+              width="48"
+              height="48"
+              viewBox="0 0 32 32"
+              style={{ display: "flex" }}
             >
-              <div
-                style={{
-                  width: "20px",
-                  height: "20px",
-                  borderRadius: "50%",
-                  border: "3px solid white",
-                }}
-              />
-            </div>
+              <rect width="32" height="32" rx="9" fill="#0066FF" />
+              <circle cx="16" cy="16" r="7.5" stroke="white" strokeWidth="1.8" fill="none" />
+              <circle cx="16" cy="16" r="2.5" fill="white" />
+              <line x1="16" y1="8.5" x2="16" y2="11" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+              <line x1="16" y1="21" x2="16" y2="23.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+              <line x1="8.5" y1="16" x2="11" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+              <line x1="21" y1="16" x2="23.5" y2="16" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+            </svg>
             <span
               style={{
                 fontSize: "28px",
@@ -96,9 +90,7 @@ export default async function Image() {
               style={{
                 fontSize: "80px",
                 fontWeight: 700,
-                background: "linear-gradient(135deg, #0066FF, #00A3FF)",
-                backgroundClip: "text",
-                color: "transparent",
+                color: "#0066FF",
                 letterSpacing: "-0.03em",
               }}
             >
@@ -128,7 +120,7 @@ export default async function Image() {
               gap: "8px",
               padding: "12px 28px",
               borderRadius: "16px",
-              background: "linear-gradient(135deg, #0066FF, #0080FF)",
+              background: "#0066FF",
               marginTop: "12px",
             }}
           >
