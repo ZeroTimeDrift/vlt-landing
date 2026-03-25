@@ -13,7 +13,7 @@ excerpt: "First Abu Dhabi Bank's promotional 4% savings rate ends March 31. If y
 
 If you've been earning 4% on your savings at FAB, that rate resets on March 31.
 
-After that, you're back on FAB's standard flexible savings rate — around 3.25%. That's a 23% cut to your earnings, applied silently, with no phone call or warning.
+After that, you're back on FAB's standard flexible savings rate — around 2.5%. That's nearly 40% less than what you were earning, applied silently, with no phone call or warning.
 
 You have six days to decide what you're doing with your money.
 
@@ -31,7 +31,7 @@ Post-expiry, here's the realistic picture for UAE flexible savings accounts:
 
 | Account | Rate | Condition |
 |---------|------|-----------|
-| FAB (post-promo) | ~3.25% | Flexible |
+| FAB (post-promo) | ~2.5% | Flexible |
 | Wio Bank | 3.25% | Flexible (6% with salary) |
 | Mashreq NEO PLUS (salary tier) | 6.25% | Salary routing required |
 | Mashreq NEO PLUS (non-salary) | 5% AED | AED 50K min; max 2 withdrawals/month |
@@ -46,13 +46,13 @@ Vault's current rate comes from fees paid by institutional borrowers accessing c
 
 What they don't do is have a scheduled expiry date.
 
-On AED 50,000, the difference between 3.25% and 5.4% is roughly AED 1,075 per year. That's not hypothetical — it's the structural gap between a post-promo bank account and a direct-market return, compounding quietly in the background.
+On AED 50,000, the difference between 2.5% and 5.4% is roughly AED 1,450 per year. That's not hypothetical — it's the structural gap between a post-promo bank account and a direct-market return, compounding quietly in the background.
 
 ## What to do before March 31
 
 You have a few options:
 
-**Do nothing.** Your rate drops to ~3.25%. Still better than most UAE flexible accounts, but you're no longer in the top tier. The bank wins the inertia bet.
+**Do nothing.** Your rate drops to ~2.5%. Most UAE flexible accounts pay even less, but you're no longer in the top tier. The bank wins the inertia bet.
 
 **Move to another promotional account.** There may be other promos in market. The problem: you'll be back in this same position in 3–6 months, making the same decision again.
 

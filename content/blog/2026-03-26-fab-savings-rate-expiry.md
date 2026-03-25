@@ -11,7 +11,7 @@ For the past several months, First Abu Dhabi Bank has been offering a promotiona
 
 That rate expires March 31, 2026.
 
-After the promotion ends, FAB's standard flexible savings rate drops to around 3.25%. If you've been relying on that account as your primary savings vehicle, your earnings just got cut by around 18%.
+After the promotion ends, FAB's standard flexible savings rate drops to around 2.5%. If you've been relying on that account as your primary savings vehicle, your earnings just got cut by more than a third.
 
 ## What the UAE flexible savings market looks like now
 
@@ -19,7 +19,7 @@ Here's where things stand for savers who want liquidity — no lock-in, no fixed
 
 | Option | Rate | Condition |
 |---|---|---|
-| FAB (post-promo) | ~3.25% | No condition |
+| FAB (post-promo) | ~2.5% | No condition |
 | StashAway Simple | 3.9% | No condition, money market fund |
 | Sarwa Save+ | ~3.8% net | 0.5% annual fee deducted |
 | Wio Bank flexible | 3.25% | No condition |

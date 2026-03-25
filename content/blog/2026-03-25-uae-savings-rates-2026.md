@@ -57,6 +57,7 @@ It will change — markets move. But the change will track actual economic condi
 | Wio / Mashreq NEO PLUS (salary tier) | 6–6.25% | Salary routing required |
 | Mashreq NEO PLUS (non-salary tier) | 5% AED | AED 50K min; forfeit interest if >2 withdrawals/month |
 | Wio / FAB (unrestricted post-promo) | 3.25% | Full |
+| StashAway Simple UAE | 3.9% | Full — money market fund, DFSA-regulated |
 | UAE 12-month fixed deposit | 2–4.25% | Locked |
 | **Vault** | **~5.4% (variable)** | **Withdraw anytime, no minimum** |
 

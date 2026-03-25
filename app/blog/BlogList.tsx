@@ -11,21 +11,80 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
   const visible = posts.slice(0, displayCount);
   const allShown = displayCount >= posts.length;
 
+  const featured = visible[0];
+  const rest = visible.slice(1);
+
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex flex-col gap-4">
-        {visible.map((post) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        {/* Featured card — spans full width */}
+        {featured && (
+          <a
+            key={featured.slug}
+            href={`/blog/${featured.slug}`}
+            className="card card-hover flex flex-col md:flex-row overflow-hidden sm:col-span-2 lg:col-span-3"
+            style={{ textDecoration: "none" }}
+          >
+            {featured.heroImage && (
+              <div
+                className="md:w-1/2 flex-shrink-0"
+                style={{ height: "280px", background: "#0F1117" }}
+              >
+                <img
+                  src={featured.heroImage}
+                  alt={featured.title}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center top",
+                    display: "block",
+                  }}
+                />
+              </div>
+            )}
+            <div className="flex flex-col justify-center p-8 flex-1">
+              <span
+                className="text-[11px] font-semibold uppercase tracking-widest mb-3"
+                style={{ color: "#0066FF" }}
+              >
+                Latest
+              </span>
+              <h2 className="text-[22px] font-bold text-white mb-3 leading-snug">{featured.title}</h2>
+              <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2">{featured.excerpt}</p>
+              <div className="flex items-center gap-3 text-[11px] text-vault-text-dim font-medium">
+                {featured.date && (
+                  <span>
+                    {new Date(featured.date).toLocaleDateString("en-US", {
+                      month: "long",
+                      day: "numeric",
+                      year: "numeric",
+                    })}
+                  </span>
+                )}
+                {featured.readingTime && (
+                  <>
+                    <span className="text-white/20">·</span>
+                    <span>{featured.readingTime}</span>
+                  </>
+                )}
+                <span className="ml-auto text-vault-accent font-medium">Read →</span>
+              </div>
+            </div>
+          </a>
+        )}
+
+        {/* Regular grid cards */}
+        {rest.map((post) => (
           <a
             key={post.slug}
             href={`/blog/${post.slug}`}
-            className="card card-hover flex flex-col sm:flex-row overflow-hidden"
+            className="card card-hover flex flex-col overflow-hidden"
             style={{ textDecoration: "none" }}
           >
             {post.heroImage && (
-              <div
-                className="sm:flex-shrink-0 sm:w-64"
-                style={{ height: "160px", background: "#0F1117" }}
-              >
+              <div style={{ height: "200px", background: "#0F1117" }}>
                 <img
                   src={post.heroImage}
                   alt={post.title}
@@ -39,10 +98,10 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
                 />
               </div>
             )}
-            <div className="flex flex-col justify-center p-6 sm:p-8" style={{ flex: 1 }}>
-              <h2 className="text-[17px] font-bold text-white mb-2 leading-snug">{post.title}</h2>
-              <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2">{post.excerpt}</p>
-              <div className="flex items-center gap-3 text-[11px] text-vault-text-dim font-medium">
+            <div className="flex flex-col flex-1 p-5">
+              <h2 className="text-[16px] font-bold text-white mb-2 leading-snug">{post.title}</h2>
+              <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2 flex-1">{post.excerpt}</p>
+              <div className="flex items-center gap-3 text-[11px] text-vault-text-dim font-medium mt-auto">
                 {post.date && (
                   <span>
                     {new Date(post.date).toLocaleDateString("en-US", {
@@ -63,6 +122,7 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
             </div>
           </a>
         ))}
+
       </div>
 
       <div className="flex flex-col items-center gap-3 mt-8">

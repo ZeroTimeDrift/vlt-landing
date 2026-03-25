@@ -62,8 +62,8 @@ export default function BlogIndex() {
       </nav>
 
       <main className="relative z-10 pt-28 pb-24 px-6 min-h-screen">
-        <div className="max-w-3xl mx-auto">
-          <div className="mb-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="max-w-3xl mx-auto mb-16">
             <p className="text-xs text-white/30 font-medium uppercase tracking-[0.2em] mb-4">Blog</p>
             <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4">
               Think clearer about your money
