@@ -1,5 +1,5 @@
 ---
-title: "US Stablecoin Rules Are Changing. Here's Why It Doesn't Affect Your Yield in the UAE."
+title: "US Stablecoin Rules Are Changing. Here's Why It Doesn't Affect Your Earnings in the UAE."
 date: "2026-03-25"
 slug: "us-stablecoin-regulation-uae-yield"
 heroImage: "/blog/us-stablecoin-regulation-uae-yield.svg"
@@ -9,7 +9,7 @@ readTime: "4 min read"
 
 A draft of the US CLARITY Act circulated this week. Its key provision: banning anything "economically equivalent to interest" on stablecoin balances for US users. Circle, one of the largest stablecoin issuers, saw its stock drop 18% on the news.
 
-If you're based in the UAE and earning yield on your savings through Vault, none of this affects you. Here's why — and why the regulatory geography actually matters.
+If you're based in the UAE and earning on your savings through Vault, none of this affects you. Here's why — and why the regulatory geography actually matters.
 
 ## What the CLARITY Act proposes
 
@@ -33,19 +33,19 @@ This has a predictable effect on demand: the portions of the world that want USD
 
 Vault is in the process of obtaining ADGM (Abu Dhabi Global Market) regulatory approval. ADGM is one of the UAE's two major financial free zones, with its own Financial Services Regulatory Authority. It has been actively developing frameworks for digital assets, stablecoins, and related financial products since 2018.
 
-An ADGM licence provides a UAE legal basis for operating a yield product — independent of US regulatory decisions. That independence has always been part of the value proposition. Recent US legislative developments make it more legible.
+An ADGM licence provides a UAE legal basis for operating a savings product — independent of US regulatory decisions. That independence has always been part of the value proposition. Recent US legislative developments make it more legible.
 
 ## What you're actually earning
 
-Vault routes deposits into the Sentora institutional lending market on Solana. Borrowers — institutions accessing short-term liquidity — pay fees. Those fees are passed to depositors as yield. The current rate is approximately 5.4% (variable — it moves with borrower demand, not a fixed promise).
+Vault routes deposits into the Sentora institutional lending market. Borrowers — institutions accessing short-term liquidity — pay fees. Those fees flow back to depositors as earnings. The current rate is approximately 5.4% (variable — it moves with borrower demand, not a fixed promise).
 
-That mechanism doesn't touch US jurisdiction at any point in the chain. Sentora is a non-US protocol. Vault is a non-US entity. Users are non-US residents.
+That mechanism doesn't touch US jurisdiction at any point in the chain. Sentora is a non-US platform. Vault is a non-US entity. Users are non-US residents.
 
 ## The short version
 
-US stablecoin regulation would restrict US users. You're not a US user. Vault isn't a US product. The yield you earn is not affected by what happens in Washington.
+US stablecoin regulation would restrict US users. You're not a US user. Vault isn't a US product. Your earnings are not affected by what happens in Washington.
 
-What does affect your yield: borrower demand in lending markets, Solana ecosystem activity, and — over the longer term — how ADGM chooses to regulate this category. That's the regulatory risk worth watching if you're using Vault.
+What does affect your rate: borrower demand in lending markets, and — over the longer term — how ADGM chooses to regulate this category. That's the regulatory risk worth watching if you're using Vault.
 
 ---
 

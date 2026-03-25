@@ -7,7 +7,7 @@ excerpt: "Lending markets match capital providers with borrowers and let market 
 author: "Vault Team"
 ---
 
-![How lending markets connect capital providers with borrowers to generate real yield](/blog/how-lending-markets-work.svg)
+![How lending markets connect capital providers with borrowers to generate real earnings](/blog/how-lending-markets-work.svg)
 
 ## The basics of lending markets
 
