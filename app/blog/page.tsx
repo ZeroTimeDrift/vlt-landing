@@ -139,9 +139,9 @@ export default function BlogIndex() {
           <div className="flex items-center gap-4 text-xs text-vault-muted">
             <span>Prometheus Labs</span>
             <span className="text-white/15">·</span>
-            <a href="#" className="hover:text-white/30 transition-colors">Privacy</a>
+            <a href="/privacy" className="hover:text-white/30 transition-colors">Privacy</a>
             <span className="text-white/15">·</span>
-            <a href="#" className="hover:text-white/30 transition-colors">Terms</a>
+            <a href="/terms" className="hover:text-white/30 transition-colors">Terms</a>
           </div>
         </div>
       </footer>

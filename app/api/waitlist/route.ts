@@ -67,7 +67,7 @@ export async function POST(req: NextRequest) {
 
     await addEmail(normalized, source);
 
-    console.log(`[waitlist] new signup: ${normalized} source=${source || "unknown"}`);
+    console.log(`[waitlist] new signup source=${source || "unknown"}`);
 
     return NextResponse.json({ ok: true });
   } catch (err) {
