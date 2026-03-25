@@ -523,7 +523,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
                   href="/partners"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm btn-accent"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl text-sm btn-accent"
                 >
                   Learn more
                   <ArrowRight className="w-4 h-4" />

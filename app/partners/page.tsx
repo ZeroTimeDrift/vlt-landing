@@ -101,7 +101,7 @@ function PartnerWaitlistForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="flex-shrink-0 px-6 py-3 rounded-xl text-sm btn-accent disabled:opacity-60"
+        className="flex-shrink-0 px-6 py-3 rounded-2xl text-sm btn-accent disabled:opacity-60"
       >
         {status === "loading" ? "Joining…" : "Get Early API Access"}
       </button>
