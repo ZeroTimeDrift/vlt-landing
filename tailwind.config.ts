@@ -17,7 +17,6 @@ const config: Config = {
           "accent-light": "#3385FF",
           "accent-dim": "rgba(0,102,255,0.12)",
           green: "#22c55e",
-          "green-dim": "#059669",
           muted: "#6B7280",
           text: "#FFFFFF",
           "text-dim": "#9CA3AF",

@@ -1,8 +1,8 @@
 ---
 title: "The UAE's Best Bank Savings Rate Just Ended. What Now?"
-date: "2026-03-25"
+date: "2026-04-01"
 slug: "fab-savings-rate-expiry"
-description: "FAB's 4% promotional savings rate expires March 31. Here's what UAE savers are left with — and where the real alternatives are."
+description: "FAB's 4% promotional savings rate just expired. Here's what UAE savers are left with — and where the real alternatives are."
 heroImage: "/blog/fab-savings-rate-expiry.svg"
 readTime: "3 min read"
 ---

@@ -187,10 +187,10 @@ export default function BlogPost({ params }: Props) {
           </a>
           <div className="flex items-center gap-4 text-xs text-vault-muted">
             <span>Prometheus Labs</span>
-            <span className="text-white/15">·</span>
-            <a href="#" className="hover:text-white/30 transition-colors">Privacy</a>
-            <span className="text-white/15">·</span>
-            <a href="#" className="hover:text-white/30 transition-colors">Terms</a>
+            <span className="text-white/20">·</span>
+            <a href="/privacy" className="hover:text-vault-text-dim transition-colors">Privacy</a>
+            <span className="text-white/20">·</span>
+            <a href="/terms" className="hover:text-vault-text-dim transition-colors">Terms</a>
           </div>
         </div>
       </footer>

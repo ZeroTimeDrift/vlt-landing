@@ -109,6 +109,112 @@ function PartnerWaitlistForm() {
   );
 }
 
+// ── Partner Revenue Estimator ─────────────────────────────────────────────
+const REV_SHARE_RATE = 0.10;
+const YIELD_RATE = 0.054;
+
+function fmt(n: number) {
+  return n.toLocaleString("en-US", { maximumFractionDigits: 0 });
+}
+
+function PartnerRevenueEstimator() {
+  const [users, setUsers] = useState(10000);
+  const [avgBalance, setAvgBalance] = useState(500);
+
+  const totalBalance = users * avgBalance;
+  const userEarnings = totalBalance * YIELD_RATE;
+  const platformEarnings = userEarnings * REV_SHARE_RATE;
+
+  return (
+    <div className="vault-card p-6 sm:p-8 mt-6">
+      <p className="text-[11px] text-vault-muted font-medium uppercase tracking-[0.2em] mb-6">
+        Estimate your platform&apos;s yield revenue
+      </p>
+
+      {/* Sliders */}
+      <div className="flex flex-col gap-6 mb-8">
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <label className="text-sm text-vault-text-dim">Monthly active users</label>
+            <span className="text-sm font-bold text-vault-text tabular">{fmt(users)} users</span>
+          </div>
+          <input
+            type="range"
+            min={1000}
+            max={500000}
+            step={1000}
+            value={users}
+            onChange={(e) => setUsers(Number(e.target.value))}
+            className="w-full h-1.5 rounded-full appearance-none cursor-pointer"
+            style={{ background: `linear-gradient(to right, #0066FF ${((users - 1000) / (500000 - 1000)) * 100}%, rgba(255,255,255,0.1) ${((users - 1000) / (500000 - 1000)) * 100}%)` }}
+          />
+        </div>
+
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <label className="text-sm text-vault-text-dim">Avg. idle balance / user</label>
+            <span className="text-sm font-bold text-vault-text tabular">${fmt(avgBalance)}</span>
+          </div>
+          <input
+            type="range"
+            min={100}
+            max={10000}
+            step={100}
+            value={avgBalance}
+            onChange={(e) => setAvgBalance(Number(e.target.value))}
+            className="w-full h-1.5 rounded-full appearance-none cursor-pointer"
+            style={{ background: `linear-gradient(to right, #0066FF ${((avgBalance - 100) / (10000 - 100)) * 100}%, rgba(255,255,255,0.1) ${((avgBalance - 100) / (10000 - 100)) * 100}%)` }}
+          />
+        </div>
+      </div>
+
+      {/* Result cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+        <div
+          className="rounded-2xl p-5"
+          style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}
+        >
+          <p className="text-[11px] text-vault-muted font-medium uppercase tracking-[0.2em] mb-1">
+            Your users earn
+          </p>
+          <p className="text-xs text-vault-muted mb-3">~5.4% current</p>
+          <p className="text-2xl sm:text-3xl font-bold text-vault-text tabular">
+            ${fmt(userEarnings)}
+          </p>
+          <p className="text-xs text-vault-muted mt-1">/ year combined</p>
+        </div>
+
+        <div
+          className="rounded-2xl p-5"
+          style={{ background: "rgba(0,102,255,0.04)", border: "1px solid rgba(0,102,255,0.15)" }}
+        >
+          <p className="text-[11px] text-vault-accent font-medium uppercase tracking-[0.2em] mb-1">
+            Your platform earns
+          </p>
+          <p className="text-xs text-vault-muted mb-3">Revenue share</p>
+          <p className="text-2xl sm:text-3xl font-bold text-vault-text tabular">
+            ${fmt(platformEarnings)}
+          </p>
+          <p className="text-xs text-vault-muted mt-1">/ year</p>
+        </div>
+      </div>
+
+      <p className="text-xs text-vault-muted text-center mb-4">
+        Based on ~5.4% yield. Revenue share is indicative — contact us for exact terms. Rates are variable.
+      </p>
+
+      <div className="text-center">
+        <a
+          href="#get-access"
+          className="text-sm text-vault-accent font-medium hover:text-vault-accent-light transition-colors"
+        >
+          Interested in these numbers for your platform? Get early API access &darr;
+        </a>
+      </div>
+    </div>
+  );
+}
+
 // ── Partners Page ────────────────────────────────────────────────────────────
 export default function PartnersPage() {
   const howRef = useReveal<HTMLDivElement>();
@@ -149,7 +255,7 @@ export default function PartnersPage() {
 
       <main>
         {/* ── HERO ─────────────────────────────────────────────────── */}
-        <section className="min-h-[80vh] flex items-center px-6 pt-20 pb-16 bg-vault-hero hero-grid">
+        <section className="min-h-[80vh] flex items-center px-6 pt-20 pb-16 hero-grid">
           <div className="max-w-3xl mx-auto w-full text-center">
             <p className="hero-animate delay-0 text-[13px] font-medium mb-6 text-accent uppercase tracking-widest">
               For platforms
@@ -269,6 +375,8 @@ export default function PartnersPage() {
                 </div>
               ))}
             </div>
+
+            <PartnerRevenueEstimator />
           </div>
         </section>
 

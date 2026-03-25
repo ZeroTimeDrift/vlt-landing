@@ -3,7 +3,7 @@ title: "UAE Savings Rates in 2026: What You're Actually Earning Now"
 date: "2026-03-25"
 slug: "uae-savings-rates-2026"
 heroImage: "/blog/uae-savings-rates-2026.svg"
-description: "FAB's 4% promo just ended. Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
+description: "FAB's 4% promo expires March 31. Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
 readTime: "5 min read"
 ---
 
@@ -23,7 +23,7 @@ The typical conditions: route your salary through the account, maintain a minimu
 
 For many expats, meeting all conditions consistently isn't practical — especially if your salary comes from outside the UAE, if you hold multiple accounts, or if your balance fluctuates.
 
-**FAB's 4% promotional savings rate ended March 31, 2026.** Standard flexible FAB balances now earn approximately 3.25%. That was one of the cleaner flexible offers in the market; its expiry narrows the field.
+**FAB's 4% promotional savings rate expires March 31, 2026.** After that, standard flexible FAB balances will earn approximately 3.25%. That is one of the cleaner flexible offers in the market currently; its upcoming expiry will narrow the field.
 
 Wio Bank still advertises 6% — but only for accounts with active salary routing. Their unrestricted flexible balance pays 3.25%. Mashreq Neo shows 6.25% with the same salary requirement.
 
