@@ -96,6 +96,85 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
   );
 }
 
+// ── Savings Calculator ────────────────────────────────────────────────────────
+function SavingsCalculator() {
+  const [balance, setBalance] = useState(50000);
+  const [animatedVault, setAnimatedVault] = useState(0);
+  const hasAnimated = useRef(false);
+
+  const VAULT_RATE = 0.054;
+  const BANK_RATE = 0.015;
+  const bankEarnings = Math.round(balance * BANK_RATE);
+  const vaultEarnings = Math.round(balance * VAULT_RATE);
+  const delta = vaultEarnings - bankEarnings;
+
+  const fmt = (n: number) => n.toLocaleString("en-US");
+
+  useEffect(() => {
+    if (hasAnimated.current) return;
+    hasAnimated.current = true;
+    const target = Math.round(50000 * VAULT_RATE);
+    const duration = 800;
+    const start = performance.now();
+    const tick = (now: number) => {
+      const t = Math.min((now - start) / duration, 1);
+      const ease = 1 - Math.pow(1 - t, 3);
+      setAnimatedVault(Math.round(target * ease));
+      if (t < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, []);
+
+  const displayVault = hasAnimated.current && balance === 50000 ? animatedVault : vaultEarnings;
+
+  return (
+    <div className="vault-card p-6 sm:p-8 mt-6">
+      <div className="mb-6">
+        <p className="text-xs text-vault-muted uppercase tracking-[0.15em] mb-2">My savings balance</p>
+        <p className="text-2xl font-bold text-vault-text tabular">${fmt(balance)}</p>
+      </div>
+
+      <input
+        type="range"
+        min={1000}
+        max={500000}
+        step={1000}
+        value={balance}
+        onChange={(e) => setBalance(Number(e.target.value))}
+        className="w-full h-1 rounded-full appearance-none cursor-pointer mb-1"
+        style={{
+          background: `linear-gradient(to right, #0066FF ${((balance - 1000) / (500000 - 1000)) * 100}%, rgba(255,255,255,0.1) ${((balance - 1000) / (500000 - 1000)) * 100}%)`,
+        }}
+      />
+      <div className="flex justify-between text-[11px] text-vault-muted mb-6">
+        <span>$1,000</span>
+        <span>$500,000</span>
+      </div>
+
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <div className="rounded-2xl p-5" style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}>
+          <p className="text-[11px] text-vault-muted uppercase tracking-wider">Traditional bank</p>
+          <p className="text-xs text-vault-muted mt-1">~1.5% rate</p>
+          <p className="text-3xl font-bold tabular text-vault-text-dim mt-3">
+            ${fmt(bankEarnings)} <span className="text-sm font-medium text-vault-muted">/ yr</span>
+          </p>
+        </div>
+        <div className="rounded-2xl p-5" style={{ background: "rgba(0,102,255,0.04)", border: "1px solid rgba(0,102,255,0.15)" }}>
+          <p className="text-[11px] text-vault-accent uppercase tracking-wider">Vault</p>
+          <p className="text-xs text-vault-muted mt-1">~5.4% current</p>
+          <p className="text-3xl font-bold tabular text-vault-text mt-3">
+            ${fmt(balance === 50000 ? displayVault : vaultEarnings)} <span className="text-sm font-medium text-vault-muted">/ yr</span>
+          </p>
+        </div>
+      </div>
+
+      <p className="mt-4 text-center text-sm text-vault-muted">
+        You could earn <span className="font-bold" style={{ color: "#22c55e" }}>${fmt(delta)}</span> more per year with Vault
+      </p>
+    </div>
+  );
+}
+
 // ── Waitlist Form ─────────────────────────────────────────────────────────────
 function WaitlistForm({ id, compact = false, onSuccess }: { id?: string; compact?: boolean; onSuccess?: () => void }) {
   const [email, setEmail] = useState("");
@@ -470,9 +549,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 </div>
               ))}
             </div>
-            <p className="text-sm text-vault-muted text-center mt-4">
-              On a $50,000 balance, that&apos;s ~$2,450 more per year.
-            </p>
+            <SavingsCalculator />
             <p className="text-xs text-vault-muted text-center mt-2">
               ~5.4% is current, not guaranteed. Earnings vary with market activity.
             </p>
