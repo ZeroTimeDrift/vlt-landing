@@ -36,6 +36,18 @@ function VaultLogo({ size = 28 }: { size?: number }) {
 
 // ── Live Balance Card (matches app design exactly) ────────────────────────────
 function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
+  const [earned, setEarned] = useState(0);
+  const DAILY_EARN = 12450 * 0.054 / 365;
+  const TICK_SEC = 3;
+  const TICK_AMOUNT = DAILY_EARN / 86400 * TICK_SEC;
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setEarned(prev => prev + TICK_AMOUNT);
+    }, TICK_SEC * 1000);
+    return () => clearInterval(id);
+  }, []);
+
   return (
     <div className={`vault-card w-full ${compact ? "p-4" : "p-6 max-w-sm"}`}>
       {/* Header */}
@@ -59,9 +71,17 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         <div className="flex items-baseline gap-1">
           <span className={`text-vault-text-dim font-medium ${compact ? "text-sm" : "text-lg"}`}>$</span>
           <span className={`font-bold tabular tracking-tight text-vault-text ${compact ? "text-3xl" : "text-5xl"}`}>
-            0
+            12,450
           </span>
           <span className={`font-bold tabular text-vault-text-dim ${compact ? "text-sm" : "text-xl"}`}>.00</span>
+        </div>
+
+        {/* Earned today ticker */}
+        <div className={compact ? "mt-2" : "mt-3"}>
+          <p className={`text-vault-muted ${compact ? "text-[10px]" : "text-xs"}`}>Earned today</p>
+          <span className={`font-semibold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
+            ${earned.toFixed(4)}
+          </span>
         </div>
 
         {/* APY badge */}
