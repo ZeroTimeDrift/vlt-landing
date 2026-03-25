@@ -152,7 +152,7 @@ function SavingsCalculator() {
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        <div className="rounded-2xl p-5" style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}>
+        <div className="rounded-2xl p-5" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
           <p className="text-[11px] text-vault-muted uppercase tracking-wider">Traditional bank</p>
           <p className="text-xs text-vault-muted mt-1">~1.5% rate</p>
           <p className="text-3xl font-bold tabular text-vault-text-dim mt-3">
