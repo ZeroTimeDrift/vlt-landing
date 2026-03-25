@@ -9,8 +9,8 @@
       <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="barB" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#0066FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0044CC;stop-opacity:1" />
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
@@ -43,7 +43,7 @@
 
   <!-- Ambient glows -->
   <ellipse cx="200" cy="250" rx="220" ry="160" fill="#7f1d1d" opacity="0.07"/>
-  <ellipse cx="1050" cy="200" rx="200" ry="160" fill="#0891b2" opacity="0.07"/>
+  <ellipse cx="1050" cy="200" rx="200" ry="160" fill="#0044CC" opacity="0.07"/>
 
   <!-- Chart area - left side -->
   <!-- Chart background card -->
@@ -73,12 +73,12 @@
   <!-- Bar labels -->
   <text x="170" y="340" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">3.7% gross</text>
   <text x="280" y="340" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">3.2% net</text>
-  <text x="400" y="340" font-family="system-ui, sans-serif" font-size="12" fill="#22d3ee" text-anchor="middle" font-weight="600">5.4% net</text>
+  <text x="400" y="340" font-family="system-ui, sans-serif" font-size="12" fill="#0066FF" text-anchor="middle" font-weight="600">5.4% net</text>
 
   <!-- Bar value labels -->
   <text x="170" y="162" font-family="system-ui, sans-serif" font-size="13" fill="#fca5a5" text-anchor="middle" font-weight="600">3.7%</text>
   <text x="280" y="192" font-family="system-ui, sans-serif" font-size="13" fill="#f87171" text-anchor="middle" font-weight="600">3.2%</text>
-  <text x="400" y="93" font-family="system-ui, sans-serif" font-size="14" fill="#22d3ee" text-anchor="middle" font-weight="700" filter="url(#glow)">5.4%</text>
+  <text x="400" y="93" font-family="system-ui, sans-serif" font-size="14" fill="#0066FF" text-anchor="middle" font-weight="700" filter="url(#glow)">5.4%</text>
 
   <!-- Chart legend label -->
   <rect x="76" y="72" width="170" height="24" rx="5" fill="#0d2545" stroke="#1e4a7a" stroke-width="1"/>
@@ -93,8 +93,8 @@
   <line x1="640" y1="282" x2="1140" y2="282" stroke="#1e3a5f" stroke-width="1"/>
 
   <!-- Bottom comparison -->
-  <text x="640" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#4a90d9">Vault: </text>
-  <text x="700" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#22d3ee" font-weight="700" filter="url(#softglow)">~5.4% · zero management fee</text>
+  <text x="640" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#0066FF">Vault: </text>
+  <text x="700" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#0066FF" font-weight="700" filter="url(#softglow)">~5.4% · zero management fee</text>
 
-  <text x="640" y="348" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#334155">vlt.money</text>
+  <text x="640" y="348" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">vlt.money</text>
 </svg>
