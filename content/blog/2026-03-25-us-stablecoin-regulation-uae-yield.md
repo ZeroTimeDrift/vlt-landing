@@ -1,8 +1,8 @@
 ---
 title: "The US Senate Just Moved to Restrict Passive Savings Earnings for Americans. Here's Why It Doesn't Affect You in the UAE."
 date: "2026-03-25"
-slug: "us-stablecoin-regulation-uae-yield"
-heroImage: "/blog/us-stablecoin-regulation-uae-yield.svg"
+slug: "us-digital-savings-regulation-uae"
+heroImage: "/blog/us-digital-savings-regulation-uae.svg"
 description: "The US Senate reached a bipartisan compromise banning passive savings earnings on digital dollar products for American users. Vault operates in the UAE under a different regulatory framework — and that distinction matters more than ever."
 readTime: "4 min read"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "High-Rate Savings Is Going Mainstream. Here's What That Means for You."
 date: "2026-03-25"
-slug: "high-yield-savings-going-mainstream"
-heroImage: "/blog/high-yield-savings-going-mainstream.svg"
+slug: "high-rate-savings-going-mainstream"
+heroImage: "/blog/high-rate-savings-going-mainstream.svg"
 description: "Major platforms are launching savings products that pay 5%+. Most are built for specialist users or are US-only. Vault is built for people who want the rate without the complexity."
 readTime: "4 min read"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "The New Savings Apps Paying 5%+ — And Why the UAE Has the Advantage"
 date: "2026-03-25"
-slug: "what-is-a-stablecoin-savings-app"
-heroImage: "/blog/what-is-a-stablecoin-savings-app.svg"
+slug: "lending-market-savings-app-explained"
+heroImage: "/blog/lending-market-savings-app-explained.svg"
 description: "Major lending platforms are launching savings apps that pay 5%+ with no lock-in. The US Senate just restricted American access. Here's what the category is — and why UAE residents are in the best position globally."
 readTime: "5 min read"
 ---

@@ -2,8 +2,8 @@
 title: "Wall Street Just Validated the Category. Here's What It Means for UAE Savers."
 description: "Invesco — one of the world's largest asset managers — just took over Superstate's $967M digitally-managed fund. The institutional world is moving fast. UAE residents are still locked out."
 date: "2026-03-25"
-slug: "invesco-superstate-onchain-yield-uae"
-heroImage: "/blog/invesco-superstate-onchain-yield-uae.svg"
+slug: "invesco-superstate-uae-savers"
+heroImage: "/blog/invesco-superstate-uae-savers.svg"
 ---
 
 On March 24, 2026, Invesco — the firm managing $2.2 trillion in assets — took over portfolio management of Superstate's USTB fund. A $967M digitally-managed T-bill product, now run by one of the most recognizable names in traditional finance.
