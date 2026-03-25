@@ -675,7 +675,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="mailto:hevar@vlt.money"
+                  href="/partners"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl text-sm btn-accent"
                 >
                   Learn more
