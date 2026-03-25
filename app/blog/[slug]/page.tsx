@@ -128,7 +128,7 @@ export default function BlogPost({ params }: Props) {
             <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight leading-tight mb-5">
               {post.title}
             </h1>
-            <div className="flex items-center gap-3 text-[12px] text-white/25 font-medium">
+            <div className="flex items-center gap-3 text-[12px] text-vault-text-dim font-medium">
               {post.date && (
                 <span>
                   {new Date(post.date).toLocaleDateString("en-US", {
@@ -140,13 +140,13 @@ export default function BlogPost({ params }: Props) {
               )}
               {post.readingTime && (
                 <>
-                  <span className="text-white/10">·</span>
+                  <span className="text-white/20">·</span>
                   <span>{post.readingTime}</span>
                 </>
               )}
               {post.author && (
                 <>
-                  <span className="text-white/10">·</span>
+                  <span className="text-white/20">·</span>
                   <span>{post.author}</span>
                 </>
               )}
@@ -170,7 +170,7 @@ export default function BlogPost({ params }: Props) {
             <p className="text-white/40 text-sm mb-6 leading-relaxed">
               Join the waitlist and be first in line when Vault launches.
             </p>
-            <a href="/#waitlist" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold text-white btn-accent">
+            <a href="/#waitlist" className="inline-block px-6 py-3 rounded-2xl text-sm font-semibold text-white btn-accent">
               Get Early Access
             </a>
           </div>
@@ -183,11 +183,11 @@ export default function BlogPost({ params }: Props) {
             <VaultLogo size={18} />
             <span className="text-white/30 text-sm">vlt.money</span>
           </a>
-          <div className="flex items-center gap-4 text-xs text-white/15">
+          <div className="flex items-center gap-4 text-xs text-vault-muted">
             <span>Prometheus Labs</span>
-            <span className="text-white/8">·</span>
+            <span className="text-white/15">·</span>
             <a href="#" className="hover:text-white/30 transition-colors">Privacy</a>
-            <span className="text-white/8">·</span>
+            <span className="text-white/15">·</span>
             <a href="#" className="hover:text-white/30 transition-colors">Terms</a>
           </div>
         </div>

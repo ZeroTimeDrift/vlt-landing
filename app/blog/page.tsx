@@ -103,8 +103,8 @@ export default function BlogIndex() {
                     style={{ flex: 1 }}
                   >
                     <h2 className="text-[17px] font-semibold text-white mb-2 leading-snug">{post.title}</h2>
-                    <p className="text-sm text-white/35 leading-relaxed mb-4 line-clamp-2">{post.excerpt}</p>
-                    <div className="flex items-center gap-3 text-[11px] text-white/20 font-medium">
+                    <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2">{post.excerpt}</p>
+                    <div className="flex items-center gap-3 text-[11px] text-vault-text-dim font-medium">
                       {post.date && (
                         <span>
                           {new Date(post.date).toLocaleDateString("en-US", {
@@ -116,11 +116,11 @@ export default function BlogIndex() {
                       )}
                       {post.readingTime && (
                         <>
-                          <span className="text-white/10">·</span>
+                          <span className="text-white/20">·</span>
                           <span>{post.readingTime}</span>
                         </>
                       )}
-                      <span className="ml-auto text-blue-400/70 font-medium">Read →</span>
+                      <span className="ml-auto text-vault-accent font-medium">Read →</span>
                     </div>
                   </div>
                 </a>
@@ -136,11 +136,11 @@ export default function BlogIndex() {
             <VaultLogo size={18} />
             <span className="text-white/30 text-sm">vlt.money</span>
           </a>
-          <div className="flex items-center gap-4 text-xs text-white/15">
+          <div className="flex items-center gap-4 text-xs text-vault-muted">
             <span>Prometheus Labs</span>
-            <span className="text-white/8">·</span>
+            <span className="text-white/15">·</span>
             <a href="#" className="hover:text-white/30 transition-colors">Privacy</a>
-            <span className="text-white/8">·</span>
+            <span className="text-white/15">·</span>
             <a href="#" className="hover:text-white/30 transition-colors">Terms</a>
           </div>
         </div>
