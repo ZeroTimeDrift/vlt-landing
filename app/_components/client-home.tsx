@@ -46,7 +46,7 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         </div>
         <span
           className={`px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5 ${compact ? "text-[9px]" : "text-[10px]"}`}
-          style={{ background: "rgba(34,197,94,0.08)", color: "#10B981", border: "1px solid rgba(34,197,94,0.15)" }}
+          style={{ background: "rgba(16,185,129,0.08)", color: "#10B981", border: "1px solid rgba(16,185,129,0.15)" }}
         >
           <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#10B981" }} />
           Active
@@ -68,7 +68,7 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         <div className={`flex items-center gap-2 ${compact ? "mt-2" : "mt-3"}`}>
           <div
             className="flex items-center gap-1.5 rounded-full px-3 py-1"
-            style={{ background: "rgba(34,197,94,0.08)", border: "1px solid rgba(34,197,94,0.15)" }}
+            style={{ background: "rgba(16,185,129,0.08)", border: "1px solid rgba(16,185,129,0.15)" }}
           >
             <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#10B981" }} />
             <span className={`font-bold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
