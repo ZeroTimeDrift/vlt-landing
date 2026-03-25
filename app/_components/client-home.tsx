@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { TrendingUp, ArrowDownLeft, ArrowUpRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers } from "lucide-react";
+import { TrendingUp, ArrowDownLeft, ArrowUpRight, ArrowRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers } from "lucide-react";
 
 // ── Hooks ────────────────────────────────────────────────────────────────────
 function useReveal<T extends HTMLElement>() {
@@ -517,15 +517,24 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             </div>
 
             <div className="mt-10 text-center">
-              <p className="text-sm text-vault-muted mb-3">
+              <p className="text-sm text-vault-muted mb-5">
                 Idle balances are a missed feature. Let&apos;s add one to your product.
               </p>
-              <a
-                href="mailto:hevar@vlt.money"
-                className="text-[15px] font-semibold text-vault-text hover:text-vault-accent transition-colors"
-              >
-                hevar@vlt.money
-              </a>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a
+                  href="/partners"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm btn-accent"
+                >
+                  Learn more
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+                <a
+                  href="mailto:hevar@vlt.money"
+                  className="text-sm font-medium text-vault-muted hover:text-vault-text-dim transition-colors"
+                >
+                  hevar@vlt.money
+                </a>
+              </div>
             </div>
           </div>
         </section>
