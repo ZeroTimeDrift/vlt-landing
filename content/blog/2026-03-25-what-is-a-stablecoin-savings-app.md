@@ -49,7 +49,7 @@ The UAE is that place. USD-pegged currency. Large international workforce. ADGM 
 
 Vault is a lending-market savings app built for UAE residents and the broader MENA market.
 
-Deposits flow into the Sentora institutional lending market, where institutional borrowers pay fees for short-term liquidity. Those fees are what you earn. The current rate is approximately ~5.4% (variable — it moves with borrower demand, not a fixed promise from Vault).
+Deposits flow into a vetted institutional lending market, where institutional borrowers pay fees for short-term liquidity. Those fees are what you earn. The current rate is approximately ~5.4% (variable — it moves with borrower demand, not a fixed promise from Vault).
 
 Vault is in the process of obtaining ADGM regulatory approval. The goal: a fully regulated, simple savings product that earns more than a UAE bank account without requiring any specialist knowledge.
 

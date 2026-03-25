@@ -43,7 +43,7 @@ If the Fed cuts further in 2026, bank savings rates will follow.
 
 ## What Vault does differently
 
-Vault's earnings come from the Sentora lending market, where institutions pay fees to access short-term liquidity. That mechanism is not the same as a bank holding your money in T-bills. It is driven by borrower demand in vetted lending markets, which does not move in lockstep with US monetary policy.
+Vault's earnings come from institutional lending markets, where institutions pay fees to access short-term liquidity. That mechanism is not the same as a bank holding your money in T-bills. It is driven by borrower demand in vetted lending markets, which does not move in lockstep with US monetary policy.
 
 The current rate is approximately 5.4% (variable — it moves with borrowing demand, not a central bank decision).
 

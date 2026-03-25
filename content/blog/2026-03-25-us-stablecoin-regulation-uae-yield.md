@@ -37,9 +37,9 @@ An ADGM licence provides a UAE legal basis for operating a savings product — i
 
 ## What you're actually earning
 
-Vault routes deposits into the Sentora institutional lending market. Borrowers — institutions accessing short-term liquidity — pay fees. Those fees flow back to depositors as earnings. The current rate is approximately 5.4% (variable — it moves with borrower demand, not a fixed promise).
+Vault routes deposits into a vetted institutional lending market. Borrowers — institutions accessing short-term liquidity — pay fees. Those fees flow back to depositors as earnings. The current rate is approximately 5.4% (variable — it moves with borrower demand, not a fixed promise).
 
-That mechanism doesn't touch US jurisdiction at any point in the chain. Sentora is a non-US platform. Vault is a non-US entity. Users are non-US residents.
+That mechanism doesn't touch US jurisdiction at any point in the chain. The lending infrastructure is non-US. Vault is a non-US entity. Users are non-US residents.
 
 ## The short version
 

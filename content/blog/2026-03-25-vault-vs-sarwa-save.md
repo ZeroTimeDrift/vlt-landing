@@ -36,7 +36,7 @@ This is where the two products differ most.
 
 **Sarwa Save+** holds your money in the [Pictet Short-Term Money Market USD-I fund](https://www.fundinfo.com). This is a well-regarded institutional fund — US Treasury bills, agency paper, investment-grade commercial paper. It's safe and liquid. It also tracks the US Federal Reserve rate closely. When the Fed cuts rates (as it did three times in 2025), Sarwa's rate falls with it. Sarwa Save+ peaked at 5.1% in June 2024 when Fed rates were at 5.25%. It has declined since.
 
-**Vault** earns its return from fees paid by institutional borrowers in the Sentora PYUSD lending market. This is not a money market fund. The rate isn't tied directly to the Fed funds rate — it's set by supply and demand from institutions borrowing capital. That means it follows a different cycle than traditional savings products.
+**Vault** earns its return from fees paid by institutional borrowers in a vetted institutional lending market. This is not a money market fund. The rate isn't tied directly to the Fed funds rate — it's set by supply and demand from institutions borrowing capital. That means it follows a different cycle than traditional savings products.
 
 Neither mechanism is risk-free. Vault's rate is variable and not guaranteed. But they respond to different conditions.
 

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020810"/>
+      <stop offset="100%" style="stop-color:#071020"/>
+    </linearGradient>
+    <linearGradient id="vaultBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#1D4ED8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="140" x2="1200" y2="140" stroke="#ffffff08" stroke-width="1"/>
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#ffffff08" stroke-width="1"/>
+  <line x1="0" y1="280" x2="1200" y2="280" stroke="#ffffff08" stroke-width="1"/>
+
+  <!-- Left panel: Vault -->
+  <rect x="80" y="60" width="460" height="300" rx="16" fill="#0D1F35" stroke="#1E3A5F" stroke-width="1.5"/>
+
+  <!-- Vault label -->
+  <text x="310" y="105" text-anchor="middle" fill="#60A5FA" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2">VAULT</text>
+
+  <!-- Vault rate -->
+  <text x="310" y="185" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700">5.4%</text>
+  <text x="310" y="212" text-anchor="middle" fill="#93C5FD" font-family="system-ui, -apple-system, sans-serif" font-size="13">current rate (variable)</text>
+
+  <!-- Vault mechanism -->
+  <text x="310" y="260" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">mechanism</text>
+  <text x="310" y="283" text-anchor="middle" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">lending market fees</text>
+
+  <text x="310" y="323" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">rate driver</text>
+  <text x="310" y="346" text-anchor="middle" fill="#60A5FA" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">borrowing demand</text>
+
+  <!-- VS divider -->
+  <circle cx="600" cy="210" r="28" fill="#111827" stroke="#374151" stroke-width="1.5"/>
+  <text x="600" y="216" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">VS</text>
+
+  <!-- Right panel: StashAway -->
+  <rect x="660" y="60" width="460" height="300" rx="16" fill="#111827" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- StashAway label -->
+  <text x="890" y="105" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2">STASHAWAY SIMPLE</text>
+
+  <!-- StashAway rate -->
+  <text x="890" y="185" text-anchor="middle" fill="#D1D5DB" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700">3.9%</text>
+  <text x="890" y="212" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="13">current projected rate</text>
+
+  <!-- StashAway mechanism -->
+  <text x="890" y="260" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">mechanism</text>
+  <text x="890" y="283" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">money market fund</text>
+
+  <text x="890" y="323" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">rate driver</text>
+  <text x="890" y="346" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Fed / CBUAE rate cycle</text>
+
+  <!-- Bottom label -->
+  <text x="600" y="400" text-anchor="middle" fill="#374151" font-family="system-ui, -apple-system, sans-serif" font-size="12">Vault rate variable, not guaranteed · vlt.money</text>
+</svg>

@@ -35,7 +35,7 @@ For expats who might need to repatriate funds on short notice, a fixed deposit i
 
 ## What Vault is paying
 
-Vault currently earns approximately ~5.4% (variable, not guaranteed) from lending market fees — money lent to institutional borrowers through the Sentora PYUSD vault. Those fees vary with borrower demand. That number may go up or down.
+Vault currently earns approximately ~5.4% (variable, not guaranteed) from lending market fees — money lent to institutional borrowers in vetted lending markets. Those fees vary with borrower demand. That number may go up or down.
 
 There are no conditions. No salary routing requirement. No minimum transaction count. Withdrawals are processed within 24 hours.
 

@@ -44,7 +44,7 @@ A savings product tied to a rate-tracking fund will always drift downward in an 
 
 Not all savings rates are built the same way.
 
-Vault's ~5.4% current rate comes from fees paid by institutional borrowers in the Sentora PYUSD vault — a lending market where businesses and institutions borrow against collateral. That rate is driven by borrowing demand, not by a central bank decision. It's variable, and it can move in either direction. But it's not mechanically tied to Fed rate decisions in the same way a money market fund is.
+Vault's ~5.4% current rate comes from fees paid by institutional borrowers in a vetted institutional lending market where businesses and institutions borrow against collateral. That rate is driven by borrowing demand, not by a central bank decision. It's variable, and it can move in either direction. But it's not mechanically tied to Fed rate decisions in the same way a money market fund is.
 
 Vault charges zero management fee. The rate you see is the rate you earn.
 

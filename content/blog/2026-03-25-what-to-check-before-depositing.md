@@ -79,6 +79,6 @@ If you can't get straight answers to these questions, that's information.
 
 ---
 
-Vault: ~5.4% current. Fees from institutional borrowers in the Sentora PYUSD vault. Withdraw anytime. Pursuing ADGM authorisation.
+Vault: ~5.4% current. Fees from institutional borrowers in vetted lending markets. Withdraw anytime. Pursuing ADGM authorisation.
 
 Join the waitlist at [vlt.money](https://vlt.money)

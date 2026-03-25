@@ -50,7 +50,7 @@ More practically: UAE expats often have no local credit history, no family safet
 
 ## What "Withdraw Anytime" Actually Means
 
-Vault keeps your money in a vetted institutional lending market — the Sentora PYUSD vault — which earns fees from borrowers. The current rate is ~5.4% (variable, not guaranteed). More importantly: you can withdraw anytime. No lock-in. No notice period. No penalty.
+Vault keeps your money in a vetted institutional lending market that earns fees from borrowers. The current rate is ~5.4% (variable, not guaranteed). More importantly: you can withdraw anytime. No lock-in. No notice period. No penalty.
 
 That combination — better rate than most UAE flexible savings accounts, genuine liquidity — is exactly what an emergency fund needs.
 

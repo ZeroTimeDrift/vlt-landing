@@ -24,7 +24,7 @@ Higher rate, but it takes on more market exposure. The rate moves more, and the 
 
 **Vault: ~5.4% current**
 
-Vault earns from fees paid by institutional borrowers on the Sentora lending market — part of Kamino's vetted market infrastructure. The rate moves with borrower demand, but the source is one consistent, institutional market. Not a blend of different market exposures.
+Vault earns from fees paid by institutional borrowers through a focused institutional lending market. The rate moves with borrower demand, but the source is one consistent, institutional market. Not a blend of different market exposures.
 
 At 5.4% vs 4.76%, Vault's stable rate is now ahead of Lulo Protected.
 
@@ -34,7 +34,7 @@ This is the more important difference.
 
 Lulo Protected works by spreading deposits across multiple Solana lending markets — Kamino Prime, Jupiter, Drift, MarginFi — and blending the output. Diversification, yes. But also complexity: you're exposed to the performance of multiple lending markets, and when those rates move, so does your return.
 
-Vault uses a single source: the Sentora institutional PYUSD lending market. $3B+ deployed in institutional lending. Borrowers are institutions, not retail. The rate reflects real market demand, not a blended average of whatever's available.
+Vault uses a single source: a focused institutional lending market. $3B+ deployed in institutional lending. Borrowers are institutions, not retail. The rate reflects real market demand, not a blended average of whatever's available.
 
 Simple. Consistent. Institutional.
 

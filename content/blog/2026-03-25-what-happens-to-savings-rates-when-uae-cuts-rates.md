@@ -24,7 +24,7 @@ This is why FAB's 4% promo disappeared as rates moved down. It's why Wio's salar
 
 ## What drives Vault's rate instead
 
-Vault's current earnings (~5.4%, variable) come from lending market fees — specifically, fees paid by institutional borrowers accessing the Sentora PYUSD vault. These are not set by a central bank. They're determined by borrower demand for capital in those specific markets.
+Vault's current earnings (~5.4%, variable) come from lending market fees — specifically, fees paid by institutional borrowers in vetted institutional lending markets. These are not set by a central bank. They're determined by borrower demand for capital in those specific markets.
 
 When institutional borrowers need capital, they compete for it, and fees rise. When demand is lower, fees compress. The CBUAE base rate is one input into that picture — but not the only one.
 
@@ -34,7 +34,7 @@ This means Vault's rate doesn't automatically drop just because the CBUAE cuts b
 
 In 2025, the Fed cut rates by 75 basis points. The CBUAE followed, tracking its dollar peg. UAE bank savings rates declined in step.
 
-During the same period, the Sentora PYUSD lending pool continued generating fees above 5%. Institutional credit demand stayed resilient in the markets Vault participates in.
+During the same period, the institutional lending markets Vault uses continued generating fees above 5%. Institutional credit demand stayed resilient in the markets Vault participates in.
 
 That's not a guarantee of future performance. If global credit markets contract sharply, or if liquidity floods the lending pool, rates will compress. Vault's rate is variable, explicitly so.
 
