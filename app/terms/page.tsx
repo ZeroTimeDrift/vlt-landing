@@ -13,9 +13,9 @@ export default function TermsPage() {
           ← Back
         </Link>
         <h1 className="text-3xl font-bold text-white mb-4">Terms of Service</h1>
-        <p className="text-xs text-white/20 mb-10">Last updated: March 2026</p>
+        <p className="text-xs text-vault-muted mb-10">Last updated: March 2026</p>
 
-        <div className="space-y-8 text-sm text-white/40 leading-relaxed">
+        <div className="space-y-8 text-sm text-vault-text-dim leading-relaxed">
           <section>
             <h2 className="text-white font-semibold text-base mb-3">Overview</h2>
             <p>Vault is operated by Prometheus Labs, a financial technology company incorporated in Abu Dhabi, UAE. By using our website and services, you agree to these terms.</p>

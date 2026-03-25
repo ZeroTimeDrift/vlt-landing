@@ -13,9 +13,9 @@ export default function PrivacyPage() {
           ← Back
         </Link>
         <h1 className="text-3xl font-bold text-white mb-4">Privacy Policy</h1>
-        <p className="text-xs text-white/20 mb-10">Last updated: March 2026</p>
+        <p className="text-xs text-vault-muted mb-10">Last updated: March 2026</p>
 
-        <div className="space-y-8 text-sm text-white/40 leading-relaxed">
+        <div className="space-y-8 text-sm text-vault-text-dim leading-relaxed">
           <section>
             <h2 className="text-white font-semibold text-base mb-3">What we collect</h2>
             <p>When you sign up for the Vault waitlist, we collect your email address and the referral source (if any). We do not collect payment information, identity documents, or browsing data at this stage.</p>
