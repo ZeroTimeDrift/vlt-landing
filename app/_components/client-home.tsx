@@ -98,14 +98,20 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
 }
 
 // ── Savings Calculator ────────────────────────────────────────────────────────
+const CURRENCY_CONFIG = {
+  AED: { prefix: "AED ", min: 5000, max: 1800000, step: 5000, defaultVal: 180000, bankRate: 0.02, bankLabel: "~2% UAE bank" },
+  USD: { prefix: "$", min: 1000, max: 500000, step: 1000, defaultVal: 50000, bankRate: 0.015, bankLabel: "~1.5% rate" },
+} as const;
+
 function SavingsCalculator() {
-  const [balance, setBalance] = useState(50000);
+  const [currency, setCurrency] = useState<"AED" | "USD">("AED");
+  const cfg = CURRENCY_CONFIG[currency];
+  const [balance, setBalance] = useState<number>(cfg.defaultVal);
   const [animatedVault, setAnimatedVault] = useState(0);
   const hasAnimated = useRef(false);
 
   const VAULT_RATE = 0.054;
-  const BANK_RATE = 0.015;
-  const bankEarnings = Math.round(balance * BANK_RATE);
+  const bankEarnings = Math.round(balance * cfg.bankRate);
   const vaultEarnings = Math.round(balance * VAULT_RATE);
   const delta = vaultEarnings - bankEarnings;
 
@@ -114,7 +120,7 @@ function SavingsCalculator() {
   useEffect(() => {
     if (hasAnimated.current) return;
     hasAnimated.current = true;
-    const target = Math.round(50000 * VAULT_RATE);
+    const target = Math.round(CURRENCY_CONFIG.AED.defaultVal * VAULT_RATE);
     const duration = 800;
     const start = performance.now();
     const tick = (now: number) => {
@@ -126,51 +132,78 @@ function SavingsCalculator() {
     requestAnimationFrame(tick);
   }, []);
 
-  const displayVault = hasAnimated.current && balance === 50000 ? animatedVault : vaultEarnings;
+  const handleCurrencyChange = (next: "AED" | "USD") => {
+    if (next === currency) return;
+    setCurrency(next);
+    setBalance(CURRENCY_CONFIG[next].defaultVal);
+  };
+
+  const isDefaultBalance = currency === "AED" && balance === CURRENCY_CONFIG.AED.defaultVal;
+  const displayVault = hasAnimated.current && isDefaultBalance ? animatedVault : vaultEarnings;
+  const sliderPct = ((balance - cfg.min) / (cfg.max - cfg.min)) * 100;
 
   return (
     <div className="vault-card p-6 sm:p-8 mt-6">
       <div className="mb-6">
-        <p className="text-xs text-vault-muted uppercase tracking-[0.15em] mb-2">My savings balance</p>
-        <p className="text-2xl font-bold text-vault-text tabular">${fmt(balance)}</p>
+        <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+          <p className="text-xs text-vault-muted uppercase tracking-[0.15em]">My savings balance</p>
+          <div className="flex rounded-full" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", padding: "3px" }}>
+            {(["AED", "USD"] as const).map((c) => (
+              <button
+                key={c}
+                onClick={() => handleCurrencyChange(c)}
+                className="text-xs font-semibold rounded-full transition-colors"
+                style={{
+                  padding: "4px 12px",
+                  background: currency === c ? "#0066FF" : "rgba(255,255,255,0.06)",
+                  color: currency === c ? "#FFFFFF" : "#9CA3AF",
+                  border: currency === c ? "none" : "1px solid rgba(255,255,255,0.08)",
+                }}
+              >
+                {c}
+              </button>
+            ))}
+          </div>
+        </div>
+        <p className="text-2xl font-bold text-vault-text tabular">{cfg.prefix}{fmt(balance)}</p>
       </div>
 
       <input
         type="range"
-        min={1000}
-        max={500000}
-        step={1000}
+        min={cfg.min}
+        max={cfg.max}
+        step={cfg.step}
         value={balance}
         onChange={(e) => setBalance(Number(e.target.value))}
         className="w-full h-1 rounded-full appearance-none cursor-pointer mb-1"
         style={{
-          background: `linear-gradient(to right, #0066FF ${((balance - 1000) / (500000 - 1000)) * 100}%, rgba(255,255,255,0.1) ${((balance - 1000) / (500000 - 1000)) * 100}%)`,
+          background: `linear-gradient(to right, #0066FF ${sliderPct}%, rgba(255,255,255,0.1) ${sliderPct}%)`,
         }}
       />
       <div className="flex justify-between text-[11px] text-vault-muted mb-6">
-        <span>$1,000</span>
-        <span>$500,000</span>
+        <span>{cfg.prefix}{fmt(cfg.min)}</span>
+        <span>{cfg.prefix}{fmt(cfg.max)}</span>
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         <div className="rounded-2xl p-5" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
           <p className="text-[11px] text-vault-muted uppercase tracking-wider">Traditional bank</p>
-          <p className="text-xs text-vault-muted mt-1">~1.5% rate</p>
+          <p className="text-xs text-vault-muted mt-1">{cfg.bankLabel}</p>
           <p className="text-3xl font-bold tabular text-vault-text-dim mt-3">
-            ${fmt(bankEarnings)} <span className="text-sm font-medium text-vault-muted">/ yr</span>
+            {cfg.prefix}{fmt(bankEarnings)} <span className="text-sm font-medium text-vault-muted">/ yr</span>
           </p>
         </div>
         <div className="rounded-2xl p-5" style={{ background: "rgba(0,102,255,0.04)", border: "1px solid rgba(0,102,255,0.15)" }}>
           <p className="text-[11px] text-vault-accent uppercase tracking-wider">Vault</p>
           <p className="text-xs text-vault-muted mt-1">~5.4% current</p>
           <p className="text-3xl font-bold tabular text-vault-text mt-3">
-            ${fmt(balance === 50000 ? displayVault : vaultEarnings)} <span className="text-sm font-medium text-vault-muted">/ yr</span>
+            {cfg.prefix}{fmt(isDefaultBalance ? displayVault : vaultEarnings)} <span className="text-sm font-medium text-vault-muted">/ yr</span>
           </p>
         </div>
       </div>
 
       <p className="mt-4 text-center text-sm text-vault-muted">
-        You could earn <span className="font-bold" style={{ color: "#10B981" }}>${fmt(delta)}</span> more per year with Vault
+        You could earn <span className="font-bold" style={{ color: "#10B981" }}>{cfg.prefix}{fmt(delta)}</span> more per year with Vault
       </p>
     </div>
   );
