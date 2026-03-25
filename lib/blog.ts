@@ -16,6 +16,14 @@ export interface BlogPost {
   content?: string;
 }
 
+function normalizeDate(raw: unknown): string {
+  if (!raw) return "";
+  if (raw instanceof Date) {
+    return raw.toISOString().slice(0, 10);
+  }
+  return String(raw);
+}
+
 function calcReadingTime(text: string): string {
   const words = text.trim().split(/\s+/).length;
   const mins = Math.max(1, Math.round(words / 200));
@@ -38,7 +46,7 @@ export function getAllPosts(): BlogPost[] {
     return {
       slug,
       title: data.title ?? slug,
-      date: data.date ? String(data.date) : "",
+      date: normalizeDate(data.date),
       excerpt: data.excerpt ?? data.description ?? "",
       author: data.author,
       readingTime: calcReadingTime(content),
@@ -62,7 +70,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     return {
       slug: data.slug ?? slug,
       title: data.title ?? slug,
-      date: data.date ? String(data.date) : "",
+      date: normalizeDate(data.date),
       excerpt: data.excerpt ?? data.description ?? "",
       author: data.author,
       readingTime: calcReadingTime(content),
@@ -81,7 +89,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
       return {
         slug,
         title: data.title ?? slug,
-        date: data.date ? String(data.date) : "",
+        date: normalizeDate(data.date),
         excerpt: data.excerpt ?? data.description ?? "",
         author: data.author,
         readingTime: calcReadingTime(content),
