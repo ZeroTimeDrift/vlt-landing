@@ -1,0 +1,50 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="redFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(239,68,68,0.4)"/>
+      <stop offset="100%" stop-color="rgba(239,68,68,0.05)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="160" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">THE INFLATION TAX</text>
+
+  <!-- Center: large visual of eroding pile -->
+  <!-- Original $10,000 -->
+  <rect x="200" y="120" width="340" height="200" rx="14" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="370" y="158" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.35)">$10,000 today</text>
+  <text x="370" y="210" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="rgba(255,255,255,0.9)">$10k</text>
+  <rect x="250" y="228" width="240" height="16" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <text x="370" y="268" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">in a 0% account</text>
+  <text x="370" y="290" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">earning nothing</text>
+
+  <!-- Arrow with inflation eating into it -->
+  <text x="600" y="220" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="36" fill="rgba(239,68,68,0.3)">→</text>
+  <text x="600" y="248" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="rgba(239,68,68,0.5)">3 years</text>
+  <text x="600" y="264" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(239,68,68,0.4)">~4.5% inflation</text>
+
+  <!-- After: shrunken value -->
+  <rect x="660" y="120" width="340" height="200" rx="14" fill="rgba(239,68,68,0.05)" stroke="rgba(239,68,68,0.2)" stroke-width="1.5"/>
+  <text x="830" y="158" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.35)">$10,000 in 3 years</text>
+  <text x="830" y="210" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="rgba(239,68,68,0.6)">$8.7k</text>
+  <rect x="710" y="228" width="240" height="16" rx="4" fill="rgba(239,68,68,0.08)"/>
+  <text x="830" y="268" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.6)">real purchasing power</text>
+  <rect x="765" y="284" width="130" height="22" rx="11" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.3)" stroke-width="1"/>
+  <text x="830" y="299" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(239,68,68,0.8)">-$1,300 lost silently</text>
+
+  <!-- Bottom: Vault counter -->
+  <rect x="340" y="352" width="520" height="1" fill="rgba(255,255,255,0.06)"/>
+  <text x="600" y="378" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.25)">Beating inflation isn't optional. It's the baseline.</text>
+</svg>

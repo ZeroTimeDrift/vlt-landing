@@ -2,6 +2,7 @@
 title: "US Stablecoin Rules Are Changing. Here's Why It Doesn't Affect Your Yield in the UAE."
 date: "2026-03-25"
 slug: "us-stablecoin-regulation-uae-yield"
+heroImage: "/blog/us-stablecoin-regulation-uae-yield.svg"
 description: "The US CLARITY Act would ban stablecoin interest for American users. Vault operates in the UAE under a different regulatory framework — and that distinction matters."
 readTime: "4 min read"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "How Vault Works (Without the Jargon)"
 slug: "how-vault-works-without-the-jargon"
+heroImage: "/blog/how-vault-works-without-the-jargon.svg"
 date: "2026-03-24"
 author: "Vault Team"
 excerpt: "A plain-English explanation of how Vault turns your deposits into ~5.4% annual earnings."

@@ -1,6 +1,7 @@
 ---
 title: "FAB's 4% Savings Rate Expires in One Week. Here's What to Do."
 slug: "fab-promo-expires-march-31"
+heroImage: "/blog/fab-promo-expires-march-31.svg"
 date: "2026-03-25"
 author: "Vault Team"
 excerpt: "First Abu Dhabi Bank's promotional 4% savings rate ends March 31. If your money is sitting there, you have six days to decide what happens next."

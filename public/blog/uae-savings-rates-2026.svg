@@ -1,0 +1,75 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="rgba(0,102,255,0.5)"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+
+  <!-- Title -->
+  <text x="600" y="48" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">UAE SAVINGS RATES 2026</text>
+
+  <!-- Chart base line -->
+  <line x1="100" y1="316" x2="1100" y2="316" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- Y-axis -->
+  <text x="88" y="108" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.2)">6%</text>
+  <text x="88" y="168" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.2)">4%</text>
+  <text x="88" y="228" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.2)">2%</text>
+  <line x1="96" y1="104" x2="1100" y2="104" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="96" y1="164" x2="1100" y2="164" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="96" y1="224" x2="1100" y2="224" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="96" y1="284" x2="1100" y2="284" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Bar: Major banks (standard) ~1% -->
+  <rect x="130" y="286" width="100" height="30" rx="3" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="272" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">~1%</text>
+  <text x="180" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">Major</text>
+  <text x="180" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">banks</text>
+
+  <!-- Bar: Wio flexible ~3.25% -->
+  <rect x="280" y="223" width="100" height="93" rx="3" fill="rgba(255,255,255,0.08)"/>
+  <text x="330" y="210" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">3.25%</text>
+  <text x="330" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">Wio</text>
+  <text x="330" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">flexible</text>
+
+  <!-- Bar: FAB (post-promo) ~3.25% -->
+  <rect x="430" y="223" width="100" height="93" rx="3" fill="rgba(239,68,68,0.07)" stroke="rgba(239,68,68,0.15)" stroke-width="1"/>
+  <text x="480" y="210" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.5)">3.25%</text>
+  <text x="480" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">FAB</text>
+  <text x="480" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(239,68,68,0.4)">promo ended</text>
+
+  <!-- Bar: Sarwa ~4.1% -->
+  <rect x="580" y="180" width="100" height="136" rx="3" fill="rgba(255,255,255,0.09)"/>
+  <text x="630" y="168" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">4.1%</text>
+  <text x="630" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">Sarwa</text>
+  <text x="630" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">Save</text>
+
+  <!-- Bar: Mashreq Neo 6.25% (conditional) -->
+  <rect x="730" y="104" width="100" height="212" rx="3" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="780" y="92" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">6.25%</text>
+  <text x="780" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">Mashreq</text>
+  <text x="780" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.15)">salary req'd</text>
+
+  <!-- Bar: Vault ~5.4% (highlighted) -->
+  <rect x="900" y="136" width="130" height="180" rx="4" fill="rgba(0,102,255,0.15)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="900" y="136" width="130" height="4" rx="4" fill="url(#blueGrad)"/>
+  <text x="965" y="124" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="800" fill="#0066FF">~5.4%</text>
+  <text x="965" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" fill="rgba(255,255,255,0.7)">Vault</text>
+  <rect x="915" y="344" width="100" height="18" rx="9" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.25)" stroke-width="1"/>
+  <text x="965" y="357" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="#10B981">no conditions</text>
+
+  <!-- Footer -->
+  <text x="600" y="396" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">Rate accurate as of March 2026. Variable, not guaranteed.</text>
+</svg>

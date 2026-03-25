@@ -2,6 +2,7 @@
 title: "The Yield Gap Sitting Inside UAE Fintech Apps"
 date: "2026-03-24"
 slug: "the-yield-gap-in-uae-fintech"
+heroImage: "/blog/the-yield-gap-in-uae-fintech.svg"
 description: "Every UAE payments app, digital wallet, and neobank has idle user balances earning nothing. Here's why that's a product problem — and how it gets solved."
 readTime: "5 min read"
 ---

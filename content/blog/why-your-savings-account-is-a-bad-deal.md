@@ -1,6 +1,7 @@
 ---
 title: "Why Your Savings Account Is a Bad Deal"
 slug: "why-your-savings-account-is-a-bad-deal"
+heroImage: "/blog/why-your-savings-account-is-a-bad-deal.svg"
 date: "2026-03-24"
 author: "Vault Team"
 excerpt: "Your bank is earning 8–10% on your money and paying you 1–2%. Here's what that actually costs you."

@@ -2,6 +2,7 @@
 title: "Why Withdrawal Flexibility Matters More Than High Rates"
 date: "2026-03-24"
 slug: "why-withdrawal-flexibility-matters-more-than-high-rates"
+heroImage: "/blog/why-withdrawal-flexibility-matters-more-than-high-rates.svg"
 description: "A 6% rate means nothing if you can't access your money when you need it. Here's why liquidity is the first thing to check."
 readTime: "4 min read"
 ---

@@ -1,0 +1,50 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="160" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">US REGULATION VS UAE YIELD</text>
+
+  <!-- Left: US (affected) -->
+  <rect x="80" y="90" width="420" height="240" rx="14" fill="rgba(239,68,68,0.05)" stroke="rgba(239,68,68,0.2)" stroke-width="1"/>
+  <text x="290" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.5)">United States</text>
+  <text x="290" y="148" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)">CLARITY Act, March 2026</text>
+
+  <text x="290" y="192" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.6)">✗  Stablecoin yield restrictions proposed</text>
+  <text x="290" y="216" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.5)">✗  Circle stock -18% on news</text>
+  <text x="290" y="240" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.4)">✗  US users likely restricted</text>
+
+  <rect x="190" y="264" width="200" height="30" rx="15" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="290" y="283" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.7)">US regulatory risk</text>
+
+  <!-- Arrow in middle -->
+  <text x="600" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="32" fill="rgba(255,255,255,0.08)">≠</text>
+
+  <!-- Right: UAE (unaffected) -->
+  <rect x="700" y="90" width="420" height="240" rx="14" fill="rgba(0,102,255,0.07)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="700" y="90" width="420" height="3" rx="14" fill="url(#blueGrad)"/>
+  <text x="910" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.6)">UAE / ADGM</text>
+  <text x="910" y="148" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">Separate jurisdiction</text>
+
+  <text x="910" y="192" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(16,185,129,0.7)">✓  No CLARITY Act applicability</text>
+  <text x="910" y="216" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(16,185,129,0.6)">✓  ADGM has its own framework</text>
+  <text x="910" y="240" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(16,185,129,0.6)">✓  Vault users unaffected</text>
+
+  <rect x="810" y="264" width="200" height="30" rx="15" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.25)" stroke-width="1"/>
+  <text x="910" y="283" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#10B981">UAE regulatory moat</text>
+
+  <!-- Footer -->
+  <text x="600" y="388" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">US rules don't reach the UAE. That's a structural advantage, not luck.</text>
+</svg>

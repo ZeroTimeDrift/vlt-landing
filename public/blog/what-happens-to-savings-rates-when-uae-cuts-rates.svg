@@ -1,0 +1,58 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="560" ry="180" fill="rgba(0,102,255,0.02)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">WHEN UAE CUTS RATES</text>
+
+  <!-- Two-track chart -->
+  <rect x="120" y="80" width="960" height="240" rx="12" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Y axis -->
+  <text x="142" y="108" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.2)">6%</text>
+  <text x="142" y="168" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.2)">4%</text>
+  <text x="142" y="228" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.2)">2%</text>
+  <line x1="148" y1="104" x2="1060" y2="104" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="148" y1="164" x2="1060" y2="164" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="148" y1="224" x2="1060" y2="224" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="148" y1="284" x2="1060" y2="284" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Rate cut event line -->
+  <line x1="580" y1="84" x2="580" y2="284" stroke="rgba(239,68,68,0.2)" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="546" y="76" width="68" height="20" rx="10" fill="rgba(239,68,68,0.12)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="580" y="90" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(239,68,68,0.7)">RATE CUT</text>
+
+  <!-- Bank rate line (drops sharply at cut) -->
+  <polyline points="180,164 300,164 420,164 520,164 580,164 620,210 700,220 820,228 960,234 1040,240" fill="none" stroke="rgba(239,68,68,0.5)" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="1040,240 1044,237 1044,243" fill="rgba(239,68,68,0.5)"/>
+
+  <!-- Vault line (slightly affected but different driver) -->
+  <polyline points="180,138 300,135 420,132 520,130 580,128 640,126 720,124 840,122 960,120 1040,118" fill="none" stroke="#0066FF" stroke-width="2.5"/>
+  <polygon points="1040,118 1044,115 1044,121" fill="#0066FF"/>
+
+  <!-- Area under Vault line -->
+  <polygon points="180,138 300,135 420,132 520,130 580,128 640,126 720,124 840,122 960,120 1040,118 1040,284 180,284" fill="rgba(0,102,255,0.04)"/>
+
+  <!-- Labels -->
+  <rect x="870" y="100" width="148" height="22" rx="11" fill="rgba(0,102,255,0.15)" stroke="rgba(0,102,255,0.35)" stroke-width="1"/>
+  <text x="944" y="115" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#0066FF">Vault ~5.4% (stable)</text>
+
+  <rect x="870" y="222" width="148" height="22" rx="11" fill="rgba(239,68,68,0.08)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="944" y="237" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(239,68,68,0.7)">Banks follow cuts</text>
+
+  <!-- Explanation -->
+  <text x="600" y="368" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Bank rates track CBUAE/Fed rate. Vault earns from borrower demand — a different mechanism.</text>
+  <text x="600" y="390" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.2)">Rate is variable, not guaranteed.</text>
+</svg>

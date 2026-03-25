@@ -2,6 +2,7 @@
 title: "What to Do With Your UAE Salary the Day It Hits"
 date: "2026-03-25"
 slug: "what-to-do-with-your-uae-salary-on-payday"
+heroImage: "/blog/what-to-do-with-your-uae-salary-on-payday.svg"
 description: "Most UAE salary accounts pay 0%. Here's how to make your money earn something between payday and when the bills come due."
 author: "Vault Team"
 ---

@@ -1,0 +1,52 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="530" ry="170" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">TERM DEPOSIT VS FLEXIBLE SAVINGS</text>
+
+  <!-- Left: Term deposit -->
+  <rect x="80" y="90" width="460" height="260" rx="14" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="310" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="rgba(255,255,255,0.55)">12-Month Term Deposit</text>
+  <text x="310" y="178" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800" fill="rgba(255,255,255,0.45)">4.0%</text>
+  <text x="310" y="202" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)">Wio / SIB (best offer)</text>
+
+  <line x1="130" y1="224" x2="490" y2="224" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <text x="130" y="252" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,200,0,0.5)">~  Good rate</text>
+  <text x="130" y="274" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(239,68,68,0.5)">✗  Locked for 12 months</text>
+  <text x="130" y="296" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(239,68,68,0.4)">✗  Early exit penalties</text>
+  <text x="130" y="318" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(239,68,68,0.4)">✗  Rate fixed at deposit time</text>
+
+  <!-- VS divider -->
+  <text x="600" y="228" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.1)">vs</text>
+
+  <!-- Right: Vault flexible -->
+  <rect x="660" y="90" width="460" height="260" rx="14" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="660" y="90" width="460" height="3" rx="14" fill="url(#blueGrad)"/>
+  <text x="890" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="rgba(255,255,255,0.6)">Vault Flexible</text>
+  <text x="890" y="178" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800" fill="#0066FF">~5.4%</text>
+  <text x="890" y="202" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">current rate (variable)</text>
+
+  <line x1="710" y1="224" x2="1070" y2="224" stroke="rgba(0,102,255,0.1)" stroke-width="1"/>
+
+  <text x="710" y="252" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓  Higher rate today</text>
+  <text x="710" y="274" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.6)">✓  Withdraw anytime, no penalty</text>
+  <text x="710" y="296" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.6)">✓  Rate reflects live markets</text>
+  <text x="710" y="318" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.6)">✓  No minimum term</text>
+
+  <!-- Footer -->
+  <text x="600" y="388" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">In 2026, flexible beats fixed. Vault earns more without locking you in.</text>
+</svg>

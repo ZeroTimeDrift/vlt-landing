@@ -1,0 +1,53 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="160" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">REVOLUT UAE — WHAT IT ACTUALLY MEANS</text>
+
+  <!-- Left: Revolut -->
+  <rect x="80" y="90" width="440" height="250" rx="14" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="300" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="rgba(255,255,255,0.5)">Revolut UAE</text>
+
+  <rect x="140" y="142" width="320" height="24" rx="12" fill="rgba(255,200,0,0.08)" stroke="rgba(255,200,0,0.2)" stroke-width="1"/>
+  <text x="300" y="158" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(255,200,0,0.6)">SVF + Payments licence only</text>
+
+  <text x="120" y="196" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.6)">✓  Currency exchange</text>
+  <text x="120" y="218" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.6)">✓  International transfers</text>
+  <text x="120" y="240" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.6)">✓  Card payments</text>
+
+  <line x1="120" y1="258" x2="480" y2="258" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <text x="120" y="282" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(239,68,68,0.6)">✗  No savings product</text>
+  <text x="120" y="304" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(239,68,68,0.5)">✗  No yield on balances</text>
+  <text x="120" y="326" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(239,68,68,0.4)">✗  Not licensed for deposits</text>
+
+  <!-- Right: Vault fills the gap -->
+  <rect x="680" y="90" width="440" height="250" rx="14" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="680" y="90" width="440" height="3" rx="14" fill="url(#blueGrad)"/>
+  <text x="900" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="rgba(255,255,255,0.6)">Vault fills the gap</text>
+
+  <text x="900" y="180" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">Revolut = spending layer</text>
+  <text x="900" y="202" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">Vault = savings layer</text>
+
+  <text x="900" y="244" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" fill="#0066FF">~5.4%</text>
+  <text x="900" y="268" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">on idle balances</text>
+
+  <rect x="790" y="288" width="220" height="26" rx="13" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.25)" stroke-width="1"/>
+  <text x="900" y="305" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#10B981">withdraw anytime</text>
+
+  <!-- Footer -->
+  <text x="600" y="388" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">Revolut is a great spending app. It can't help your savings grow.</text>
+</svg>

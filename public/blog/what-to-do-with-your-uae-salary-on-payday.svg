@@ -1,0 +1,64 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="160" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">PAYDAY PLAYBOOK — UAE</text>
+
+  <!-- Salary input -->
+  <rect x="100" y="152" width="160" height="80" rx="10" fill="rgba(0,102,255,0.1)" stroke="rgba(0,102,255,0.3)" stroke-width="1"/>
+  <text x="180" y="186" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="white">Salary hits</text>
+  <text x="180" y="210" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800" fill="#0066FF">$</text>
+
+  <!-- Flow arrow -->
+  <line x1="262" y1="192" x2="312" y2="192" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <text x="314" y="197" font-family="Inter, system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.1)">→</text>
+
+  <!-- Split boxes -->
+  <!-- Box 1: Bills/rent -->
+  <rect x="332" y="96" width="200" height="90" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="432" y="130" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.5)">Rent &amp; bills</text>
+  <text x="432" y="160" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)">~50%</text>
+
+  <!-- Box 2: Living expenses -->
+  <rect x="332" y="202" width="200" height="90" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="432" y="236" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.5)">Living expenses</text>
+  <text x="432" y="266" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)">~30%</text>
+
+  <!-- Flow arrow right -->
+  <line x1="534" y1="192" x2="584" y2="192" stroke="rgba(0,102,255,0.3)" stroke-width="1.5"/>
+  <text x="586" y="197" font-family="Inter, system-ui, sans-serif" font-size="14" fill="rgba(0,102,255,0.4)">→</text>
+
+  <!-- Box 3: What's left -->
+  <rect x="604" y="132" width="180" height="120" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="694" y="168" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.5)">What's left</text>
+  <text x="694" y="202" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="rgba(255,255,255,0.45)">~20%</text>
+  <text x="694" y="228" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">sitting idle?</text>
+
+  <!-- Arrow to Vault -->
+  <line x1="786" y1="192" x2="836" y2="192" stroke="#0066FF" stroke-width="2"/>
+  <text x="838" y="197" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#0066FF">→</text>
+
+  <!-- Vault box (result) -->
+  <rect x="856" y="110" width="244" height="170" rx="12" fill="rgba(0,102,255,0.1)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="856" y="110" width="244" height="3" rx="12" fill="url(#blueGrad)"/>
+  <text x="978" y="152" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.6)">Put it in Vault</text>
+  <text x="978" y="196" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="38" font-weight="800" fill="#0066FF">~5.4%</text>
+  <text x="978" y="224" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">earning every day</text>
+  <text x="978" y="254" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(0,153,255,0.6)">withdraw when needed</text>
+
+  <!-- Footer -->
+  <text x="600" y="388" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">The easiest win: automate the 20% you're not spending today.</text>
+</svg>

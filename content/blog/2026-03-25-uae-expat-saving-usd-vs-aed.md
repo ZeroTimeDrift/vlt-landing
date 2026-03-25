@@ -2,6 +2,7 @@
 title: "Should UAE Expats Save in USD or AED?"
 date: 2026-03-25
 slug: uae-expat-saving-usd-vs-aed
+heroImage: "/blog/uae-expat-saving-usd-vs-aed.svg"
 description: "Most UAE expats save in AED without thinking about it. But if your financial life is elsewhere, currency matters. Here's how to think about it."
 tags: [savings, UAE, expats, currency, USD, AED]
 ---

@@ -2,6 +2,7 @@
 title: "UAE Emergency Fund: How Much to Keep — and Where"
 date: 2026-03-25
 slug: uae-emergency-fund-where-to-keep-it
+heroImage: "/blog/uae-emergency-fund-where-to-keep-it.svg"
 description: Most UAE expats know they need an emergency fund. Few are earning anything on it. Here's the right amount, and the right place to keep it.
 ---
 

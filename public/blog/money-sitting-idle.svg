@@ -1,0 +1,68 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="drainGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(239,68,68,0.3)"/>
+      <stop offset="100%" stop-color="rgba(239,68,68,0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="160" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Label -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">IDLE MONEY</text>
+
+  <!-- Left: Bank account pile (losing value) -->
+  <rect x="120" y="100" width="380" height="220" rx="16" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="310" y="138" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.35)">Sitting in your current account</text>
+
+  <!-- Stack of coins gradually shrinking -->
+  <rect x="230" y="240" width="160" height="18" rx="4" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <rect x="240" y="222" width="140" height="18" rx="4" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="250" y="204" width="120" height="18" rx="4" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <rect x="262" y="186" width="96" height="18" rx="4" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <rect x="275" y="168" width="70" height="18" rx="4" fill="rgba(255,255,255,0.02)" stroke="rgba(239,68,68,0.1)" stroke-width="1"/>
+
+  <!-- Drain arrow -->
+  <text x="310" y="165" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.5)">▼ losing value daily</text>
+
+  <!-- Rate label -->
+  <rect x="220" y="276" width="180" height="26" rx="13" fill="rgba(239,68,68,0.08)" stroke="rgba(239,68,68,0.2)" stroke-width="1"/>
+  <text x="310" y="293" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(239,68,68,0.7)">~0% on current accounts</text>
+
+  <!-- Right: Vault (growing) -->
+  <rect x="700" y="100" width="380" height="220" rx="16" fill="rgba(0,102,255,0.07)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="700" y="100" width="380" height="3" rx="16" fill="url(#blueGrad)"/>
+
+  <text x="890" y="138" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">Put it in Vault</text>
+
+  <!-- Stack growing -->
+  <rect x="810" y="240" width="160" height="18" rx="4" fill="rgba(0,102,255,0.15)" stroke="rgba(0,102,255,0.3)" stroke-width="1"/>
+  <rect x="800" y="222" width="180" height="18" rx="4" fill="rgba(0,102,255,0.12)" stroke="rgba(0,102,255,0.25)" stroke-width="1"/>
+  <rect x="790" y="204" width="200" height="18" rx="4" fill="rgba(0,102,255,0.10)" stroke="rgba(0,102,255,0.2)" stroke-width="1"/>
+  <rect x="780" y="186" width="220" height="18" rx="4" fill="rgba(0,102,255,0.08)" stroke="rgba(0,102,255,0.15)" stroke-width="1"/>
+  <rect x="768" y="168" width="244" height="18" rx="4" fill="rgba(0,102,255,0.06)" stroke="rgba(0,102,255,0.12)" stroke-width="1"/>
+
+  <text x="890" y="165" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(16,185,129,0.7)">▲ earning while you sleep</text>
+
+  <!-- Rate -->
+  <text x="890" y="220" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="42" font-weight="800" fill="#0066FF">~5.4%</text>
+
+  <rect x="820" y="276" width="140" height="26" rx="13" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.25)" stroke-width="1"/>
+  <text x="890" y="293" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#10B981">withdraw anytime</text>
+
+  <!-- VS divider -->
+  <text x="600" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.15)">vs</text>
+
+  <!-- Footer -->
+  <text x="600" y="378" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">Idle money is a choice. It doesn't have to be.</text>
+</svg>

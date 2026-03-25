@@ -1,0 +1,72 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="170" fill="rgba(0,102,255,0.04)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">UAE EXPAT SAVINGS PLAYBOOK</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="96" width="220" height="220" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="190" cy="136" r="22" fill="rgba(0,102,255,0.1)" stroke="rgba(0,102,255,0.25)" stroke-width="1"/>
+  <text x="190" y="143" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#0066FF">1</text>
+  <text x="190" y="178" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.8)">Know what</text>
+  <text x="190" y="198" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.8)">you earn</text>
+  <text x="190" y="228" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">Check your current</text>
+  <text x="190" y="246" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">savings rate today</text>
+  <text x="190" y="296" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">Most pay under 1%</text>
+
+  <!-- Arrow 1→2 -->
+  <text x="320" y="210" font-family="Inter, system-ui, sans-serif" font-size="22" fill="rgba(255,255,255,0.1)">→</text>
+
+  <!-- Step 2 -->
+  <rect x="340" y="96" width="220" height="220" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="450" cy="136" r="22" fill="rgba(0,102,255,0.1)" stroke="rgba(0,102,255,0.25)" stroke-width="1"/>
+  <text x="450" y="143" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#0066FF">2</text>
+  <text x="450" y="178" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.8)">Separate idle</text>
+  <text x="450" y="198" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.8)">from spending</text>
+  <text x="450" y="228" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">Emergency fund +</text>
+  <text x="450" y="246" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">3-month buffer</text>
+  <text x="450" y="296" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">Put idle money to work</text>
+
+  <!-- Arrow 2→3 -->
+  <text x="580" y="210" font-family="Inter, system-ui, sans-serif" font-size="22" fill="rgba(255,255,255,0.1)">→</text>
+
+  <!-- Step 3 -->
+  <rect x="600" y="96" width="220" height="220" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="710" cy="136" r="22" fill="rgba(0,102,255,0.1)" stroke="rgba(0,102,255,0.25)" stroke-width="1"/>
+  <text x="710" y="143" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#0066FF">3</text>
+  <text x="710" y="178" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.8)">Pick flexible</text>
+  <text x="710" y="198" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.8)">over locked</text>
+  <text x="710" y="228" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">Expats move fast.</text>
+  <text x="710" y="246" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">Liquidity matters.</text>
+  <text x="710" y="296" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">No lock-in required</text>
+
+  <!-- Arrow 3→4 -->
+  <text x="840" y="210" font-family="Inter, system-ui, sans-serif" font-size="22" fill="rgba(255,255,255,0.1)">→</text>
+
+  <!-- Step 4 (Vault highlight) -->
+  <rect x="860" y="96" width="240" height="220" rx="12" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="860" y="96" width="240" height="3" rx="12" fill="url(#blueGrad)"/>
+  <circle cx="980" cy="136" r="22" fill="rgba(0,102,255,0.15)" stroke="rgba(0,102,255,0.4)" stroke-width="1"/>
+  <text x="980" y="143" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800" fill="#0066FF">V</text>
+  <text x="980" y="178" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="white">Earn more</text>
+  <text x="980" y="198" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="white">automatically</text>
+  <text x="980" y="232" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="800" fill="#0066FF">~5.4%</text>
+  <text x="980" y="262" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">no crypto needed</text>
+  <text x="980" y="296" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(0,153,255,0.6)">withdraw anytime</text>
+
+  <!-- Footer -->
+  <text x="600" y="378" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">You don't need to be a finance expert. You just need the right account.</text>
+</svg>

@@ -2,6 +2,7 @@
 title: "UAE Savings Rates in 2026: What You're Actually Earning Now"
 date: "2026-03-25"
 slug: "uae-savings-rates-2026"
+heroImage: "/blog/uae-savings-rates-2026.svg"
 description: "FAB's 4% promo just ended. Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
 readTime: "5 min read"
 ---

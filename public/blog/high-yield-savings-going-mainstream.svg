@@ -1,0 +1,58 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <ellipse cx="600" cy="210" rx="560" ry="180" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">HIGH-YIELD SAVINGS GOES MAINSTREAM</text>
+
+  <!-- Adoption curve (S-curve chart) -->
+  <rect x="120" y="80" width="700" height="250" rx="12" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Curve path -->
+  <path d="M160,290 C200,290 230,285 270,265 C320,240 360,210 420,175 C480,140 540,115 600,105 C660,98 720,102 780,108" fill="none" stroke="#0066FF" stroke-width="2.5"/>
+  <path d="M160,290 C200,290 230,285 270,265 C320,240 360,210 420,175 C480,140 540,115 600,105 C660,98 720,102 780,108 L780,310 L160,310 Z" fill="rgba(0,102,255,0.05)"/>
+
+  <!-- Phases label -->
+  <text x="200" y="320" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.2)">Crypto-only</text>
+  <text x="420" y="320" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.25)">Early fintech</text>
+  <text x="640" y="320" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.35)">Mainstream</text>
+  <text x="780" y="96" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(0,102,255,0.7)">← We are here</text>
+
+  <!-- Milestone dots -->
+  <circle cx="280" cy="255" r="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="280" y="246" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.25)">Aave (2020)</text>
+
+  <circle cx="480" cy="145" r="5" fill="rgba(255,255,255,0.3)"/>
+  <text x="480" y="136" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">Lulo, Sarwa</text>
+
+  <circle cx="740" cy="106" r="6" fill="#0066FF"/>
+  <text x="740" y="97" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#0066FF">Lido EarnUSD</text>
+
+  <!-- Right side: What this means -->
+  <rect x="860" y="80" width="300" height="250" rx="12" fill="rgba(0,102,255,0.07)" stroke="rgba(0,102,255,0.2)" stroke-width="1"/>
+  <rect x="860" y="80" width="300" height="3" rx="12" fill="url(#blueGrad)"/>
+  <text x="1010" y="118" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.6)">What it means</text>
+
+  <text x="880" y="152" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.45)">• Big names now validating</text>
+  <text x="880" y="176" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.45)">• Consumer trust growing</text>
+  <text x="880" y="200" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.45)">• UAE still under-served</text>
+  <text x="880" y="224" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.45)">• Category is inevitable</text>
+
+  <rect x="905" y="248" width="210" height="26" rx="13" fill="rgba(0,102,255,0.1)" stroke="rgba(0,102,255,0.25)" stroke-width="1"/>
+  <text x="1010" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#0066FF">Vault: built for the UAE</text>
+
+  <!-- Footer -->
+  <text x="600" y="388" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">When Lido launches EarnUSD, the category is no longer niche.</text>
+</svg>
