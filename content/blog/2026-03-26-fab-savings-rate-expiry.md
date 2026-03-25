@@ -29,6 +29,8 @@ Here's where things stand for savers who want liquidity — no lock-in, no fixed
 
 The salary-routing rates from Wio and Mashreq are genuinely good, but they require your employer to route your salary there. Not everyone has that option, and switching salary banks involves paperwork that many UAE residents — particularly expats with international employers — cannot easily do.
 
+For those who can commit funds for a year, SIB and Wio offer 12-month fixed deposits at 4–4.25% — but that means accepting a lock-in with penalties if you need to access your money early.
+
 The no-condition, no-lock-in tier is now effectively led by Vault.
 
 ## Why FAB's rate dropped
