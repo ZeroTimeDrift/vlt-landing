@@ -58,9 +58,9 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         </div>
         <span
           className={`px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5 ${compact ? "text-[9px]" : "text-[10px]"}`}
-          style={{ background: "rgba(34,197,94,0.08)", color: "#22c55e", border: "1px solid rgba(34,197,94,0.15)" }}
+          style={{ background: "rgba(16,185,129,0.08)", color: "#10B981", border: "1px solid rgba(16,185,129,0.15)" }}
         >
-          <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#22c55e" }} />
+          <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#10B981" }} />
           Active
         </span>
       </div>
@@ -79,7 +79,7 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         {/* Earned today ticker */}
         <div className={compact ? "mt-2" : "mt-3"}>
           <p className={`text-vault-muted ${compact ? "text-[10px]" : "text-xs"}`}>Earned today</p>
-          <span className={`font-semibold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#22c55e" }}>
+          <span className={`font-semibold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
             ${earned.toFixed(4)}
           </span>
         </div>
@@ -88,10 +88,10 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
         <div className={`flex items-center gap-2 ${compact ? "mt-2" : "mt-3"}`}>
           <div
             className="flex items-center gap-1.5 rounded-full px-3 py-1"
-            style={{ background: "rgba(34,197,94,0.08)", border: "1px solid rgba(34,197,94,0.15)" }}
+            style={{ background: "rgba(16,185,129,0.08)", border: "1px solid rgba(16,185,129,0.15)" }}
           >
-            <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#22c55e" }} />
-            <span className={`font-bold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#22c55e" }}>
+            <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#10B981" }} />
+            <span className={`font-bold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
               ~5.4% current
             </span>
           </div>
@@ -223,7 +223,7 @@ function SavingsCalculator() {
       </div>
 
       <p className="mt-4 text-center text-sm text-vault-muted">
-        You could earn <span className="font-bold" style={{ color: "#22c55e" }}>{cfg.prefix}{fmt(delta)}</span> more per year with Vault
+        You could earn <span className="font-bold" style={{ color: "#10B981" }}>{cfg.prefix}{fmt(delta)}</span> more per year with Vault
       </p>
     </div>
   );
@@ -323,7 +323,7 @@ interface BlogPostData {
 function SocialProofStrip({ joined = false }: { joined?: boolean }) {
   const avatarStyles: CSSProperties[] = [
     { background: "linear-gradient(135deg, #0066FF, #3385FF)", zIndex: 3 },
-    { background: "linear-gradient(135deg, #22c55e, #16a34a)", zIndex: 2, marginLeft: -8 },
+    { background: "linear-gradient(135deg, #10B981, #059669)", zIndex: 2, marginLeft: -8 },
     { background: "linear-gradient(135deg, #6366F1, #4F46E5)", zIndex: 1, marginLeft: -8 },
   ];
   return (
@@ -617,7 +617,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   <span className="text-center text-sm text-vault-muted">{row.bank}</span>
                   <span
                     className="text-center text-sm font-bold"
-                    style={row.win ? { color: "#22c55e" } : undefined}
+                    style={row.win ? { color: "#10B981" } : undefined}
                   >
                     {row.win ? `✓ ${row.vault}` : row.vault}
                   </span>
