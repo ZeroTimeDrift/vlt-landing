@@ -136,7 +136,7 @@ function LiveBalanceCard() {
 
 // ── Savings Calculator ────────────────────────────────────────────────────────
 const CURRENCY_CONFIG = {
-  AED: { prefix: "AED ", min: 5000, max: 1800000, step: 5000, defaultVal: 180000, bankRate: 0.02, bankLabel: "~2% UAE bank" },
+  AED: { prefix: "AED ", min: 5000, max: 1800000, step: 5000, defaultVal: 180000, bankRate: 0.025, bankLabel: "~2.5% best no-lock rate" },
   USD: { prefix: "$", min: 1000, max: 500000, step: 1000, defaultVal: 50000, bankRate: 0.015, bankLabel: "~1.5% rate" },
 } as const;
 
@@ -398,10 +398,29 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
   return (
     <>
-      {/* ── NAV ──────────────────────────────────────────────────────────── */}
-      <nav
+      {/* ── ANNOUNCEMENT BANNER (April 2026) ─────────────────────────────── */}
+      <div
         className="fixed top-0 inset-x-0 z-50"
         style={{
+          background: "rgba(0,102,255,0.12)",
+          borderBottom: "1px solid rgba(0,102,255,0.15)",
+          padding: "7px 24px",
+          textAlign: "center",
+        }}
+      >
+        <p className="text-xs font-medium" style={{ color: "#9CA3AF" }}>
+          FAB&apos;s 4% savings rate ended March 31.{" "}
+          <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>
+            Vault still earns ~5.4% — no promo, no expiry. →
+          </a>
+        </p>
+      </div>
+
+      {/* ── NAV ──────────────────────────────────────────────────────────── */}
+      <nav
+        className="fixed inset-x-0 z-50"
+        style={{
+          top: 32,
           background: "rgba(15,17,23,0.92)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
@@ -493,7 +512,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
         {/* ── HERO ─────────────────────────────────────────────────────── */}
         <section
           id="waitlist"
-          className="min-h-screen flex items-center px-6 pt-20 pb-16 hero-grid"
+          className="min-h-screen flex items-center px-6 pt-28 pb-16 hero-grid"
         >
           <div className="max-w-6xl mx-auto w-full">
             <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
@@ -501,7 +520,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {/* Left: Copy + Form */}
               <div className="flex-1 text-center lg:text-left">
                 <p className="hero-animate delay-0 text-[13px] font-medium mb-6 text-accent uppercase tracking-widest">
-                  Early access · Now open
+                  FAB 4% promo ended · Vault still ~5.4%
                 </p>
 
                 <h1 className="hero-animate delay-1 text-[1.65rem] sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
@@ -552,7 +571,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {
                 icon: <Scale className="w-5 h-5 text-vault-accent" />,
                 label: "Pursuing ADGM regulation",
-                desc: "USDC, our on-ramp currency, is already ADGM-licensed",
+                desc: "The dollar-denominated currency behind Vault is already ADGM-licensed",
               },
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
@@ -670,7 +689,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 <div className="text-center text-[11px] font-medium uppercase tracking-wider" style={{ color: "#0066FF" }}>Vault</div>
               </div>
               {[
-                { label: "Returns",    bank: "~1–2% per year",   vault: "~5.4% current",     win: true },
+                { label: "Returns",    bank: "FAB ~2.5% · Sarwa ~3.2%",   vault: "~5.4% current",     win: true },
                 { label: "Access",     bank: "Limited",          vault: "Withdraw anytime", win: true },
                 { label: "Minimum",    bank: "Often $1,000+",   vault: "No minimum",       win: true },
               ].map((row, i, arr) => (
@@ -694,6 +713,15 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             <p className="text-xs text-vault-muted text-center mt-2">
               ~5.4% is current, not guaranteed. Earnings vary with market activity.
             </p>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 mt-3 text-xs text-vault-muted">
+              <span>FAB (post-promo): ~2.5%</span>
+              <span>·</span>
+              <span>StashAway: 3.9%</span>
+              <span>·</span>
+              <span>Sarwa Save+: ~3.2% net</span>
+              <span>·</span>
+              <span className="font-semibold" style={{ color: "#10B981" }}>Vault: ~5.4%</span>
+            </div>
           </div>
         </section>
 
