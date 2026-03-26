@@ -10,13 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         vault: {
-          bg: "#020810",
-          card: "rgba(255,255,255,0.05)",
-          border: "rgba(255,255,255,0.08)",
+          bg: "#0F1117",
+          card: "rgba(255,255,255,0.03)",
+          border: "rgba(255,255,255,0.06)",
           accent: "#0066FF",
           "accent-light": "#3385FF",
           "accent-dim": "rgba(0,102,255,0.12)",
-          green: "#10B981",
+          green: "#22c55e",
           muted: "#6B7280",
           text: "#FFFFFF",
           "text-dim": "#9CA3AF",
