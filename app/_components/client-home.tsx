@@ -706,16 +706,16 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 {
                   icon: Zap,
                   label: "One integration",
-                  body: "Single API call to activate yield on idle balances. No infrastructure build required.",
+                  body: "Single API call to activate earnings on idle balances. No infrastructure build required.",
                 },
                 {
                   icon: Layers,
                   label: "Your brand, our rails",
-                  body: "White-label ready. Users see your product — Vault handles the yield infrastructure.",
+                  body: "White-label ready. Users see your product — Vault handles the earnings infrastructure.",
                 },
                 {
                   icon: TrendingUp,
-                  label: "~5.4% current yield",
+                  label: "~5.4% current rate",
                   body: "Pass through real market rates. We earn only when your users earn.",
                 },
               ].map((card) => (
