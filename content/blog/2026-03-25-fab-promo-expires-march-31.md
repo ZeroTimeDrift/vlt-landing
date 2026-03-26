@@ -70,4 +70,4 @@ The decision is yours. Make it before the 31st.
 
 ---
 
-*Current rate ~5.4% is variable and reflects borrower fees from vetted lending markets. Not a guaranteed return. Rates can go up or down with market conditions.*
+*Current rate ~5.4% is variable and reflects borrower fees from vetted lending markets. Not a guaranteed return. Rates can go up or down with market conditions. Vault is in the process of obtaining ADGM regulatory approval.*

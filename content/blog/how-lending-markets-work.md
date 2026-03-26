@@ -68,4 +68,4 @@ The reason this is possible: the lending market we use is highly liquid, with la
 
 Join the waitlist at [vlt.money](https://vlt.money)
 
-*Vault earnings are fees paid by borrowers for access to capital — not guaranteed returns. Rates vary with market conditions.*
+*Vault earnings are fees paid by borrowers for access to capital — not guaranteed returns. Rates vary with market conditions. Vault is in the process of obtaining ADGM regulatory approval.*

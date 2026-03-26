@@ -64,4 +64,4 @@ For most UAE savers moving money off a bank promo, the answer is yes.
 
 Join the waitlist at [vlt.money](https://vlt.money)
 
-*Vault earnings (~5.4% current) come from fees paid by institutional borrowers through vetted lending markets — not guaranteed returns. Rates are variable and reflect real market conditions. Not a deposit product. Not regulated by the CBUAE.*
+*Vault earnings (~5.4% current) come from fees paid by institutional borrowers through vetted lending markets — not guaranteed returns. Rates are variable and reflect real market conditions. Not a deposit product. Not regulated by the CBUAE. Vault is in the process of obtaining ADGM regulatory approval.*

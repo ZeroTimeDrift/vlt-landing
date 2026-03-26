@@ -68,3 +68,5 @@ If you're leaving money idle in an AED current account, you're not saving in the
 ---
 
 Join the waitlist at [vlt.money](https://vlt.money)
+
+*Vault earnings are fees paid by institutional borrowers — not guaranteed returns. Rates are variable. Vault is in the process of obtaining ADGM regulatory approval.*

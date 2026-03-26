@@ -1,0 +1,59 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.5" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="vaultBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="dimBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <ellipse cx="900" cy="200" rx="400" ry="200" fill="rgba(0,102,255,0.03)"/>
+
+  <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">TRADING 212 — UAE RESIDENTS</text>
+  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">Trading 212 Cash: not available in UAE.</text>
+
+  <!-- Status box -->
+  <rect x="80" y="118" width="580" height="64" rx="10" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.2)" stroke-width="1.5"/>
+  <text x="100" y="143" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="rgba(239,68,68,0.8)">Trading 212 Cash — UAE status: NOT AVAILABLE</text>
+  <text x="100" y="163" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">FCA-regulated UK product. UAE residents cannot open or use Trading 212 Cash accounts.</text>
+
+  <!-- Alternatives -->
+  <text x="100" y="210" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.06em" fill="rgba(255,255,255,0.4)">WHAT UAE RESIDENTS CAN USE INSTEAD</text>
+
+  <text x="100" y="240" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Sarwa Save+ (net)</text>
+  <rect x="280" y="226" width="113" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="401" y="240" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)" dx="8">~3.2%</text>
+
+  <text x="100" y="268" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple UAE</text>
+  <rect x="280" y="254" width="140" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="428" y="268" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.4)" dx="8">3.9%</text>
+
+  <!-- Vault highlighted -->
+  <rect x="80" y="290" width="580" height="54" rx="10" fill="rgba(0,102,255,0.07)" stroke="rgba(0,102,255,0.25)" stroke-width="1.5"/>
+  <text x="100" y="316" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="rgba(255,255,255,0.9)">Vault</text>
+  <text x="100" y="332" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)">Built for UAE. No UK residency. No lock-in. No fee.</text>
+  <rect x="280" y="302" width="215" height="22" rx="4" fill="url(#vaultBar)" opacity="0.9"/>
+  <text x="503" y="318" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800" fill="#60A5FA" dx="8">~5.4%</text>
+  <rect x="508" y="325" width="58" height="16" rx="8" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <text x="537" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="#10B981">CURRENT</text>
+
+  <!-- Right callout -->
+  <rect x="740" y="110" width="360" height="240" rx="16" fill="rgba(0,102,255,0.05)" stroke="rgba(0,102,255,0.12)" stroke-width="1.5"/>
+  <rect x="740" y="110" width="360" height="3" rx="2" fill="url(#vaultBar)"/>
+  <text x="920" y="155" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)">TRADING 212 CASH VS VAULT</text>
+  <text x="920" y="200" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="16" fill="rgba(255,255,255,0.4)">Trading 212 Cash: ~5%</text>
+  <text x="920" y="225" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(239,68,68,0.6)">UK only — not available in UAE</text>
+  <line x1="780" y1="245" x2="1060" y2="245" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="920" y="275" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.8)">Vault: ~5.4%</text>
+  <text x="920" y="300" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(16,185,129,0.7)">UAE-based. Available now.</text>
+  <text x="920" y="330" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">vlt.money — join the waitlist</text>
+
+  <text x="100" y="395" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Rates variable. Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
+</svg>

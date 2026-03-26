@@ -67,4 +67,4 @@ We think that's a better structure. It removes the single point of failure that 
 
 Join the waitlist at [vlt.money](https://vlt.money)
 
-*Vault earnings are fees paid by borrowers for access to capital — not guaranteed returns. Rates vary with market conditions. Withdrawals processed within 24 hours.*
+*Vault earnings are fees paid by borrowers for access to capital — not guaranteed returns. Rates vary with market conditions. Withdrawals processed within 24 hours. Vault is in the process of obtaining ADGM regulatory approval.*

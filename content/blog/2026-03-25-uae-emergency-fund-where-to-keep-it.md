@@ -80,4 +80,6 @@ That is the full emergency fund strategy. It does not require a financial advise
 
 ---
 
-*Join the waitlist at vlt.money*
+Join the waitlist at [vlt.money](https://vlt.money)
+
+*Vault earnings are fees paid by institutional borrowers — not guaranteed returns. Rates are variable. Vault is in the process of obtaining ADGM regulatory approval.*

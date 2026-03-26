@@ -21,7 +21,7 @@ Here's where things stand for savers who want liquidity — no lock-in, no fixed
 |---|---|---|
 | FAB (post-promo) | ~2.5% | No condition |
 | StashAway Simple | 3.9% | No condition, money market fund |
-| Sarwa Save+ | ~3.8% net | 0.5% annual fee deducted |
+| Sarwa Save+ | ~3.2% net | 0.5% annual fee deducted |
 | Wio Bank flexible | 3.25% | No condition |
 | Wio Bank (full rate) | 6% | Salary routing required |
 | Mashreq NEO PLUS (salary tier) | 6.25% | Salary routing required |

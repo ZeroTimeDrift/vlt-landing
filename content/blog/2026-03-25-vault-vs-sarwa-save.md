@@ -19,12 +19,12 @@ Here's an honest comparison.
 
 | | Vault | Sarwa Save+ |
 |---|---|---|
-| Current rate | ~5.4% (variable) | 4.3% gross |
+| Current rate | ~5.4% (variable) | 3.7% gross |
 | Annual management fee | None | 0.5% p.a. |
-| Rate you actually keep | ~5.4% | ~3.8% net |
+| Rate you actually keep | ~5.4% | ~3.2% net |
 | Lock-in period | None | None |
 
-The management fee is the part that gets lost in most comparisons. Sarwa advertises 4.3%. What lands in your account after their 0.5% annual fee is closer to 3.8%. On a $10,000 balance, that's roughly $50 per year leaving your account quietly. On $50,000, it's $250.
+The management fee is the part that gets lost in most comparisons. Sarwa advertises 3.7%. What lands in your account after their 0.5% annual fee is closer to 3.2%. On a $10,000 balance, that's roughly $50 per year leaving your account quietly. On $50,000, it's $250.
 
 Vault charges no management fee. The ~5.4% figure is what you earn, not a pre-fee headline.
 
@@ -60,6 +60,10 @@ Vault is built for simplicity — no specialist knowledge required — but onboa
 
 ---
 
+## A note on Sarwa's Halal option
+
+Sarwa also offers a Save Halal product (Emirates Islamic money market fund) at 4.0% gross — approximately 3.5% net after the same 0.5% fee. As of March 2026, the Halal option actually pays more than the conventional Save+ product. For users seeking an Islamic-compliant savings option, this is worth noting — though Vault's ~5.4% still leads by roughly 190 basis points net even against Sarwa's best rate.
+
 ## Sarwa's honest strengths
 
 Sarwa has been operating in the UAE for eight years. It manages over $800M in client assets. The Save product does what it says. UAE Pass integration is genuinely useful. If you want a licensed, operating product today with a local banking experience, Sarwa is a real option.
@@ -68,7 +72,7 @@ Sarwa has been operating in the UAE for eight years. It manages over $800M in cl
 
 ## Where Vault leads
 
-- **Net rate.** ~5.4% vs ~3.8% after fees — roughly 160 basis points more in your account.
+- **Net rate.** ~5.4% vs ~3.2% after fees — roughly 220 basis points more in your account.
 - **No fee drag.** A 0.5% annual fee compounds quietly. There's no equivalent on Vault.
 - **Different earnings mechanism.** Not purely Fed-rate-dependent. When traditional savings rates continue declining (the direction of travel given UAE base rate cuts in 2025), Vault's rate is set by a different market.
 

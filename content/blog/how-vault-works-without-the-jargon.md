@@ -80,3 +80,5 @@ We're a product that makes a previously inaccessible type of earnings accessible
 If you have questions we haven't answered here, [reach out](https://vlt.money). We'd rather you understand what you're signing up for.
 
 [Get early access →](https://vlt.money)
+
+*Vault earnings are fees paid by institutional borrowers — not guaranteed returns. Rates are variable. Vault is in the process of obtaining ADGM regulatory approval.*

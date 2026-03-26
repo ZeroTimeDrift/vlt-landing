@@ -64,4 +64,4 @@ True liquidity means you can access your money on a predictable timeline without
 
 Join the waitlist at [vlt.money](https://vlt.money)
 
-*Vault earnings are fees paid by borrowers in vetted lending markets — not guaranteed returns. Rates vary with market conditions. Withdrawals processed within 24 hours.*
+*Vault earnings are fees paid by borrowers in vetted lending markets — not guaranteed returns. Rates vary with market conditions. Withdrawals processed within 24 hours. Vault is in the process of obtaining ADGM regulatory approval.*

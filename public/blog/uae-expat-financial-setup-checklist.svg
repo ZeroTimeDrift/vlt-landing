@@ -1,0 +1,76 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.5" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="vaultBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <ellipse cx="900" cy="200" rx="400" ry="200" fill="rgba(0,102,255,0.03)"/>
+
+  <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">UAE EXPAT — FINANCIAL SETUP GUIDE</text>
+  <text x="100" y="88" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">12 Things to Sort in Your First 90 Days</text>
+
+  <!-- Checklist items — two columns -->
+  <!-- Left column -->
+  <text x="100" y="130" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="120" y="130" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Open bank account early</text>
+
+  <text x="100" y="155" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="120" y="155" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Check your savings rate</text>
+
+  <text x="100" y="180" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="120" y="180" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Sort salary routing before first payslip</text>
+
+  <text x="100" y="205" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="120" y="205" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Understand gratuity entitlement</text>
+
+  <text x="100" y="230" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="120" y="230" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Set up savings habit immediately</text>
+
+  <text x="100" y="255" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="120" y="255" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Pick a savings product that earns</text>
+
+  <!-- Right column -->
+  <text x="420" y="130" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="440" y="130" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Move idle Wise/PayPal balances</text>
+
+  <text x="420" y="155" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="440" y="155" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Plan repatriation before you need it</text>
+
+  <text x="420" y="180" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="440" y="180" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">UK ISA + pension (British expats)</text>
+
+  <text x="420" y="205" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="440" y="205" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Read your health insurance policy</text>
+
+  <text x="420" y="230" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="440" y="230" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Get a UAE credit card (3–6 months in)</text>
+
+  <text x="420" y="255" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.7)">✓</text>
+  <text x="440" y="255" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Plan the exit from day one</text>
+
+  <!-- Vault highlight at bottom -->
+  <rect x="80" y="286" width="580" height="58" rx="10" fill="rgba(0,102,255,0.07)" stroke="rgba(0,102,255,0.25)" stroke-width="1.5"/>
+  <text x="100" y="311" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.9)">Item 6: Savings that actually earns</text>
+  <text x="100" y="329" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">No lock-in · No fee · No salary routing</text>
+  <rect x="370" y="298" width="155" height="22" rx="4" fill="url(#vaultBar)" opacity="0.85"/>
+  <text x="447" y="313" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="800" fill="white">Vault ~5.4%</text>
+  <text x="535" y="313" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)" dx="6">variable</text>
+  <text x="447" y="332" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.25)">vs. 0% on current account</text>
+
+  <!-- Right callout -->
+  <rect x="740" y="110" width="360" height="240" rx="16" fill="rgba(0,102,255,0.05)" stroke="rgba(0,102,255,0.12)" stroke-width="1.5"/>
+  <rect x="740" y="110" width="360" height="3" rx="2" fill="url(#vaultBar)"/>
+  <text x="920" y="155" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)">SAVINGS GAP — YEAR 1</text>
+  <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="50" font-weight="800" fill="#0066FF">AED</text>
+  <text x="920" y="262" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="38" font-weight="800" fill="#60A5FA">20,000</text>
+  <text x="920" y="292" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">lost over 5 years at 1% vs ~5%</text>
+  <text x="920" y="315" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">on AED 100K — compound difference</text>
+
+  <text x="100" y="395" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Rates variable. Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
+</svg>

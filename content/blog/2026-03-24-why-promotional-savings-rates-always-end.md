@@ -60,4 +60,4 @@ Most people don't ask these questions. The banks count on that.
 
 Join the waitlist at [vlt.money](https://vlt.money)
 
-*Vault earnings are fees paid by borrowers in vetted lending markets — not guaranteed returns. Rates are variable and reflect current market conditions. Withdrawals processed within 24 hours.*
+*Vault earnings are fees paid by borrowers in vetted lending markets — not guaranteed returns. Rates are variable and reflect current market conditions. Withdrawals processed within 24 hours. Vault is in the process of obtaining ADGM regulatory approval.*

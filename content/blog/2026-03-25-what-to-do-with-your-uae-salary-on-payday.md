@@ -70,4 +70,4 @@ There's no minimum, no fee, no commitment. The only requirement is that you stop
 
 Join the waitlist at [vlt.money](https://vlt.money)
 
-*Vault earnings are fees paid by institutional borrowers — not guaranteed returns. Rates are variable. Withdrawals processed within 24 hours.*
+*Vault earnings are fees paid by institutional borrowers — not guaranteed returns. Rates are variable. Withdrawals processed within 24 hours. Vault is in the process of obtaining ADGM regulatory approval.*

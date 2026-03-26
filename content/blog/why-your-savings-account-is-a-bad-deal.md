@@ -67,3 +67,5 @@ If your savings account is paying you 1–2%, ask yourself: why?
 Not as a rhetorical question — actually ask it. Your bank has an answer. It's just not one that benefits you.
 
 [Get early access to Vault →](https://vlt.money)
+
+*Vault earnings are fees paid by institutional borrowers — not guaranteed returns. Rates are variable. Vault is in the process of obtaining ADGM regulatory approval.*
