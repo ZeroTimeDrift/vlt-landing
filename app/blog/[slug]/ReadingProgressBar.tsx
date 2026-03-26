@@ -28,7 +28,7 @@ export default function ReadingProgressBar() {
         right: 0,
         height: 3,
         zIndex: 60,
-        background: "rgba(255,255,255,0.06)",
+        background: "rgba(255,255,255,0.08)",
         opacity: done ? 0 : 1,
         transition: "opacity 0.4s ease",
         pointerEvents: "none",
