@@ -128,7 +128,7 @@ function PartnerRevenueEstimator() {
   return (
     <div className="vault-card p-6 sm:p-8 mt-6">
       <p className="text-[11px] text-vault-muted font-medium uppercase tracking-[0.2em] mb-6">
-        Estimate your platform&apos;s yield revenue
+        Estimate your platform&apos;s earnings potential
       </p>
 
       {/* Sliders */}
@@ -200,7 +200,7 @@ function PartnerRevenueEstimator() {
       </div>
 
       <p className="text-xs text-vault-muted text-center mb-4">
-        Based on ~5.4% yield. Revenue share is indicative — contact us for exact terms. Rates are variable.
+        Based on ~5.4% current rate. Revenue share is indicative — contact us for exact terms. Rates are variable.
       </p>
 
       <div className="text-center">
@@ -262,7 +262,7 @@ export default function PartnersPage() {
             </p>
 
             <h1 className="hero-animate delay-1 text-[1.65rem] sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6">
-              Yield API for fintechs
+              Earnings API for fintechs
             </h1>
 
             <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto">
@@ -288,7 +288,7 @@ export default function PartnersPage() {
             <div className="text-center mb-16">
               <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">How it works</p>
               <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight">
-                Three steps to embedded yield
+                Three steps to embedded earnings
               </h2>
             </div>
 
@@ -348,16 +348,16 @@ export default function PartnersPage() {
                 {
                   icon: Zap,
                   label: "One integration",
-                  body: "Single API call to activate yield on idle balances. No infrastructure build required.",
+                  body: "Single API call to activate earnings on idle balances. No infrastructure build required.",
                 },
                 {
                   icon: Layers,
                   label: "White-label ready",
-                  body: "Users see your product — Vault handles the yield infrastructure behind the scenes.",
+                  body: "Users see your product — Vault handles the earnings infrastructure behind the scenes.",
                 },
                 {
                   icon: TrendingUp,
-                  label: "~5.4% current yield",
+                  label: "~5.4% current rate",
                   body: "Pass through real market rates from vetted lending markets. Rates are variable, not guaranteed.",
                 },
                 {

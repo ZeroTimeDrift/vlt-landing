@@ -1,0 +1,64 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+
+  <!-- Divider line -->
+  <line x1="600" y1="40" x2="600" y2="370" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- LEFT SIDE: US -->
+  <text x="300" y="64" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.14em" fill="rgba(239,68,68,0.5)">UNITED STATES</text>
+
+  <!-- US flag accent bar -->
+  <rect x="80" y="74" width="440" height="2" rx="1" fill="rgba(239,68,68,0.2)"/>
+
+  <!-- US: banned label -->
+  <rect x="160" y="110" width="280" height="44" rx="6" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.2)" stroke-width="1"/>
+  <text x="300" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.6)" letter-spacing="0.05em">GENIUS ACT (JULY 2025)</text>
+  <text x="300" y="146" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.5)">Passive earnings banned for US companies</text>
+
+  <rect x="160" y="168" width="280" height="44" rx="6" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.2)" stroke-width="1"/>
+  <text x="300" y="186" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.6)" letter-spacing="0.05em">CLARITY ACT (MARCH 2026)</text>
+  <text x="300" y="204" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.5)">Dollar savings earnings explicitly prohibited</text>
+
+  <!-- US result -->
+  <text x="300" y="268" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" fill="rgba(239,68,68,0.25)">0%</text>
+  <text x="300" y="296" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.35)">passive earnings: banned</text>
+
+  <!-- RIGHT SIDE: UAE -->
+  <text x="900" y="64" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.14em" fill="rgba(0,102,255,0.7)">UNITED ARAB EMIRATES</text>
+
+  <!-- UAE accent bar -->
+  <rect x="680" y="74" width="440" height="2" rx="1" fill="rgba(0,102,255,0.3)"/>
+
+  <!-- UAE: permitted label -->
+  <rect x="760" y="110" width="280" height="44" rx="6" fill="rgba(0,102,255,0.07)" stroke="rgba(0,102,255,0.25)" stroke-width="1"/>
+  <text x="900" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(0,102,255,0.8)" letter-spacing="0.05em">ADGM FRAMEWORK</text>
+  <text x="900" y="146" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">Savings earnings from lending markets: permitted</text>
+
+  <rect x="760" y="168" width="280" height="44" rx="6" fill="rgba(16,185,129,0.05)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+  <text x="900" y="186" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(16,185,129,0.7)" letter-spacing="0.05em">VAULT — ABU DHABI</text>
+  <text x="900" y="204" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">No lock-in · No conditions · Pursuing ADGM approval</text>
+
+  <!-- UAE result -->
+  <text x="900" y="268" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" fill="#0066FF">~5.4%</text>
+  <text x="900" y="296" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">current earnings rate · variable</text>
+
+  <!-- Footer -->
+  <text x="600" y="360" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(255,255,255,0.3)">Built where it's legal.</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">Rate variable, not guaranteed. Vault is in the process of obtaining ADGM regulatory approval. vlt.money</text>
+</svg>

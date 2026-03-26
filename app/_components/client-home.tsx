@@ -276,7 +276,7 @@ function SocialProofStrip({ joined = false }: { joined?: boolean }) {
   const avatarStyles: CSSProperties[] = [
     { background: "linear-gradient(135deg, #0066FF, #3385FF)", zIndex: 3 },
     { background: "linear-gradient(135deg, #10B981, #059669)", zIndex: 2, marginLeft: -8 },
-    { background: "linear-gradient(135deg, #6366F1, #4F46E5)", zIndex: 1, marginLeft: -8 },
+    { background: "linear-gradient(135deg, #6B7280, #4B5563)", zIndex: 1, marginLeft: -8 },
   ];
   return (
     <div className="flex items-center gap-2.5">
