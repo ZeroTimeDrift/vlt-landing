@@ -35,11 +35,13 @@ function VaultLogo({ size = 28 }: { size?: number }) {
 }
 
 // ── Live Balance Card (matches app design exactly) ────────────────────────────
-function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
+function LiveBalanceCard() {
   const [earned, setEarned] = useState(0);
+  const [sinceArrival, setSinceArrival] = useState(0);
   const DAILY_EARN = 12450 * 0.054 / 365;
   const TICK_SEC = 3;
   const TICK_AMOUNT = DAILY_EARN / 86400 * TICK_SEC;
+  const ARRIVAL_TICK = 10000 * 0.054 / 31536000 * 2;
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -48,16 +50,23 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
     return () => clearInterval(id);
   }, []);
 
+  useEffect(() => {
+    const id = setInterval(() => {
+      setSinceArrival(prev => prev + ARRIVAL_TICK);
+    }, 2000);
+    return () => clearInterval(id);
+  }, []);
+
   return (
-    <div className={`vault-card w-full ${compact ? "p-4" : "p-6 max-w-sm"}`}>
+    <div className="vault-card w-full p-6 max-w-sm">
       {/* Header */}
-      <div className={`flex items-center justify-between ${compact ? "mb-4" : "mb-6"}`}>
+      <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-2">
-          <VaultLogo size={compact ? 16 : 20} />
-          <span className={`text-vault-text-dim font-medium uppercase tracking-wider ${compact ? "text-[10px]" : "text-xs"}`}>Your Vault</span>
+          <VaultLogo size={20} />
+          <span className="text-vault-text-dim font-medium uppercase tracking-wider text-xs">Your Vault</span>
         </div>
         <span
-          className={`px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5 ${compact ? "text-[9px]" : "text-[10px]"}`}
+          className="px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5 text-[10px]"
           style={{ background: "rgba(16,185,129,0.08)", color: "#10B981", border: "1px solid rgba(16,185,129,0.15)" }}
         >
           <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#10B981" }} />
@@ -66,50 +75,58 @@ function LiveBalanceCard({ compact = false }: { compact?: boolean }) {
       </div>
 
       {/* Balance */}
-      <div className={compact ? "mb-4" : "mb-6"}>
-        <p className={`text-vault-muted ${compact ? "text-[10px] mb-1.5" : "text-xs mb-2"}`}>Total balance</p>
+      <div className="mb-6">
+        <p className="text-vault-muted text-xs mb-2">Total balance</p>
         <div className="flex items-baseline gap-1">
-          <span className={`text-vault-text-dim font-medium ${compact ? "text-sm" : "text-lg"}`}>$</span>
-          <span className={`font-bold tabular tracking-tight text-vault-text ${compact ? "text-3xl" : "text-5xl"}`}>
+          <span className="text-vault-text-dim font-medium text-lg">$</span>
+          <span className="font-bold tabular tracking-tight text-vault-text text-5xl">
             12,450
           </span>
-          <span className={`font-bold tabular text-vault-text-dim ${compact ? "text-sm" : "text-xl"}`}>.00</span>
+          <span className="font-bold tabular text-vault-text-dim text-xl">.00</span>
         </div>
 
         {/* Earned today ticker */}
-        <div className={compact ? "mt-2" : "mt-3"}>
-          <p className={`text-vault-muted ${compact ? "text-[10px]" : "text-xs"}`}>Earned today</p>
-          <span className={`font-semibold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
+        <div className="mt-3">
+          <p className="text-vault-muted text-xs">Earned today</p>
+          <span className="font-semibold tabular text-sm" style={{ color: "#10B981" }}>
             ${earned.toFixed(4)}
           </span>
         </div>
 
         {/* APY badge */}
-        <div className={`flex items-center gap-2 ${compact ? "mt-2" : "mt-3"}`}>
+        <div className="flex items-center gap-2 mt-3">
           <div
             className="flex items-center gap-1.5 rounded-full px-3 py-1"
             style={{ background: "rgba(16,185,129,0.08)", border: "1px solid rgba(16,185,129,0.15)" }}
           >
-            <TrendingUp className={compact ? "w-3 h-3" : "w-3.5 h-3.5"} style={{ color: "#10B981" }} />
-            <span className={`font-bold tabular ${compact ? "text-xs" : "text-sm"}`} style={{ color: "#10B981" }}>
+            <TrendingUp className="w-3.5 h-3.5" style={{ color: "#10B981" }} />
+            <span className="font-bold tabular text-sm" style={{ color: "#10B981" }}>
               ~5.4% current
             </span>
           </div>
-          {!compact && <span className="text-xs text-vault-muted">via vetted markets</span>}
+          <span className="text-xs text-vault-muted">via vetted markets</span>
+        </div>
+
+        {/* Earned since arrival */}
+        <div className="mt-3">
+          <p className="text-[11px] text-vault-muted">In the time you&#39;ve been here:</p>
+          <span className="text-[14px] font-semibold tabular-nums" style={{ color: '#10B981', transition: 'all 0.3s' }}>
+            +${sinceArrival.toFixed(2)}
+          </span>
         </div>
       </div>
 
       {/* Actions */}
       <div className="flex gap-3">
-        <button className={`flex-1 flex items-center justify-center gap-2 btn-accent rounded-2xl text-sm ${compact ? "py-2.5" : "py-3"}`}>
-          <ArrowDownLeft className={compact ? "w-3.5 h-3.5" : "w-4 h-4"} />
+        <button className="flex-1 flex items-center justify-center gap-2 btn-accent rounded-2xl text-sm py-3">
+          <ArrowDownLeft className="w-4 h-4" />
           Deposit
         </button>
         <button
-          className={`flex-1 flex items-center justify-center gap-2 border rounded-2xl text-sm font-bold transition-colors hover:border-vault-accent/40 hover:text-vault-accent-light ${compact ? "py-2.5" : "py-3"}`}
+          className="flex-1 flex items-center justify-center gap-2 border rounded-2xl text-sm font-bold transition-colors hover:border-vault-accent/40 hover:text-vault-accent-light py-3"
           style={{ borderColor: "rgba(255,255,255,0.2)", color: "#9CA3AF" }}
         >
-          <ArrowUpRight className={compact ? "w-3.5 h-3.5" : "w-4 h-4"} />
+          <ArrowUpRight className="w-4 h-4" />
           Withdraw
         </button>
       </div>
@@ -509,34 +526,9 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 </div>
               </div>
 
-              {/* Right: Phone Frame + LiveBalanceCard */}
+              {/* LiveBalanceCard — all viewports */}
               <div className="card-animate delay-card flex-shrink-0 w-full max-w-sm">
-                {/* Phone mockup with LiveBalanceCard — desktop */}
-                <div className="hidden lg:block">
-                  <div
-                    className="relative mx-auto overflow-hidden"
-                    style={{ width: 280, height: 560, borderRadius: 40, background: "#0F1117" }}
-                  >
-                    {/* LiveBalanceCard inside phone frame */}
-                    <div className="absolute inset-0 flex items-center justify-center p-4" style={{ zIndex: 0 }}>
-                      <LiveBalanceCard compact />
-                    </div>
-                    {/* Phone frame overlay */}
-                    <svg
-                      viewBox="0 0 280 560"
-                      fill="none"
-                      className="absolute inset-0 w-full h-full"
-                      style={{ zIndex: 1, pointerEvents: "none" }}
-                    >
-                      <rect x="2" y="2" width="276" height="556" rx="38" stroke="rgba(255,255,255,0.12)" strokeWidth="3" fill="none" />
-                      <rect x="104" y="12" width="72" height="6" rx="3" fill="rgba(255,255,255,0.1)" />
-                    </svg>
-                  </div>
-                </div>
-                {/* LiveBalanceCard on mobile and tablet */}
-                <div className="lg:hidden">
-                  <LiveBalanceCard />
-                </div>
+                <LiveBalanceCard />
               </div>
 
             </div>
