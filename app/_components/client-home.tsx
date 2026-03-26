@@ -272,6 +272,12 @@ function WaitlistForm({ id, compact = false, onSuccess }: { id?: string; compact
       });
       if (!res.ok) throw new Error("fail");
       setStatus("success");
+      if (typeof window !== "undefined" && typeof window.gtag === "function") {
+        window.gtag("event", "waitlist_signup", {
+          source,
+          referrer: document.referrer || "(direct)",
+        });
+      }
       onSuccess?.();
     } catch {
       setErrorMsg("Something went wrong.");

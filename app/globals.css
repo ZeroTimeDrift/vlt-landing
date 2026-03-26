@@ -276,6 +276,11 @@ input[type="range"]::-moz-range-thumb {
 /* Selection */
 ::selection { background: rgba(0, 102, 255, 0.3); color: white; }
 
+/* Search placeholder */
+.search-input::placeholder {
+  color: #9CA3AF;
+}
+
 /* Focus */
 input:focus-visible, button:focus-visible, a:focus-visible {
   outline: 2px solid rgba(0, 102, 255, 0.5);
