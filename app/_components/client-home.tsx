@@ -499,16 +499,15 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 </p>
 
                 <h1 className="hero-animate delay-1 text-[1.65rem] sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
-                  Your savings account
+                  Your 4% savings rate
                   <br />
-                  earns 1–2%.
-                  <br />
-                  <span style={{ color: "#0066FF" }}>Yours could earn ~5.4%.</span>
+                  just ended.{" "}
+                  <span style={{ color: "#0066FF" }}>Ours didn&apos;t.</span>
                 </h1>
 
                 <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0">
-                  Vault puts your money to work in vetted lending markets.
-                  Borrowers pay fees to access capital. You keep those fees. Withdraw anytime.
+                  Vault still earns ~5.4% from institutional lending markets.
+                  No lock-ups, no conditions. Same money, more of it.
                 </p>
 
                 <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-4">
