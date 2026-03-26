@@ -18,7 +18,7 @@
   <rect x="80" y="60" width="460" height="300" rx="16" fill="#0D1F35" stroke="#1E3A5F" stroke-width="1.5"/>
 
   <!-- Vault label -->
-  <text x="310" y="105" text-anchor="middle" fill="#60A5FA" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2">VAULT</text>
+  <text x="310" y="105" text-anchor="middle" fill="#0066FF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2">VAULT</text>
 
   <!-- Vault rate -->
   <text x="310" y="185" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700">5.4%</text>
@@ -26,10 +26,10 @@
 
   <!-- Vault conditions -->
   <text x="310" y="258" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">minimum deposit</text>
-  <text x="310" y="281" text-anchor="middle" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">none</text>
+  <text x="310" y="281" text-anchor="middle" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">none</text>
 
   <text x="310" y="318" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">salary routing required</text>
-  <text x="310" y="341" text-anchor="middle" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">none</text>
+  <text x="310" y="341" text-anchor="middle" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">none</text>
 
   <!-- VS divider -->
   <circle cx="600" cy="210" r="28" fill="#111827" stroke="#374151" stroke-width="1.5"/>

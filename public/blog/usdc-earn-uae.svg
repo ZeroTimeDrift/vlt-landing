@@ -1,0 +1,66 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.5" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="vaultBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="dimBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <ellipse cx="900" cy="200" rx="400" ry="200" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Header -->
+  <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">USDC SAVINGS — UAE 2026</text>
+  <text x="100" y="88" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="rgba(255,255,255,0.9)">Exchange USDC earns 1–3%. What else is there?</text>
+
+  <!-- Row 1: Exchange flexible -->
+  <text x="100" y="138" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">USDC on exchange (flexible)</text>
+  <rect x="290" y="124" width="55" height="16" rx="3" fill="url(#dimBar)" opacity="0.5"/>
+  <text x="353" y="138" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#EF4444" dx="6">1.5–3%</text>
+  <text x="430" y="138" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">variable, promotional — subject to change</text>
+
+  <!-- Row 2: Wio -->
+  <text x="100" y="173" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Wio Bank (no salary)</text>
+  <rect x="290" y="159" width="113" height="16" rx="3" fill="url(#dimBar)"/>
+  <text x="411" y="173" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)" dx="6">3.25% AED</text>
+
+  <!-- Row 3: StashAway -->
+  <text x="100" y="208" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple UAE</text>
+  <rect x="290" y="194" width="144" height="16" rx="3" fill="url(#dimBar)"/>
+  <text x="442" y="208" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.35)" dx="6">3.9%</text>
+
+  <!-- Row 4: Vault highlighted -->
+  <rect x="80" y="228" width="590" height="60" rx="10" fill="rgba(0,102,255,0.07)" stroke="rgba(0,102,255,0.25)" stroke-width="1.5"/>
+  <text x="100" y="260" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="rgba(255,255,255,0.9)">Vault</text>
+  <text x="100" y="278" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)">No exchange. No wallet. No seed phrase. Deposit USD, earn.</text>
+  <rect x="290" y="240" width="216" height="22" rx="4" fill="url(#vaultBar)" opacity="0.9"/>
+  <text x="514" y="256" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800" fill="#0066FF" dx="8">~5.4%</text>
+  <rect x="519" y="263" width="58" height="16" rx="8" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <text x="548" y="274" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="#10B981">CURRENT</text>
+
+  <!-- Right callout -->
+  <rect x="740" y="110" width="360" height="240" rx="16" fill="rgba(0,102,255,0.05)" stroke="rgba(0,102,255,0.12)" stroke-width="1.5"/>
+  <rect x="740" y="110" width="360" height="3" rx="2" fill="url(#vaultBar)"/>
+
+  <text x="920" y="153" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)">ON $10,000 USDC</text>
+
+  <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#0066FF">$540</text>
+  <text x="920" y="248" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="rgba(255,255,255,0.5)">per year at Vault ~5.4%</text>
+
+  <line x1="780" y1="268" x2="1060" y2="268" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <text x="920" y="295" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.3)">vs. $150–300 on exchange</text>
+  <text x="920" y="318" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">at 1.5–3% flexible USDC rate</text>
+
+  <!-- Footer -->
+  <text x="100" y="400" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Vault rate variable, not guaranteed. Exchange rates approximate. Pursuing ADGM regulatory authorisation. vlt.money</text>
+</svg>

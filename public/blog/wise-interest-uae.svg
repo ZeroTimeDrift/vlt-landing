@@ -51,7 +51,7 @@
   <text x="100" y="322" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="rgba(255,255,255,0.9)">Vault</text>
   <text x="100" y="338" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)">No fee. No lock-in. No minimum.</text>
   <rect x="280" y="304" width="243" height="22" rx="4" fill="url(#vaultBar)" opacity="0.9"/>
-  <text x="531" y="320" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800" fill="#60A5FA" dx="8">~5.4%</text>
+  <text x="531" y="320" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800" fill="#0066FF" dx="8">~5.4%</text>
   <rect x="536" y="327" width="58" height="16" rx="8" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
   <text x="565" y="338" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="#10B981">CURRENT</text>
 

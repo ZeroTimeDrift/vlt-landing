@@ -28,7 +28,7 @@
   <!-- FAB (expired) -->
   <text x="100" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">FAB (post-promo)</text>
   <rect x="280" y="134" width="146" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="434" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.6)" dx="8">3.25%</text>
+  <text x="434" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.6)" dx="8">~2.5%</text>
   <rect x="406" y="143" width="5" height="5" rx="1" fill="#EF4444" opacity="0.5"/>
   <text x="420" y="148" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(239,68,68,0.5)">was 4%</text>
 
@@ -52,7 +52,7 @@
   <text x="100" y="322" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="rgba(255,255,255,0.9)">Vault</text>
   <text x="100" y="338" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)">No condition. No fee. No lock-in.</text>
   <rect x="280" y="304" width="243" height="22" rx="4" fill="url(#vaultBar)" opacity="0.9"/>
-  <text x="531" y="320" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800" fill="#60A5FA" dx="8">~5.4%</text>
+  <text x="531" y="320" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800" fill="#0066FF" dx="8">~5.4%</text>
   <!-- current label -->
   <rect x="536" y="327" width="58" height="16" rx="8" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
   <text x="565" y="338" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="#10B981">CURRENT</text>
@@ -65,8 +65,8 @@
 
   <!-- gap numbers -->
   <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#0066FF">+AED</text>
-  <text x="920" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" fill="#60A5FA">8,000</text>
-  <text x="920" y="295" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">Vault ~5.4% vs. post-promo ~3.25%</text>
+  <text x="920" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" fill="#0066FF">2,900</text>
+  <text x="920" y="295" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">Vault ~5.4% vs. FAB post-promo ~2.5%</text>
   <text x="920" y="315" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">per year, on 100,000 AED deposit</text>
 
   <!-- Footer -->

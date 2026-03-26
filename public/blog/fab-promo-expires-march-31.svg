@@ -33,7 +33,7 @@
   <line x1="230" y1="200" x2="430" y2="200" stroke="#EF4444" stroke-width="2.5"/>
 
   <!-- New FAB rate -->
-  <text x="330" y="250" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="rgba(255,255,255,0.4)">3.25%</text>
+  <text x="330" y="250" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="rgba(255,255,255,0.4)">~2.5%</text>
   <text x="330" y="272" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">after March 31</text>
 
   <!-- Expiry badge -->
