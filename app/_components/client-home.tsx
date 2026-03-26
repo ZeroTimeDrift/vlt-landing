@@ -335,15 +335,21 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
         style={{
           background: "rgba(0,102,255,0.12)",
           borderBottom: "1px solid rgba(0,102,255,0.15)",
-          padding: "7px 24px",
+          padding: "8px 24px",
           textAlign: "center",
         }}
       >
         <p className="text-xs font-medium" style={{ color: "#9CA3AF" }}>
-          FAB&apos;s 4% savings rate ended March 31.{" "}
-          <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>
-            Vault still earns ~5.4% — no promo, no expiry. →
-          </a>
+          {/* Mobile: short */}
+          <span className="sm:hidden">
+            FAB 4% ended.{" "}
+            <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% →</a>
+          </span>
+          {/* Desktop: full */}
+          <span className="hidden sm:inline">
+            FAB&apos;s 4% savings rate ended March 31.{" "}
+            <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% — no promo, no expiry. →</a>
+          </span>
         </p>
       </div>
 
