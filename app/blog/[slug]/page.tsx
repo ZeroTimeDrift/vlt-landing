@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getLatestPosts, getPostBySlug } from "@/lib/blog";
 import MobileStickyCtaBar from "./MobileStickyCtaBar";
+import ReadingProgressBar from "./ReadingProgressBar";
 
 interface Props {
   params: { slug: string };
@@ -74,6 +75,8 @@ export default function BlogPost({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+
+      <ReadingProgressBar />
 
       <nav
         className="fixed top-0 inset-x-0 z-50"
