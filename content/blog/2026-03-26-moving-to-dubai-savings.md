@@ -45,7 +45,7 @@ The default savings rate at these banks sits in the 0.5–2.5% range. Most accou
 
 There are higher-rate options with conditions:
 - Wio Bank: up to 6% if you route your salary there
-- Mashreq NEO PLUS: up to 6.25% with AED 10K/month salary and other conditions
+- Mashreq NEO PLUS: up to 6.25% with AED 10K/month salary routing; also a 5% AED non-salary tier (requires AED 50,000 minimum balance and a maximum of two withdrawals per month — exceed that and you forfeit the month's interest)
 
 If your employer pays in AED and you're willing to salary route, these are worth considering. If you're paid internationally (common for contractors and remote workers), the salary routing condition often isn't practical.
 

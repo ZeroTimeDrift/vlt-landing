@@ -11,6 +11,8 @@ If you're freelancing or contracting in the UAE — on a freelance visa, an empl
 
 Most of the highest-rate UAE savings products require salary routing: your employer must directly deposit your monthly salary into the bank offering the high rate. Wio's 6% and Mashreq NEO PLUS's 6.25% both have this requirement.
 
+Mashreq NEO PLUS does offer a non-salary tier at 5% AED — but it requires maintaining an AED 50,000 average monthly balance, and limits you to two withdrawals per month. Exceed that limit in any month and you forfeit all interest earned that month.
+
 Freelancers and contractors typically don't have a regular salaried employer. Income is variable, paid by multiple clients, often arriving in foreign currencies. Salary routing to a specific UAE bank isn't possible.
 
 That leaves a specific subset of options worth knowing about.
@@ -93,6 +95,7 @@ Some banks have historically been more friction-free for freelance visa holders.
 | Wio (no salary routing) | 3.25% AED | AED only, no routing required |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee, USD money market |
 | StashAway Simple UAE | 3.9% | No fee, DFSA-regulated |
+| Mashreq NEO PLUS (non-salary) | 5% AED | AED 50K minimum; max 2 withdrawals/month or forfeit interest |
 | **Vault** | **~5.4% (variable)** | **No fee, no routing, no minimum, USD** |
 
 ---
