@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getAllPosts } from "@/lib/blog";
 import BlogList from "./BlogList";
+import BlogIndexCta from "./BlogIndexCta";
 
 export const metadata: Metadata = {
   title: "Blog — Vault",
@@ -67,6 +68,8 @@ export default function BlogIndex() {
               Insights on savings, lending markets, and making your money work harder.
             </p>
           </div>
+
+          <BlogIndexCta />
 
           {posts.length === 0 ? (
             <p className="text-white/30 text-sm">Posts coming soon.</p>

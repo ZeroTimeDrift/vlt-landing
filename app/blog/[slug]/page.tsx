@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getLatestPosts, getPostBySlug } from "@/lib/blog";
 import MobileStickyCtaBar from "./MobileStickyCtaBar";
 import ReadingProgressBar from "./ReadingProgressBar";
+import BlogBottomCta from "./BlogBottomCta";
 
 interface Props {
   params: { slug: string };
@@ -164,6 +165,27 @@ export default function BlogPost({ params }: Props) {
             dangerouslySetInnerHTML={{ __html: post.content ?? "" }}
           />
 
+          {/* Mid-article callout */}
+          <div
+            className="flex flex-col sm:flex-row items-center justify-between gap-4 my-10 px-6 py-4"
+            style={{
+              background: "rgba(0,102,255,0.05)",
+              border: "1px solid rgba(0,102,255,0.10)",
+              borderRadius: 16,
+            }}
+          >
+            <span className="text-white font-semibold text-sm">
+              Vault earns ~5.4% on your savings.
+            </span>
+            <a
+              href="#cta-form"
+              className="btn-accent text-xs font-bold rounded-2xl whitespace-nowrap"
+              style={{ padding: "8px 16px" }}
+            >
+              Get Early Access
+            </a>
+          </div>
+
           {/* Related posts */}
           {relatedPosts.length > 0 && (
             <>
@@ -209,17 +231,8 @@ export default function BlogPost({ params }: Props) {
 
           <div className="section-divider mt-16 mb-12" />
 
-          {/* CTA */}
-          <div data-bottom-cta className="card p-8 text-center" style={{ background: "rgba(0,102,255,0.03)", borderColor: "rgba(0,102,255,0.10)" }}>
-            <p className="text-white/30 text-xs font-medium uppercase tracking-[0.2em] mb-3">Ready to earn more?</p>
-            <p className="text-white text-[17px] font-bold mb-2">Put your savings to work.</p>
-            <p className="text-white/40 text-sm mb-6 leading-relaxed">
-              Join the waitlist and be first in line when Vault launches.
-            </p>
-            <a href="/#waitlist" className="inline-block px-6 py-3 rounded-2xl text-sm font-bold text-white btn-accent">
-              Get Early Access
-            </a>
-          </div>
+          {/* CTA with inline waitlist form */}
+          <BlogBottomCta />
         </div>
       </main>
 

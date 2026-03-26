@@ -49,7 +49,7 @@ export default function MobileStickyCtaBar() {
           Earn ~5.4% on your savings.
         </span>
         <a
-          href="/#waitlist"
+          href="#cta-form"
           className="btn-accent text-[12px] font-bold rounded-2xl"
           style={{ padding: "7px 14px" }}
         >
