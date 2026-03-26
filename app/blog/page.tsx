@@ -33,11 +33,6 @@ export default function BlogIndex() {
 
   return (
     <>
-      <div
-        className="fixed inset-0 pointer-events-none"
-        style={{ background: "#0F1117", zIndex: 0 }}
-      />
-
       <nav
         className="fixed top-0 inset-x-0 z-50"
         style={{

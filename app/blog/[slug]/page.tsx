@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getLatestPosts, getPostBySlug } from "@/lib/blog";
+import MobileStickyCtaBar from "./MobileStickyCtaBar";
 
 interface Props {
   params: { slug: string };
@@ -72,11 +73,6 @@ export default function BlogPost({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
-      <div
-        className="fixed inset-0 pointer-events-none"
-        style={{ background: "#0F1117", zIndex: 0 }}
       />
 
       <nav
@@ -211,7 +207,7 @@ export default function BlogPost({ params }: Props) {
           <div className="section-divider mt-16 mb-12" />
 
           {/* CTA */}
-          <div className="card p-8 text-center" style={{ background: "rgba(0,102,255,0.03)", borderColor: "rgba(0,102,255,0.10)" }}>
+          <div data-bottom-cta className="card p-8 text-center" style={{ background: "rgba(0,102,255,0.03)", borderColor: "rgba(0,102,255,0.10)" }}>
             <p className="text-white/30 text-xs font-medium uppercase tracking-[0.2em] mb-3">Ready to earn more?</p>
             <p className="text-white text-[17px] font-bold mb-2">Put your savings to work.</p>
             <p className="text-white/40 text-sm mb-6 leading-relaxed">
@@ -245,6 +241,8 @@ export default function BlogPost({ params }: Props) {
           Vault is a product of Prometheus Labs, incorporated in Abu Dhabi, UAE. Earnings are fees paid by borrowers for access to capital — not interest or guaranteed returns. Rates vary with market conditions.
         </p>
       </footer>
+
+      <MobileStickyCtaBar />
     </>
   );
 }
