@@ -231,12 +231,13 @@ html, body {
   padding: 0;
 }
 .prose-vault table {
+  display: block;
   width: 100%;
   border-collapse: collapse;
   margin: 1.5em 0;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 12px;
-  overflow: hidden;
+  overflow-x: auto;
 }
 .prose-vault th,
 .prose-vault td {
