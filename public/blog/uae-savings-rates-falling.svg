@@ -1,0 +1,62 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.5" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="vaultBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <ellipse cx="890" cy="200" rx="400" ry="200" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="105" x2="1200" y2="105" stroke="#0d1a2e" stroke-width="1"/>
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#0d1a2e" stroke-width="1"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#0d1a2e" stroke-width="1"/>
+
+  <!-- Headline text -->
+  <text x="100" y="55" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">UAE savings rates are falling.</text>
+  <text x="100" y="85" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="#0066FF">One account isn't.</text>
+
+  <!-- Period labels -->
+  <text x="220" y="360" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)" text-anchor="middle">Peak (2024)</text>
+  <text x="560" y="360" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)" text-anchor="middle">Today</text>
+
+  <!-- Sarwa peak bar -->
+  <rect x="120" y="168" width="60" height="168" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <text x="150" y="162" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">5.1%</text>
+  <text x="150" y="378" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" text-anchor="middle">Sarwa</text>
+
+  <!-- StashAway peak bar -->
+  <rect x="220" y="147" width="60" height="189" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <text x="250" y="141" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">5.0%</text>
+  <text x="250" y="378" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" text-anchor="middle">StashAway</text>
+
+  <!-- Arrow down -->
+  <path d="M 320 200 L 400 200" stroke="rgba(255,255,255,0.12)" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="400,196 410,200 400,204" fill="rgba(255,255,255,0.12)"/>
+
+  <!-- Sarwa now bar -->
+  <rect x="460" y="273" width="60" height="63" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <text x="490" y="267" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">3.2%</text>
+  <text x="490" y="378" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" text-anchor="middle">Sarwa</text>
+
+  <!-- StashAway now bar -->
+  <rect x="560" y="252" width="60" height="84" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <text x="590" y="246" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">3.9%</text>
+  <text x="590" y="378" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" text-anchor="middle">StashAway</text>
+
+  <!-- Vault bar — tall, bright, stable -->
+  <rect x="850" y="84" width="80" height="252" rx="4" fill="url(#vaultBar)" opacity="0.95"/>
+  <text x="890" y="76" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="bold" fill="rgba(255,255,255,0.9)" text-anchor="middle">~5.4%</text>
+  <text x="890" y="378" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-weight="600">Vault</text>
+  <text x="890" y="393" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" text-anchor="middle">demand-driven</text>
+
+  <!-- Footer -->
+  <text x="100" y="412" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Rates variable. Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
+</svg>

@@ -357,6 +357,13 @@ function SocialProofStrip({ joined = false }: { joined?: boolean }) {
 
 export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostData[] }) {
   const [heroJoined, setHeroJoined] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [isMenuOpen]);
+
   const trustRef = useReveal<HTMLDivElement>();
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
@@ -387,6 +394,19 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             <a href="#how-it-works" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">How it works</a>
             <a href="#faq" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">FAQ</a>
             <a href="/blog" className="hidden md:inline text-sm text-vault-muted hover:text-vault-text-dim transition-colors">Blog</a>
+            {/* Hamburger — mobile only */}
+            <button
+              aria-label="Toggle menu"
+              className="md:hidden flex items-center justify-center w-9 h-9 rounded-lg transition-colors"
+              style={{ color: isMenuOpen ? "#FFFFFF" : "#9CA3AF" }}
+              onClick={() => setIsMenuOpen(o => !o)}
+            >
+              {isMenuOpen ? (
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="4" y1="4" x2="16" y2="16"/><line x1="16" y1="4" x2="4" y2="16"/></svg>
+              ) : (
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="3" y1="5" x2="17" y2="5"/><line x1="3" y1="10" x2="17" y2="10"/><line x1="3" y1="15" x2="17" y2="15"/></svg>
+              )}
+            </button>
             <a
               href="#waitlist"
               className="px-4 py-2 rounded-2xl text-sm btn-accent"
@@ -395,7 +415,56 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             </a>
           </div>
         </div>
+
+        {/* ── Mobile Drawer ─────────────────────────────────────── */}
+        <div
+          className="md:hidden"
+          style={{
+            background: "rgba(15,17,23,0.98)",
+            backdropFilter: "blur(16px)",
+            WebkitBackdropFilter: "blur(16px)",
+            borderBottom: "1px solid rgba(255,255,255,0.08)",
+            padding: "16px 24px 24px",
+            transform: isMenuOpen ? "translateY(0)" : "translateY(-8px)",
+            opacity: isMenuOpen ? 1 : 0,
+            pointerEvents: isMenuOpen ? "auto" : "none",
+            transition: "transform 200ms cubic-bezier(0.16,1,0.3,1), opacity 200ms ease",
+          }}
+        >
+          {[
+            { href: "#how-it-works", label: "How it works" },
+            { href: "#faq", label: "FAQ" },
+            { href: "/blog", label: "Blog" },
+          ].map(link => (
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={() => setIsMenuOpen(false)}
+              className="flex items-center justify-between py-3.5 px-2 text-[15px] font-medium text-vault-text-dim hover:text-vault-text transition-colors"
+            >
+              {link.label}
+              <span className="text-vault-muted text-xs">→</span>
+            </a>
+          ))}
+          <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)", marginTop: 8, paddingTop: 16 }}>
+            <a
+              href="#waitlist"
+              onClick={() => setIsMenuOpen(false)}
+              className="block w-full text-center px-4 py-3 rounded-2xl text-sm font-bold btn-accent"
+            >
+              Get Early Access
+            </a>
+          </div>
+        </div>
       </nav>
+
+      {/* Drawer backdrop — closes on outside tap */}
+      {isMenuOpen && (
+        <div
+          className="fixed inset-0 z-40 md:hidden"
+          onClick={() => setIsMenuOpen(false)}
+        />
+      )}
 
       <main>
         {/* ── HERO ─────────────────────────────────────────────────────── */}
