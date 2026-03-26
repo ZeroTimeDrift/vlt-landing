@@ -92,7 +92,7 @@ A few things worth verifying before moving savings:
 - **Regulation**: Is the product licensed or pursuing regulatory approval? Vault is in the process of obtaining ADGM regulatory approval.
 - **Withdrawal terms**: Is there a lock-in? Vault has none.
 - **Fee structure**: Does the rate quoted include management fees? Vault charges no annual fee.
-- **Yield mechanism**: Is it a promotional rate that expires? Vault's earnings come from fees paid by institutional borrowers — not a promotional rate tied to a bank offer.
+- **How the rate works**: Is it a promotional rate that expires? Vault's earnings come from fees paid by institutional borrowers — not a promotional rate tied to a bank offer.
 
 ---
 

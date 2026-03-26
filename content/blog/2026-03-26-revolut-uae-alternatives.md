@@ -48,7 +48,7 @@ While waiting for Revolut, the landscape for UAE residents looks like this:
 
 **For payments and transfers:**
 - **Wise** — the closest like-for-like to Revolut for international transfers and multi-currency cards. Mid-market rates, strong UAE presence.
-- **Pyypl** — UAE-based digital wallet, CBUAE-licensed. Focused on remittances.
+- **Pyypl** — UAE-based digital payment app, CBUAE-licensed. Focused on remittances.
 - **Local banks** — ENBD, FAB, ADCB all have reasonably functional apps.
 
 **For earning on idle savings (Revolut's UK/EU feature — not available in UAE):**
