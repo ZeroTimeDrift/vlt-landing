@@ -605,7 +605,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   {
                     n: "2",
                     title: "Your balance earns automatically",
-                    desc: "Your money goes into vetted, overcollateralised lending markets. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
+                    desc: "Your money goes into vetted, fully secured lending markets. Institutional borrowers pay fees to access capital — those fees flow directly to your balance. ~5.4% currently.",
                     icon: <TrendingUp className="w-4 h-4" />,
                   },
                   {
