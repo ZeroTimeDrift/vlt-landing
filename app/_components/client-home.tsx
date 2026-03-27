@@ -553,8 +553,8 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               },
               {
                 icon: <Scale className="w-5 h-5 text-vault-accent" />,
-                label: "ADGM-registered",
-                desc: "Regulatory application filed",
+                label: "Pursuing ADGM regulation",
+                desc: "UAE digital assets regulator",
               },
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
