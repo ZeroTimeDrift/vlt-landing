@@ -140,17 +140,16 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
               >
                 {featured.heroImage && (
                   <div
-                    className="md:w-1/2 flex-shrink-0"
-                    style={{ height: "280px", background: "#0F1117" }}
+                    className="md:w-1/2 flex-shrink-0 flex items-center justify-center"
+                    style={{ background: "#0F1117", minHeight: "200px" }}
                   >
                     <img
                       src={featured.heroImage}
                       alt={featured.title}
                       style={{
                         width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        objectPosition: "center top",
+                        height: "auto",
+                        objectFit: "contain",
                         display: "block",
                       }}
                     />
@@ -196,15 +195,17 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
                 style={{ textDecoration: "none" }}
               >
                 {post.heroImage && (
-                  <div style={{ height: "200px", background: "#0F1117" }}>
+                  <div
+                    className="flex items-center justify-center"
+                    style={{ background: "#0F1117", aspectRatio: "1200 / 420" }}
+                  >
                     <img
                       src={post.heroImage}
                       alt={post.title}
                       style={{
                         width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        objectPosition: "center top",
+                        height: "auto",
+                        objectFit: "contain",
                         display: "block",
                       }}
                     />

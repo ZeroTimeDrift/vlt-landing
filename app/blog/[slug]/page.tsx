@@ -117,14 +117,22 @@ export default function BlogPost({ params }: Props) {
             All posts
           </a>
 
-          {/* Hero image */}
+          {/* Hero image — breaks out of max-w-2xl for larger display on desktop */}
           {post.heroImage && (
-            <div className="mb-10 overflow-hidden" style={{ maxHeight: 360, borderRadius: 20 }}>
+            <div
+              className="mb-10 overflow-hidden relative"
+              style={{
+                borderRadius: 20,
+                width: "min(900px, calc(100vw - 48px))",
+                left: "50%",
+                transform: "translateX(-50%)",
+              }}
+            >
               <img
                 src={post.heroImage}
                 alt={post.title}
-                className="w-full object-cover"
-                style={{ maxHeight: 360, display: "block" }}
+                className="w-full"
+                style={{ display: "block", height: "auto" }}
               />
             </div>
           )}
