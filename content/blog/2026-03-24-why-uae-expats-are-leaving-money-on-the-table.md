@@ -67,4 +67,16 @@ If you're ready to stop leaving money idle:
 
 Join the waitlist at [vlt.money](https://vlt.money)
 
+---
+
+## Guides by expat community
+
+- [Best Savings Account for Indians in the UAE](/blog/savings-account-indians-uae)
+- [Best Savings Account for Pakistani Expats in the UAE](/blog/savings-account-pakistanis-uae)
+- [Best Savings Account for Filipinos in the UAE](/blog/savings-account-filipinos-uae)
+- [Best Savings Account for British Expats in the UAE](/blog/savings-account-british-expats-uae)
+- [Best Savings Accounts UAE 2026](/blog/best-savings-account-uae-2026) — full comparison
+
+---
+
 *Vault is operated by Prometheus Labs, pursuing ADGM regulatory approval. Earnings are fees from borrowers — not guaranteed returns. Rates vary with market conditions.*

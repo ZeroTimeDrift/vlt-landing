@@ -789,8 +789,8 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             <div className="flex flex-col gap-4">
               {[
                 {
-                  q: "Is my money safe?",
-                  a: "Your funds are deployed into established, audited lending markets with collateral requirements and institutional borrowers. Vault never takes custody of your balance — you maintain the right to withdraw at all times.",
+                  q: "How is my money protected?",
+                  a: "Vault does not hold your funds. Your money is held directly in institutional lending markets run by Sentora \u2014 one of the largest institutional lending platforms operating on digital infrastructure today. Earnings come from fees paid by vetted institutional borrowers, not from Vault\u2019s own balance sheet. Vault is currently pursuing ADGM Financial Services Regulatory Authority (FSRA) regulation as part of its commitment to operating to the highest UAE financial standards.",
                 },
                 {
                   q: "How does Vault make money?",
