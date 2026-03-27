@@ -85,16 +85,16 @@
   <text x="161" y="88" font-family="system-ui, sans-serif" font-size="10" fill="#7dd3fc" text-anchor="middle" font-weight="600" letter-spacing="0.8">AFTER FEES</text>
 
   <!-- Right side text -->
-  <text x="640" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">3.7% headline.</text>
-  <text x="640" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="48" fill="#f87171" font-weight="700">3.2% net.</text>
-  <text x="640" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">After the fee no one mentions.</text>
+  <text x="640" y="148" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">3.7% headline.</text>
+  <text x="640" y="198" font-family="Inter, system-ui, sans-serif" font-size="48" fill="#f87171" font-weight="700">3.2% net.</text>
+  <text x="640" y="258" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">After the fee no one mentions.</text>
 
   <!-- Divider -->
   <line x1="640" y1="282" x2="1140" y2="282" stroke="#1e3a5f" stroke-width="1"/>
 
   <!-- Bottom comparison -->
-  <text x="640" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#0066FF">Vault: </text>
-  <text x="700" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#0066FF" font-weight="700" filter="url(#softglow)">~5.4% · zero management fee</text>
+  <text x="640" y="318" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#0066FF">Vault: </text>
+  <text x="700" y="318" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#0066FF" font-weight="700" filter="url(#softglow)">~5.4% · zero management fee</text>
 
-  <text x="640" y="348" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">vlt.money</text>
+  <text x="640" y="348" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#9CA3AF">vlt.money</text>
 </svg>

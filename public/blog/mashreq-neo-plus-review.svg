@@ -18,23 +18,23 @@
   <rect x="200" y="60" width="800" height="300" rx="16" fill="#0D1F35" stroke="#1E3A5F" stroke-width="1.5"/>
 
   <!-- Header label -->
-  <text x="600" y="105" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2">MASHREQ NEO PLUS SAVER</text>
+  <text x="600" y="105" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="2">MASHREQ NEO PLUS SAVER</text>
 
   <!-- Rate -->
-  <text x="600" y="185" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="96" font-weight="700">5%</text>
-  <text x="600" y="215" text-anchor="middle" fill="#93C5FD" font-family="system-ui, -apple-system, sans-serif" font-size="14">p.a. on AED — no salary routing required</text>
+  <text x="600" y="185" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="96" font-weight="700">5%</text>
+  <text x="600" y="215" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="14">p.a. on AED — no salary routing required</text>
 
   <!-- Condition 1 -->
-  <text x="600" y="258" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">minimum balance</text>
-  <text x="600" y="281" text-anchor="middle" fill="#EF4444" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700">AED 50,000 / month</text>
+  <text x="600" y="258" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="12">minimum balance</text>
+  <text x="600" y="281" text-anchor="middle" fill="#EF4444" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700">AED 50,000 / month</text>
 
   <!-- Divider -->
   <line x1="300" y1="302" x2="900" y2="302" stroke="#ffffff10" stroke-width="1"/>
 
   <!-- Condition 2 -->
-  <text x="600" y="322" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">withdrawals allowed</text>
-  <text x="600" y="345" text-anchor="middle" fill="#EF4444" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700">max 2 per month</text>
+  <text x="600" y="322" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="12">withdrawals allowed</text>
+  <text x="600" y="345" text-anchor="middle" fill="#EF4444" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700">max 2 per month</text>
 
   <!-- Bottom label -->
-  <text x="600" y="400" text-anchor="middle" fill="#374151" font-family="system-ui, -apple-system, sans-serif" font-size="12">Mashreq NEO Plus Saver review · vlt.money</text>
+  <text x="600" y="400" text-anchor="middle" fill="#374151" font-family="Inter, system-ui, sans-serif" font-size="12">Mashreq NEO Plus Saver review · vlt.money</text>
 </svg>

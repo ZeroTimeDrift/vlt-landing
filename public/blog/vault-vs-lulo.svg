@@ -5,8 +5,8 @@
       <stop offset="100%" style="stop-color:#0a1628"/>
     </linearGradient>
     <linearGradient id="vaultBar" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6"/>
-      <stop offset="100%" style="stop-color:#1d4ed8"/>
+      <stop offset="0%" style="stop-color:#0066FF"/>
+      <stop offset="100%" style="stop-color:#0066FF"/>
     </linearGradient>
     <linearGradient id="luloBar" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#6b7280"/>
@@ -28,48 +28,48 @@
   <line x1="100" y1="160" x2="800" y2="160" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3" stroke-dasharray="4,4"/>
 
   <!-- Y-axis labels -->
-  <text x="85" y="325" fill="#4b6280" font-family="system-ui,sans-serif" font-size="12" text-anchor="end">0%</text>
-  <text x="85" y="245" fill="#4b6280" font-family="system-ui,sans-serif" font-size="12" text-anchor="end">3%</text>
-  <text x="85" y="165" fill="#4b6280" font-family="system-ui,sans-serif" font-size="12" text-anchor="end">6%</text>
+  <text x="85" y="325" fill="#4b6280" font-family="Inter, system-ui, sans-serif" font-size="12" text-anchor="end">0%</text>
+  <text x="85" y="245" fill="#4b6280" font-family="Inter, system-ui, sans-serif" font-size="12" text-anchor="end">3%</text>
+  <text x="85" y="165" fill="#4b6280" font-family="Inter, system-ui, sans-serif" font-size="12" text-anchor="end">6%</text>
 
   <!-- Vault bar -->
   <rect x="150" y="140" width="140" height="180" rx="6" fill="url(#vaultBar)" opacity="0.95"/>
-  <text x="220" y="130" fill="#93c5fd" font-family="system-ui,sans-serif" font-size="22" font-weight="700" text-anchor="middle">~5.4%</text>
-  <text x="220" y="352" fill="#93c5fd" font-family="system-ui,sans-serif" font-size="15" font-weight="600" text-anchor="middle">Vault</text>
+  <text x="220" y="130" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" text-anchor="middle">~5.4%</text>
+  <text x="220" y="352" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Vault</text>
 
   <!-- Lulo Protected bar -->
   <rect x="340" y="163" width="140" height="157" rx="6" fill="url(#luloBar)" opacity="0.85"/>
-  <text x="410" y="152" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="22" font-weight="700" text-anchor="middle">4.76%</text>
-  <text x="410" y="352" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="15" font-weight="600" text-anchor="middle">Lulo Protected</text>
+  <text x="410" y="152" fill="#9ca3af" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" text-anchor="middle">4.76%</text>
+  <text x="410" y="352" fill="#9ca3af" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Lulo Protected</text>
 
   <!-- Lulo Boosted bar -->
   <rect x="530" y="66" width="140" height="254" rx="6" fill="url(#luloBoostedBar)" opacity="0.75"/>
-  <text x="600" y="55" fill="#6b7280" font-family="system-ui,sans-serif" font-size="22" font-weight="700" text-anchor="middle">7.67%</text>
-  <text x="600" y="352" fill="#6b7280" font-family="system-ui,sans-serif" font-size="15" font-weight="600" text-anchor="middle">Lulo Boosted</text>
+  <text x="600" y="55" fill="#6b7280" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" text-anchor="middle">7.67%</text>
+  <text x="600" y="352" fill="#6b7280" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Lulo Boosted</text>
 
   <!-- VS label between vault and lulo -->
-  <text x="310" y="235" fill="#374151" font-family="system-ui,sans-serif" font-size="13" font-weight="700" text-anchor="middle">vs</text>
+  <text x="310" y="235" fill="#374151" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">vs</text>
 
   <!-- "Higher risk" callout for Boosted -->
-  <text x="600" y="388" fill="#4b5563" font-family="system-ui,sans-serif" font-size="11" text-anchor="middle">(higher risk exposure)</text>
+  <text x="600" y="388" fill="#4b5563" font-family="Inter, system-ui, sans-serif" font-size="11" text-anchor="middle">(higher risk exposure)</text>
 
   <!-- Right side: headline copy -->
-  <text x="870" y="140" fill="#f1f5f9" font-family="system-ui,sans-serif" font-size="32" font-weight="700">Vault vs Lulo</text>
-  <text x="870" y="180" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="16">Which earns more on your savings?</text>
+  <text x="870" y="140" fill="#f1f5f9" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="700">Vault vs Lulo</text>
+  <text x="870" y="180" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="16">Which earns more on your savings?</text>
 
   <!-- Divider -->
   <line x1="870" y1="200" x2="1140" y2="200" stroke="#1e3a5f" stroke-width="1"/>
 
   <!-- Key stats -->
-  <text x="870" y="235" fill="#64748b" font-family="system-ui,sans-serif" font-size="13">Vault stable yield source</text>
-  <text x="870" y="257" fill="#3b82f6" font-family="system-ui,sans-serif" font-size="15" font-weight="600">Sentora institutional market</text>
+  <text x="870" y="235" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="13">Vault stable yield source</text>
+  <text x="870" y="257" fill="#0066FF" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600">Sentora institutional market</text>
 
-  <text x="870" y="295" fill="#64748b" font-family="system-ui,sans-serif" font-size="13">No wallet needed</text>
-  <text x="870" y="317" fill="#3b82f6" font-family="system-ui,sans-serif" font-size="15" font-weight="600">Deposit. Earn. Withdraw.</text>
+  <text x="870" y="295" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="13">No wallet needed</text>
+  <text x="870" y="317" fill="#0066FF" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600">Deposit. Earn. Withdraw.</text>
 
-  <text x="870" y="355" fill="#64748b" font-family="system-ui,sans-serif" font-size="13">Lock-in period</text>
-  <text x="870" y="377" fill="#3b82f6" font-family="system-ui,sans-serif" font-size="15" font-weight="600">None</text>
+  <text x="870" y="355" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="13">Lock-in period</text>
+  <text x="870" y="377" fill="#0066FF" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600">None</text>
 
   <!-- Footnote -->
-  <text x="100" y="408" fill="#2a3f5f" font-family="system-ui,sans-serif" font-size="11">Rates are variable and not guaranteed. Data as of March 2026.</text>
+  <text x="100" y="408" fill="#2a3f5f" font-family="Inter, system-ui, sans-serif" font-size="11">Rates are variable and not guaranteed. Data as of March 2026.</text>
 </svg>

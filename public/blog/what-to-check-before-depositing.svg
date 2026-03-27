@@ -10,7 +10,7 @@
     </linearGradient>
     <linearGradient id="checkGlow" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066FF;stop-opacity:1" />
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
@@ -42,7 +42,7 @@
   </g>
 
   <!-- Ambient glow orb -->
-  <ellipse cx="180" cy="210" rx="200" ry="160" fill="#1d4ed8" opacity="0.06"/>
+  <ellipse cx="180" cy="210" rx="200" ry="160" fill="#0066FF" opacity="0.06"/>
   <ellipse cx="980" cy="180" rx="180" ry="140" fill="#0891b2" opacity="0.06"/>
 
   <!-- Main card -->
@@ -68,27 +68,27 @@
   <rect x="152" y="251" width="150" height="6" rx="3" fill="#4a90d9" opacity="0.3"/>
 
   <!-- Item 4 -->
-  <circle cx="128" cy="294" r="14" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
-  <path d="M122 294 L126 298 L134 290" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
-  <rect x="152" y="287" width="190" height="8" rx="4" fill="#3b82f6" opacity="0.8"/>
+  <circle cx="128" cy="294" r="14" fill="#0f172a" stroke="#0066FF" stroke-width="1.5"/>
+  <path d="M122 294 L126 298 L134 290" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
+  <rect x="152" y="287" width="190" height="8" rx="4" fill="#0066FF" opacity="0.8"/>
   <rect x="152" y="303" width="130" height="6" rx="3" fill="#4a90d9" opacity="0.3"/>
 
   <!-- Card title label -->
   <rect x="96" y="78" width="130" height="26" rx="6" fill="#0d2545" stroke="#1e4a7a" stroke-width="1"/>
-  <text x="161" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#7dd3fc" text-anchor="middle" font-weight="600" letter-spacing="1">CHECKLIST</text>
+  <text x="161" y="95" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#7dd3fc" text-anchor="middle" font-weight="600" letter-spacing="1">CHECKLIST</text>
 
   <!-- Right side content -->
-  <text x="720" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="52" fill="#ffffff" font-weight="700" opacity="0.95">Before you</text>
-  <text x="720" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="52" fill="#22d3ee" font-weight="700" filter="url(#softglow)">deposit.</text>
+  <text x="720" y="155" font-family="Inter, system-ui, sans-serif" font-size="52" fill="#ffffff" font-weight="700" opacity="0.95">Before you</text>
+  <text x="720" y="215" font-family="Inter, system-ui, sans-serif" font-size="52" fill="#22d3ee" font-weight="700" filter="url(#softglow)">deposit.</text>
 
   <!-- Subtitle -->
-  <text x="720" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">4 questions every saver should ask.</text>
+  <text x="720" y="270" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">4 questions every saver should ask.</text>
 
   <!-- Divider -->
   <line x1="720" y1="300" x2="1100" y2="300" stroke="#1e3a5f" stroke-width="1"/>
 
   <!-- Bottom label -->
-  <text x="720" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#4a90d9" font-weight="500" letter-spacing="0.5">vlt.money</text>
+  <text x="720" y="330" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#4a90d9" font-weight="500" letter-spacing="0.5">vlt.money</text>
 
   <!-- Decorative corner dots -->
   <circle cx="1140" cy="50" r="3" fill="#22d3ee" opacity="0.4"/>

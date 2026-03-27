@@ -18,40 +18,40 @@
   <rect x="80" y="60" width="460" height="300" rx="16" fill="#0D1F35" stroke="#1E3A5F" stroke-width="1.5"/>
 
   <!-- Vault label -->
-  <text x="310" y="105" text-anchor="middle" fill="#0066FF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2">VAULT</text>
+  <text x="310" y="105" text-anchor="middle" fill="#0066FF" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="2">VAULT</text>
 
   <!-- Vault rate -->
-  <text x="310" y="185" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700">5.4%</text>
-  <text x="310" y="212" text-anchor="middle" fill="#93C5FD" font-family="system-ui, -apple-system, sans-serif" font-size="13">current rate (variable)</text>
+  <text x="310" y="185" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700">5.4%</text>
+  <text x="310" y="212" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="13">current rate (variable)</text>
 
   <!-- Vault conditions -->
-  <text x="310" y="258" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">minimum deposit</text>
-  <text x="310" y="281" text-anchor="middle" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">none</text>
+  <text x="310" y="258" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="12">minimum deposit</text>
+  <text x="310" y="281" text-anchor="middle" fill="#10B981" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">none</text>
 
-  <text x="310" y="318" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">salary routing required</text>
-  <text x="310" y="341" text-anchor="middle" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">none</text>
+  <text x="310" y="318" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="12">salary routing required</text>
+  <text x="310" y="341" text-anchor="middle" fill="#10B981" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">none</text>
 
   <!-- VS divider -->
   <circle cx="600" cy="210" r="28" fill="#111827" stroke="#374151" stroke-width="1.5"/>
-  <text x="600" y="216" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">VS</text>
+  <text x="600" y="216" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600">VS</text>
 
   <!-- Right panel: Wio -->
   <rect x="660" y="60" width="460" height="300" rx="16" fill="#111827" stroke="#374151" stroke-width="1.5"/>
 
   <!-- Wio label -->
-  <text x="890" y="105" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2">WIO BANK</text>
+  <text x="890" y="105" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="2">WIO BANK</text>
 
   <!-- Wio rate -->
-  <text x="890" y="185" text-anchor="middle" fill="#D1D5DB" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700">3.25%</text>
-  <text x="890" y="212" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="13">without salary routing</text>
+  <text x="890" y="185" text-anchor="middle" fill="#D1D5DB" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700">3.25%</text>
+  <text x="890" y="212" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="13">without salary routing</text>
 
   <!-- Wio conditions -->
-  <text x="890" y="258" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">advertised rate</text>
-  <text x="890" y="281" text-anchor="middle" fill="#EF4444" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">6% (salary only)</text>
+  <text x="890" y="258" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="12">advertised rate</text>
+  <text x="890" y="281" text-anchor="middle" fill="#EF4444" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">6% (salary only)</text>
 
-  <text x="890" y="318" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="12">rate most expats get</text>
-  <text x="890" y="341" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">3.25% AED</text>
+  <text x="890" y="318" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="12">rate most expats get</text>
+  <text x="890" y="341" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">3.25% AED</text>
 
   <!-- Bottom label -->
-  <text x="600" y="400" text-anchor="middle" fill="#374151" font-family="system-ui, -apple-system, sans-serif" font-size="12">Vault rate variable, not guaranteed · vlt.money</text>
+  <text x="600" y="400" text-anchor="middle" fill="#374151" font-family="Inter, system-ui, sans-serif" font-size="12">Vault rate variable, not guaranteed · vlt.money</text>
 </svg>
