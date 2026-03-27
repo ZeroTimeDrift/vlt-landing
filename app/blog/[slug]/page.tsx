@@ -5,6 +5,7 @@ import MobileStickyCtaBar from "./MobileStickyCtaBar";
 import ReadingProgressBar from "./ReadingProgressBar";
 import BlogBottomCta from "./BlogBottomCta";
 import BlogSidebarCta from "./BlogSidebarCta";
+import ShareButtons from "./ShareButtons";
 
 interface Props {
   params: { slug: string };
@@ -238,6 +239,9 @@ export default function BlogPost({ params }: Props) {
               </div>
             </>
           )}
+
+          {/* Share buttons */}
+          <ShareButtons title={post.title} slug={post.slug} />
 
           <div className="section-divider mt-16 mb-12" />
 
