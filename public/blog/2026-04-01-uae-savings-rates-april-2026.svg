@@ -51,6 +51,14 @@
   <text x="580" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">StashAway</text>
   <text x="580" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">Simple</text>
 
+  <!-- Bar 3b: Mashreq NEO PLUS 5% (conditional) -->
+  <rect x="670" y="140" width="100" height="176" rx="3" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="720" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">5%</text>
+  <text x="720" y="336" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">Mashreq</text>
+  <text x="720" y="348" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.15)">NEO PLUS</text>
+  <rect x="672" y="356" width="96" height="15" rx="7" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="720" y="367" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.18)">AED 50K+ · 2/mo</text>
+
   <!-- Bar 4: Vault ~5.4% (hero bar) -->
   <rect x="820" y="125" width="130" height="191" rx="4" fill="rgba(0,102,255,0.15)" stroke="#0066FF" stroke-width="1.5"/>
   <rect x="820" y="125" width="130" height="4" rx="4" fill="url(#blueGrad)"/>

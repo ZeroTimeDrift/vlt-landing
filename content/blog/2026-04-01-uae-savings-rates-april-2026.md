@@ -24,6 +24,7 @@ Here's how the market looks for flexible, no-lock-in savings as of today. No sal
 | Provider | Rate | Notes |
 |---|---|---|
 | Vault | ~5.4% current | Variable, not guaranteed |
+| Mashreq NEO PLUS | 5% | AED 50K+ avg balance; max 2 free withdrawals/month |
 | StashAway Simple | 3.9% | Money market fund, no lock-in |
 | Sarwa Save+ | ~3.2% net | 3.7% gross minus 0.5% annual fee |
 | Wio Flexible | 3.25% | AED accounts only |

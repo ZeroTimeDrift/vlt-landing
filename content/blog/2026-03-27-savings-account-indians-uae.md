@@ -16,7 +16,7 @@ If you're freelance, remote, or receive transfers from India, that assumption br
 
 The top-advertised rates in UAE banking come with salary routing conditions:
 
-- **Mashreq NEO PLUS Saver (6.25%):** Requires AED 10,000/month salary transfer to Mashreq
+- **Mashreq NEO PLUS Saver (6.25%):** Requires AED 10,000/month salary transfer to Mashreq. There is also a non-salary tier at 5% — but it requires AED 50,000+ average monthly balance and limits you to 2 free withdrawals per month.
 - **Wio Bank (6%):** Requires monthly salary transfer
 - **ADCB Active Saver (up to 5%):** Requires monthly ADCB salary credit
 
