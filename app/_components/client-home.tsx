@@ -699,9 +699,9 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 mt-3 text-xs text-vault-muted">
               <span>FAB (post-promo): ~2.5%</span>
               <span>·</span>
-              <span>Wio: 3.25% flexible</span>
-              <span>·</span>
               <span>Sarwa Save+: ~3.2% net</span>
+              <span>·</span>
+              <span>Wio: 3.25% flexible</span>
               <span>·</span>
               <span>StashAway: 3.9%</span>
               <span>·</span>
