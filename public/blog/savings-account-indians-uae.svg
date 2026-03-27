@@ -26,10 +26,10 @@
 
   <!-- Row 1: Mashreq NEO PLUS -->
   <text x="80" y="133" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Mashreq NEO PLUS</text>
-  <rect x="280" y="120" width="176" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="464" y="134" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.35)">5%</text>
-  <rect x="500" y="124" width="90" height="14" rx="7" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="545" y="134" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(255,255,255,0.3)" text-anchor="middle">AED 50K+ MIN</text>
+  <rect x="280" y="120" width="220" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="508" y="134" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.7)">6.25%</text>
+  <rect x="550" y="124" width="72" height="14" rx="7" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="586" y="134" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(239,68,68,0.6)" text-anchor="middle">SALARY REQ</text>
 
   <!-- Row 2: Wio Bank -->
   <text x="80" y="169" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Wio Bank</text>
