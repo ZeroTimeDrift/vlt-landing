@@ -4,6 +4,7 @@ import { getAllPosts, getLatestPosts, getPostBySlug } from "@/lib/blog";
 import MobileStickyCtaBar from "./MobileStickyCtaBar";
 import ReadingProgressBar from "./ReadingProgressBar";
 import BlogBottomCta from "./BlogBottomCta";
+import BlogSidebarCta from "./BlogSidebarCta";
 
 interface Props {
   params: { slug: string };
@@ -103,6 +104,7 @@ export default function BlogPost({ params }: Props) {
       </nav>
 
       <main className="relative z-10 pt-28 pb-24 px-6 min-h-screen">
+        <div className="relative max-w-6xl mx-auto">
         <div className="max-w-2xl mx-auto">
           {/* Back link */}
           <a
@@ -233,6 +235,12 @@ export default function BlogPost({ params }: Props) {
 
           {/* CTA with inline waitlist form */}
           <BlogBottomCta />
+        </div>
+
+        {/* Sidebar — positioned in right gutter, xl+ only */}
+        <div className="hidden xl:block absolute top-0 right-0 w-[240px]">
+          <BlogSidebarCta />
+        </div>
         </div>
       </main>
 
