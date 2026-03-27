@@ -3,6 +3,7 @@ title: "What to Check Before Depositing in a Savings App"
 date: "2026-03-25"
 slug: "what-to-check-before-depositing"
 description: "Most people compare rates. Rates are the last thing to check. Here's the actual checklist."
+excerpt: "Most UAE savers compare rates first. But rates are the last thing to check. Here's the five-point checklist that actually protects your money."
 heroImage: "/blog/what-to-check-before-depositing.svg"
 ---
 

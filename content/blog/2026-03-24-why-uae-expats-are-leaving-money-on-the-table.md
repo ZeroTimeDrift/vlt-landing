@@ -4,6 +4,7 @@ date: "2026-03-24"
 slug: "why-uae-expats-are-leaving-money-on-the-table"
 heroImage: "/blog/why-uae-expats-are-leaving-money-on-the-table.svg"
 description: "57% of UAE expats say saving more is their top financial priority. Most of their money earns close to nothing. Here's the gap — and how to close it."
+excerpt: "57% of UAE expats say saving more is their top financial priority. Most of their money earns close to nothing. Here's the gap — and how to close it."
 readTime: "5 min read"
 tags: ["savings account UAE expat", "best savings rate UAE", "expat savings"]
 ---

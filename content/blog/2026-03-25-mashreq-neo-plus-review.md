@@ -3,6 +3,7 @@ title: "Mashreq NEO Plus Saver Review: Is the 5% Really That Simple? (2026)"
 date: "2026-03-25"
 slug: "mashreq-neo-plus-review"
 description: "Mashreq NEO Plus offers 5% with no salary requirement. Before you move your savings there, read the two conditions most people miss."
+excerpt: "Mashreq NEO Plus offers 5% with no salary requirement. Before you move your savings there, read the two conditions most people miss."
 heroImage: "/blog/mashreq-neo-plus-review.svg"
 readTime: "4 min read"
 ---

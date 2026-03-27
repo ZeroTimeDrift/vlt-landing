@@ -4,7 +4,7 @@ slug: "how-vault-works-without-the-jargon"
 heroImage: "/blog/how-vault-works-without-the-jargon.svg"
 date: "2026-03-24"
 author: "Vault Team"
-excerpt: "A plain-English explanation of how Vault turns your deposits into ~5.4% annual earnings."
+excerpt: "Vault converts your deposits into ~5.4% annual earnings from vetted lending markets. No technical knowledge needed. Here's exactly how it works."
 ---
 
 ![Your deposit flows through Vault into vetted lending markets, earning ~5.4% back to you — no jargon](/blog/how-vault-works-without-the-jargon.svg)

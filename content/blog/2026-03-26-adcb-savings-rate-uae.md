@@ -3,6 +3,7 @@ title: "ADCB Savings Account Rate UAE 2026: What You're Earning"
 date: "2026-03-26"
 slug: "adcb-savings-rate-uae"
 description: "Abu Dhabi Commercial Bank savings accounts pay 0.5–2% on standard balances. Here's the full ADCB rate picture for UAE expats in 2026 — and what better alternatives exist."
+excerpt: "ADCB savings accounts pay 0.5–2% on standard balances in 2026. Here's the full rate picture for UAE expats — and what better-paying alternatives exist."
 heroImage: "/blog/adcb-savings-rate-uae.svg"
 readTime: "4 min read"
 ---

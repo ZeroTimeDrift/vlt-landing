@@ -3,6 +3,7 @@ title: "Moving to Dubai from the UK: What to Do With Your Savings"
 date: "2026-03-26"
 slug: "moving-to-dubai-savings"
 description: "Your UK savings accounts and ISAs don't work the same way once you're a UAE resident. Here's a practical guide to what changes and what to do instead."
+excerpt: "Your UK savings accounts and ISAs don't work the same way once you're a UAE resident. Here's a practical guide to what changes and what to do instead."
 heroImage: "/blog/moving-to-dubai-savings.svg"
 readTime: "5 min read"
 ---

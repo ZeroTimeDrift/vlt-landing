@@ -4,6 +4,7 @@ date: 2026-03-25
 slug: uae-emergency-fund-where-to-keep-it
 heroImage: "/blog/uae-emergency-fund-where-to-keep-it.svg"
 description: Most UAE expats know they need an emergency fund. Few are earning anything on it. Here's the right amount, and the right place to keep it.
+excerpt: "Most UAE expats know they need an emergency fund. Few are earning anything on it. Here's the right amount, and the right place to keep it."
 ---
 
 Most financial advice says keep three to six months of expenses in an emergency fund. For UAE expats — without the social safety net of a home country, often a long way from family — six months is the more sensible target.

@@ -4,7 +4,7 @@ slug: "why-your-savings-account-is-a-bad-deal"
 heroImage: "/blog/why-your-savings-account-is-a-bad-deal.svg"
 date: "2026-03-24"
 author: "Vault Team"
-excerpt: "Your bank is earning 8–10% on your money and paying you 1–2%. Here's what that actually costs you."
+excerpt: "Your bank earns 8–10% on your deposits and pays you 1–2%. For UAE expats, that gap costs real money every year. Here's the math — and what to do instead."
 ---
 
 ![The rate gap: your savings account earns 1–2%, Vault earns ~5.4%, but your bank keeps 8–10% on your deposits](/blog/why-your-savings-account-is-a-bad-deal.svg)

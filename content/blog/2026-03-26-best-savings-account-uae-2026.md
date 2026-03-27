@@ -3,6 +3,7 @@ title: "Best Savings Account UAE 2026: Every No-Lock-In Rate Compared"
 date: "2026-03-26"
 slug: "best-savings-account-uae-2026"
 description: "A complete comparison of the best savings account rates in the UAE for 2026 — from major banks to digital apps — for expats who want no lock-in and no conditions."
+excerpt: "The best savings account rates in the UAE for 2026, ranked. From major banks to digital apps — for expats who want no lock-in and no conditions attached."
 heroImage: "/blog/best-savings-account-uae-2026.svg"
 readTime: "6 min read"
 ---

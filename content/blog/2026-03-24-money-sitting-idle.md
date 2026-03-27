@@ -4,6 +4,7 @@ date: 2026-03-24
 slug: money-sitting-idle
 heroImage: "/blog/money-sitting-idle.svg"
 description: Most UAE residents keep the bulk of their savings in accounts earning close to nothing. Here's what that actually costs.
+excerpt: "UAE residents leave their savings earning close to nothing. Here's the real cost of idle money — and how to fix it without locking your funds."
 ---
 
 # That Money Sitting in Your Current Account Is Quietly Losing Value

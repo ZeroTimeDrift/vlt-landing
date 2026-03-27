@@ -3,6 +3,7 @@ title: "Sarwa Alternatives UAE 2026: Better Rates Without the Fee"
 date: "2026-03-26"
 slug: "sarwa-alternatives-uae"
 description: "Sarwa Save+ charges 0.5% annually and now pays ~3.2% net. Here are the best Sarwa alternatives for UAE expats in 2026 — ranked by rate, fee structure, and ease of use."
+excerpt: "Sarwa Save+ charges 0.5% and pays ~3.2% net. Here are the best Sarwa alternatives for UAE expats in 2026 — ranked by rate, fees, and ease of use."
 heroImage: "/blog/sarwa-alternatives-uae.svg"
 readTime: "5 min read"
 ---

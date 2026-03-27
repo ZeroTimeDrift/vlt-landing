@@ -1,6 +1,7 @@
 ---
 title: "Lulo vs Vault: Which Earns More on Your Savings?"
 description: "Lulo Protected just dropped to 4.76%. Vault's current rate is ~5.4%. Here's how they compare — and why the difference matters."
+excerpt: "Lulo Protected just dropped to 4.76%. Vault's current rate is ~5.4%. Here's how they compare — and why the difference matters."
 date: "2026-03-25"
 slug: "vault-vs-lulo"
 heroImage: "/blog/vault-vs-lulo.svg"

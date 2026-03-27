@@ -3,6 +3,7 @@ title: "UAE Expat Financial Setup Checklist: 12 Things to Sort in Your First 90 
 date: "2026-03-26"
 slug: "uae-expat-financial-setup-checklist"
 description: "Moving to the UAE? Here's a practical financial checklist covering bank accounts, savings, salary structure, gratuity, and the things most expats figure out too late."
+excerpt: "Moving to the UAE? Here's a practical financial checklist covering bank accounts, savings, salary structure, gratuity, and what most expats learn too late."
 heroImage: "/blog/uae-expat-financial-setup-checklist.svg"
 readTime: "6 min read"
 ---

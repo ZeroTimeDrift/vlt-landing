@@ -4,7 +4,7 @@ slug: "fab-promo-expires-march-31"
 heroImage: "/blog/fab-promo-expires-march-31.svg"
 date: "2026-03-25"
 author: "Vault Team"
-excerpt: "First Abu Dhabi Bank's promotional 4% savings rate ended March 31. If your money is still parked there, here's what you're earning now — and what to do next."
+excerpt: "FAB's 4% promotional savings rate ended March 31. If your money is still parked there, here's what you're earning now — and what to do next."
 ---
 
 ![UAE savings rate comparison: FAB promotional 4% ended March 31 vs Vault ~5.4% current no lock-in](/blog/fab-promo-expires-march-31.svg)

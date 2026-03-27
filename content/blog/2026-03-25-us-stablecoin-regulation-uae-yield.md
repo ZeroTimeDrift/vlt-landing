@@ -4,6 +4,7 @@ date: "2026-03-25"
 slug: "us-digital-savings-regulation-uae"
 heroImage: "/blog/us-digital-savings-regulation-uae.svg"
 description: "The US Senate reached a bipartisan compromise banning passive savings earnings on digital dollar products for American users. Vault operates in the UAE under a different regulatory framework — and that distinction matters more than ever."
+excerpt: "The US just restricted digital dollar savings earnings for Americans. UAE residents operate under different rules — and that distinction matters."
 readTime: "4 min read"
 ---
 

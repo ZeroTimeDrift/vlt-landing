@@ -3,6 +3,7 @@ title: "Does Wise Pay Interest in the UAE? (What UAE Residents Should Know)"
 date: "2026-03-26"
 slug: "wise-interest-uae"
 description: "Wise pays interest on GBP, EUR, and USD balances in the UK and EU — but not for UAE residents. Here's what's available in the UAE instead."
+excerpt: "Wise pays interest on GBP, EUR, and USD balances in the UK and EU — but not for UAE residents. Here's what's available in the UAE instead."
 heroImage: "/blog/wise-interest-uae.svg"
 readTime: "4 min read"
 ---

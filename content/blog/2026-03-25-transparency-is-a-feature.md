@@ -3,6 +3,7 @@ title: "Why We Tell You Everything (Including the Parts That Make Us Look Uncert
 date: "2026-03-25"
 slug: "transparency-is-a-feature"
 description: "Vault tells you the rate is variable, we're not yet regulated, and we can't guarantee returns. That's not a disclaimer — it's the product."
+excerpt: "Vault tells you the rate is variable, we're not yet regulated, and we can't guarantee returns. That's not a disclaimer — it's the product."
 heroImage: "/blog/transparency-is-a-feature.svg"
 readTime: "4 min read"
 ---

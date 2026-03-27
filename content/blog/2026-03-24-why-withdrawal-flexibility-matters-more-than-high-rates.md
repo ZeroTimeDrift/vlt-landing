@@ -4,6 +4,7 @@ date: "2026-03-24"
 slug: "why-withdrawal-flexibility-matters-more-than-high-rates"
 heroImage: "/blog/why-withdrawal-flexibility-matters-more-than-high-rates.svg"
 description: "A 6% rate means nothing if you can't access your money when you need it. Here's why liquidity is the first thing to check."
+excerpt: "A 6% savings rate in the UAE means nothing if you can't access your money. Here's why withdrawal flexibility should be the first thing expats check."
 readTime: "4 min read"
 ---
 

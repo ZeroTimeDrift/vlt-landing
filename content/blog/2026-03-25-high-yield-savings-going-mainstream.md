@@ -4,6 +4,7 @@ date: "2026-03-25"
 slug: "high-rate-savings-going-mainstream"
 heroImage: "/blog/high-rate-savings-going-mainstream.svg"
 description: "Major platforms are launching savings products that pay 5%+. Most are built for specialist users or are US-only. Vault is built for people who want the rate without the complexity."
+excerpt: "Major savings platforms now pay 5%+. Most require specialist knowledge or are US-only. Vault brings that rate to UAE residents — no complexity required."
 readTime: "4 min read"
 ---
 

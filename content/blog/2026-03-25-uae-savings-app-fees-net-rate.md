@@ -3,6 +3,7 @@ title: "Why Your UAE Savings App Fee Matters More Than the Headline Rate"
 date: "2026-03-25"
 slug: "uae-savings-app-fees-net-rate"
 description: "Some UAE savings platforms advertise 3.7%. After fees, you keep 3.2%. Here's why the number on the tin is rarely the number you earn."
+excerpt: "Some UAE savings platforms advertise 3.7%. After fees, you keep 3.2%. Here's why the number on the tin is rarely the number you earn."
 heroImage: "/blog/uae-savings-app-fees-net-rate.svg"
 ---
 

@@ -4,6 +4,7 @@ date: "2026-03-25"
 slug: "uae-savings-rates-2026"
 heroImage: "/blog/uae-savings-rates-2026.svg"
 description: "FAB's 4% promo expired March 31. Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
+excerpt: "FAB's 4% promo expired March 31. Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
 readTime: "5 min read"
 ---
 

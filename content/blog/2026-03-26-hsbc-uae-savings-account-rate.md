@@ -3,6 +3,7 @@ title: "HSBC UAE Savings Account Rate: What You're Actually Earning"
 date: "2026-03-26"
 slug: "hsbc-uae-savings-account-rate"
 description: "HSBC UAE savings accounts pay 0.5–1.5% on USD and AED balances. Here's what that means in real money — and what alternatives exist for UAE expats."
+excerpt: "HSBC UAE savings accounts pay 0.5–1.5% on USD and AED balances. Here's what that means in real money — and what alternatives exist for UAE expats."
 heroImage: "/blog/hsbc-uae-savings-account-rate.svg"
 readTime: "4 min read"
 ---

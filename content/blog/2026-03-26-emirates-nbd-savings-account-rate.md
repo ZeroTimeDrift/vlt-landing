@@ -3,6 +3,7 @@ title: "Emirates NBD Savings Account Rate: Are You Getting the Best Deal?"
 date: "2026-03-26"
 slug: "emirates-nbd-savings-account-rate"
 description: "Emirates NBD is UAE's largest bank. Their savings account rates range from 0.5–2.5%. Here's the full picture — and what UAE residents earning more are using."
+excerpt: "Emirates NBD savings accounts pay 0.5–2.5% in 2026. Here's what UAE expats actually earn — and what residents who want more are switching to."
 heroImage: "/blog/emirates-nbd-savings-account-rate.svg"
 readTime: "4 min read"
 ---

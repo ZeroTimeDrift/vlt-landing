@@ -3,6 +3,7 @@ title: "Vault vs Wio Bank: Which Savings Rate Are You Actually Getting? (2026)"
 date: "2026-03-25"
 slug: "vault-vs-wio"
 description: "Wio Bank's savings rates look attractive in the ads. But the rate most UAE expats actually earn without a salary account is 3.25%. Here's the full picture."
+excerpt: "Wio Bank's savings rates look attractive in the ads. But the rate most UAE expats earn without a salary account is 3.25%. Here's the full picture."
 heroImage: "/blog/vault-vs-wio.svg"
 readTime: "4 min read"
 ---

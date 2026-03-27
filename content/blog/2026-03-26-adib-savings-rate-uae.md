@@ -3,6 +3,7 @@ title: "ADIB Savings Rate UAE 2026: What Abu Dhabi Islamic Bank Pays on Deposits
 date: "2026-03-26"
 slug: "adib-savings-rate-uae"
 description: "ADIB pays 0.5–1.5% profit distribution rates on savings accounts. Here's what UAE expats actually earn at Abu Dhabi Islamic Bank — and what higher-rate alternatives exist."
+excerpt: "ADIB pays 0.5–1.5% on savings accounts in 2026. Here's what UAE expats actually earn at Abu Dhabi Islamic Bank — and what higher-rate alternatives exist."
 heroImage: "/blog/adib-savings-rate-uae.svg"
 readTime: "4 min read"
 ---

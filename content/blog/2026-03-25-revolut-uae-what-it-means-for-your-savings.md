@@ -4,7 +4,7 @@ slug: "revolut-uae-what-it-means-for-your-savings"
 heroImage: "/blog/revolut-uae-what-it-means-for-your-savings.svg"
 date: "2026-03-25"
 author: "Vault Team"
-excerpt: "Revolut has in-principle approval to operate in UAE. It's a useful app. But its licence doesn't cover savings or earnings on your balance — and that matters for your money."
+excerpt: "Revolut has UAE regulatory approval but can't offer savings earnings at launch. Here's what that means for expats who want their money working harder."
 readingTime: "4 min read"
 ---
 

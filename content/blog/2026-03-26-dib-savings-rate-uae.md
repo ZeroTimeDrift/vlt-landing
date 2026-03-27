@@ -3,6 +3,7 @@ title: "Dubai Islamic Bank Savings Rate UAE 2026: DIB Deposit Rates Explained"
 date: "2026-03-26"
 slug: "dib-savings-rate-uae"
 description: "Dubai Islamic Bank (DIB) pays profit distribution rates of 0.5–2% on savings. Here's what UAE expats and nationals actually earn at DIB in 2026 — and what higher-rate options exist."
+excerpt: "Dubai Islamic Bank pays 0.5–2% on savings in 2026. Here's what UAE expats actually earn at DIB — and what better-rate no-lock-in options look like."
 heroImage: "/blog/dib-savings-rate-uae.svg"
 readTime: "4 min read"
 ---

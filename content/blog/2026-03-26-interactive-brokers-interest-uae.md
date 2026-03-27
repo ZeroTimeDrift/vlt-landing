@@ -3,6 +3,7 @@ title: "Interactive Brokers Interest on Cash UAE: What You're Actually Earning"
 date: "2026-03-26"
 slug: "interactive-brokers-interest-uae"
 description: "IBKR pays competitive interest on uninvested USD cash — but only above $10,000, and only if you trade enough. Here's the full picture for UAE residents."
+excerpt: "IBKR pays competitive interest on uninvested USD cash — but only above $10,000, and only if you trade enough. Here's the full picture for UAE residents."
 heroImage: "/blog/interactive-brokers-interest-uae.svg"
 readTime: "4 min read"
 ---

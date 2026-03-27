@@ -3,6 +3,7 @@ title: "The US Just Banned Passive Earnings on Savings. Here's What That Means f
 date: "2026-04-02"
 slug: "us-earnings-ban-uae-savers"
 description: "The US passed two laws making it illegal for American companies to pay passive earnings on dollar-denominated savings products. UAE operates under different rules — and that matters for expats here."
+excerpt: "The US banned passive savings earnings on dollar-based products. UAE operates under different rules. Here's what that means for expats saving in the UAE."
 heroImage: "/blog/us-earnings-ban-uae-savers.svg"
 ---
 

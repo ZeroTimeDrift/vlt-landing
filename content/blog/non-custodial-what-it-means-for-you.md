@@ -3,7 +3,7 @@ title: "Vault Never Holds Your Money. Here's What That Means."
 date: "2026-03-10"
 slug: "non-custodial-what-it-means-for-you"
 heroImage: "/blog/non-custodial-what-it-means-for-you.svg"
-excerpt: "Your funds go directly into lending markets — not into a Vault account. Here's exactly what happens to your money and why the structure is different from a bank."
+excerpt: "Your funds go directly into vetted lending markets, not a Vault account. Here's what that means for your money and how it differs from a bank."
 author: "Vault Team"
 ---
 

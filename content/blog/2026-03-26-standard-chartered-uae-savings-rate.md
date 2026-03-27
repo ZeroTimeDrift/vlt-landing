@@ -3,6 +3,7 @@ title: "Standard Chartered UAE Savings Rate 2026: What You're Earning"
 date: "2026-03-26"
 slug: "standard-chartered-uae-savings-rate"
 description: "Standard Chartered UAE pays 0.5–1.5% on standard savings. Here's the complete picture for UAE expats — and what higher-rate no-lock-in alternatives exist in 2026."
+excerpt: "Standard Chartered UAE pays 0.5–1.5% on standard savings in 2026. Here's the full rate picture for UAE expats — and what higher-rate alternatives exist."
 heroImage: "/blog/standard-chartered-uae-savings-rate.svg"
 readTime: "4 min read"
 ---

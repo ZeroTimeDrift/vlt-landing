@@ -3,6 +3,7 @@ title: "UAE Savings Rates Are Falling. One Account Isn't."
 date: "2026-03-26"
 slug: "uae-savings-rates-falling"
 description: "Sarwa, StashAway, and UAE banks all track central bank rates downward. Here's why Vault's rate follows a different signal — and why that gap is widening."
+excerpt: "Sarwa, StashAway, and UAE banks all track central bank rates downward. Here's why Vault's rate follows a different signal — and why that gap is widening."
 heroImage: "/blog/uae-savings-rates-falling.svg"
 readTime: "5 min read"
 ---

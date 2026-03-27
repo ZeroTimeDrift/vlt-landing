@@ -3,6 +3,7 @@ title: "vlt.money vs Vault22: What's the Difference? (UAE Guide)"
 date: "2026-03-27"
 slug: "vault-vs-vault22-uae"
 description: "Two UAE finance apps share a similar name but do completely different things. Here's what separates vlt.money from Vault22 — and why you might want both."
+excerpt: "Two UAE finance apps share a similar name but do completely different things. Here's what separates vlt.money from Vault22 — and why you might want both."
 heroImage: "/blog/vault-vs-vault22-uae.svg"
 readTime: "5 min read"
 ---

@@ -4,6 +4,7 @@ date: 2026-03-24
 slug: what-rate-cuts-mean-for-your-savings
 heroImage: "/blog/what-rate-cuts-mean-for-your-savings.svg"
 description: The UAE central bank cut rates three times in 2025. Traditional savings accounts followed. Vault earns differently — here's why.
+excerpt: "The UAE cut rates three times in 2025. Every savings account followed downward — except Vault. Here's why its earnings rate moves to a different signal."
 ---
 
 # Rate Cuts Hurt Your Savings Account. Here's Why Vault Isn't Affected.
