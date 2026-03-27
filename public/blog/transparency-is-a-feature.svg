@@ -21,7 +21,7 @@
   <rect x="110" y="254" width="110" height="6" rx="3" fill="#142840"/>
   <!-- Checkmark circle on document -->
   <circle cx="170" cy="120" r="16" fill="#0a2040" stroke="#1e5090" stroke-width="1.5"/>
-  <path d="M162 120 L167 125 L178 114" stroke="#3a7fd4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M162 120 L167 125 L178 114" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Center: eye/visibility icon — transparency metaphor -->
   <circle cx="600" cy="210" r="90" fill="#030e1c" stroke="#0d2540" stroke-width="1"/>
@@ -32,7 +32,7 @@
   <!-- Pupil -->
   <circle cx="600" cy="210" r="26" fill="#1a3a70"/>
   <!-- Highlight -->
-  <circle cx="614" cy="198" r="7" fill="#3a7fd4" opacity="0.5"/>
+  <circle cx="614" cy="198" r="7" fill="#0066FF" opacity="0.5"/>
   <!-- Radial lines in iris -->
   <line x1="600" y1="162" x2="600" y2="172" stroke="#1e5090" stroke-width="1"/>
   <line x1="600" y1="248" x2="600" y2="258" stroke="#1e5090" stroke-width="1"/>
@@ -45,17 +45,17 @@
 
   <!-- Right side: key facts stacked -->
   <rect x="940" y="100" width="190" height="36" rx="6" fill="#0a1e35" stroke="#1a3a60" stroke-width="1"/>
-  <text x="960" y="123" font-family="monospace" font-size="13" fill="#4a8fd4">~5.4% current</text>
+  <text x="960" y="123" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4a8fd4">~5.4% current</text>
 
   <rect x="940" y="148" width="190" height="36" rx="6" fill="#0a1e35" stroke="#1a3a60" stroke-width="1"/>
-  <text x="960" y="171" font-family="monospace" font-size="13" fill="#4a8fd4">variable</text>
+  <text x="960" y="171" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4a8fd4">variable</text>
 
   <rect x="940" y="196" width="190" height="36" rx="6" fill="#0a1e35" stroke="#1a3a60" stroke-width="1"/>
-  <text x="960" y="219" font-family="monospace" font-size="13" fill="#4a8fd4">withdraw anytime</text>
+  <text x="960" y="219" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4a8fd4">withdraw anytime</text>
 
   <rect x="940" y="244" width="190" height="50" rx="6" fill="#0a1e35" stroke="#1a3a60" stroke-width="1"/>
-  <text x="960" y="264" font-family="monospace" font-size="11" fill="#3a7fd4">pursuing ADGM</text>
-  <text x="960" y="282" font-family="monospace" font-size="11" fill="#3a7fd4">authorisation</text>
+  <text x="960" y="264" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#0066FF">pursuing ADGM</text>
+  <text x="960" y="282" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#0066FF">authorisation</text>
 
   <!-- Connector lines from center to right -->
   <line x1="690" y1="210" x2="935" y2="118" stroke="#1a3a60" stroke-width="1" stroke-dasharray="4,4"/>
@@ -64,8 +64,8 @@
   <line x1="690" y1="210" x2="935" y2="269" stroke="#1a3a60" stroke-width="1" stroke-dasharray="4,4"/>
 
   <!-- Bottom text -->
-  <text x="600" y="375" font-family="sans-serif" font-size="15" fill="#2a5080" text-anchor="middle" letter-spacing="2">TRANSPARENCY IS A FEATURE</text>
+  <text x="600" y="375" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#2a5080" text-anchor="middle" letter-spacing="2">TRANSPARENCY IS A FEATURE</text>
 
   <!-- Vault wordmark -->
-  <text x="600" y="52" font-family="sans-serif" font-size="22" fill="#3a6fa0" text-anchor="middle" letter-spacing="4" font-weight="300">VAULT</text>
+  <text x="600" y="52" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#3a6fa0" text-anchor="middle" letter-spacing="4" font-weight="300">VAULT</text>
 </svg>
