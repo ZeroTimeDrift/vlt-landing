@@ -3,17 +3,17 @@
 > Ready-to-use copy for each channel. All copy follows approved messaging guidelines:
 > - No crypto jargon in user-facing copy
 > - "Fees" not "interest" — earnings from borrowers via vetted lending markets
-> - Rate shown as "~4%" (current), never guaranteed — do NOT use "APY"
+> - Rate shown as "~5.4%" (current), never guaranteed — do NOT use "APY"
 > - Buttons say "Get Early Access"
-> - Regulated under ADGM (Abu Dhabi Global Market) — use full name, not acronym alone
+> - ADGM: say "pursuing ADGM regulatory approval" — NOT "ADGM regulated" (not yet licensed)
 
-## Page Status (as of March 24, 2026)
+## Page Status (as of March 27, 2026)
 - **Live at**: https://vlt.money
 - **Design**: Clean, focused — centered hero with CTA, comparison table, how-it-works, FAQ, minimal footer
-- **Trust signals**: ADGM regulated, non-custodial, no minimum deposit, withdraw anytime
+- **Trust signals**: Non-custodial, audited markets, withdraw anytime, pursuing ADGM approval
 - **Viral loop**: After signup → "Tell a friend" share buttons (Twitter + copy link)
-- **Blog**: Live at /blog (3 posts: savings bad deal, how lending works, meet the team)
-- **Waitlist count**: 4 (1 real signup, 3 test)
+- **Blog**: Live at /blog (60+ posts — SEO library built)
+- **Waitlist count**: check https://vlt.money/api/waitlist/count for current count
 - **UTM tracking**: Working — `?utm_source=X&ref=Y` captured with each signup
 
 ## Distribution Priority (CEO Directive — March 24)
@@ -322,7 +322,7 @@ Happy to answer questions.
 **URL**: `https://vlt.money/blog/meet-the-team-behind-vault`
 
 #### Twitter/X Posts
-> We're Prometheus Labs. ADGM-registered fintech out of Abu Dhabi.
+> We're Prometheus Labs. Pursuing ADGM regulation, based in Abu Dhabi.
 >
 > We built Vault because we spent years in banking watching the yield spread get pocketed by institutions — while depositors got 0.5%.
 >
