@@ -38,7 +38,7 @@ No. You can withdraw at any time — there is no lock-in period. Settlement happ
 
 ## "Is Vault regulated?"
 
-Not yet. Vault (operated by Prometheus Labs) is in the process of applying for regulatory approval from ADGM (Abu Dhabi Global Market), the UAE's financial free zone regulator. We are not yet licensed.
+Not yet. Vault (operated by Prometheus Labs) is in the process of applying for regulatory approval from ADGM Financial Services Regulatory Authority (FSRA), Abu Dhabi's financial free zone regulator. We are not yet licensed.
 
 This is the most important risk to understand. Before ADGM approval, Vault operates as a pre-launch product. You are not covered by the ADGM Investor Protection Scheme at this stage.
 
@@ -58,7 +58,7 @@ If the rate changes materially, we will notify users promptly. We will never tra
 
 ## "What happens if the underlying platform is hacked?"
 
-Vault deposits go into the Sentora PYUSD vault on Kamino, a lending platform on Solana. Kamino's infrastructure is professionally audited and has operated without a major exploit since launch. Sentora manages over $3 billion in deployed capital through institutional lending markets.
+Vault deposits go into the Sentora PYUSD vault on Kamino, a lending platform on Solana. Kamino's infrastructure is professionally maintained and has operated without a major exploit since launch. Sentora is one of the largest institutional lending platforms operating on digital infrastructure today.
 
 Platform security risk is real. Audits reduce the risk but don't eliminate it. This is the honest answer.
 
