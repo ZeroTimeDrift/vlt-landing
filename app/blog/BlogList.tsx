@@ -1,23 +1,83 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Search, X } from "lucide-react";
 import type { BlogPost } from "@/lib/blog";
 
 const INITIAL = 9;
 const INCREMENT = 9;
 
+type Category = { label: string; match: (slug: string) => boolean };
+
+const CATEGORIES: Category[] = [
+  { label: "All", match: () => true },
+  { label: "Vault vs.", match: (s) => s.startsWith("vault-vs-") },
+  {
+    label: "Savings rates",
+    match: (s) =>
+      s.includes("savings-rate") || s.includes("-rates-") || s.startsWith("uae-savings-rates"),
+  },
+  {
+    label: "Expat guides",
+    match: (s) =>
+      s.includes("expat") ||
+      /(?:^|-)(?:indians|filipinos|pakistanis|british-expats|moving-to-dubai)(?:-|$)/.test(s),
+  },
+  {
+    label: "UAE banks",
+    match: (s) =>
+      [
+        "adcb", "adib", "fab", "dib", "mashreq", "emirates-nbd",
+        "hsbc", "rakbank", "standard-chartered", "emirates-islamic",
+      ].some((b) => s.includes(b)),
+  },
+  {
+    label: "How it works",
+    match: (s) =>
+      [
+        "how-vault-works-without-the-jargon",
+        "how-lending-markets-work",
+        "whos-building-vault",
+        "transparency-is-a-feature",
+        "what-to-check-before-depositing",
+        "who-are-the-borrowers",
+      ].includes(s) || s.startsWith("what-is-"),
+  },
+  {
+    label: "Regulation",
+    match: (s) =>
+      ["regulation", "adgm", "genius-act", "legal", "us-earnings-ban", "us-digital-savings", "us-stablecoin"].some(
+        (t) => s.includes(t)
+      ),
+  },
+];
+
 export default function BlogList({ posts }: { posts: BlogPost[] }) {
   const [displayCount, setDisplayCount] = useState(INITIAL);
   const [query, setQuery] = useState("");
+  const [activePill, setActivePill] = useState("All");
+
   const q = query.trim().toLowerCase();
+
+  // Count posts per category to hide pills with < 2 matches
+  const categoryCounts = useMemo(
+    () => CATEGORIES.map((c) => ({ ...c, count: posts.filter((p) => c.match(p.slug)).length })),
+    [posts]
+  );
+  const visiblePills = categoryCounts.filter((c) => c.label === "All" || c.count >= 2);
+
+  // Apply pill filter first, then search on top
+  const pillFiltered =
+    activePill === "All"
+      ? posts
+      : posts.filter((p) => CATEGORIES.find((c) => c.label === activePill)!.match(p.slug));
   const filtered = q
-    ? posts.filter(
+    ? pillFiltered.filter(
         (p) =>
           p.title.toLowerCase().includes(q) ||
           (p.excerpt ?? "").toLowerCase().includes(q)
       )
-    : posts;
+    : pillFiltered;
   const visible = q ? filtered : filtered.slice(0, displayCount);
   const allShown = q || displayCount >= filtered.length;
 
@@ -107,6 +167,61 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
         </div>
       </div>
 
+      {/* Topic filter pills */}
+      <div
+        style={{
+          display: "flex",
+          gap: "8px",
+          overflowX: "auto",
+          scrollbarWidth: "none",
+          WebkitOverflowScrolling: "touch",
+          paddingBottom: "4px",
+        }}
+        className="hide-scrollbar"
+      >
+        {visiblePills.map((cat) => {
+          const isActive = activePill === cat.label;
+          return (
+            <button
+              key={cat.label}
+              onClick={() => {
+                setActivePill(cat.label);
+                setDisplayCount(INITIAL);
+              }}
+              style={{
+                height: "32px",
+                padding: "0 14px",
+                borderRadius: "999px",
+                border: `1px solid ${isActive ? "rgba(0,102,255,0.28)" : "rgba(255,255,255,0.08)"}`,
+                background: isActive ? "rgba(0,102,255,0.10)" : "transparent",
+                color: isActive ? "#0066FF" : "#6B7280",
+                fontSize: "13px",
+                fontWeight: 500,
+                fontFamily: "Inter, sans-serif",
+                cursor: "pointer",
+                whiteSpace: "nowrap",
+                flexShrink: 0,
+                transition: "background 0.15s, color 0.15s, border-color 0.15s",
+              }}
+              onMouseEnter={(e) => {
+                if (!isActive) {
+                  e.currentTarget.style.background = "rgba(255,255,255,0.04)";
+                  e.currentTarget.style.color = "#9CA3AF";
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!isActive) {
+                  e.currentTarget.style.background = "transparent";
+                  e.currentTarget.style.color = "#6B7280";
+                }
+              }}
+            >
+              {cat.label}
+            </button>
+          );
+        })}
+      </div>
+
       {/* Empty state */}
       {q && filtered.length === 0 ? (
         <div
@@ -160,7 +275,7 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
                     className="text-[11px] font-semibold uppercase tracking-widest mb-3"
                     style={{ color: "#0066FF" }}
                   >
-                    Latest
+                    {activePill === "All" ? "Latest" : activePill}
                   </span>
                   <h2 className="text-[22px] font-bold text-white mb-3 leading-snug">{featured.title}</h2>
                   <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2">{featured.excerpt}</p>
@@ -270,10 +385,14 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
             )}
             <p className="text-xs text-vault-muted" style={{ textAlign: "center" }}>
               {q
-                ? `${filtered.length} result${filtered.length !== 1 ? "s" : ""} for "${query.trim()}"`
-                : allShown
-                  ? `Showing all ${posts.length} articles`
-                  : `Showing ${Math.min(displayCount, posts.length)} of ${posts.length} articles`}
+                ? `${filtered.length} result${filtered.length !== 1 ? "s" : ""} for "${query.trim()}"${activePill !== "All" ? ` in ${activePill}` : ""}`
+                : activePill !== "All"
+                  ? allShown
+                    ? `Showing all ${filtered.length} ${activePill} articles`
+                    : `Showing ${Math.min(displayCount, filtered.length)} of ${filtered.length} ${activePill} articles`
+                  : allShown
+                    ? `Showing all ${posts.length} articles`
+                    : `Showing ${Math.min(displayCount, posts.length)} of ${posts.length} articles`}
             </p>
           </div>
         </>

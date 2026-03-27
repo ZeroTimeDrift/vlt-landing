@@ -318,6 +318,10 @@ input[type="range"]::-moz-range-thumb {
   text-align: right;
 }
 
+/* Hide scrollbar (pill bar) */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Search placeholder */
 .search-input::placeholder {
   color: #9CA3AF;
