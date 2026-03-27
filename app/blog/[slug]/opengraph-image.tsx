@@ -17,6 +17,10 @@ export default async function Image({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   const title = post?.title ?? slugToTitle(params.slug);
 
+  const interBold = await fetch(
+    new URL("https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf")
+  ).then((r) => r.arrayBuffer());
+
   return new ImageResponse(
     (
       <div
@@ -111,6 +115,9 @@ export default async function Image({ params }: { params: { slug: string } }) {
         />
       </div>
     ),
-    { ...size },
+    {
+      ...size,
+      fonts: [{ name: "Inter", data: interBold, style: "normal" as const, weight: 700 as const }],
+    },
   );
 }
