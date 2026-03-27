@@ -1,0 +1,36 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="420" fill="#020810"/>
+  <!-- Subtle grid -->
+  <line x1="600" y1="0" x2="600" y2="420" stroke="#0d1a2e" stroke-width="1"/>
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#0d1a2e" stroke-width="1"/>
+
+  <!-- Left panel label -->
+  <rect x="60" y="60" width="480" height="300" rx="12" fill="#0a1628" stroke="#1a2e4a" stroke-width="1"/>
+  <!-- Right panel label -->
+  <rect x="660" y="60" width="480" height="300" rx="12" fill="#0a1628" stroke="#1a2e4a" stroke-width="1"/>
+
+  <!-- VS divider -->
+  <circle cx="600" cy="210" r="28" fill="#020810" stroke="#1a3050" stroke-width="1.5"/>
+  <text x="600" y="216" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#4a6080" text-anchor="middle">VS</text>
+
+  <!-- Left: vlt.money -->
+  <text x="300" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#e8f0fe" text-anchor="middle">vlt.money</text>
+  <text x="300" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#5a8aaa" text-anchor="middle">SAVINGS APP</text>
+  <line x1="160" y1="185" x2="440" y2="185" stroke="#1a2e4a" stroke-width="1"/>
+  <text x="300" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="900" fill="#22d3a0" text-anchor="middle">~5.4%</text>
+  <text x="300" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#5a8aaa" text-anchor="middle">current earnings rate</text>
+  <text x="300" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#8aa8c0" text-anchor="middle">Idle cash. No decisions.</text>
+  <text x="300" y="312" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#8aa8c0" text-anchor="middle">Withdraw anytime.</text>
+
+  <!-- Right: Vault22 -->
+  <text x="900" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#e8f0fe" text-anchor="middle">Vault22</text>
+  <text x="900" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#5a6aaa" text-anchor="middle">INVESTMENT PLATFORM</text>
+  <line x1="760" y1="185" x2="1040" y2="185" stroke="#1a2e4a" stroke-width="1"/>
+  <text x="900" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#7090c0" text-anchor="middle">ETF Portfolios</text>
+  <text x="900" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#5a6880" text-anchor="middle">AI robo-advisory</text>
+  <text x="900" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6a88a8" text-anchor="middle">Long-term wealth building.</text>
+  <text x="900" y="312" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6a88a8" text-anchor="middle">Active portfolio management.</text>
+
+  <!-- Bottom tagline -->
+  <text x="600" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#2a4060" text-anchor="middle">Different tools. Different money. Both worth knowing.</text>
+</svg>
