@@ -3,6 +3,7 @@ title: "Best Savings Account for Pakistani Expats in the UAE (2026)"
 description: "Over 1.5 million Pakistanis live in the UAE. Here's why most high-rate savings accounts won't work for Pakistani expats — and what does."
 date: "2026-03-27"
 slug: "savings-account-pakistanis-uae"
+heroImage: "/blog/savings-account-pakistanis-uae.svg"
 ---
 
 Pakistani nationals are one of the largest expat communities in the UAE — over 1.5 million people, working across professional services, construction, retail, and entrepreneurship. Many maintain financial ties to Pakistan while building careers and savings in the UAE.

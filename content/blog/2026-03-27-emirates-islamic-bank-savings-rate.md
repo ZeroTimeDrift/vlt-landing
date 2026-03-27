@@ -3,6 +3,7 @@ title: "Emirates Islamic Bank Savings Rate UAE (2026)"
 description: "Emirates Islamic Bank profit rates for UAE savings accounts in 2026 — plus how it compares to other UAE savings options with no conditions."
 date: "2026-03-27"
 slug: "emirates-islamic-bank-savings-rate"
+heroImage: "/blog/emirates-islamic-bank-savings-rate.svg"
 ---
 
 Emirates Islamic Bank (EIB) is one of the UAE's major Islamic banking institutions, operating under Sharia principles and regulated by the Central Bank of the UAE. It is part of the Emirates NBD Group.
