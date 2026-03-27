@@ -270,8 +270,12 @@ function SocialProofStrip({ joined = false }: { joined?: boolean }) {
       .catch(() => {});
   }, []);
 
-  // Hide until we have real numbers worth showing
-  if (!joined && (count === null || count < 50)) return null;
+  // Hide only while loading
+  if (count === null && !joined) return null;
+
+  const displayCount = count !== null && count >= 50
+    ? Math.floor(count / 50) * 50
+    : count;
 
   const avatarStyles: CSSProperties[] = [
     { background: "linear-gradient(135deg, #0066FF, #3385FF)", zIndex: 3 },
@@ -280,29 +284,33 @@ function SocialProofStrip({ joined = false }: { joined?: boolean }) {
   ];
   return (
     <div className="flex items-center gap-2.5">
-      <div className="flex items-center">
-        {avatarStyles.map((style, i) => (
-          <div
-            key={i}
-            style={{
-              width: 24,
-              height: 24,
-              borderRadius: "50%",
-              border: "1.5px solid #0F1117",
-              flexShrink: 0,
-              position: "relative",
-              ...style,
-            }}
-          />
-        ))}
-      </div>
+      {(count !== null && count >= 50) && (
+        <div className="flex items-center">
+          {avatarStyles.map((style, i) => (
+            <div
+              key={i}
+              style={{
+                width: 24,
+                height: 24,
+                borderRadius: "50%",
+                border: "1.5px solid #0F1117",
+                flexShrink: 0,
+                position: "relative",
+                ...style,
+              }}
+            />
+          ))}
+        </div>
+      )}
       <span className="text-[13px] font-medium" style={{ color: "#9CA3AF" }}>
         {joined ? (
-          count && count >= 50
-            ? <>You&apos;re in — along with <span style={{ color: "#FFFFFF" }}>{count.toLocaleString()}+</span> others.</>
+          count !== null && count >= 50
+            ? <>You&apos;re in — along with <span style={{ color: "#FFFFFF" }}>{displayCount?.toLocaleString()}+</span> others.</>
             : <>You&apos;re on the list. We&apos;ll be in touch.</>
         ) : (
-          <><span style={{ color: "#FFFFFF" }}>+{count?.toLocaleString()}</span> people already on the waitlist</>
+          count !== null && count >= 50
+            ? <><span style={{ color: "#FFFFFF" }}>{displayCount?.toLocaleString()}+</span> people on the waitlist</>
+            : <>Join early — limited beta access</>
         )}
       </span>
     </div>
@@ -498,18 +506,25 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                   <span style={{ color: "#0066FF" }}>Ours didn&apos;t.</span>
                 </h1>
 
-                <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0">
+                <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-4 max-w-lg mx-auto lg:mx-0">
                   Vault still earns ~5.4% from institutional lending markets.
                   No lock-ups, no conditions. Same money, more of it.
+                </p>
+                <p className="hero-animate delay-2 text-[15px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0" style={{ color: "#9CA3AF" }}>
+                  Your funds are held in your name. Vault never touches your principal.
                 </p>
 
                 <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-4">
                   <SocialProofStrip joined={heroJoined} />
                 </div>
 
-                <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-6">
+                <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-2">
                   <WaitlistForm id="hero" onSuccess={() => setHeroJoined(true)} />
                 </div>
+
+                <p className="hero-animate delay-3 text-[11px] text-vault-muted mb-6 text-center lg:text-left">
+                  No spam. No commitment. Cancel anytime.
+                </p>
 
                 <div className="hero-animate delay-4 flex items-center justify-center lg:justify-start gap-5 text-xs text-vault-muted flex-wrap">
                   <span>No minimum deposit</span>
@@ -538,8 +553,8 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               },
               {
                 icon: <Scale className="w-5 h-5 text-vault-accent" />,
-                label: "Pursuing ADGM regulation",
-                desc: "The dollar-denominated currency behind Vault is already ADGM-licensed",
+                label: "ADGM-registered",
+                desc: "Regulatory application filed",
               },
               {
                 icon: <Building2 className="w-5 h-5 text-vault-accent" />,
