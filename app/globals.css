@@ -286,6 +286,38 @@ input[type="range"]::-moz-range-thumb {
 /* Selection */
 ::selection { background: rgba(0, 102, 255, 0.3); color: white; }
 
+/* ── RTL / Arabic layout ──────────────────────────────────────────────────── */
+.ar-layout {
+  font-family: 'Noto Sans Arabic', 'Inter', system-ui, sans-serif;
+}
+
+/* Flip step connector line for RTL */
+[dir="rtl"] .step-connector::after {
+  left: auto;
+  right: 19px;
+}
+
+/* Flip blog prose list padding for RTL */
+[dir="rtl"] .prose-vault ul,
+[dir="rtl"] .prose-vault ol {
+  padding-left: 0;
+  padding-right: 1.5em;
+}
+
+/* Flip blockquote border for RTL */
+[dir="rtl"] .prose-vault blockquote {
+  border-left: none;
+  border-right: 3px solid rgba(0, 102, 255, 0.4);
+  padding-left: 0;
+  padding-right: 1em;
+}
+
+/* RTL table text alignment */
+[dir="rtl"] .prose-vault th,
+[dir="rtl"] .prose-vault td {
+  text-align: right;
+}
+
 /* Search placeholder */
 .search-input::placeholder {
   color: #9CA3AF;

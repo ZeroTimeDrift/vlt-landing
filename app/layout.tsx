@@ -35,6 +35,9 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
+        <link rel="alternate" hrefLang="en" href="https://vlt.money" />
+        <link rel="alternate" hrefLang="ar" href="https://vlt.money/ar" />
+        <link rel="alternate" hrefLang="x-default" href="https://vlt.money" />
       </head>
       <body>{children}</body>
       {process.env.NEXT_PUBLIC_GA_ID && (
