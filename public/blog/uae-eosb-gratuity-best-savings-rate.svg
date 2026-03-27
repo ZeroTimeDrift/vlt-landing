@@ -1,0 +1,65 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(16,185,129,0.15)"/>
+      <stop offset="100%" stop-color="rgba(16,185,129,0.04)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+
+  <!-- Subtle glow -->
+  <ellipse cx="620" cy="200" rx="500" ry="200" fill="rgba(0,102,255,0.02)"/>
+
+  <!-- Title block -->
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">WHERE TO PUT YOUR UAE GRATUITY — APRIL 2026</text>
+
+  <!-- Large lump sum label -->
+  <text x="130" y="130" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.2)">AED 200,000 GRATUITY — 12 MONTHS</text>
+
+  <!-- Comparison bars: horizontal layout -->
+
+  <!-- Current account -->
+  <rect x="130" y="152" width="80" height="28" rx="4" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.12)" stroke-width="1"/>
+  <text x="220" y="171" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" dominant-baseline="middle">Current account (0.5%)</text>
+  <text x="550" y="171" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.45)" dominant-baseline="middle">+AED 1,000</text>
+
+  <!-- FAB post-promo -->
+  <rect x="130" y="196" width="200" height="28" rx="4" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="340" y="215" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" dominant-baseline="middle">FAB (post-promo 2.5%)</text>
+  <text x="550" y="215" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)" dominant-baseline="middle">+AED 5,000</text>
+
+  <!-- StashAway -->
+  <rect x="130" y="240" width="310" height="28" rx="4" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="450" y="259" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)" dominant-baseline="middle">StashAway Simple (3.9%)</text>
+  <text x="620" y="259" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)" dominant-baseline="middle">+AED 7,800</text>
+
+  <!-- Vault hero bar -->
+  <rect x="130" y="284" width="432" height="36" rx="5" fill="url(#greenGrad)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="130" y="284" width="5" height="36" rx="3" fill="url(#blueGrad)"/>
+  <text x="148" y="307" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.85)" dominant-baseline="middle">Vault (~5.4%, no conditions)</text>
+  <text x="660" y="307" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="800" fill="#0066FF" dominant-baseline="middle">+AED 10,800</text>
+
+  <!-- Vertical divider -->
+  <line x1="700" y1="100" x2="700" y2="340" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Right panel: key message -->
+  <text x="760" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.2)" letter-spacing="0.08em">GRATUITY NEEDS</text>
+
+  <text x="760" y="186" font-family="Inter, system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.6)">✓  No lock-in</text>
+  <text x="760" y="220" font-family="Inter, system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.6)">✓  No minimum balance</text>
+  <text x="760" y="254" font-family="Inter, system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.6)">✓  Withdraw anytime</text>
+  <text x="760" y="288" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#0066FF">✓  ~5.4% variable</text>
+
+  <!-- Footnote -->
+  <text x="600" y="378" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Earnings variable, not guaranteed. FAB post-promo rate effective April 1, 2026. vlt.money</text>
+</svg>

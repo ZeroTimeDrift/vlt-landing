@@ -355,41 +355,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
   return (
     <>
-      {/* ── ANNOUNCEMENT BANNER (April 2026) ─────────────────────────────── */}
-      {showBanner && (
-        <div
-          className="fixed top-0 inset-x-0 z-50"
-          style={{
-            background: "rgba(0,102,255,0.12)",
-            borderBottom: "1px solid rgba(0,102,255,0.15)",
-            padding: "8px 16px",
-            textAlign: "center",
-          }}
-        >
-          <p className="text-xs font-medium" style={{ color: "#9CA3AF" }}>
-            {/* Mobile: short */}
-            <span className="sm:hidden">
-              Bank promos ended.{" "}
-              <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% →</a>
-            </span>
-            {/* Desktop: full */}
-            <span className="hidden sm:inline">
-              UAE bank promos expired.{" "}
-              <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% — no promo, no expiry date. →</a>
-            </span>
-          </p>
-          <button
-            onClick={handleBannerDismiss}
-            aria-label="Dismiss banner"
-            className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center justify-center"
-            style={{ width: 44, height: 44, color: "#6B7280", background: "none", border: "none", cursor: "pointer" }}
-            onMouseEnter={e => (e.currentTarget.style.color = "#FFFFFF")}
-            onMouseLeave={e => (e.currentTarget.style.color = "#6B7280")}
-          >
-            <span style={{ fontSize: 14, lineHeight: 1 }}>✕</span>
-          </button>
-        </div>
-      )}
+      {/* ── ANNOUNCEMENT BANNER ─────────────────────────────── */}
 
       {/* ── NAV ──────────────────────────────────────────────────────────── */}
       <nav
@@ -495,54 +461,16 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
               {/* Left: Copy + Form */}
               <div className="flex-1 text-center lg:text-left">
-                <p className="hero-animate delay-0 text-[13px] font-medium mb-6 text-accent uppercase tracking-widest">
-                  Bank promos expired · Vault still ~5.4%
-                </p>
-
                 <h1 className="hero-animate delay-1 text-[1.65rem] sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
-                  UAE bank promos ended.
+                  Your savings,{" "}
                   <br />
-                  <span style={{ color: "#0066FF" }}>Vault still pays ~5.4%.</span>
+                  <span style={{ color: "#0066FF" }}>actually earning.</span>
                 </h1>
 
                 <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-4 max-w-lg mx-auto lg:mx-0">
-                  Most banks now pay ~2.5% with no promo attached.
                   Vault earns ~5.4% from institutional lending markets.
-                  No lock-ups, no conditions.
+                  No lock-ups, no conditions. Your funds are held in your name.
                 </p>
-                <p className="hero-animate delay-2 text-[15px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0" style={{ color: "#9CA3AF" }}>
-                  Your funds are held in your name. Vault never touches your principal.
-                </p>
-
-                {/* Rate comparison strip */}
-                <div className="hero-animate delay-2 mt-6 mb-8 flex flex-col items-center lg:items-start">
-                  <div className="flex items-center gap-3">
-                    <span
-                      className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium"
-                      style={{
-                        background: "rgba(255,255,255,0.05)",
-                        border: "1px solid rgba(255,255,255,0.08)",
-                        color: "#9CA3AF",
-                      }}
-                    >
-                      Most banks ~2.5%
-                    </span>
-                    <span style={{ color: "#6B7280" }}>→</span>
-                    <span
-                      className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium"
-                      style={{
-                        background: "rgba(16,185,129,0.08)",
-                        border: "1px solid rgba(16,185,129,0.15)",
-                        color: "#10B981",
-                      }}
-                    >
-                      Vault ~5.4%
-                    </span>
-                  </div>
-                  <p className="text-[11px] mt-2" style={{ color: "#6B7280" }}>
-                    Variable rate, not guaranteed.
-                  </p>
-                </div>
 
                 <div className="hero-animate delay-3 flex justify-center lg:justify-start mb-4">
                   <SocialProofStrip joined={heroJoined} />
