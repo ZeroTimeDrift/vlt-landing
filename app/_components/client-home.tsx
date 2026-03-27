@@ -402,12 +402,13 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             background: "rgba(15,17,23,0.98)",
             backdropFilter: "blur(16px)",
             WebkitBackdropFilter: "blur(16px)",
-            borderBottom: "1px solid rgba(255,255,255,0.08)",
-            padding: "16px 24px 24px",
-            transform: isMenuOpen ? "translateY(0)" : "translateY(-8px)",
+            borderBottom: isMenuOpen ? "1px solid rgba(255,255,255,0.08)" : "none",
+            padding: isMenuOpen ? "16px 24px 24px" : "0 24px",
+            maxHeight: isMenuOpen ? 300 : 0,
+            overflow: "hidden",
             opacity: isMenuOpen ? 1 : 0,
             pointerEvents: isMenuOpen ? "auto" : "none",
-            transition: "transform 200ms cubic-bezier(0.16,1,0.3,1), opacity 200ms ease",
+            transition: "max-height 200ms cubic-bezier(0.16,1,0.3,1), opacity 200ms ease, padding 200ms ease",
           }}
         >
           {[
