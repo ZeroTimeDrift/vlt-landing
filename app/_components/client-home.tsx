@@ -320,7 +320,7 @@ function SocialProofStrip({ joined = false }: { joined?: boolean }) {
 export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostData[] }) {
   const [heroJoined, setHeroJoined] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [showBanner, setShowBanner] = useState(false);
+  const [showBanner, setShowBanner] = useState(true);
 
   useEffect(() => {
     // Hard-expire after May 31, 2026
@@ -355,7 +355,41 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
   return (
     <>
-      {/* ── ANNOUNCEMENT BANNER ─────────────────────────────── */}
+      {/* ── ANNOUNCEMENT BANNER (April 2026) ─────────────────────────────── */}
+      {showBanner && (
+        <div
+          className="fixed top-0 inset-x-0 z-50"
+          style={{
+            background: "rgba(0,102,255,0.12)",
+            borderBottom: "1px solid rgba(0,102,255,0.15)",
+            padding: "8px 16px",
+            textAlign: "center",
+          }}
+        >
+          <p className="text-xs font-medium" style={{ color: "#9CA3AF" }}>
+            {/* Mobile: short */}
+            <span className="sm:hidden">
+              Bank promos ended.{" "}
+              <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% →</a>
+            </span>
+            {/* Desktop: full */}
+            <span className="hidden sm:inline">
+              UAE bank promos expired.{" "}
+              <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% — no promo, no expiry date. →</a>
+            </span>
+          </p>
+          <button
+            onClick={handleBannerDismiss}
+            aria-label="Dismiss banner"
+            className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center justify-center"
+            style={{ width: 44, height: 44, color: "#6B7280", background: "none", border: "none", cursor: "pointer" }}
+            onMouseEnter={e => (e.currentTarget.style.color = "#FFFFFF")}
+            onMouseLeave={e => (e.currentTarget.style.color = "#6B7280")}
+          >
+            <span style={{ fontSize: 14, lineHeight: 1 }}>✕</span>
+          </button>
+        </div>
+      )}
 
       {/* ── NAV ──────────────────────────────────────────────────────────── */}
       <nav
@@ -462,13 +496,12 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {/* Left: Copy + Form */}
               <div className="flex-1 text-center lg:text-left">
                 <h1 className="hero-animate delay-1 text-[1.65rem] sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
-                  Your savings,{" "}
+                  UAE bank promos ended.
                   <br />
-                  <span style={{ color: "#0066FF" }}>actually earning.</span>
+                  <span style={{ color: "#0066FF" }}>Vault still pays ~5.4%.</span>
                 </h1>
 
                 <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-4 max-w-lg mx-auto lg:mx-0">
-                  Vault earns ~5.4% from institutional lending markets.
                   No lock-ups, no conditions. Your funds are held in your name.
                 </p>
 
