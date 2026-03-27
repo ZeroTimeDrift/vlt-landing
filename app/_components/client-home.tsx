@@ -312,6 +312,24 @@ function SocialProofStrip({ joined = false }: { joined?: boolean }) {
 export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostData[] }) {
   const [heroJoined, setHeroJoined] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showBanner, setShowBanner] = useState(false);
+
+  useEffect(() => {
+    // Hard-expire after April 7, 2026
+    if (new Date() > new Date("2026-04-07T23:59:59")) return;
+    const dismissed = localStorage.getItem("fab-expiry-banner-dismissed");
+    if (dismissed) {
+      const dismissedAt = new Date(dismissed).getTime();
+      const sevenDays = 7 * 24 * 60 * 60 * 1000;
+      if (Date.now() - dismissedAt < sevenDays) return;
+    }
+    setShowBanner(true);
+  }, []);
+
+  function handleBannerDismiss() {
+    localStorage.setItem("fab-expiry-banner-dismissed", new Date().toISOString());
+    setShowBanner(false);
+  }
 
   useEffect(() => {
     document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -330,34 +348,46 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
   return (
     <>
       {/* ── ANNOUNCEMENT BANNER (April 2026) ─────────────────────────────── */}
-      <div
-        className="fixed top-0 inset-x-0 z-50"
-        style={{
-          background: "rgba(0,102,255,0.12)",
-          borderBottom: "1px solid rgba(0,102,255,0.15)",
-          padding: "8px 24px",
-          textAlign: "center",
-        }}
-      >
-        <p className="text-xs font-medium" style={{ color: "#9CA3AF" }}>
-          {/* Mobile: short */}
-          <span className="sm:hidden">
-            FAB 4% ended.{" "}
-            <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% →</a>
-          </span>
-          {/* Desktop: full */}
-          <span className="hidden sm:inline">
-            FAB&apos;s 4% savings rate ended March 31.{" "}
-            <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% — no promo, no expiry. →</a>
-          </span>
-        </p>
-      </div>
+      {showBanner && (
+        <div
+          className="fixed top-0 inset-x-0 z-50"
+          style={{
+            background: "rgba(0,102,255,0.12)",
+            borderBottom: "1px solid rgba(0,102,255,0.15)",
+            padding: "8px 16px",
+            textAlign: "center",
+          }}
+        >
+          <p className="text-xs font-medium" style={{ color: "#9CA3AF" }}>
+            {/* Mobile: short */}
+            <span className="sm:hidden">
+              FAB 4% ended.{" "}
+              <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% →</a>
+            </span>
+            {/* Desktop: full */}
+            <span className="hidden sm:inline">
+              FAB&apos;s 4% savings rate ended March 31.{" "}
+              <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% — no promo, no expiry. →</a>
+            </span>
+          </p>
+          <button
+            onClick={handleBannerDismiss}
+            aria-label="Dismiss banner"
+            className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center justify-center"
+            style={{ width: 44, height: 44, color: "#6B7280", background: "none", border: "none", cursor: "pointer" }}
+            onMouseEnter={e => (e.currentTarget.style.color = "#FFFFFF")}
+            onMouseLeave={e => (e.currentTarget.style.color = "#6B7280")}
+          >
+            <span style={{ fontSize: 14, lineHeight: 1 }}>✕</span>
+          </button>
+        </div>
+      )}
 
       {/* ── NAV ──────────────────────────────────────────────────────────── */}
       <nav
         className="fixed inset-x-0 z-50"
         style={{
-          top: 32,
+          top: showBanner ? 32 : 0,
           background: "rgba(15,17,23,0.92)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
@@ -627,7 +657,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 <div className="text-center text-[11px] font-medium uppercase tracking-wider" style={{ color: "#0066FF" }}>Vault</div>
               </div>
               {[
-                { label: "Returns",    bank: "FAB ~2.5% · Sarwa ~3.2%",   vault: "~5.4% current",     win: true },
+                { label: "Returns",    bank: "FAB ~2.5% · Sarwa ~3.2% · Wio 3.25%",   vault: "~5.4% current",     win: true },
                 { label: "Access",     bank: "Limited",          vault: "Withdraw anytime", win: true },
                 { label: "Minimum",    bank: "Often $1,000+",   vault: "No minimum",       win: true },
               ].map((row, i, arr) => (
@@ -654,9 +684,11 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 mt-3 text-xs text-vault-muted">
               <span>FAB (post-promo): ~2.5%</span>
               <span>·</span>
-              <span>StashAway: 3.9%</span>
+              <span>Wio: 3.25% flexible</span>
               <span>·</span>
               <span>Sarwa Save+: ~3.2% net</span>
+              <span>·</span>
+              <span>StashAway: 3.9%</span>
               <span>·</span>
               <span className="font-semibold" style={{ color: "#10B981" }}>Vault: ~5.4%</span>
             </div>
