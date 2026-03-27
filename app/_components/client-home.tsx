@@ -324,12 +324,12 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
   useEffect(() => {
     // Hard-expire after May 31, 2026
-    if (new Date() > new Date("2026-05-31T23:59:59")) return;
+    if (new Date() > new Date("2026-05-31T23:59:59")) { setShowBanner(false); return; }
     const dismissed = localStorage.getItem("fab-expiry-banner-dismissed");
     if (dismissed) {
       const dismissedAt = new Date(dismissed).getTime();
       const sevenDays = 7 * 24 * 60 * 60 * 1000;
-      if (Date.now() - dismissedAt < sevenDays) return;
+      if (Date.now() - dismissedAt < sevenDays) { setShowBanner(false); return; }
     }
     setShowBanner(true);
   }, []);
@@ -395,7 +395,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
       <nav
         className="fixed inset-x-0 z-50"
         style={{
-          top: showBanner ? 32 : 0,
+          top: showBanner ? 36 : 0,
           background: "rgba(15,17,23,0.92)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
