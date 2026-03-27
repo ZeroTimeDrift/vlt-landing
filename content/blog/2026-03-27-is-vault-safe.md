@@ -3,6 +3,7 @@ title: "Is Vault Safe? Honest Answers to the Questions We Get Most"
 description: "What are the real risks of using Vault? We answer the questions that matter before you put your savings in — honestly, without spin."
 date: "2026-03-27"
 slug: "is-vault-safe"
+heroImage: /blog/is-vault-safe.svg
 ---
 
 If you've landed on this page, you've probably heard about Vault and want to know whether it's actually safe before you put your savings in. That's exactly the right question to ask.

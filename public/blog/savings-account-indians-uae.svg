@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.5" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="vaultBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="dimBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+
+  <!-- Subtle ellipse glow -->
+  <ellipse cx="900" cy="200" rx="400" ry="200" fill="rgba(0,102,255,0.03)"/>
+
+  <!-- Left column header -->
+  <text x="80" y="46" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.25)">INDIANS IN UAE — SAVINGS WITHOUT SALARY ROUTING</text>
+  <text x="80" y="82" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="rgba(255,255,255,0.88)">Most UAE rates require salary routing. Vault doesn't.</text>
+
+  <!-- Row 1: Mashreq NEO PLUS -->
+  <text x="80" y="133" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Mashreq NEO PLUS</text>
+  <rect x="280" y="120" width="220" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="508" y="134" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.7)">6.25%</text>
+  <rect x="548" y="124" width="72" height="14" rx="7" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="584" y="134" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(239,68,68,0.6)" text-anchor="middle">SALARY REQ</text>
+
+  <!-- Row 2: Wio Bank -->
+  <text x="80" y="169" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Wio Bank</text>
+  <rect x="280" y="156" width="190" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="478" y="170" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.7)">6%</text>
+  <rect x="500" y="160" width="72" height="14" rx="7" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="536" y="170" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(239,68,68,0.6)" text-anchor="middle">SALARY REQ</text>
+
+  <!-- Row 3: ADCB Active Saver -->
+  <text x="80" y="205" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">ADCB Active Saver</text>
+  <rect x="280" y="192" width="155" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="443" y="206" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.6)">~5%</text>
+  <rect x="470" y="196" width="72" height="14" rx="7" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="506" y="206" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(239,68,68,0.6)" text-anchor="middle">SALARY REQ</text>
+
+  <!-- Row 4: UAE banks (flexible) -->
+  <text x="80" y="241" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">UAE banks (flexible)</text>
+  <rect x="280" y="228" width="25" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="313" y="242" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)">0.5–2.5%</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="270" x2="660" y2="270" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Vault highlighted row -->
+  <rect x="60" y="285" width="570" height="56" rx="10" fill="rgba(0,102,255,0.07)" stroke="rgba(0,102,255,0.25)" stroke-width="1.5"/>
+  <text x="80" y="318" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="rgba(255,255,255,0.9)">Vault</text>
+  <text x="80" y="332" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)">No fee · No lock-in · UAE-based · No salary req</text>
+  <rect x="280" y="302" width="240" height="22" rx="4" fill="url(#vaultBar)" opacity="0.9"/>
+  <text x="528" y="317" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800" fill="#0066FF">~5.4%</text>
+  <!-- CURRENT pill -->
+  <rect x="528" y="323" width="58" height="16" rx="8" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <text x="557" y="334" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="#10B981" text-anchor="middle">CURRENT</text>
+
+  <!-- Right column callout card -->
+  <rect x="720" y="95" width="420" height="265" rx="16" fill="rgba(0,102,255,0.05)" stroke="rgba(0,102,255,0.12)" stroke-width="1.5"/>
+  <!-- Accent top bar -->
+  <rect x="720" y="95" width="420" height="3" rx="2" fill="url(#vaultBar)"/>
+
+  <text x="930" y="140" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)" text-anchor="middle">FOR INDIAN EXPATS IN UAE</text>
+  <text x="930" y="195" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="800" fill="#FFFFFF" text-anchor="middle">~5.4%</text>
+  <text x="930" y="220" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.45)" text-anchor="middle">annual · variable · USD</text>
+
+  <!-- Divider line -->
+  <line x1="800" y1="238" x2="1060" y2="238" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="930" y="262" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#10B981" text-anchor="middle">No salary routing required</text>
+  <text x="930" y="284" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#10B981" text-anchor="middle">No minimum balance</text>
+  <text x="930" y="305" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.45)" text-anchor="middle">Withdraw anytime</text>
+
+  <!-- WAITLIST OPEN pill -->
+  <rect x="862" y="318" width="136" height="22" rx="11" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <text x="930" y="332" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="#10B981" text-anchor="middle">WAITLIST OPEN</text>
+
+  <!-- Footer disclaimer -->
+  <text x="80" y="400" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Vault rate variable, not guaranteed. Salary-routing rate conditions per bank terms 2026. vlt.money</text>
+</svg>
