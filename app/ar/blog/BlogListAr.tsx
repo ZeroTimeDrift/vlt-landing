@@ -237,7 +237,7 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
             {featured && (
               <a
                 key={featured.slug}
-                href={`/blog/${featured.slug}`}
+                href={`/ar/blog/${featured.slug}`}
                 className="card card-hover flex flex-col md:flex-row-reverse overflow-hidden sm:col-span-2 lg:col-span-3"
                 style={{ textDecoration: "none" }}
               >
@@ -278,7 +278,7 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
             {rest.map((post) => (
               <a
                 key={post.slug}
-                href={`/blog/${post.slug}`}
+                href={`/ar/blog/${post.slug}`}
                 className="card card-hover flex flex-col overflow-hidden"
                 style={{ textDecoration: "none" }}
               >
