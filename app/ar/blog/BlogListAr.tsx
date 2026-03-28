@@ -1,23 +1,81 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Search, X } from "lucide-react";
 import type { BlogPost } from "@/lib/blog";
 
 const INITIAL = 9;
 const INCREMENT = 9;
 
+type Category = { label: string; match: (slug: string) => boolean };
+
+const CATEGORIES: Category[] = [
+  { label: "الكل", match: () => true },
+  { label: "Vault مقابل", match: (s) => s.startsWith("vault-vs-") },
+  {
+    label: "معدلات الادخار",
+    match: (s) =>
+      s.includes("savings-rate") || s.includes("-rates-") || s.startsWith("uae-savings-rates"),
+  },
+  {
+    label: "أدلة المغتربين",
+    match: (s) =>
+      s.includes("expat") ||
+      /(?:^|-)(?:indians|filipinos|pakistanis|british-expats|moving-to-dubai)(?:-|$)/.test(s),
+  },
+  {
+    label: "بنوك الإمارات",
+    match: (s) =>
+      [
+        "adcb", "adib", "fab", "dib", "mashreq", "emirates-nbd",
+        "hsbc", "rakbank", "standard-chartered", "emirates-islamic",
+      ].some((b) => s.includes(b)),
+  },
+  {
+    label: "كيف يعمل",
+    match: (s) =>
+      [
+        "how-vault-works-without-the-jargon",
+        "how-lending-markets-work",
+        "whos-building-vault",
+        "transparency-is-a-feature",
+        "what-to-check-before-depositing",
+        "who-are-the-borrowers",
+      ].includes(s) || s.startsWith("what-is-"),
+  },
+  {
+    label: "التنظيم",
+    match: (s) =>
+      ["regulation", "adgm", "genius-act", "legal", "us-earnings-ban", "us-digital-savings", "us-stablecoin"].some(
+        (t) => s.includes(t)
+      ),
+  },
+];
+
 export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
   const [displayCount, setDisplayCount] = useState(INITIAL);
   const [query, setQuery] = useState("");
+  const [activePill, setActivePill] = useState("الكل");
+
   const q = query.trim().toLowerCase();
+
+  const categoryCounts = useMemo(
+    () => CATEGORIES.map((c) => ({ ...c, count: posts.filter((p) => c.match(p.slug)).length })),
+    [posts]
+  );
+  const visiblePills = categoryCounts.filter((c) => c.label === "الكل" || c.count >= 2);
+
+  const pillFiltered =
+    activePill === "الكل"
+      ? posts
+      : posts.filter((p) => CATEGORIES.find((c) => c.label === activePill)!.match(p.slug));
   const filtered = q
-    ? posts.filter(
+    ? pillFiltered.filter(
         (p) =>
           p.title.toLowerCase().includes(q) ||
           (p.excerpt ?? "").toLowerCase().includes(q)
       )
-    : posts;
+    : pillFiltered;
   const visible = q ? filtered : filtered.slice(0, displayCount);
   const allShown = q || displayCount >= filtered.length;
 
@@ -98,6 +156,63 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
         </div>
       </div>
 
+      {/* Topic filter pills */}
+      <div
+        style={{
+          display: "flex",
+          gap: "8px",
+          overflowX: "auto",
+          scrollbarWidth: "none",
+          paddingRight: "1px",
+          paddingLeft: "16px",
+          paddingBottom: "4px",
+          direction: "rtl",
+        }}
+        className="hide-scrollbar"
+      >
+        {visiblePills.map((cat) => {
+          const isActive = activePill === cat.label;
+          return (
+            <button
+              key={cat.label}
+              onClick={() => {
+                setActivePill(cat.label);
+                setDisplayCount(INITIAL);
+              }}
+              style={{
+                height: "32px",
+                padding: "0 14px",
+                borderRadius: "999px",
+                border: `1px solid ${isActive ? "rgba(0,102,255,0.28)" : "rgba(255,255,255,0.08)"}`,
+                background: isActive ? "rgba(0,102,255,0.10)" : "transparent",
+                color: isActive ? "#0066FF" : "#6B7280",
+                fontSize: "13px",
+                fontWeight: 500,
+                fontFamily: "'Noto Sans Arabic', Inter, sans-serif",
+                cursor: "pointer",
+                whiteSpace: "nowrap",
+                flexShrink: 0,
+                transition: "background 0.15s, color 0.15s, border-color 0.15s",
+              }}
+              onMouseEnter={(e) => {
+                if (!isActive) {
+                  e.currentTarget.style.background = "rgba(255,255,255,0.04)";
+                  e.currentTarget.style.color = "#9CA3AF";
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!isActive) {
+                  e.currentTarget.style.background = "transparent";
+                  e.currentTarget.style.color = "#6B7280";
+                }
+              }}
+            >
+              {cat.label}
+            </button>
+          );
+        })}
+      </div>
+
       {q && filtered.length === 0 ? (
         <div
           style={{
@@ -140,7 +255,7 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
                 )}
                 <div className="flex flex-col justify-center p-8 flex-1">
                   <span className="text-[11px] font-semibold uppercase tracking-widest mb-3" style={{ color: "#0066FF" }}>
-                    الأحدث
+                    {activePill === "الكل" ? "الأحدث" : activePill}
                   </span>
                   <h2 className="text-[22px] font-bold text-white mb-3 leading-snug">{featured.title}</h2>
                   <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2">{featured.excerpt}</p>
@@ -215,10 +330,14 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
             )}
             <p className="text-xs text-vault-muted" style={{ textAlign: "center" }}>
               {q
-                ? `${filtered.length} نتيجة لـ "${query.trim()}"`
-                : allShown
-                  ? `عرض جميع المقالات (${posts.length})`
-                  : `عرض ${Math.min(displayCount, posts.length)} من ${posts.length} مقالة`}
+                ? `${filtered.length} نتيجة لـ "${query.trim()}"${activePill !== "الكل" ? ` في ${activePill}` : ""}`
+                : activePill !== "الكل"
+                  ? allShown
+                    ? `عرض جميع مقالات ${activePill} (${filtered.length})`
+                    : `عرض ${Math.min(displayCount, filtered.length)} من ${filtered.length} مقالة في ${activePill}`
+                  : allShown
+                    ? `عرض جميع المقالات (${posts.length})`
+                    : `عرض ${Math.min(displayCount, posts.length)} من ${posts.length} مقالة`}
             </p>
           </div>
         </>
