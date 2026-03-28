@@ -740,7 +740,7 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
                   {blogPosts.map((post) => (
                     <a
                       key={post.slug}
-                      href={`/blog/${post.slug}`}
+                      href={`/ar/blog/${post.slug}`}
                       className="vault-card overflow-hidden flex flex-col no-underline group"
                       style={{ textDecoration: "none" }}
                     >
