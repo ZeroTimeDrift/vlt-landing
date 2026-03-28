@@ -66,7 +66,7 @@ export default function BlogPost({ params }: Props) {
     { label: "Expat guides", match: (s: string) => s.includes("expat") || /(?:^|-)(?:indians|filipinos|pakistanis|british-expats|moving-to-dubai)(?:-|$)/.test(s) },
     { label: "UAE banks", match: (s: string) => ["adcb","adib","fab","dib","mashreq","emirates-nbd","hsbc","rakbank","standard-chartered","emirates-islamic"].some(b => s.includes(b)) },
     { label: "How it works", match: (s: string) => ["how-vault-works-without-the-jargon","how-lending-markets-work","whos-building-vault","transparency-is-a-feature","what-to-check-before-depositing","who-are-the-borrowers"].includes(s) || s.startsWith("what-is-") },
-    { label: "Regulation", match: (s: string) => ["regulation","adgm","genius-act","legal","us-earnings-ban","us-digital-savings","us-stablecoin"].some(t => s.includes(t)) },
+    { label: "Regulation", match: (s: string) => ["regulation","regulator","adgm","genius-act","legal","us-earnings-ban","us-digital-savings","us-stablecoin"].some(t => s.includes(t)) },
   ];
 
   const allOtherPosts = getAllPosts().filter(p => p.slug !== post.slug);

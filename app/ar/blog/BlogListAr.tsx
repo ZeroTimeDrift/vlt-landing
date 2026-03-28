@@ -46,7 +46,7 @@ const CATEGORIES: Category[] = [
   {
     label: "التنظيم",
     match: (s) =>
-      ["regulation", "adgm", "genius-act", "legal", "us-earnings-ban", "us-digital-savings", "us-stablecoin"].some(
+      ["regulation", "regulator", "adgm", "genius-act", "legal", "us-earnings-ban", "us-digital-savings", "us-stablecoin"].some(
         (t) => s.includes(t)
       ),
   },
