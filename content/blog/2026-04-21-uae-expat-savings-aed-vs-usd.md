@@ -4,7 +4,7 @@ date: "2026-04-21"
 slug: "uae-expat-savings-aed-vs-usd"
 heroImage: "/blog/uae-expat-savings-aed-vs-usd.svg"
 description: "FAB's 4% promotional rate expired March 31. Here's what the UAE savings rate landscape looks like now — and where AED and USD savers actually stand in 2026."
-excerpt: "FAB's 4% promotional rate expired March 31. Here's what the UAE savings rate landscape looks like now — and where AED and USD savers actually stand in 2026."
+excerpt: "FAB's 4% promo expired March 31. Here's what the UAE savings rate landscape looks like now — and where AED and USD savers stand in 2026."
 readTime: "5 min read"
 tags: ["UAE savings rate 2026", "AED vs USD savings UAE", "best savings account UAE", "UAE expat savings", "FAB savings rate"]
 ---
@@ -31,13 +31,13 @@ Here's where the main options stand for UAE-based savers with flexible (no lock-
 
 **Standard flexible bank accounts:** Most major UAE banks offer between 1% and 3.25% on their standard no-lock-in savings products. Wio Bank's flexible saving spaces, for example, run at 3.25% AED and 2.75% USD. These are accessible without conditions — but they're also where the ceiling on standard banking tends to sit.
 
-**Conditional high-rate accounts:** The highest UAE bank rates in the flexible tier come with requirements. Mashreq NEO's 5% rate requires an average balance of AED 50,000 or more. Their 6.25% tier additionally requires salary routing of at least AED 10,000 per month. If you have the balance and the salary routing, these are strong options. If you don't, the effective rate drops significantly.
+**Conditional high-rate accounts:** Mashreq NEO's 5% requires AED 50,000+ average balance; 6.25% also requires AED 10,000/month salary routing. Strong if conditions fit, otherwise irrelevant.
 
-**Investment-linked savings products:** StashAway Simple currently projects 3.9% per year with no lock-in, via a money market fund. Sarwa's Save+ product runs at 3.7% gross — approximately 3.2% net after their 0.5% management fee. Both are better than most standard bank accounts and accessible without salary conditions.
+**Investment-linked products:** StashAway Simple projects 3.9% with no lock-in. Sarwa's Save+ runs at 3.7% gross — approximately 3.2% net after their 0.5% fee.
 
-**Fixed deposits:** If you don't need access to the money, UAE 12-month fixed deposits pay between 2% and 4.25% depending on the institution. Wio and SIB are currently at the higher end of that range. The trade-off is straightforward: you get a higher rate in exchange for locking the money away for a year.
+**Fixed deposits:** UAE 12-month deposits pay 2–4.25%. Wio and SIB at the higher end. Better rate in exchange for a year's lock-in.
 
-**Vault:** Current rate approximately 5.4%, variable with market conditions. No lock-in, no minimum balance, no salary routing requirement. Withdraw your full balance within 24 hours. Prometheus Labs is pursuing ADGM regulatory approval and is not yet licensed — full terms at vlt.money.
+**Vault:** ~5.4% current, variable. No lock-in, no minimum, no salary routing. Withdraw within 24 hours. Prometheus Labs is pursuing ADGM regulatory approval and is not yet licensed — full terms at vlt.money.
 
 ## Why the FAB expiry matters
 
@@ -46,14 +46,6 @@ The promotional rate environment of early 2026 was unusual. FAB at 4%, combined 
 What's left in the post-promotional landscape is a cleaner picture of what's actually available. The gap between standard flexible bank rates (1–3.25%) and higher-return options is now more visible.
 
 For expats holding meaningful savings in a standard UAE current account — which earns between 0% and 1% — that gap represents a real cost. On AED 100,000 held at 0.5% versus a rate of 5.4%, the difference over a year is approximately AED 4,900. That's not a marginal improvement. It's a structural one.
-
-## What the peg actually changes
-
-The AED-USD peg has one important implication for rate-hunting: it collapses the USD/AED decision into a pure rate decision.
-
-UAE-denominated savings accounts and USD-denominated alternatives are the same currency exposure. Some products — Vault included — are USD-denominated. The dirham value of your balance converts at the fixed peg rate. There is no exchange rate risk to manage.
-
-This means expats from non-US, non-AED home countries (UK, India, Europe, Philippines, etc.) face the same FX exposure whether they save in AED or USD. The question of "which currency" is a distraction from the question that matters: which rate are you actually earning?
 
 ## The savings decision in 2026
 

@@ -2,7 +2,7 @@
 title: "UAE Savings Rates After March 31: The New Landscape"
 date: "2026-04-01"
 slug: "uae-savings-rates-april-2026"
-description: "FAB's 4% promo just ended. Sarwa has been declining for over a year. Here's an honest map of where UAE savings rates stand in April 2026 — and what to do about it."
+description: "FAB's 4% promo just ended. Sarwa has been declining for over a year. Here's where UAE savings rates stand in April 2026 — and what to do about it."
 excerpt: "FAB's 4% promo just ended. Sarwa has been declining for over a year. Here's where UAE savings rates stand in April 2026 — and what to do about it."
 heroImage: "/blog/2026-04-01-uae-savings-rates-april-2026.svg"
 ---

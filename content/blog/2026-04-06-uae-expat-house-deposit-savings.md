@@ -4,7 +4,7 @@ date: "2026-04-06"
 slug: "uae-expat-house-deposit-savings"
 excerpt: "A property deposit is one of the biggest savings goals UAE expats carry. Here's why where you keep that money matters as much as how much you save."
 heroImage: "/blog/uae-expat-house-deposit-savings.svg"
-description: "Most UAE expats have a property target back home. A flat in London, a house in Kerala, an apartment in Cape Town. The gap between earning it and buying it is where your savings strategy matters most."
+description: "Most UAE expats have a property goal back home. The gap between earning and buying is where your savings strategy matters most. Here's how to close it."
 ---
 
 Dubai pays well. So does Abu Dhabi. For a lot of UAE expats, the underlying plan is to earn well here, live well, and eventually buy a property back home. A flat in London. A house in Kerala. A place in Johannesburg, Manila, Nairobi, or Cork.

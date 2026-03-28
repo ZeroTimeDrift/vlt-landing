@@ -3,7 +3,7 @@ title: "How UAE Expats Can Make Their Savings Work Harder"
 date: "2026-03-24"
 slug: "how-uae-expats-can-make-savings-work-harder"
 heroImage: "/blog/how-uae-expats-can-make-savings-work-harder.svg"
-description: "Most UAE expats leave money sitting in a current account earning nothing. Here's what to do instead."
+description: "Most UAE expats leave money in a current account earning 0–0.5%. With UAE inflation at 2.3%, that's a real cost. Here's what to do instead."
 excerpt: "Most UAE expats leave their savings earning close to nothing. Here's how to make your money work harder — without switching banks or learning new tools."
 readTime: "5 min read"
 ---

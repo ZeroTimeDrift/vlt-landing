@@ -3,7 +3,7 @@ title: "Why We're Pursuing ADGM Regulation (And What It Means for You)"
 date: "2026-03-24"
 slug: "what-adgm-regulation-means-for-your-money"
 heroImage: "/blog/what-adgm-regulation-means-for-your-money.svg"
-description: "We're building Vault to be regulated by ADGM. Here's what that means and why it matters."
+description: "Vault is pursuing ADGM regulation — the oversight framework for licensed financial institutions in Abu Dhabi. Here's what that means for your money."
 excerpt: "Vault is pursuing ADGM regulation. Here's what that oversight framework means in practice — and why it matters when choosing a savings app in the UAE."
 readTime: "4 min read"
 ---

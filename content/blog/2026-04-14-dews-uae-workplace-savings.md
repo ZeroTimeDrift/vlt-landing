@@ -31,18 +31,6 @@ Most UAE employees still receive their salary into a current account, spend what
 
 If you keep AED 50,000 in a current account for a year and earn 0.5%, you earn AED 250. UAE inflation running around 2.3% means your real purchasing power fell by roughly AED 900 in the same period. The loss is quiet. It doesn't show up anywhere as a number. But it's real.
 
-## The rate landscape for UAE savers in 2026
-
-If you know what's available, you can do better.
-
-Flexible bank savings accounts — accounts where you can deposit and withdraw freely — currently pay between 1% and 3.25% for the standard flexible tier. Some banks offer higher rates, but the conditions are meaningful: salary routing through that specific bank, minimum monthly balance, sometimes the account must be opened within a promotional window.
-
-For expats whose employer pays into a DEWS fund and whose salary may come from a non-UAE entity, or who simply don't want to restructure their banking around a savings rate, those conditions are often a poor fit.
-
-The better comparison isn't "which bank offers the highest number." It's: "what rate can I actually access without conditions I can't meet?"
-
-For most DIFC-area professionals, that rate today sits somewhere between 2.5% and 3.9% with mainstream flexible options. Current UAE inflation makes anything below 2.3% a negative real return.
-
 ## When DEWS changes how you should think about your savings
 
 Here's the specific shift DEWS creates:

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllPosts, getLatestPosts, getPostBySlug } from "@/lib/blog";
+import { getAllPosts, getPostBySlug } from "@/lib/blog";
 import MobileStickyCtaBar from "./MobileStickyCtaBar";
 import ReadingProgressBar from "./ReadingProgressBar";
 import BlogBottomCta from "./BlogBottomCta";
@@ -59,7 +59,27 @@ export default function BlogPost({ params }: Props) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
-  const relatedPosts = getLatestPosts(10).filter(p => p.slug !== post.slug).slice(0, 2);
+  // Topic-aware related posts: prefer same-category posts, fall back to recency
+  const TOPIC_MATCHERS = [
+    { label: "Vault vs.", match: (s: string) => s.startsWith("vault-vs-") },
+    { label: "Savings rates", match: (s: string) => s.includes("savings-rate") || s.includes("-rates-") || s.startsWith("uae-savings-rates") },
+    { label: "Expat guides", match: (s: string) => s.includes("expat") || /(?:^|-)(?:indians|filipinos|pakistanis|british-expats|moving-to-dubai)(?:-|$)/.test(s) },
+    { label: "UAE banks", match: (s: string) => ["adcb","adib","fab","dib","mashreq","emirates-nbd","hsbc","rakbank","standard-chartered","emirates-islamic"].some(b => s.includes(b)) },
+    { label: "How it works", match: (s: string) => ["how-vault-works-without-the-jargon","how-lending-markets-work","whos-building-vault","transparency-is-a-feature","what-to-check-before-depositing","who-are-the-borrowers"].includes(s) || s.startsWith("what-is-") },
+    { label: "Regulation", match: (s: string) => ["regulation","adgm","genius-act","legal","us-earnings-ban","us-digital-savings","us-stablecoin"].some(t => s.includes(t)) },
+  ];
+
+  const allOtherPosts = getAllPosts().filter(p => p.slug !== post.slug);
+  const postCategory = TOPIC_MATCHERS.find(c => c.match(post.slug));
+
+  let relatedPosts;
+  if (postCategory) {
+    const sameCategory = allOtherPosts.filter(p => postCategory.match(p.slug));
+    const fromOther = allOtherPosts.filter(p => !postCategory.match(p.slug));
+    relatedPosts = [...sameCategory.slice(0, 2), ...fromOther].slice(0, 2);
+  } else {
+    relatedPosts = allOtherPosts.slice(0, 2);
+  }
 
   const jsonLd = {
     "@context": "https://schema.org",

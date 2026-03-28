@@ -2,7 +2,7 @@
 title: "Why the UAE Became the World's Fintech Capital — And What It Means for Your Money"
 date: "2026-03-25"
 slug: "why-uae-fintech-capital"
-description: "10,000 fintech leaders are flying to Dubai in May. Here's why the UAE is leading the world on financial innovation — and what that means for someone trying to earn more on their savings."
+description: "The UAE leads the world in fintech infrastructure. Here's why — and what that means for earning more on your savings without needing specialist knowledge."
 excerpt: "10,000 fintech leaders are flying to Dubai this year. Here's why the UAE is leading the world on financial innovation — and what it means for your savings."
 heroImage: "/blog/why-uae-fintech-capital.svg"
 ---

@@ -2,7 +2,7 @@
 title: "Vault vs Sarwa Save: A Direct Comparison (March 2026)"
 date: "2026-03-25"
 slug: "vault-vs-sarwa-save"
-description: "Both are app-based savings products in the UAE. Here's how the rates, fees, and earnings mechanics actually compare."
+description: "Both are UAE app-based savings products with no lock-in. Sarwa earns ~3.2% net after fees. Vault earns ~5.4% with no fee. Here's the full comparison."
 excerpt: "Sarwa Save charges 0.5% per year and now earns ~3.2% net. Vault charges nothing and earns ~5.4%. Here's the full UAE savings comparison."
 heroImage: "/blog/vault-vs-sarwa-save.svg"
 readTime: "5 min read"

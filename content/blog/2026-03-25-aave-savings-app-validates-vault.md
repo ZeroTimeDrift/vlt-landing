@@ -3,7 +3,7 @@ title: "A Major Global Platform Just Launched a Simplified Savings App. UAE Save
 date: "2026-03-25"
 slug: "aave-savings-app-validates-vault"
 heroImage: "/blog/aave-savings-app-validates-vault.svg"
-description: "Aave — one of the world's largest lending platforms — just launched a consumer savings app in the US. Simple to use. 5%+ rates. Here's what it means for UAE savers."
+description: "One of the world's largest lending platforms just launched a simple savings app at 5%+ in the US. Here's what that global shift means for UAE savers."
 excerpt: "Aave just launched a consumer savings app in the US — simple UX, 5%+ rates. Here's what that global shift means for UAE savers and apps like Vault."
 readTime: "4 min read"
 ---

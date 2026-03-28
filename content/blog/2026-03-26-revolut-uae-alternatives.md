@@ -2,7 +2,7 @@
 title: "Revolut UAE: What's Available Now (And What Actually Earns)"
 date: "2026-03-26"
 slug: "revolut-uae-alternatives"
-description: "Revolut received UAE regulatory approval in late 2025 but hasn't fully launched. Here's what UAE residents are using in the meantime — and which options actually earn."
+description: "Revolut has in-principle UAE approval but hasn't launched yet. Here's what UAE residents are using in the meantime — and which options actually earn."
 excerpt: "Revolut has UAE approval but hasn't fully launched. Here's what UAE residents are using in the meantime — and which options actually earn on savings."
 heroImage: "/blog/revolut-uae-alternatives.svg"
 readTime: "5 min read"

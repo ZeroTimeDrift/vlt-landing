@@ -1,6 +1,6 @@
 ---
 title: "Best Savings Account for British Expats in the UAE (2026)"
-description: "Your Monzo, Revolut, and Marcus accounts won't work in the UAE. Here's what British expats in Dubai and Abu Dhabi can use instead — and what actually earns a competitive rate."
+description: "Monzo, Revolut, and Marcus don't work in the UAE. Here's what British expats in Dubai and Abu Dhabi use instead — and what earns a competitive rate."
 date: "2026-03-27"
 slug: "savings-account-british-expats-uae"
 heroImage: "/blog/savings-account-british-expats-uae.svg"

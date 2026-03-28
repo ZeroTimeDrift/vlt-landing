@@ -1,0 +1,69 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(239,68,68,0.5)"/>
+      <stop offset="100%" stop-color="rgba(239,68,68,0.3)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">AED 200,000 BALANCE — 12 MONTHS</text>
+
+  <!-- Left panel: fee drag illustration -->
+
+  <!-- Sarwa gross bar -->
+  <text x="140" y="102" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)" font-weight="500">SARWA SAVE+</text>
+
+  <!-- Gross section -->
+  <rect x="140" y="112" width="260" height="36" rx="4" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="270" y="135" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">AED 7,400 gross (3.7%)</text>
+
+  <!-- Fee eaten section -->
+  <rect x="140" y="156" width="72" height="28" rx="3" fill="rgba(239,68,68,0.15)" stroke="rgba(239,68,68,0.3)" stroke-width="1"/>
+  <text x="176" y="174" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(239,68,68,0.7)">−AED 1,000 fee</text>
+
+  <rect x="218" y="156" width="182" height="28" rx="3" fill="rgba(255,255,255,0.06)"/>
+  <text x="309" y="174" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)">AED 6,400 you keep</text>
+
+  <!-- Arrow down to net -->
+  <line x1="200" y1="190" x2="200" y2="210" stroke="rgba(239,68,68,0.3)" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="140" y="228" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="800" fill="rgba(239,68,68,0.55)">3.2%</text>
+  <text x="230" y="218" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">net rate</text>
+  <text x="230" y="234" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">after fee</text>
+
+  <!-- Divider -->
+  <line x1="460" y1="80" x2="460" y2="340" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Right panel: no-fee comparison -->
+  <text x="510" y="98" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" font-weight="600" letter-spacing="0.08em">NO FEE — WHAT YOU KEEP</text>
+
+  <!-- StashAway -->
+  <text x="510" y="128" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">StashAway Simple (3.9%)</text>
+  <rect x="510" y="136" width="311" height="30" rx="4" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="665" y="156" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.45)">AED 7,800</text>
+
+  <!-- Vault hero -->
+  <text x="510" y="192" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" font-weight="600">Vault (~5.4%)</text>
+  <rect x="510" y="200" width="432" height="42" rx="5" fill="rgba(0,102,255,0.1)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="510" y="200" width="5" height="42" rx="3" fill="url(#blueGrad)"/>
+  <text x="726" y="227" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800" fill="#0066FF">AED 10,800</text>
+
+  <!-- Delta callout -->
+  <rect x="510" y="262" width="432" height="38" rx="4" fill="rgba(16,185,129,0.06)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+  <text x="726" y="278" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)">Vault vs Sarwa Save+ net</text>
+  <text x="726" y="294" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#10B981">+AED 4,400 / year</text>
+
+  <!-- Footer -->
+  <text x="600" y="376" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Rate difference + fee elimination. Rates variable, not guaranteed. vlt.money</text>
+</svg>

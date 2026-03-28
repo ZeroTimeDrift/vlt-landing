@@ -1,6 +1,6 @@
 ---
 title: "Wall Street Just Validated the Category. Here's What It Means for UAE Savers."
-description: "Invesco — one of the world's largest asset managers — just took over Superstate's $967M digitally-managed fund. The institutional world is moving fast. UAE residents are still locked out."
+description: "Invesco just took over Superstate's $967M digitally-managed fund. Institutional money is moving fast into this category. UAE residents are still waiting."
 excerpt: "Invesco just acquired Superstate's $967M fund. The institutional savings world is moving fast. Here's what UAE residents need to know — and why it matters."
 date: "2026-03-25"
 slug: "invesco-superstate-uae-savers"

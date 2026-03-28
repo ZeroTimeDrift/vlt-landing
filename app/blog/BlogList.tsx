@@ -174,7 +174,8 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
           gap: "8px",
           overflowX: "auto",
           scrollbarWidth: "none",
-          WebkitOverflowScrolling: "touch",
+          paddingLeft: "1px",
+          paddingRight: "16px",
           paddingBottom: "4px",
         }}
         className="hide-scrollbar"
