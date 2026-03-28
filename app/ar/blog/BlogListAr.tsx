@@ -275,7 +275,11 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
               </a>
             )}
 
-            {rest.map((post) => (
+            {rest.map((post) => {
+              const category = activePill === "الكل"
+                ? CATEGORIES.find((c) => c.label !== "الكل" && c.match(post.slug))?.label
+                : undefined;
+              return (
               <a
                 key={post.slug}
                 href={`/ar/blog/${post.slug}`}
@@ -288,6 +292,21 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
                   </div>
                 )}
                 <div className="flex flex-col flex-1 p-5">
+                  {category && (
+                    <span
+                      style={{
+                        fontSize: "11px",
+                        fontWeight: 600,
+                        textTransform: "uppercase",
+                        letterSpacing: "0.12em",
+                        color: "#0066FF",
+                        marginBottom: "6px",
+                        display: "block",
+                      }}
+                    >
+                      {category}
+                    </span>
+                  )}
                   <h2 className="text-[16px] font-bold text-white mb-2 leading-snug">{post.title}</h2>
                   <p className="text-sm text-vault-muted leading-relaxed mb-4 line-clamp-2 flex-1">{post.excerpt}</p>
                   <div className="flex items-center gap-3 text-[11px] text-vault-text-dim font-medium mt-auto">
@@ -304,7 +323,8 @@ export default function BlogListAr({ posts }: { posts: BlogPost[] }) {
                   </div>
                 </div>
               </a>
-            ))}
+              );
+            })}
           </div>
 
           <div className="flex flex-col items-center gap-3 mt-8">
