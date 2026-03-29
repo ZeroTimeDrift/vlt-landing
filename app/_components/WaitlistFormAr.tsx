@@ -83,7 +83,7 @@ export default function WaitlistFormAr({
 
   if (status === "success") {
     const whatsappText = encodeURIComponent(
-      "وجدت طريقة لكسب ~٥٫٤٪ على مدّخراتك في الإمارات — بدون تجميد. vlt.money \u{1F512}"
+      "وجدت طريقة لكسب ~5.4% على مدّخراتك في الإمارات — بدون تجميد. vlt.money \u{1F512}"
     );
 
     return (
@@ -113,7 +113,7 @@ export default function WaitlistFormAr({
         {waitlistCount !== null && waitlistCount >= 50 && (
           <div className="mt-3" dir="rtl">
             <p className="text-[12px] text-vault-muted mb-2">
-              تعرف أحداً بمدّخرات عالقة في ٢٪؟
+              تعرف أحداً بمدّخرات عالقة في 2%؟
             </p>
             <div className="flex items-center gap-2">
               <a
@@ -132,7 +132,7 @@ export default function WaitlistFormAr({
                 واتساب
               </a>
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent("وجدت طريقة لكسب ~٥٫٤٪ على مدّخراتك في الإمارات — بدون تجميد. vlt.money")}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent("وجدت طريقة لكسب ~5.4% على مدّخراتك في الإمارات — بدون تجميد. vlt.money")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-[12px] text-white/60 hover:text-white transition-colors no-underline"

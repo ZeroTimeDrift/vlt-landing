@@ -97,7 +97,7 @@ export default async function Image() {
                 color: "#0066FF",
               }}
             >
-              أرباح ~٥٫٤٪
+              أرباح ~5.4%
             </span>
           </div>
 

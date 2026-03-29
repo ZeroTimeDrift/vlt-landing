@@ -46,7 +46,7 @@ export default function MobileStickyCtaBarAr() {
     >
       <div className="flex items-center justify-between h-full px-5">
         <span className="text-white font-semibold text-[13px]">
-          Vault يحقق ~٥٫٤٪ على مدّخراتك.
+          Vault يحقق ~5.4% على مدّخراتك.
         </span>
         <a
           href="#cta-form"

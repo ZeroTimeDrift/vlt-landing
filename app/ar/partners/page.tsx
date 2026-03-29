@@ -179,7 +179,7 @@ function PartnerRevenueEstimatorAr() {
           <p className="text-[11px] text-vault-muted font-medium uppercase tracking-[0.2em] mb-1">
             مستخدموك يكسبون
           </p>
-          <p className="text-xs text-vault-muted mb-3">~٥٫٤٪ حالياً</p>
+          <p className="text-xs text-vault-muted mb-3">~5.4% حالياً</p>
           <p className="text-2xl sm:text-3xl font-bold text-vault-text tabular">
             ${fmt(userEarnings)}
           </p>
@@ -202,7 +202,7 @@ function PartnerRevenueEstimatorAr() {
       </div>
 
       <p className="text-xs text-vault-muted text-center mb-4">
-        بناءً على معدّل ~٥٫٤٪ الحالي. حصة الإيرادات إرشادية — تواصل معنا للشروط الدقيقة. المعدّلات متغيّرة.
+        بناءً على معدّل ~5.4% الحالي. حصة الإيرادات إرشادية — تواصل معنا للشروط الدقيقة. المعدّلات متغيّرة.
       </p>
 
       <div className="text-center">
@@ -271,7 +271,7 @@ export default function PartnersPageAr() {
             </h1>
 
             <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-10 max-w-lg mx-auto">
-              اجعل مستخدميك يكسبون ~٥٫٤٪ على أرصدتهم الخاملة. تكامل واحد.
+              اجعل مستخدميك يكسبون ~5.4% على أرصدتهم الخاملة. تكامل واحد.
               جاهز للعلامة البيضاء. تكسب رسوماً على كل دولار يُنشر.
             </p>
 
@@ -362,7 +362,7 @@ export default function PartnersPageAr() {
                 },
                 {
                   icon: TrendingUp,
-                  label: "~٥٫٤٪ المعدّل الحالي",
+                  label: "~5.4% المعدّل الحالي",
                   body: "مرّر معدّلات السوق الحقيقية من أسواق إقراض موثّقة. المعدّلات متغيّرة، وليست مضمونة.",
                 },
                 {

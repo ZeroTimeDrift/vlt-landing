@@ -215,7 +215,7 @@ export default function BlogPostAr({ params }: Props) {
             }}
           >
             <span className="text-white font-semibold text-sm">
-              Vault يحقق ~٥٫٤٪ على مدّخراتك.
+              Vault يحقق ~5.4% على مدّخراتك.
             </span>
             <a
               href="#cta-form"

@@ -5,7 +5,7 @@ import "../globals.css";
 export const metadata: Metadata = {
   title: "Vault — تطبيق ادّخار بعوائد حقيقية",
   description:
-    "أموالك تحقق عوائد من رسوم المقترضين الفعليين والمؤسسات — وليس فوائد من Vault. أودع واكسب ~٥٫٤٪، واسحب في أي وقت.",
+    "أموالك تحقق عوائد من رسوم المقترضين الفعليين والمؤسسات — وليس فوائد من Vault. أودع واكسب ~5.4%، واسحب في أي وقت.",
   metadataBase: new URL("https://vlt.money"),
   alternates: {
     canonical: "https://vlt.money/ar",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Vault — تطبيق ادّخار بعوائد حقيقية",
-    description: "أموالك تحقق عوائد من رسوم المقترضين الفعليين والمؤسسات. ~٥٫٤٪، اسحب في أي وقت.",
+    description: "أموالك تحقق عوائد من رسوم المقترضين الفعليين والمؤسسات. ~5.4%، اسحب في أي وقت.",
     url: "https://vlt.money/ar",
     siteName: "Vault",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Vault — تطبيق ادّخار بعوائد حقيقية",
-    description: "أموالك تحقق عوائد من رسوم المقترضين الفعليين والمؤسسات. ~٥٫٤٪، اسحب في أي وقت.",
+    description: "أموالك تحقق عوائد من رسوم المقترضين الفعليين والمؤسسات. ~5.4%، اسحب في أي وقت.",
   },
 };
 

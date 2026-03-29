@@ -71,7 +71,7 @@ export default function BlogSidebarCtaAr() {
         </div>
 
         <p className="mb-1" style={{ fontSize: 15, fontWeight: 700, color: "#FFFFFF", lineHeight: 1.3 }}>
-          مدّخراتك تكسب<br />~٥٫٤٪.
+          مدّخراتك تكسب<br />~5.4%.
         </p>
         <p className="mb-4" style={{ fontSize: 12, fontWeight: 400, color: "#9CA3AF" }}>
           بدون عرض. بدون انتهاء.

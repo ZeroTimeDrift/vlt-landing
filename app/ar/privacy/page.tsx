@@ -46,7 +46,7 @@ export default function PrivacyPageAr() {
     <main className="relative z-10 min-h-screen px-6 pt-28 pb-20">
       <article className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold text-white mb-4">سياسة الخصوصية</h1>
-        <p className="text-xs text-vault-muted mb-10">آخر تحديث: مارس ٢٠٢٦</p>
+        <p className="text-xs text-vault-muted mb-10">آخر تحديث: مارس 2026</p>
 
         <div className="space-y-8 text-sm text-vault-text-dim leading-relaxed">
           <section>
@@ -66,7 +66,7 @@ export default function PrivacyPageAr() {
 
           <section>
             <h2 className="text-white font-bold text-base mb-3">حقوقك</h2>
-            <p>يمكنك طلب حذف بياناتك في أي وقت عبر مراسلتنا بالبريد الإلكتروني. سنزيل معلوماتك خلال ٣٠ يوماً من استلام طلبك.</p>
+            <p>يمكنك طلب حذف بياناتك في أي وقت عبر مراسلتنا بالبريد الإلكتروني. سنزيل معلوماتك خلال 30 يوماً من استلام طلبك.</p>
           </section>
 
           <section>
