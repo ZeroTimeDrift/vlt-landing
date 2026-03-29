@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, type CSSProperties } from "react";
-import { TrendingUp, ArrowDownLeft, ArrowUpRight, ArrowRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers } from "lucide-react";
+import { TrendingUp, ArrowDownLeft, ArrowUpRight, ArrowRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers, Users } from "lucide-react";
 
 // ── Hooks ────────────────────────────────────────────────────────────────────
 function useReveal<T extends HTMLElement>() {
@@ -348,6 +348,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
   const b2bRef = useReveal<HTMLDivElement>();
+  const fundRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
   const blogRef = useReveal<HTMLDivElement>();
   const founderRef = useReveal<HTMLDivElement>();
@@ -788,6 +789,59 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             </div>
           </div>
         </section>
+
+        <div className="section-divider max-w-5xl mx-auto" />
+
+        {/* ── YOUR FUND ────────────────────────────────────────────────── */}
+        {process.env.NEXT_PUBLIC_SHOW_FUND_SECTION === "true" && (
+        <section id="your-fund" className="py-28 px-6">
+          <div ref={fundRef} className="reveal max-w-4xl mx-auto text-center">
+            <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">Your fund</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight">
+              Start your own fund.
+            </h2>
+            <p className="text-[17px] text-vault-muted leading-relaxed max-w-2xl mx-auto mt-4">
+              Invite people to deposit on Vault. Their money gets lent out — and you earn a management fee from borrowers, not from them.
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+              {[
+                {
+                  icon: Users,
+                  label: "You invite, they deposit",
+                  body: "Share a link. When people deposit on Vault, they join your fund.",
+                },
+                {
+                  icon: Zap,
+                  label: "Vault does the work",
+                  body: "No trading. No decisions. Vault handles everything. You earn a fee just for growing your fund.",
+                },
+                {
+                  icon: TrendingUp,
+                  label: "Bigger fund, bigger fees",
+                  body: "The more deposits in your fund, the more lending activity — and the more you earn. Automatically, every day.",
+                },
+              ].map((card) => (
+                <div key={card.label} className="vault-card p-6 text-center">
+                  <div className="w-10 h-10 rounded-xl bg-[rgba(0,102,255,0.1)] flex items-center justify-center mx-auto mb-3">
+                    <card.icon className="w-5 h-5 text-vault-accent" />
+                  </div>
+                  <p className="text-[15px] font-bold text-vault-text mt-3">{card.label}</p>
+                  <p className="text-sm text-vault-muted leading-relaxed mt-2">{card.body}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-8 rounded-2xl px-6 py-4 text-center" style={{ background: "rgba(0,102,255,0.05)", border: "1px solid rgba(0,102,255,0.10)" }}>
+              <p className="text-sm text-vault-muted">Your fee comes from borrowers, not from your members.</p>
+            </div>
+
+            <div className="mt-10">
+              <WaitlistForm id="fund" />
+            </div>
+          </div>
+        </section>
+        )}
 
         <div className="section-divider max-w-5xl mx-auto" />
 

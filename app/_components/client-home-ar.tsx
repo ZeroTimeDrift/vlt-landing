@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, type CSSProperties } from "react";
-import { TrendingUp, ArrowDownLeft, ArrowUpRight, ArrowRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers } from "lucide-react";
+import { TrendingUp, ArrowDownLeft, ArrowUpRight, ArrowRight, Landmark, Wallet, Shield, Scale, Building2, Clock, Zap, Layers, Users } from "lucide-react";
 import { ar as t } from "@/lib/i18n/ar";
 import WaitlistFormAr from "./WaitlistFormAr";
 
@@ -349,6 +349,7 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
   const b2bRef = useReveal<HTMLDivElement>();
+  const fundRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
   const blogRef = useReveal<HTMLDivElement>();
   const founderRef = useReveal<HTMLDivElement>();
@@ -674,6 +675,59 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
             </div>
           </div>
         </section>
+
+        <div className="section-divider max-w-5xl mx-auto" />
+
+        {/* ── YOUR FUND (AR) ───────────────────────────────────────── */}
+        {process.env.NEXT_PUBLIC_SHOW_FUND_SECTION === "true" && (
+        <section id="your-fund" className="py-28 px-6" dir="rtl">
+          <div ref={fundRef} className="reveal max-w-4xl mx-auto text-center">
+            <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4 md:text-right">صندوقك</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight md:text-right">
+              ابدأ صندوقك الخاص.
+            </h2>
+            <p className="text-[17px] text-vault-muted leading-relaxed max-w-2xl mx-auto mt-4">
+              ادعُ أشخاصًا للإيداع في Vault. تُقرض أموالهم — وتكسب رسوم إدارة من المقترضين، لا منهم.
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+              {[
+                {
+                  icon: Users,
+                  label: "أنت تدعو، هم يودعون",
+                  body: "شارك رابطًا. عندما يودع الأشخاص في Vault، ينضمون إلى صندوقك.",
+                },
+                {
+                  icon: Zap,
+                  label: "Vault يقوم بالعمل",
+                  body: "لا تداول. لا قرارات. Vault يتولى كل شيء. تكسب رسومًا فقط لتنمية صندوقك.",
+                },
+                {
+                  icon: TrendingUp,
+                  label: "صندوق أكبر، رسوم أكبر",
+                  body: "كلما زادت الودائع في صندوقك، زاد نشاط الإقراض — وزادت أرباحك. تلقائيًا، كل يوم.",
+                },
+              ].map((card) => (
+                <div key={card.label} className="vault-card p-6 text-center">
+                  <div className="w-10 h-10 rounded-xl bg-[rgba(0,102,255,0.1)] flex items-center justify-center mx-auto mb-3">
+                    <card.icon className="w-5 h-5 text-vault-accent" />
+                  </div>
+                  <p className="text-[15px] font-bold text-vault-text mt-3">{card.label}</p>
+                  <p className="text-sm text-vault-muted leading-relaxed mt-2">{card.body}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-8 rounded-2xl px-6 py-4 text-center" style={{ background: "rgba(0,102,255,0.05)", border: "1px solid rgba(0,102,255,0.10)" }}>
+              <p className="text-sm text-vault-muted">رسومك تأتي من المقترضين، لا من أعضاء صندوقك.</p>
+            </div>
+
+            <div className="mt-10">
+              <WaitlistFormAr id="fund" />
+            </div>
+          </div>
+        </section>
+        )}
 
         <div className="section-divider max-w-5xl mx-auto" />
 
