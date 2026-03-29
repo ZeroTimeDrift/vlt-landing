@@ -794,6 +794,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
 
         {/* ── YOUR FUND ────────────────────────────────────────────────── */}
         {process.env.NEXT_PUBLIC_SHOW_FUND_SECTION === "true" && (
+        <>
         <section id="your-fund" className="py-28 px-6">
           <div ref={fundRef} className="reveal max-w-4xl mx-auto text-center">
             <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">Your fund</p>
@@ -841,9 +842,9 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             </div>
           </div>
         </section>
-        )}
-
         <div className="section-divider max-w-5xl mx-auto" />
+        </>
+        )}
 
         {/* ── FAQ ──────────────────────────────────────────────────────── */}
         <section id="faq" className="py-28 px-6 scroll-mt-16">
