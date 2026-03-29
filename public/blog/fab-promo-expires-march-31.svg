@@ -65,4 +65,5 @@
 
   <!-- Footer -->
   <text x="600" y="380" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.25)">Promotional rates end. Vault doesn't play that game.</text>
+  <text x="600" y="408" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">vlt.money</text>
 </svg>

@@ -39,4 +39,5 @@
   <text x="95" y="297" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0066FF" font-weight="600">FAB 4% promo ended Mar 31</text>
   <!-- Vault brand -->
   <text x="80" y="390" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#0066FF" font-weight="600" letter-spacing="2">VAULT · VLT.MONEY</text>
+  <text x="600" y="408" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">vlt.money</text>
 </svg>

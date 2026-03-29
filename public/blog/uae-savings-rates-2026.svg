@@ -72,4 +72,5 @@
 
   <!-- Footer -->
   <text x="600" y="396" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.2)">Rate accurate as of April 2026. Variable, not guaranteed.</text>
+  <text x="600" y="415" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">vlt.money</text>
 </svg>
