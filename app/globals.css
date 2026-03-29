@@ -64,11 +64,43 @@ html, body {
   content: '';
   position: absolute;
   inset: 0;
+  z-index: 1;
   background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
   background-size: 32px 32px;
   mask-image: radial-gradient(ellipse 70% 50% at 50% 40%, black 20%, transparent 70%);
   -webkit-mask-image: radial-gradient(ellipse 70% 50% at 50% 40%, black 20%, transparent 70%);
   pointer-events: none;
+}
+
+/* Aurora waves — matches iOS AuroraBackground.tsx */
+@keyframes aurora-wave-1 {
+  0%, 100% { opacity: 0; }
+  50%       { opacity: 1; }
+}
+@keyframes aurora-wave-2 {
+  0%   { opacity: 0.5; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+.aurora-wave-1 {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(135deg, transparent 0%, rgba(0,80,220,0.25) 40%, rgba(0,130,255,0.18) 60%, transparent 100%);
+  animation: aurora-wave-1 3.5s ease-in-out infinite;
+}
+.aurora-wave-2 {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(225deg, transparent 0%, rgba(0,60,180,0.18) 30%, transparent 55%, rgba(0,110,240,0.20) 100%);
+  animation: aurora-wave-2 4.5s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .aurora-wave-1,
+  .aurora-wave-2 { animation: none; opacity: 0.4; }
 }
 
 /* Hero entrance */

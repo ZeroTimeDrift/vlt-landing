@@ -1,18 +1,19 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "nodejs";
-export const alt = "Vault — Your money earns more";
+export const alt = "Vault — أموالك تكسب أكثر";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default async function Image() {
-  const interBold = await fetch(
-    new URL("https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf")
+  const cairoBold = await fetch(
+    new URL("https://fonts.gstatic.com/s/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5W1Q.ttf")
   ).then((r) => r.arrayBuffer());
 
   return new ImageResponse(
     (
       <div
+        dir="rtl"
         style={{
           width: "100%",
           height: "100%",
@@ -23,9 +24,9 @@ export default async function Image() {
           background: "#0F1117",
           position: "relative",
           overflow: "hidden",
+          fontFamily: "Cairo",
         }}
       >
-        {/* Content */}
         <div
           style={{
             display: "flex",
@@ -80,25 +81,23 @@ export default async function Image() {
           >
             <span
               style={{
-                fontSize: "72px",
+                fontSize: "68px",
                 fontWeight: 700,
                 color: "white",
-                letterSpacing: "-0.03em",
-                lineHeight: 1.05,
+                lineHeight: 1.15,
                 textAlign: "center",
               }}
             >
-              Your money earns more.
+              أموالك تكسب أكثر.
             </span>
             <span
               style={{
-                fontSize: "80px",
+                fontSize: "72px",
                 fontWeight: 700,
                 color: "#0066FF",
-                letterSpacing: "-0.03em",
               }}
             >
-              ~5.4% earnings
+              أرباح ~٥٫٤٪
             </span>
           </div>
 
@@ -110,10 +109,10 @@ export default async function Image() {
               fontWeight: 400,
               maxWidth: "600px",
               textAlign: "center",
-              lineHeight: 1.5,
+              lineHeight: 1.6,
             }}
           >
-            Earn fees from real borrowers. No lock-ups. Withdraw anytime.
+            اكسب رسوماً من مقترضين حقيقيين. بدون قفل. اسحب في أي وقت.
           </span>
 
           {/* CTA pill */}
@@ -135,7 +134,7 @@ export default async function Image() {
                 color: "white",
               }}
             >
-              Get Early Access at vlt.money
+              سجّل مبكراً على vlt.money
             </span>
           </div>
         </div>
@@ -143,7 +142,7 @@ export default async function Image() {
     ),
     {
       ...size,
-      fonts: [{ name: "Inter", data: interBold, style: "normal" as const, weight: 700 as const }],
+      fonts: [{ name: "Cairo", data: cairoBold, style: "normal" as const, weight: 700 as const }],
     },
   );
 }

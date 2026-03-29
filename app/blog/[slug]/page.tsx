@@ -229,9 +229,18 @@ export default function BlogPost({ params }: Props) {
                   <a
                     key={related.slug}
                     href={`/blog/${related.slug}`}
-                    className="vault-card p-6 flex flex-col no-underline group"
+                    className="vault-card overflow-hidden flex flex-col no-underline group"
                     style={{ textDecoration: "none" }}
                   >
+                    {related.heroImage && (
+                      <img
+                        src={related.heroImage}
+                        alt={related.title}
+                        className="w-full"
+                        style={{ display: "block", height: "auto", aspectRatio: "20/7", objectFit: "cover" }}
+                      />
+                    )}
+                    <div className="p-6 flex flex-col flex-1">
                     <h3 className="text-[15px] font-bold text-vault-text mb-2 leading-snug group-hover:text-white transition-colors">
                       {related.title}
                     </h3>
@@ -253,6 +262,7 @@ export default function BlogPost({ params }: Props) {
                           <span>{related.readingTime}</span>
                         </>
                       )}
+                    </div>
                     </div>
                   </a>
                 ))}
