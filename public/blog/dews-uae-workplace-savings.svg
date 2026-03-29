@@ -21,7 +21,7 @@
   <!-- Text -->
   <text x="80" y="155" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="#f0f6ff" letter-spacing="-1">DEWS &amp;</text>
   <text x="80" y="220" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="#f0f6ff" letter-spacing="-1">the Savings Gap</text>
-  <text x="80" y="275" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#6b9fd4" letter-spacing="0.5">What UAE Expats Miss About Workplace Savings</text>
+  <text x="80" y="275" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#9CA3AF" letter-spacing="0.5">What UAE Expats Miss About Workplace Savings</text>
   <!-- Vault brand -->
   <text x="80" y="370" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#0066FF" font-weight="600" letter-spacing="2">VAULT · VLT.MONEY</text>
 </svg>

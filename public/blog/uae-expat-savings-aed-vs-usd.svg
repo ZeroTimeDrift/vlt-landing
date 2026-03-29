@@ -24,7 +24,7 @@
     <text x="108" y="174" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#6b9fd4">~3.2%</text>
     <text x="0" y="210" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#0066FF" font-weight="600">Vault</text>
     <rect x="0" y="218" width="100" height="22" rx="3" fill="#1a3a6b" stroke="#0066FF" stroke-width="1.5"/>
-    <rect x="0" y="218" width="100" height="22" rx="3" fill="#2a5298"/>
+    <rect x="0" y="218" width="100" height="22" rx="3" fill="#0066FF"/>
     <text x="108" y="234" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#0066FF" font-weight="700">~5.4%</text>
     <!-- Divider -->
     <line x1="0" y1="255" x2="200" y2="255" stroke="#0d1f3a" stroke-width="1"/>
@@ -33,7 +33,7 @@
   <!-- Text -->
   <text x="80" y="140" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="#f0f6ff" letter-spacing="-1">UAE Expat Savings</text>
   <text x="80" y="198" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="#f0f6ff" letter-spacing="-1">in 2026</text>
-  <text x="80" y="250" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#6b9fd4">AED or USD? The rate is all that matters now.</text>
+  <text x="80" y="250" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#9CA3AF">AED or USD? The rate is all that matters now.</text>
   <!-- Post-FAB badge -->
   <rect x="80" y="275" width="230" height="34" rx="5" fill="#0d1f3a" stroke="#0066FF" stroke-width="1"/>
   <text x="95" y="297" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0066FF" font-weight="600">FAB 4% promo ended Mar 31</text>

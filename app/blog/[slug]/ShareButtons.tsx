@@ -5,11 +5,20 @@ import { useState } from "react";
 interface ShareButtonsProps {
   title: string;
   slug: string;
+  locale?: "en" | "ar";
 }
 
-export default function ShareButtons({ title, slug }: ShareButtonsProps) {
+const labels = {
+  en: { share: "Share", post: "Post", copy: "Copy link", copied: "Copied!" },
+  ar: { share: "مشاركة", post: "نشر", copy: "نسخ الرابط", copied: "تم النسخ!" },
+};
+
+export default function ShareButtons({ title, slug, locale = "en" }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
-  const url = `https://vlt.money/blog/${slug}`;
+  const url = locale === "ar"
+    ? `https://vlt.money/ar/blog/${slug}`
+    : `https://vlt.money/blog/${slug}`;
+  const t = labels[locale];
   const text = encodeURIComponent(title);
   const encodedUrl = encodeURIComponent(url);
 
@@ -34,7 +43,7 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
   return (
     <div className="flex flex-wrap items-center gap-3 mt-12 mb-2">
       <span className="text-xs text-white/30 font-medium uppercase tracking-widest mr-1">
-        Share
+        {t.share}
       </span>
 
       {/* WhatsApp */}
@@ -68,7 +77,7 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
         </svg>
-        Post
+        {t.post}
       </a>
 
       {/* Copy link */}
@@ -90,7 +99,7 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
             <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
           </svg>
         )}
-        {copied ? "Copied!" : "Copy link"}
+        {copied ? t.copied : t.copy}
       </button>
     </div>
   );

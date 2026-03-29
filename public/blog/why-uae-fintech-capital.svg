@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.15"/>
+      <stop offset="0%" stop-color="#0066FF" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#020810" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0066FF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
@@ -61,7 +61,7 @@
 
   <!-- Network nodes and connections (financial network motif) -->
   <!-- Connection lines -->
-  <g stroke="#0ea5e9" stroke-opacity="0.15" stroke-width="1" fill="none">
+  <g stroke="#0066FF" stroke-opacity="0.15" stroke-width="1" fill="none">
     <line x1="600" y1="140" x2="480" y2="200"/>
     <line x1="600" y1="140" x2="720" y2="190"/>
     <line x1="600" y1="140" x2="560" y2="260"/>
@@ -77,7 +77,7 @@
   </g>
 
   <!-- Brighter connection lines -->
-  <g stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1.5" fill="none">
+  <g stroke="#0066FF" stroke-opacity="0.3" stroke-width="1.5" fill="none">
     <line x1="600" y1="140" x2="480" y2="200"/>
     <line x1="600" y1="140" x2="720" y2="190"/>
     <line x1="480" y1="200" x2="720" y2="190"/>
@@ -85,25 +85,25 @@
 
   <!-- Network nodes -->
   <!-- Central node -->
-  <circle cx="600" cy="140" r="6" fill="#0ea5e9" opacity="0.9"/>
-  <circle cx="600" cy="140" r="12" fill="#0ea5e9" opacity="0.15"/>
+  <circle cx="600" cy="140" r="6" fill="#0066FF" opacity="0.9"/>
+  <circle cx="600" cy="140" r="12" fill="#0066FF" opacity="0.15"/>
 
   <!-- Secondary nodes -->
-  <circle cx="480" cy="200" r="4" fill="#0ea5e9" opacity="0.7"/>
-  <circle cx="480" cy="200" r="8" fill="#0ea5e9" opacity="0.1"/>
+  <circle cx="480" cy="200" r="4" fill="#0066FF" opacity="0.7"/>
+  <circle cx="480" cy="200" r="8" fill="#0066FF" opacity="0.1"/>
 
-  <circle cx="720" cy="190" r="4" fill="#0ea5e9" opacity="0.7"/>
-  <circle cx="720" cy="190" r="8" fill="#0ea5e9" opacity="0.1"/>
+  <circle cx="720" cy="190" r="4" fill="#0066FF" opacity="0.7"/>
+  <circle cx="720" cy="190" r="8" fill="#0066FF" opacity="0.1"/>
 
-  <circle cx="560" cy="260" r="3" fill="#0ea5e9" opacity="0.5"/>
-  <circle cx="650" cy="270" r="3" fill="#0ea5e9" opacity="0.5"/>
-  <circle cx="420" cy="280" r="3" fill="#0ea5e9" opacity="0.4"/>
-  <circle cx="780" cy="270" r="3" fill="#0ea5e9" opacity="0.4"/>
-  <circle cx="540" cy="310" r="2" fill="#0ea5e9" opacity="0.3"/>
-  <circle cx="660" cy="300" r="2" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="560" cy="260" r="3" fill="#0066FF" opacity="0.5"/>
+  <circle cx="650" cy="270" r="3" fill="#0066FF" opacity="0.5"/>
+  <circle cx="420" cy="280" r="3" fill="#0066FF" opacity="0.4"/>
+  <circle cx="780" cy="270" r="3" fill="#0066FF" opacity="0.4"/>
+  <circle cx="540" cy="310" r="2" fill="#0066FF" opacity="0.3"/>
+  <circle cx="660" cy="300" r="2" fill="#0066FF" opacity="0.3"/>
 
   <!-- UAE label -->
-  <text x="600" y="95" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="4" fill="#0ea5e9" opacity="0.7" text-anchor="middle">ABU DHABI · DUBAI · ADGM</text>
+  <text x="600" y="95" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="4" fill="#0066FF" opacity="0.7" text-anchor="middle">ABU DHABI · DUBAI · ADGM</text>
 
   <!-- Main headline -->
   <text x="600" y="390" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" letter-spacing="1" fill="#4a6080" text-anchor="middle">Financial innovation capital</text>
