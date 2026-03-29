@@ -25,20 +25,23 @@ export default function TermsPage() {
       <nav
         className="fixed top-0 inset-x-0 z-50"
         style={{
-          background: "rgba(2,8,16,0.80)",
+          background: "rgba(15,17,23,0.92)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
-          borderBottom: "1px solid rgba(255,255,255,0.04)",
+          borderBottom: "1px solid rgba(255,255,255,0.08)",
         }}
       >
-        <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 no-underline">
             <VaultLogo size={24} />
-            <span className="text-white font-bold text-[15px]">Vault</span>
+            <span className="text-white font-bold text-[15px] tracking-tight">Vault</span>
           </a>
-          <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
-            Get Early Access
-          </a>
+          <div className="flex items-center gap-6">
+            <a href="/blog" className="hidden md:inline text-sm text-white/40 hover:text-white/60 transition-colors">Blog</a>
+            <a href="/#waitlist" className="px-4 py-2 rounded-2xl text-sm btn-accent">
+              Get Early Access
+            </a>
+          </div>
         </div>
       </nav>
 

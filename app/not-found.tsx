@@ -20,10 +20,10 @@ export default function NotFound() {
       <nav
         className="fixed top-0 inset-x-0 z-50"
         style={{
-          background: "rgba(2,8,16,0.80)",
+          background: "rgba(15,17,23,0.92)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
-          borderBottom: "1px solid rgba(255,255,255,0.04)",
+          borderBottom: "1px solid rgba(255,255,255,0.08)",
         }}
       >
         <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
