@@ -82,7 +82,7 @@ export const en = {
   compareTraditional: "Traditional bank",
   compareVault: "Vault",
   compareReturns: "Returns",
-  compareBankReturns: "Best: Mashreq NEO† 5% · StashAway 3.9%",
+  compareBankReturns: "Best: Mashreq NEO PLUS† 5% · StashAway 3.9%",
   compareVaultReturns: "~5.4% current",
   compareAccess: "Access",
   compareBankAccess: "Limited",
@@ -94,9 +94,9 @@ export const en = {
   compareFab: "FAB (post-promo): ~2.5%",
   compareSarwa: "Sarwa Save+: ~3.2% net",
   compareStashaway: "StashAway: 3.9%",
-  compareMashreq: "Mashreq NEO†: 5%",
+  compareMashreq: "Mashreq NEO PLUS†: 5%",
   compareVaultRate: "Vault: ~5.4%",
-  compareMashreqNote: "†Mashreq NEO PLUS non-salary tier: AED 50,000+ avg balance · max 2 free withdrawals/month",
+  compareMashreqNote: "†Mashreq NEO PLUS non-salary tier: AED 50,000+ avg balance required · >2 withdrawals/month forfeits all interest earned that month",
 
   // B2B Section
   b2bLabel: "For platforms",

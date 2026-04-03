@@ -688,7 +688,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 <div className="text-center text-[11px] font-medium uppercase tracking-wider" style={{ color: "#0066FF" }}>Vault</div>
               </div>
               {[
-                { label: "Returns",    bank: "Best: Mashreq NEO† 5% · StashAway 3.9%",   vault: "~5.4% current",     win: true },
+                { label: "Returns",    bank: "Best: Mashreq NEO PLUS† 5% · StashAway 3.9%",   vault: "~5.4% current",     win: true },
                 { label: "Access",     bank: "Limited",          vault: "Withdraw anytime", win: true },
                 { label: "Minimum",    bank: "Often $1,000+",   vault: "No minimum",       win: true },
               ].map((row, i, arr) => (
@@ -719,12 +719,12 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               <span>·</span>
               <span>StashAway: 3.9%</span>
               <span>·</span>
-              <span>Mashreq NEO†: 5%</span>
+              <span>Mashreq NEO PLUS†: 5%</span>
               <span>·</span>
               <span className="font-semibold" style={{ color: "#10B981" }}>Vault: ~5.4%</span>
             </div>
             <p className="text-center text-[10px] text-vault-muted mt-1 opacity-60">
-              †Mashreq NEO PLUS non-salary tier: AED 50,000+ avg balance · max 2 free withdrawals/month
+              †Mashreq NEO PLUS non-salary tier: AED 50,000+ avg balance required · &gt;2 withdrawals/month forfeits all interest earned that month
             </p>
           </div>
         </section>
