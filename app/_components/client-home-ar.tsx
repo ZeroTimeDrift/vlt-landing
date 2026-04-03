@@ -481,8 +481,11 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
 
       <main>
         {/* ── HERO ─────────────────────────────────────────────────── */}
-        <section id="waitlist" className="min-h-screen flex items-center px-6 pt-28 pb-16 hero-grid">
-          <div className="max-w-6xl mx-auto w-full">
+        <section id="waitlist" className="min-h-screen flex items-center px-6 pt-28 pb-16 hero-grid relative">
+          {/* Aurora background — matches iOS AuroraBackground.tsx */}
+          <div aria-hidden className="aurora-wave-1" />
+          <div aria-hidden className="aurora-wave-2" />
+          <div className="max-w-6xl mx-auto w-full" style={{ position: "relative", zIndex: 2 }}>
             <div className="flex flex-col lg:flex-row-reverse items-center gap-16 lg:gap-24">
               {/* Right (visually): Copy + Form */}
               <div className="flex-1 text-center lg:text-right">
@@ -516,8 +519,26 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
               </div>
 
               {/* LiveBalanceCard */}
-              <div className="card-animate delay-card flex-shrink-0 w-full max-w-sm">
-                <LiveBalanceCard />
+              <div className="card-animate delay-card flex-shrink-0 w-full max-w-[380px]">
+                <div
+                  style={{
+                    background: "#0A0D14",
+                    border: "1px solid rgba(255,255,255,0.12)",
+                    borderRadius: 44,
+                    padding: "14px 10px 28px 10px",
+                    boxShadow: "0 32px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.08)",
+                  }}
+                >
+                  {/* Notch strip */}
+                  <div style={{ height: 14, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <div style={{ width: 80, height: 6, borderRadius: 3, background: "rgba(255,255,255,0.15)" }} />
+                  </div>
+                  <LiveBalanceCard />
+                  {/* Home indicator */}
+                  <div style={{ height: 28, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <div style={{ width: 134, height: 5, borderRadius: 3, background: "rgba(255,255,255,0.2)" }} />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
