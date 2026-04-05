@@ -22,16 +22,16 @@
   <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">ADCB — SAVINGS RATES 2026</text>
 
   <!-- Title -->
-  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">ADCB pays up to 2%. Vault pays 5.4%.</text>
+  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.9)">ADCB standard savings: ~1.5%. Super Saver: 4.5%*. Vault: 5.4%, always.</text>
 
   <!-- Comparison rows -->
   <text x="100" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">ADCB Standard Savings</text>
   <rect x="280" y="134" width="28" height="18" rx="3" fill="url(#dimBar)" opacity="0.5"/>
   <text x="316" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.7)" dx="8">0.5–1.5%</text>
 
-  <text x="100" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">ADCB Active Saver (conditions)</text>
-  <rect x="280" y="171" width="55" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="343" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)" dx="8">1.0–2.0%</text>
+  <text x="100" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">ADCB Super Saver (AED 50K+, new money)*</text>
+  <rect x="280" y="171" width="203" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="491" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.45)" dx="8">4.5%</text>
 
   <text x="100" y="222" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple</text>
   <rect x="280" y="208" width="137" height="18" rx="3" fill="url(#dimBar)"/>
@@ -62,5 +62,6 @@
   <text x="920" y="315" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">vlt.money</text>
 
   <!-- Footer -->
-  <text x="100" y="395" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Rates variable. Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
+  <text x="100" y="390" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">*ADCB Super Saver: AED 50K+ balance, new external funds only, existing ADCB account required. Rates variable.</text>
+  <text x="100" y="408" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
 </svg>
