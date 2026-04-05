@@ -61,12 +61,12 @@
   <line x1="353" y1="250" x2="777" y2="187" stroke="#ffffff" stroke-width="1" stroke-opacity="0.1" stroke-dasharray="6,4"/>
 
   <!-- Rate card -->
-  <rect x="900" y="60" width="200" height="82" rx="10" fill="#0a1628" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="900" y="60" width="200" height="82" rx="10" fill="rgba(255,255,255,0.05)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
   <text x="1000" y="90" fill="#10B981" font-size="12" font-family="Inter, system-ui, sans-serif" text-anchor="middle" opacity="0.7" letter-spacing="1">CURRENT RATE</text>
   <text x="1000" y="124" fill="#10b981" font-size="32" font-family="Inter, system-ui, sans-serif" text-anchor="middle" font-weight="700">~5.4%</text>
 
   <!-- Category label -->
-  <rect x="120" y="56" width="240" height="34" rx="6" fill="#0a1628" stroke="#0066FF" stroke-width="1" stroke-opacity="0.35"/>
+  <rect x="120" y="56" width="240" height="34" rx="6" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1" stroke-opacity="0.35"/>
   <text x="240" y="78" fill="#ffffff" font-size="12" font-family="Inter, system-ui, sans-serif" text-anchor="middle" opacity="0.8" letter-spacing="1">CATEGORY VALIDATED</text>
 
   <!-- Bottom headline -->
