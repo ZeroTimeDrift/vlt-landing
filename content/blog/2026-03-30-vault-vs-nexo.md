@@ -3,6 +3,7 @@ title: "Vault vs. Nexo: The Numbers Look Close. The Conditions Don't."
 date: "2026-03-30"
 slug: "vault-vs-nexo"
 excerpt: "Nexo advertises 5.5% in the UAE. Vault earns ~5.4%. The headline gap is minimal. But the conditions to actually earn those rates are very different."
+description: "Nexo advertises 5.5% in the UAE. Vault earns ~5.4%. The headline rates are close — but the conditions to actually earn them are not."
 heroImage: "/blog/vault-vs-nexo.svg"
 ---
 

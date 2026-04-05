@@ -5,6 +5,7 @@ heroImage: "/blog/revolut-uae-what-it-means-for-your-savings.svg"
 date: "2026-03-25"
 author: "Vault Team"
 excerpt: "Revolut has UAE regulatory approval but can't offer savings earnings at launch. Here's what that means for expats who want their money working harder."
+description: "Revolut has UAE regulatory approval but cannot offer savings earnings at launch. Here's what that actually means for UAE expat savers."
 readingTime: "4 min read"
 ---
 

@@ -4,6 +4,7 @@ date: "2026-03-24"
 slug: "who-are-the-borrowers"
 heroImage: "/blog/who-are-the-borrowers.svg"
 excerpt: "When you earn through Vault, someone is paying those fees. Here's exactly who, what they put up as collateral, and what happens if they can't pay."
+description: "Vault earns from fees paid by institutional borrowers. Here's who they are, what collateral they post, and what happens if they can't pay."
 author: "Vault Team"
 readTime: "4 min read"
 ---

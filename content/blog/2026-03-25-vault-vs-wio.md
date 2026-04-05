@@ -2,95 +2,94 @@
 title: "Vault vs Wio Bank: Which Savings Rate Are You Actually Getting? (2026)"
 date: "2026-03-25"
 slug: "vault-vs-wio"
-description: "Wio Bank's savings rates look attractive in the ads. But the rate most UAE expats actually earn without a salary account is 3.25%. Here's the full picture."
-excerpt: "Wio Bank's savings rates look attractive in the ads. But the rate most UAE expats earn without a salary account is 3.25%. Here's the full picture."
+description: "Wio Bank's 6% savings rate is real — but it requires salary routing or a paid plan. Here's what most UAE expats actually earn, and how Vault compares."
+excerpt: "Wio Bank's 6% savings rate is real — but it requires salary routing or a paid plan. Here's what most UAE expats actually earn, and how Vault compares."
 heroImage: "/blog/vault-vs-wio.svg"
 readTime: "4 min read"
 ---
 
-Wio Bank has become one of the more visible options in UAE savings discussions. If you've searched for savings accounts recently, you've probably seen rates like 6% or 4.5% attached to the Wio name.
+Wio Bank has earned its reputation as one of the better UAE digital banks. Emirates ID onboarding, no branch visits, 4.8 App Store rating, Central Bank regulated. If you need an AED account open in minutes, Wio is a credible option.
 
-The rate most UAE expats without a UAE salary account will actually earn is 3.25%.
-
-Here's why the gap exists — and how Vault compares.
+The savings rate story is more complicated.
 
 ---
 
-## Wio's rate structure
+## What Wio's rate actually depends on
 
-Wio operates a tiered system where the rate you earn depends on how you use the account:
+Wio offers several savings tiers, and the headline 6% figure sits at the top of a plan structure:
 
-| Wio plan | Rate | Condition |
+| Wio plan | Rate | What it requires |
 |---|---|---|
-| Wio Salary (flexible savings spaces) | 6% | Must route your salary via Wio |
-| Wio Salary (fixed term) | 4–4.25% | Salary routing + fixed lock-in |
-| Wio flexible (no salary routing) | 3.25% AED | No conditions |
+| Salary Plan — flexible | Up to 6% | Monthly salary transferred to Wio within 2 months |
+| Salary Plan — fixed term | 4–4.25% | Salary routing + fixed lock-in period |
+| Plus Plan — savings spaces | Up to 4% | AED 49/month fee, or AED 35,000 minimum monthly balance |
+| Standard Plan — flexible | ~3.25% AED | No conditions |
 
-The 6% figure — the one that appears in comparison tables and bank ads — requires you to have your monthly salary deposited into Wio. For UAE residents employed locally with the ability to redirect salary, that's achievable. For most international or contract employees, and for expats whose employers pay into a specific account, it isn't.
+The 6% figure — the one that appears in most ads and comparison tables — requires you to route your salary through Wio. For UAE employees with the flexibility to redirect salary, that's achievable. For contractors, freelancers, internationally employed expats, or anyone whose employer mandates a specific account, it isn't.
 
-The rate that applies without salary routing is **3.25% on AED deposits**.
-
-Note that Wio savings spaces are AED-denominated. If your savings are in USD, the rate structure is different (and lower).
-
----
-
-## The rate confusion in market data
-
-Many comparison sites and aggregators list Wio at 4.5% for flexible savings. This figure appears to reflect an earlier promotional rate, or a blended average — it is not the current live rate for Wio's no-condition flexible savings product. The 3.25% figure is confirmed from Wio's live product page as of March 2026.
+Without salary routing, the realistic Wio flexible savings rate is around 3.25% on AED. The Plus Plan at 4% is a middle option — but it costs AED 49/month unless you maintain AED 35,000 across your accounts.
 
 ---
 
-## Vault vs Wio: the direct comparison
+## The question that matters: what do I actually earn?
 
-| | Vault | Wio (no salary routing) | Wio (with salary routing) |
-|---|---|---|---|
-| Current rate | ~5.4% | 3.25% | 6% |
-| Currency | USD | AED | AED |
-| Minimum balance | None | None | None |
-| Salary routing required | No | No | Yes |
-| Lock-in | None | None | None (flexible) / Yes (fixed) |
-| Fee | None | None | None |
+The honest version of the Wio comparison isn't "6% vs 5.4%." It's:
 
-The headline comparison for UAE expats who cannot or prefer not to route their salary through Wio: **5.4% (Vault, USD) vs 3.25% (Wio, AED)** — a gap of approximately 215 basis points.
+- Routing your salary to Wio + Vault USD savings: two separate products for two different goals
+- No salary routing: 3.25% AED (Wio) vs ~5.4% USD (Vault)
+- Plus Plan at AED 49/month: 4% AED (Wio) vs ~5.4% USD (Vault) — net of fees the Wio return is lower
 
-For those who can route their salary, Wio at 6% is the leading AED-denominated rate in the market, and it's a genuine option if you bank in AED.
+For most UAE expats without salary routing flexibility, the actual comparison is closer to a 215 basis point gap.
+
+---
+
+## Vault vs Wio: direct comparison
+
+| | Vault | Wio Standard | Wio Plus | Wio Salary |
+|---|---|---|---|---|
+| Current rate | ~5.4% | ~3.25% | Up to 4% | Up to 6% |
+| Currency | USD | AED | AED | AED |
+| Monthly fee | None | None | AED 49 (waived at AED 35k balance) | None |
+| Salary routing required | No | No | No | Yes |
+| Lock-in | None | None | None | None (flexible) |
+| Minimum balance | None | None | AED 35k to waive fee | None |
 
 ---
 
 ## Currency matters
 
-Vault is USD-denominated. Wio savings are AED-denominated.
+Vault is USD-denominated. Wio savings are AED-denominated. For expats saving to remit abroad or hold an international emergency fund, USD makes sense. For residents whose expenses are AED-based, AED savings often do. Currency fit depends on your goals.
 
-For UAE expats saving to send money home, maintain an international emergency fund, or preserve purchasing power against a weaker AED scenario, USD denomination is relevant. AED savings are appropriate if your expenses and goals are AED-based.
+---
 
-Neither is universally better — it depends on your situation.
+## Vault's framing: real rate, clear rules, simple exit
+
+Vault is designed around three things that can be confusing in other savings products:
+
+**The rate is the rate.** ~5.4% with no salary routing, no paid plan, no minimum balance. The earnings come from fees paid by borrowers in vetted lending markets — not from a bank's internal margin decisions.
+
+**The rules are simple.** No salary account required. No qualifying transactions. No balance thresholds to avoid fees. You deposit. You earn. You withdraw when you want.
+
+**Withdrawal is unconditional.** Withdraw anytime — no lock-in, no restriction window, no support escalation required. If you need your money, you get it.
 
 ---
 
 ## Wio's honest strengths
 
-Wio is a fully licensed UAE digital bank (Central Bank of the UAE). It's been operating since 2022 and has built a clean, functional product. If you need AED savings with UAE banking infrastructure — utility payment integration, AED transfers, UAE Pass onboarding — Wio is a solid option.
+Wio is a fully licensed UAE digital bank (Central Bank of the UAE), operating since 2022. Its onboarding story is legitimate: Emirates ID only, no branch, no paperwork, app open in minutes. It has strong social proof and genuine product quality.
 
-For UAE residents who can route their salary: Wio's 6% is the highest no-lock-in AED rate currently available from any digital bank.
-
----
-
-## Where Vault leads
-
-- **Rate without conditions.** 5.4% with no salary routing, no minimum, in USD — versus 3.25% AED for users who can't or won't route salary.
-- **Currency.** USD earnings for internationally mobile savers.
-- **Mechanism.** Vault's rate comes from institutional borrowing demand, not a bank's savings product economics. It moves independently of the CBUAE base rate cycle.
+For UAE residents who can route their salary: Wio's 6% is the highest no-lock-in AED savings rate currently available from any digital bank. That's the comparison that makes sense for that user.
 
 ---
 
 ## The honest caveat
 
-Vault is in the process of obtaining ADGM regulatory approval. It is not yet a licensed financial institution in the UAE. Wio is a licensed UAE bank, regulated by the Central Bank of the UAE.
+Vault is in the process of obtaining ADGM regulatory approval. It is not yet a licensed financial institution in the UAE. Wio is a Central Bank-regulated bank.
 
-If regulatory status is your primary consideration, Wio has the stronger position today. Vault's rate and flexibility advantage comes with that caveat attached.
+If UAE regulatory status is your primary decision factor, Wio has the stronger position today. Vault's rate and rule-clarity advantage comes with that caveat attached.
 
 ---
 
-*~5.4% Vault rate is current and variable, not guaranteed. Wio flexible savings rate 3.25% AED confirmed March 2026 from wio.io/personal-save. Vault is pursuing ADGM regulatory authorisation and is not yet licensed.*
+*~5.4% Vault rate is current and variable, not guaranteed. Wio rate figures sourced from wio.io/personal-save as of April 2026. Wio Salary Plan rate is "up to 6%" with conditions as noted. Vault is pursuing ADGM regulatory authorisation and is not yet licensed.*
 
 Join the waitlist at [vlt.money](https://vlt.money)

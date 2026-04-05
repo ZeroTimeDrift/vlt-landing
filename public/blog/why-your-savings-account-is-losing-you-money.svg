@@ -25,22 +25,20 @@
   <text x="600" y="48" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">PURCHASING POWER OVER 5 YEARS — $50,000 INITIAL DEPOSIT</text>
 
   <!-- Chart area: x from 180 to 1020, y from 80 (top) to 320 (bottom) -->
-  <!-- $50,000 base at y=320, scale: each $1000 = ~4.8px -->
-  <!-- Year labels: 2026=180, 2027=360, 2028=540, 2029=720, 2030=900, 2031=1020 -->
+  <!-- $50,000 base at y=320, scale: 15px per $1k ($50k=y320, $66k=y80) -->
+  <!-- Year labels: 2026=180, 2027=390, 2028=600, 2029=810, 2031=1020 -->
 
   <!-- Grid lines -->
   <line x1="180" y1="320" x2="1020" y2="320" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-  <line x1="180" y1="272" x2="1020" y2="272" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 6"/>
-  <line x1="180" y1="224" x2="1020" y2="224" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 6"/>
-  <line x1="180" y1="176" x2="1020" y2="176" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 6"/>
-  <line x1="180" y1="128" x2="1020" y2="128" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 6"/>
+  <line x1="180" y1="260" x2="1020" y2="260" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 6"/>
+  <line x1="180" y1="200" x2="1020" y2="200" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 6"/>
+  <line x1="180" y1="140" x2="1020" y2="140" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 6"/>
 
   <!-- Y-axis labels ($ amounts) -->
   <text x="170" y="324" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$50k</text>
-  <text x="170" y="276" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$52k</text>
-  <text x="170" y="228" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$54k</text>
-  <text x="170" y="180" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$56k</text>
-  <text x="170" y="132" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$58k</text>
+  <text x="170" y="264" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$54k</text>
+  <text x="170" y="204" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$58k</text>
+  <text x="170" y="144" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">$62k</text>
 
   <!-- X-axis year labels -->
   <text x="180" y="340" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">2026</text>
@@ -49,52 +47,50 @@
   <text x="810" y="340" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">2029</text>
   <text x="1020" y="340" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">2031</text>
 
-  <!-- Scale: $50k = y320, $60k = y80. So 1k = 24px. -->
+  <!-- Scale: $50k = y320, $66k = y80. So 1k = 15px. -->
   <!-- Each year = 210px horizontal (180 to 1020, 4 gaps = 210px each) -->
 
   <!-- INFLATION LINE (~3.5%/yr) -->
   <!-- Year 0: $50k = y320 -->
-  <!-- Year 1: $50k * 1.035 = $51,750 → $1750 gain → y320-42=278 -->
-  <!-- Year 2: $53,561 → 3561 → y320-85.5=234.5 -->
-  <!-- Year 3: $55,437 → 5437 → y320-130.5=189.5 -->
-  <!-- Year 4: $57,378 → 7378 → y320-177=143 -->
-  <!-- Year 5 (at x=1020): $59,386 → 9386 → y320-225=95 -->
-  <polyline points="180,320 390,278 600,234 810,190 1020,143" fill="none" stroke="rgba(255,80,80,0.5)" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- Year 1: $51,750 → y320-26=294 (15px per $1k) -->
+  <!-- Year 2: $53,561 → y320-53=267 -->
+  <!-- Year 3: $55,436 → y320-82=238 -->
+  <!-- Year 5: $59,384 → y320-141=179 -->
+  <polyline points="180,320 390,294 600,267 810,238 1020,179" fill="none" stroke="rgba(255,80,80,0.5)" stroke-width="2" stroke-dasharray="6 4"/>
 
   <!-- SAVINGS LINE (0.5%/yr) -->
   <!-- Year 0: $50k = y320 -->
-  <!-- Year 1: $50,250 → 250 → y320-6=314 -->
-  <!-- Year 2: $50,501 → 501 → y320-12=308 -->
-  <!-- Year 3: $50,753 → 753 → y320-18=302 -->
-  <!-- Year 4: $51,007 → 1007 → y320-24.2=295.8 -->
-  <!-- Year 5: $51,263 → 1263 → y320-30.3=289.7 -->
+  <!-- Year 1: $50,250 → y320-4=316 (15px per $1k) -->
+  <!-- Year 2: $50,501 → y320-8=312 -->
+  <!-- Year 3: $50,754 → y320-11=309 -->
+  <!-- Year 5: $51,262 → y320-19=301 -->
   <!-- SAVINGS area fill -->
-  <polygon points="180,320 390,314 600,308 810,302 1020,290 1020,320" fill="rgba(255,255,255,0.03)"/>
-  <polyline points="180,320 390,314 600,308 810,302 1020,290" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+  <polygon points="180,320 390,316 600,312 810,309 1020,301 1020,320" fill="rgba(255,255,255,0.03)"/>
+  <polyline points="180,320 390,316 600,312 810,309 1020,301" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
 
-  <!-- VAULT LINE (~4%/yr) -->
+  <!-- VAULT LINE (~5.4%/yr) -->
   <!-- Year 0: $50k = y320 -->
-  <!-- Year 1: $52k → 2000 → y320-48=272 -->
-  <!-- Year 2: $54,080 → 4080 → y320-97.9=222 -->
-  <!-- Year 3: $56,243 → 6243 → y320-149.8=170 -->
-  <!-- Year 4: $58,493 → 8493 → y320-203.8=116 -->
-  <!-- Year 5: $60,832 → 10832 → y320-259.9=60 (clip to 80) -->
+  <!-- Year 1: $52,700 → y320-40=280 (15px per $1k) -->
+  <!-- Year 2: $55,537 → y320-83=237 -->
+  <!-- Year 3: $58,516 → y320-127=193 -->
+  <!-- Year 5: $64,937 → y320-223=97 -->
   <!-- Vault area fill -->
-  <polygon points="180,320 390,272 600,222 810,170 1020,116 1020,320" fill="url(#vaultArea)"/>
-  <polyline points="180,320 390,272 600,222 810,170 1020,116" fill="none" stroke="#0066FF" stroke-width="2.5"/>
+  <polygon points="180,320 390,280 600,237 810,193 1020,97 1020,320" fill="url(#vaultArea)"/>
+  <polyline points="180,320 390,280 600,237 810,193 1020,97" fill="none" stroke="#0066FF" stroke-width="2.5"/>
 
   <!-- End point dots -->
-  <circle cx="1020" cy="143" r="4" fill="none" stroke="rgba(255,80,80,0.5)" stroke-width="1.5"/>
-  <circle cx="1020" cy="290" r="4" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
-  <circle cx="1020" cy="116" r="5" fill="#0066FF" stroke="rgba(0,163,255,0.4)" stroke-width="3"/>
+  <circle cx="1020" cy="179" r="4" fill="none" stroke="rgba(255,80,80,0.5)" stroke-width="1.5"/>
+  <circle cx="1020" cy="301" r="4" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <circle cx="1020" cy="97" r="5" fill="#0066FF" stroke="rgba(0,163,255,0.4)" stroke-width="3"/>
 
   <!-- End point labels -->
-  <text x="1030" y="148" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,100,100,0.6)">~$59k (inflation)</text>
-  <text x="1030" y="294" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">~$51k (savings acc.)</text>
-  <text x="1030" y="120" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0066FF">~$61k (Vault)</text>
+  <text x="1030" y="184" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,100,100,0.6)">~$59k (inflation)</text>
+  <text x="1030" y="305" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">~$51k (savings acc.)</text>
+  <text x="1030" y="101" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0066FF">~$65k (Vault)</text>
 
   <!-- Gap annotation: savings vs inflation -->
   <rect x="190" y="356" width="820" height="44" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
-  <text x="600" y="374" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Savings account loses ~$1,250/yr in purchasing power at 3% inflation.  </text>
-  <text x="600" y="390" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(0,153,255,0.6)">Vault's ~4% keeps pace — and grows your real wealth.</text>
+  <text x="600" y="374" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Savings account loses ~$1,250/yr in purchasing power at 3.5% inflation.</text>
+  <text x="600" y="390" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(0,153,255,0.6)">Vault's ~5.4% outpaces inflation — and grows your real wealth.</text>
+  <text x="600" y="410" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.18)">Rates variable. Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
 </svg>

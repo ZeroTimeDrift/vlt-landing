@@ -16,9 +16,10 @@ The challenge: most competitive UAE savings products are built around one assump
 
 The best-advertised UAE savings rates require you to route your salary through a specific UAE bank each month:
 
-- **Mashreq NEO PLUS (6.25%):** Requires AED 10,000/month salary transfer
-- **Wio Bank (6%):** Requires monthly salary deposit
-- **ADCB Active Saver (up to 5%):** Requires monthly ADCB salary credit
+- **Mashreq NEO PLUS (6.25%):** Requires AED 10,000/month salary transfer (max 2 debit transactions/month or you earn 0%)
+- **Wio Bank (up to 6%):** Requires Salary or Family plan with active salary routing
+
+ADCB's 5% Active Saver campaign ended March 2025. ADCB now has a live Super Saver at up to 4.5% AED — but only on balances of AED 50,000 or more, and only on new external money that also increases your total ADCB relationship balance. Below AED 50,000, you earn 0.01%.
 
 If you're paid by an employer who transfers to a bank you don't control, or if your remittances go through an exchange like LuLu Exchange or Al Ansari, meeting these conditions is typically not possible. You earn the fallback rate — usually 0.5–2%.
 
@@ -30,9 +31,9 @@ Without salary routing or meeting balance conditions, typical UAE savings rates 
 
 | Bank | Flexible rate (no conditions) |
 |------|-------------------------------|
-| Emirates NBD | 0.5–1% |
+| Emirates NBD | 1.0–1.25% standard; Apr–Jun 2026 promo 2.5–2.75% (new money only; 5% headline requires AED 10M+) |
 | FAB | ~2.5% (4% promo ended March 31, 2026) |
-| ADCB | 0.5–1% |
+| ADCB | 0.5–1% standard; up to 4.5% Super Saver (AED 50K+, new external money only) |
 | Standard Chartered | 0.5–1% |
 | RAKBank | 1–1.5% |
 | Wio flexible | 2.75% USD / 3.25% AED |

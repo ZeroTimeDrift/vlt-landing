@@ -2,7 +2,7 @@
 title: "USD Savings Account UAE: What's Actually Available in 2026"
 date: "2026-03-26"
 slug: "usd-savings-account-uae"
-description: "Most UAE bank USD savings accounts pay under 2%. Here's a clear map of what's actually available for USD savings in the UAE — and where the structural gap is."
+description: "Most UAE bank USD accounts pay under 2%. Here's a clear map of USD savings options in the UAE — and where the structural rate gap actually is."
 excerpt: "Most UAE bank USD savings accounts pay under 2%. Here's what's actually available for USD savings in the UAE — and where the structural gap really is."
 heroImage: "/blog/usd-savings-account-uae.svg"
 readTime: "4 min read"

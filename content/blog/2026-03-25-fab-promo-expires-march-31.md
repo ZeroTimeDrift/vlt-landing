@@ -1,70 +1,58 @@
 ---
-title: "FAB's 4% Savings Rate Has Expired. Here's What to Do Next."
+title: "FAB's 4% Savings Rate: What UAE Savers Need to Know"
 slug: "fab-promo-expires-march-31"
 heroImage: "/blog/fab-promo-expires-march-31.svg"
 date: "2026-03-25"
 author: "Vault Team"
-excerpt: "FAB's 4% promotional savings rate ended March 31. If your money is still parked there, here's what you're earning now — and what to do next."
+excerpt: "FAB's iSave 4% campaign runs through June 2026 — but on new funds only, with old-balance anchoring and a delayed payout. Here's what that actually means for your savings."
+description: "FAB's iSave 4% campaign runs through June 30, 2026 on new funds only. Most depositors earn ~2.5% on existing balances. Here's the real picture for UAE savers."
 ---
 
-![UAE savings rate comparison: FAB promotional 4% ended March 31 vs Vault ~5.4% current no lock-in](/blog/fab-promo-expires-march-31.svg)
+![UAE savings rate comparison: FAB iSave new-funds conditions vs Vault ~5.4% current no lock-in](/blog/fab-promo-expires-march-31.svg)
 
-# FAB's 4% Savings Rate Has Expired. Here's What to Do Next.
+# FAB's 4% Savings Rate: What UAE Savers Need to Know
 
-If you've been earning 4% on your savings at FAB, that rate has now reset.
+FAB's iSave account advertises 4% per year. That number is real — but what it applies to is worth reading carefully before you assume your savings are earning it.
 
-You're back on FAB's standard flexible savings rate — around 2.5%. That's nearly 40% less than what you were earning, applied silently, with no phone call or warning.
+## What FAB's 4% actually covers
 
-Most people haven't moved yet. Here's where things stand.
+FAB's iSave campaign runs through June 30, 2026. The 4% rate applies to new funds only — money deposited above your balance as of April 30, 2023.
 
-## How promotional rates work
+There are two additional mechanics that most savers miss:
 
-Banks use promotional rates to attract deposits. FAB's 4% campaign was designed to pull in new balances. Now that the campaign window has closed, the incentive is gone — and so is the rate.
+- **Old-balance anchor.** The 4% campaign interest is calculated on the difference between your current average monthly balance and your balance as of April 30, 2023. If most of your deposit was already there when the campaign started, the 4% applies to a smaller portion than you might expect.
+- **Delayed payout.** The differential interest — the gap between the 4% campaign rate and FAB's prevailing rate — is applied within 45 days after June 30, 2026. You don't receive it monthly; you receive it in August.
 
-This isn't a criticism of FAB specifically. It's how all promotional savings campaigns work. The bank benefits from the influx of deposits during the promo period. Once the period ends, the rate normalises and most customers stay put out of inertia.
+For most balances under AED 500,000, FAB's standard prevailing rate on existing funds is approximately 2.465%.
 
-That's the bet. And usually, the bank wins.
+## What the UAE savings landscape actually looks like
 
-## What the UAE savings landscape looks like now
-
-Post-expiry, here's the realistic picture for UAE flexible savings accounts:
+Here's the realistic picture for UAE flexible savings, accounting for real conditions:
 
 | Account | Rate | Condition |
 |---------|------|-----------|
-| FAB (post-promo) | ~2.5% | Flexible |
-| Wio Bank | 3.25% | Flexible (6% with salary) |
-| Mashreq NEO PLUS (salary tier) | 6.25% | Salary routing required |
-| Mashreq NEO PLUS (non-salary) | 5% AED | AED 50K min; max 2 withdrawals/month |
+| FAB iSave (new funds only) | 4% | New money above April 2023 balance; payout delayed to August 2026 |
+| FAB iSave (existing funds) | ~2.465% | Standard prevailing rate for most balances |
+| Wio Bank | 3.25% | Flexible (6% requires salary routing) |
+| StashAway Simple | 3.9% | No conditions, money market fund |
+| Sarwa Save+ | ~3.2% net | 3.7% gross minus 0.5% annual fee |
+| Mashreq NEO PLUS | 5–6.25% | AED 50K min or salary routing; max 2 withdrawals/month |
 | Most UAE banks | 1–2% | Standard flexible |
-| Vault | ~5.4% current | No lock-in, variable |
-
-The rates above the 3% floor almost always come with conditions: salary routing requirements, minimum balance thresholds, or time commitments. If you want flexibility without hoops, the options are narrower than they look.
+| Vault | ~5.4% current | No lock-in, no conditions, variable |
 
 ## What ~5.4% actually means
 
 Vault's current rate comes from fees paid by institutional borrowers accessing capital — not a promotional campaign. Rates are variable: they move with real borrowing demand, up and down.
 
-What they don't do is have a scheduled expiry date.
+There is no old-balance anchor. No delayed payout. No new-money-only restriction. You earn the current rate on everything you deposit, from day one.
 
-On AED 50,000, the difference between 2.5% and 5.4% is roughly AED 1,450 per year. That's not hypothetical — it's the structural gap between a post-promo bank account and a direct-market return, compounding quietly in the background.
+On AED 50,000, the difference between FAB's prevailing 2.465% and Vault's ~5.4% is roughly AED 1,470 per year. More importantly, that gap doesn't require reading the fine print to discover.
 
-## What to do now
+## The question worth asking
 
-You have a few options:
+Before assuming your FAB account is earning 4%, it's worth checking: when did you open it, and what portion of your balance is actually new money by the campaign's April 2023 calculation?
 
-**Do nothing.** Your rate is now ~2.5%. Most UAE flexible accounts pay even less, but you're no longer in the top tier. The bank already won the inertia bet.
-
-**Move to another promotional account.** There may be other promos in market. The problem: you'll be back in this same position in 3–6 months, making the same decision again.
-
-**Move to a rate that isn't promotional.** This means finding a product where the rate reflects real market conditions, not a marketing campaign. Vault is one option. Sarwa Save is another. The key difference is structural — your earnings come from the underlying market, not from a bank trying to win deposit share.
-
-## The honest version
-
-Vault isn't risk-free. The rate varies. You should read how the product works before depositing anything.
-
-But if you're moving money because your promo ended, the question worth asking isn't just "where can I park this?" — it's "what kind of rate do I want in a year?" A promotional rate that resets is a short-term answer. A market-rate product is a different bet.
-
-The decision is yours. The deadline passed — but you can still move.
+Most UAE savings products have conditions. The ones that don't usually have lower rates. Vault sits differently — higher rate, no conditions — but as a variable-rate product, it carries its own trade-offs that are worth understanding before depositing.
 
 [Join the waitlist at vlt.money](https://vlt.money)
 

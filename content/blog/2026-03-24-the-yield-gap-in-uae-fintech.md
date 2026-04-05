@@ -3,7 +3,7 @@ title: "The Earnings Gap Sitting Inside UAE Fintech Apps"
 date: "2026-03-24"
 slug: "the-earnings-gap-in-uae-fintech"
 heroImage: "/blog/the-earnings-gap-in-uae-fintech.svg"
-description: "Every UAE payments app, digital banking app, and neobank has idle user balances earning nothing. Here's why that's a product problem — and how it gets solved."
+description: "Every UAE payments app and neobank holds idle user balances earning nothing. Here's why that's a product problem — and how it gets solved."
 excerpt: "Every UAE payments app and neobank holds idle user balances earning nothing. Here's why that's a gap in the market — and how it gets solved."
 readTime: "5 min read"
 ---

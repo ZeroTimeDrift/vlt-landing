@@ -5,6 +5,7 @@ heroImage: "/blog/whos-building-vault.svg"
 date: "2026-03-24"
 author: "Vault Team"
 excerpt: "Prometheus Labs is building Vault to give everyone access to the earnings that used to belong to banks and institutions."
+description: "Meet the team behind Vault — the Abu Dhabi startup building a simple savings product that earns more than UAE bank accounts, no jargon needed."
 ---
 
 ![Prometheus Labs — the team building Vault, based in Abu Dhabi, pursuing ADGM regulatory approval](/blog/meet-the-team-behind-vault.svg)

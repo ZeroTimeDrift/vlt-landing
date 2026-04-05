@@ -4,6 +4,7 @@ slug: "the-inflation-tax-on-your-savings"
 heroImage: "/blog/the-inflation-tax-on-your-savings.svg"
 date: "2026-03-20"
 excerpt: "Most UAE savings accounts pay 1–2%. UAE inflation runs at around 2.3%. Every year you leave money idle, you're falling behind in real terms."
+description: "UAE savings accounts pay 1–2%. Inflation runs at 2.3%. Every year your money sits idle in a low-rate account, you lose ground in real terms."
 author: "Vault Team"
 ---
 

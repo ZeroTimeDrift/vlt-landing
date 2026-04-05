@@ -4,6 +4,7 @@ date: "2026-03-24"
 slug: "five-questions-to-ask-any-savings-app"
 heroImage: "/blog/five-questions-to-ask-any-savings-app.svg"
 excerpt: "Before you deposit a single dirham, here's what to actually check. We answer all five questions about Vault — including the uncomfortable ones."
+description: "Before depositing in any savings app, here are five questions to ask. We answer each one about Vault — including the uncomfortable ones."
 author: "Vault Team"
 ---
 

@@ -19,18 +19,16 @@
   <ellipse cx="900" cy="200" rx="400" ry="200" fill="rgba(0,102,255,0.03)"/>
 
   <!-- Header label -->
-  <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">UAE FLEXIBLE SAVINGS — POST FAB PROMO</text>
+  <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">UAE FLEXIBLE SAVINGS — APRIL 2026</text>
 
   <!-- Title -->
-  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">Where Does Your Cash Go Now?</text>
+  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">What You Actually Earn (Not Just the Headline)</text>
 
   <!-- Y-axis labels + bars — left column -->
-  <!-- FAB (expired) -->
-  <text x="100" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">FAB (post-promo)</text>
-  <rect x="280" y="134" width="146" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="434" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.6)" dx="8">~2.5%</text>
-  <rect x="406" y="143" width="5" height="5" rx="1" fill="#EF4444" opacity="0.5"/>
-  <text x="420" y="148" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(239,68,68,0.5)">was 4%</text>
+  <!-- FAB iSave (new funds only) -->
+  <text x="100" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">FAB iSave (new funds only)*</text>
+  <rect x="280" y="134" width="175" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="464" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,170,0,0.65)" dx="8">4%</text>
 
   <!-- Sarwa -->
   <text x="100" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Sarwa Save (net of fee)</text>
@@ -66,9 +64,9 @@
   <!-- gap numbers -->
   <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#0066FF">+AED</text>
   <text x="920" y="265" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" fill="#0066FF">2,900</text>
-  <text x="920" y="295" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">Vault ~5.4% vs. FAB post-promo ~2.5%</text>
+  <text x="920" y="295" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">Vault ~5.4% vs. FAB (existing balance) ~2.5%</text>
   <text x="920" y="315" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">per year, on 100,000 AED deposit</text>
 
   <!-- Footer -->
-  <text x="100" y="395" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Rates variable. Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
+  <text x="100" y="395" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">*FAB iSave 4% on new funds only (above Apr 2023 balance) through June 30, 2026. Existing funds earn ~2.5%. Rates variable. vlt.money</text>
 </svg>

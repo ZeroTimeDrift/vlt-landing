@@ -7,63 +7,58 @@
       <stop offset="0%" stop-color="#0066FF"/>
       <stop offset="100%" stop-color="#00A3FF"/>
     </linearGradient>
-    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EF4444"/>
-      <stop offset="100%" stop-color="#DC2626"/>
-    </linearGradient>
   </defs>
 
   <!-- Background -->
   <rect width="1200" height="420" fill="#020810"/>
   <rect width="1200" height="420" fill="url(#dots)"/>
-  <ellipse cx="600" cy="210" rx="500" ry="160" fill="rgba(0,102,255,0.03)"/>
+  <ellipse cx="600" cy="210" rx="520" ry="160" fill="rgba(0,102,255,0.02)"/>
 
   <!-- Title -->
-  <text x="600" y="54" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.3)">RATE COMPARISON</text>
+  <text x="600" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">FAB iSAVE — WHAT THE 4% ACTUALLY COVERS</text>
 
-  <!-- FAB card (left, fading) -->
-  <rect x="160" y="100" width="340" height="220" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(239,68,68,0.2)" stroke-width="1.5"/>
+  <!-- FAB headline card (left) — what FAB advertises -->
+  <rect x="80" y="80" width="310" height="240" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <text x="235" y="116" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(255,255,255,0.3)">HEADLINE RATE</text>
+  <text x="235" y="168" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="rgba(255,255,255,0.55)">4%</text>
+  <text x="235" y="192" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.22)">FAB iSave advertised rate</text>
+  <line x1="115" y1="212" x2="355" y2="212" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="235" y="234" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">New funds only</text>
+  <text x="235" y="252" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Above Apr 2023 base balance</text>
+  <text x="235" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Payout delayed to Aug 2026</text>
+  <rect x="170" y="288" width="130" height="20" rx="10" fill="rgba(255,170,0,0.1)" stroke="rgba(255,170,0,0.25)" stroke-width="1"/>
+  <text x="235" y="302" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="rgba(255,170,0,0.65)">CONDITIONS APPLY</text>
 
-  <!-- FAB header -->
-  <text x="330" y="140" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.5)">FAB Savings</text>
-  <text x="330" y="160" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)">Promotional rate</text>
+  <!-- Middle divider + vs -->
+  <text x="468" y="204" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.12)">vs</text>
 
-  <!-- FAB rate crossing out -->
-  <text x="330" y="210" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="rgba(239,68,68,0.3)">4.00%</text>
-  <line x1="230" y1="200" x2="430" y2="200" stroke="#EF4444" stroke-width="2.5"/>
-
-  <!-- New FAB rate -->
-  <text x="330" y="250" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="rgba(255,255,255,0.4)">~2.5%</text>
-  <text x="330" y="272" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">after March 31</text>
-
-  <!-- Expiry badge -->
-  <rect x="275" y="286" width="110" height="22" rx="11" fill="rgba(239,68,68,0.15)" stroke="rgba(239,68,68,0.3)" stroke-width="1"/>
-  <text x="330" y="301" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="#EF4444">EXPIRES MAR 31</text>
-
-  <!-- Arrow -->
-  <text x="580" y="210" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="28" fill="rgba(255,255,255,0.15)">→</text>
+  <!-- FAB reality card (centre) — what most depositors actually earn -->
+  <rect x="412" y="80" width="310" height="240" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <text x="567" y="116" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(255,255,255,0.22)">EXISTING DEPOSITORS</text>
+  <text x="567" y="168" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="rgba(255,255,255,0.22)">~2.5%</text>
+  <text x="567" y="192" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">Standard prevailing rate</text>
+  <line x1="447" y1="212" x2="687" y2="212" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="567" y="234" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">Balance held before Apr 2023</text>
+  <text x="567" y="252" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">earns no campaign differential</text>
+  <text x="567" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.15)">most savers are in this group</text>
+  <rect x="522" y="288" width="90" height="20" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="567" y="302" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="rgba(255,255,255,0.2)">MOST SAVERS</text>
 
   <!-- Vault card (right, highlighted) -->
-  <rect x="680" y="100" width="340" height="220" rx="16" fill="rgba(0,102,255,0.07)" stroke="#0066FF" stroke-width="1.5"/>
-  <rect x="680" y="100" width="340" height="3" rx="16" fill="url(#blueGrad)"/>
-
-  <!-- Vault header -->
-  <circle cx="850" cy="135" r="16" fill="rgba(0,102,255,0.15)" stroke="rgba(0,102,255,0.4)" stroke-width="1"/>
-  <text x="850" y="141" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#0066FF">V</text>
-  <text x="850" y="168" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">Current rate</text>
-
-  <!-- Vault rate -->
-  <text x="850" y="218" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="#0066FF">~5.4%</text>
-
-  <!-- Vault details -->
-  <text x="850" y="252" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.5)">No lock-in. No expiry.</text>
-  <text x="850" y="272" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)">Variable rate, earned from vetted lending markets</text>
-
-  <!-- Active badge -->
-  <rect x="805" y="286" width="90" height="22" rx="11" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
-  <text x="850" y="301" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="#10B981">ALWAYS ON</text>
+  <rect x="790" y="80" width="330" height="240" rx="20" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
+  <rect x="790" y="80" width="330" height="3" rx="20" fill="url(#blueGrad)"/>
+  <circle cx="955" cy="116" r="14" fill="rgba(0,102,255,0.15)" stroke="rgba(0,102,255,0.4)" stroke-width="1"/>
+  <text x="955" y="121" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="800" fill="#0066FF">V</text>
+  <text x="955" y="168" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#0066FF">~5.4%</text>
+  <text x="955" y="192" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">Current rate — all your funds</text>
+  <line x1="825" y1="212" x2="1085" y2="212" stroke="rgba(0,102,255,0.15)" stroke-width="1"/>
+  <text x="955" y="234" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">No base-balance conditions</text>
+  <text x="955" y="252" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">No delayed payout</text>
+  <text x="955" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">No expiry date</text>
+  <rect x="905" y="288" width="100" height="20" rx="10" fill="rgba(16,185,129,0.12)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <text x="955" y="302" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="#10B981">NO CONDITIONS</text>
 
   <!-- Footer -->
-  <text x="600" y="380" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.25)">Promotional rates end. Vault doesn't play that game.</text>
-  <text x="600" y="408" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">vlt.money</text>
+  <text x="600" y="378" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">FAB iSave campaign runs through June 30, 2026. 4% rate on new funds only (above Apr 2023 balance). Existing funds earn ~2.465% standard rate.</text>
+  <text x="600" y="396" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.12)">Rates variable. Vault earns from institutional lending fees — not guaranteed. vlt.money</text>
 </svg>

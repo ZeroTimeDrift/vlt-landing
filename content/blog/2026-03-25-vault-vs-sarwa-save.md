@@ -8,6 +8,8 @@ heroImage: "/blog/vault-vs-sarwa-save.svg"
 readTime: "5 min read"
 ---
 
+_Last updated: April 3, 2026. Rates and product details confirmed against official sources._
+
 If you're looking for a savings app in the UAE, two names come up regularly: Sarwa Save and Vault. Both let you earn more than a standard current account. Both offer no lock-in. Both are app-based.
 
 But the way they work — and what they actually deliver to your account — is meaningfully different.
@@ -24,6 +26,8 @@ Here's an honest comparison.
 | Annual management fee | None | 0.5% p.a. |
 | Rate you actually keep | ~5.4% | ~3.2% net |
 | Lock-in period | None | None |
+| Withdrawal timeline | Anytime | 3–5 business days (funds are invested; liquidation required before transfer) |
+| Withdrawal restrictions | None | Can only withdraw to a bank account previously used to fund via wire transfer |
 
 The management fee is the part that gets lost in most comparisons. Sarwa advertises 3.7%. What lands in your account after their 0.5% annual fee is closer to 3.2%. On a $10,000 balance, that's roughly $50 per year leaving your account quietly. On $50,000, it's $250.
 
@@ -87,7 +91,7 @@ If you want a higher net rate with no fee drag, and you're comfortable being an 
 
 The ~5.4% Vault rate is variable and not guaranteed. The Sarwa rate is also variable — and has been declining since 2024.
 
-Both products let you withdraw anytime. The difference is in what you keep.
+Both products let you withdraw, but the mechanics differ. Sarwa Save+ requires liquidation before funds transfer — Sarwa's help center puts this at 3–5 business days — and withdrawals can only go to a bank account previously used to fund the account via wire transfer. Vault: no lock-in, withdraw anytime. The difference is in what you keep and how long it takes to get there.
 
 ---
 

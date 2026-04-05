@@ -3,7 +3,7 @@ title: "Why Promotional Savings Rates Always End"
 date: "2026-03-24"
 slug: "why-promotional-savings-rates-always-end"
 heroImage: "/blog/why-promotional-savings-rates-always-end.svg"
-description: "That 4% or 5% offer from your UAE bank probably has an expiry date buried in the terms. Here's what happens when the promo period ends — and what to do about it."
+description: "That 4% or 5% offer from your UAE bank has an expiry date buried in the terms. Here's what happens when the promo ends — and what to do."
 excerpt: "Every bank promotional savings rate has an expiry buried in the terms. Here's what happens when the clock runs out — and what UAE savers should do instead."
 readTime: "5 min read"
 ---

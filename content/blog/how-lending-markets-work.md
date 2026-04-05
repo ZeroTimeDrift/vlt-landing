@@ -4,6 +4,7 @@ date: "2026-03-15"
 slug: "how-lending-markets-work"
 heroImage: "/blog/how-lending-markets-work.svg"
 excerpt: "Lending markets match capital providers with borrowers and let market forces set fee rates. Here's what that means for your savings."
+description: "Lending markets match capital providers with borrowers, letting fees set by market forces flow back to savers. Here's how they work."
 author: "Vault Team"
 ---
 

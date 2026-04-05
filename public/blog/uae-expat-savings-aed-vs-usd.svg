@@ -33,10 +33,10 @@
   <!-- Text -->
   <text x="80" y="140" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="#f0f6ff" letter-spacing="-1">UAE Expat Savings</text>
   <text x="80" y="198" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="#f0f6ff" letter-spacing="-1">in 2026</text>
-  <text x="80" y="250" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#9CA3AF">AED or USD? The rate is all that matters now.</text>
-  <!-- Post-FAB badge -->
-  <rect x="80" y="275" width="230" height="34" rx="5" fill="#0d1f3a" stroke="#0066FF" stroke-width="1"/>
-  <text x="95" y="297" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0066FF" font-weight="600">FAB 4% promo ended Mar 31</text>
+  <text x="80" y="250" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#9CA3AF">AED or USD? The rate is all that matters.</text>
+  <!-- Rate badge -->
+  <rect x="80" y="275" width="200" height="34" rx="5" fill="#0d1f3a" stroke="#0066FF" stroke-width="1"/>
+  <text x="95" y="297" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0066FF" font-weight="600">Vault ~5.4% · No lock-in</text>
   <!-- Vault brand -->
   <text x="80" y="390" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#0066FF" font-weight="600" letter-spacing="2">VAULT · VLT.MONEY</text>
   <text x="600" y="408" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.18)">vlt.money</text>

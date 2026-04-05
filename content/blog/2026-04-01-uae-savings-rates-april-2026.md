@@ -1,25 +1,25 @@
 ---
-title: "UAE Savings Rates After March 31: The New Landscape"
+title: "UAE Savings Rates April 2026: What the Headlines Don't Show"
 date: "2026-04-01"
 slug: "uae-savings-rates-april-2026"
-description: "FAB's 4% promo just ended. Sarwa has been declining for over a year. Here's where UAE savings rates stand in April 2026 — and what to do about it."
-excerpt: "FAB's 4% promo just ended. Sarwa has been declining for over a year. Here's where UAE savings rates stand in April 2026 — and what to do about it."
+description: "FAB's iSave 4% is still live but conditions-heavy. Sarwa has declined for over a year. Here's where UAE savings rates stand in April 2026 — what you actually earn."
+excerpt: "FAB's iSave 4% is still live but conditions-heavy. Sarwa has declined for over a year. Here's where UAE savings rates actually stand in April 2026."
 heroImage: "/blog/2026-04-01-uae-savings-rates-april-2026.svg"
 ---
 
-April 1. The rate is gone.
+April 2026. The UAE savings market looks more competitive than it is.
 
-FAB's 4% promotional savings rate expired on March 31. If you were earning 4% in a FAB flexible account, you're now earning closer to 2.5% — and that applies to typical balances under AED 500,000.
+FAB's iSave account still shows 4% per year — but that rate applies to new funds only, calculated against your balance as of April 30, 2023. Money you've had there since before the campaign started earns FAB's standard prevailing rate: approximately 2.465% for most balances under AED 500,000. The campaign differential is also paid out in August 2026, not monthly.
 
-That's a significant drop for a product that was, until yesterday, one of the better no-conditions options in the UAE market.
+Emirates NBD launched a Plus Saver promotion advertising "up to 5% p.a." on new money. The published rate table shows most retail balances under AED 1M earn 2.5–2.75% total during the promotion. The full 5% rate only applies from AED 10 million. The bonus is also paid in August 2026.
 
-So what's actually available now?
+The headline numbers exist. They just don't apply to most savers, or not on the terms implied.
 
 ---
 
 ## The April 2026 UAE savings rate map
 
-Here's how the market looks for flexible, no-lock-in savings as of today. No salary requirements, no fixed terms, no fine print.
+Here's how the market looks for flexible, no-lock-in savings. The "Notes" column is where the real offer lives.
 
 | Provider | Rate | Notes |
 |---|---|---|
@@ -28,10 +28,11 @@ Here's how the market looks for flexible, no-lock-in savings as of today. No sal
 | StashAway Simple | 3.9% | Money market fund, no lock-in |
 | Sarwa Save+ | ~3.2% net | 3.7% gross minus 0.5% annual fee |
 | Wio Flexible | 3.25% | AED accounts only |
-| FAB (post-promo) | ~2.5% | Standard flexible rate |
+| FAB iSave (new funds) | 4% | New money above April 2023 balance; payout August 2026 |
+| FAB iSave (existing funds) | ~2.465% | Standard prevailing rate, most balances |
 | Most UAE banks | 0.5–2% | Standard savings accounts |
 
-The gap between the top of this list and the bottom has widened. And the list is shifting.
+The gap between the top of this list and the bottom is real. But so is the gap between the headline and what most savers actually earn.
 
 ---
 
@@ -47,15 +48,13 @@ This isn't a criticism of the product; it's how it was built. But it means Sarwa
 
 ---
 
-## The promotional rate problem
+## The conditions problem
 
-FAB's expiry illustrates a pattern that runs through UAE banking: competitive rates that are promotional by design.
+Bank savings campaigns in the UAE have a consistent structure: high headline rate, attached to conditions that apply to fewer savers than the headline implies.
 
-A promotional rate is a marketing decision. The bank offers a high rate for a limited period to attract deposits. When the promotion ends, most customers don't leave — they just earn less. The bank has achieved what it needed.
+FAB's 4% is real for new money. Emirates NBD's 5% headline is real for AED 10M+. Mashreq's 6.25% is real for salary-routing customers. Wio's 6% is real for salary or plan subscribers.
 
-StashAway Simple and Sarwa Save+ are different from FAB in that their rates aren't on a fixed calendar. But both are tied to central bank rate decisions, which is its own form of dependency.
-
-The common thread: when the rate is good, there's usually a reason it won't stay that way.
+If you fall into the right tier for any of these, the rate is genuinely competitive. If you don't — if you have existing money with FAB, a balance under AED 10M at Emirates NBD, or no salary routing to Mashreq or Wio — the actual rate is usually in the 2–3.5% range.
 
 ---
 
@@ -63,23 +62,23 @@ The common thread: when the rate is good, there's usually a reason it won't stay
 
 Vault's ~5.4% current earnings come from fees paid by institutional borrowers accessing capital through vetted lending markets. Those borrowers pay based on what the market will bear — which has held up even as central bank rates declined.
 
-This is important: Vault's rate is not a promotional figure. There's no expiry date, no salary routing requirement, no AED-only restriction. It is not Fed-dependent in the same way a money market fund is.
+Vault's rate is variable and not guaranteed. There's no salary routing requirement, no AED-only restriction, no new-funds-only clause, and no payout delay. The rate applies to your full deposit from day one.
 
-That said, Vault's rate is variable and not guaranteed. It reflects current market conditions, which can change. What it isn't is a timed promotion waiting to end.
+What it isn't is a headline number that applies to a specific subset of balances.
 
 ---
 
 ## Questions to ask before depositing anywhere
 
-The April 1 rate change is a useful moment to audit your savings setup:
+A useful April audit:
 
-1. **Is the rate promotional?** If yes, when does it end, and what's the fallback rate?
-2. **Is it Fed-linked?** If central bank rates fall further in 2026, does your savings rate follow?
-3. **What's the net rate?** Gross figures look better. Net — after fees and conditions — is what you actually earn.
-4. **What conditions apply?** Salary routing, minimum balance, or withdrawal limits all affect the real value.
+1. **Does the rate apply to my existing balance or only new money?** Campaign rates often only cover incremental deposits.
+2. **Is the payout monthly or deferred?** Some bonus rates are credited at campaign end, not monthly.
+3. **What are the conditions?** Salary routing, minimum balance, or withdrawal limits all affect the real value.
+4. **What's the net rate?** Gross figures look better. After fees, the real number is usually lower.
 
-UAE savings options are improving. But not all rates are equivalent, and not all improvements are built to last.
+UAE savings options are improving. But not all rates are equivalent, and the notes column matters more than the headline.
 
 ---
 
-Vault is currently accepting waitlist signups. If you want to earn ~5.4% with no lock-in, no promotional expiry, and no conditions, join at [vlt.money](https://vlt.money).
+Vault is currently accepting waitlist signups. If you want to earn ~5.4% with no lock-in, no tiered conditions, and no fine print, join at [vlt.money](https://vlt.money).

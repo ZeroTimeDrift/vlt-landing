@@ -2,7 +2,7 @@
 title: "RAKBank Savings Account Rate UAE: What Are You Actually Earning?"
 date: "2026-03-26"
 slug: "rakbank-savings-rate-uae"
-description: "RAKBank savings accounts pay 0.5–2% on standard balances. Here's what UAE expats are actually earning at RAKBank in 2026 — and what the better options look like."
+description: "RAKBank savings accounts pay 0.5–2% on standard balances. Here's what UAE expats earn at RAKBank in 2026 — and what the better options are."
 excerpt: "RAKBank pays 0.5–2% on standard savings balances in 2026. Here's what UAE expats actually earn at RAKBank — and what better-rate alternatives exist."
 heroImage: "/blog/rakbank-savings-rate-uae.svg"
 readTime: "4 min read"

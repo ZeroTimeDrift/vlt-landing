@@ -3,6 +3,7 @@ title: "Vault vs StashAway Simple UAE: Why the Rate Gap Exists"
 date: "2026-03-30"
 slug: "vault-vs-stashaway-simple"
 excerpt: "StashAway Simple UAE raised to 3.9%. Vault earns ~5.4%. Here's what creates that gap — and why it's likely to get wider as rates fall."
+description: "StashAway Simple UAE sits at 3.9%. Vault earns ~5.4%. Here's what creates the 150bps gap — and why it's likely to widen as rates fall."
 heroImage: "/blog/vault-vs-stashaway-simple.svg"
 ---
 

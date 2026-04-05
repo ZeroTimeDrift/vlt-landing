@@ -5,6 +5,7 @@ heroImage: "/blog/why-your-savings-account-is-a-bad-deal.svg"
 date: "2026-03-24"
 author: "Vault Team"
 excerpt: "Your bank earns 8–10% on your deposits and pays you 1–2%. For UAE expats, that gap costs real money every year. Here's the math — and what to do instead."
+description: "Most UAE savings accounts pay 0.5–2.5% while better alternatives pay more with no conditions. Here's why the standard savings account is a poor deal."
 ---
 
 ![The rate gap: your savings account earns 1–2%, Vault earns ~5.4%, but your bank keeps 8–10% on your deposits](/blog/why-your-savings-account-is-a-bad-deal.svg)

@@ -5,6 +5,7 @@ heroImage: "/blog/what-happens-to-savings-rates-when-uae-cuts-rates.svg"
 date: "2026-03-25"
 author: "Vault Team"
 excerpt: "The UAE cut its base rate three times in 2025. Traditional savings accounts dropped with it. Vault's rate didn't follow the same path — here's why."
+description: "The UAE cut its base rate three times in 2025. Traditional savings fell with it. Here's why Vault's rate follows a different path."
 readTime: "4 min read"
 ---
 
