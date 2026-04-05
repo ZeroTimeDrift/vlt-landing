@@ -57,7 +57,7 @@ When you're thinking about payday parking rather than long-term savings, the che
 - **Withdrawal speed** — 24 hours is the benchmark; anything longer doesn't work for monthly cycles
 - **No conditions** — salary routing requirements or transaction minimums defeat the purpose
 
-Standard UAE bank savings accounts usually meet the conditions but fail on rate. Promotional rates (like FAB's 4% that ended March 31) meet the rate test but are temporary. Conditional high-rate accounts (Wio's 6%, Mashreq NEO PLUS's 6.25%) require your employer to route your salary there — not possible for most expats with overseas employers.
+Standard UAE bank savings accounts usually meet the conditions but fail on rate. Promotional rates (like FAB iSave's 4% on new funds until June 30, 2026) meet the rate test but are temporary — and come with conditions on what qualifies as new money. Conditional high-rate accounts (Wio's 6%, Mashreq NEO PLUS's 6.25%) require your employer to route your salary there — not possible for most expats with overseas employers.
 
 ## What to actually do today
 

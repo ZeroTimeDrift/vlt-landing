@@ -1,22 +1,22 @@
 ---
-title: "Where to Put Your UAE Gratuity Now That FAB's 4% Is Gone"
+title: "Where to Put Your UAE Gratuity in April 2026"
 slug: "uae-eosb-gratuity-best-savings-rate"
 heroImage: "/blog/uae-eosb-gratuity-best-savings-rate.svg"
 date: "2026-04-01"
 author: "Vault Team"
-excerpt: "FAB's 4% promo just ended. Banks are back to 2–2.5%. If your UAE end-of-service gratuity is sitting in a current account, this is the moment to fix that."
-description: "FAB's 4% promo ended March 31. Banks are back to 2–2.5%. Here's where your UAE end-of-service gratuity should actually go in April 2026."
+excerpt: "UAE bank savings rates come with conditions and expiry dates. If your end-of-service gratuity is sitting in a current account, here's where it should actually go."
+description: "UAE savings rates — promos, conditions, salary requirements. Here's where UAE end-of-service gratuity should actually go in April 2026, and why most bank rates don't qualify."
 ---
 
 ![Where to put UAE EOSB gratuity — April 2026 rate comparison](/blog/uae-eosb-gratuity-best-savings-rate.svg)
 
-# Where to Put Your UAE Gratuity Now That FAB's 4% Is Gone
+# Where to Put Your UAE Gratuity in April 2026
 
-March 31 was a deadline a lot of UAE savers didn't notice.
+End-of-service gratuity tends to land in a UAE current account and stay there.
 
-FAB's 4% promotional rate expired. If you were earning that rate on idle cash — including gratuity — you're now earning closer to 2.5% on the same balance. For a typical lump sum sitting in a flexible account, that's a meaningful drop.
+Most UAE banks pay 0–0.5% on current accounts. Even the savings accounts with attractive headline rates — 4%, 5%, 6.25% — come with conditions that most expats can't meet, or expiry dates that make them temporary. For a lump sum like gratuity, that matters.
 
-It's also a good moment to look at end-of-service gratuity specifically.
+It's worth looking at where the money should actually go.
 
 ## What Gratuity Is — and Why It Needs a Plan
 
@@ -41,7 +41,7 @@ But even the comparison against active savings options tells a significant story
 | Vault | ~5.4% | No conditions, no lock-in |
 | StashAway Simple | 3.9% | Money market fund, projected |
 | Sarwa Save+ | ~3.2% net | After 0.5% annual fee |
-| FAB (post-promo) | ~2.5% | Standard flexible rate |
+| FAB iSave | 4% new funds until Jun 30; ~2.5% standard | New money only, expiry date |
 | Most UAE current accounts | 0–0.5% | — |
 
 On AED 200,000 for one year, the difference between 0.5% and 5.4% is approximately AED 9,800.
@@ -68,9 +68,9 @@ For UAE expats who want gratuity to work while it waits, Vault is designed to ma
 
 ## A Note on Timing
 
-April is when the post-FAB reset becomes visible. Expats who were earning 4% in flexible accounts are now earning 2.5% — a change that happened automatically, without a notification, on April 1.
+April 2026 is a useful moment to reassess. Some bank promotions are approaching expiry: RAKBANK's 6.25% welcome rate ends April 30. FAB iSave pays 4% on new external funds until June 30 — but existing FAB depositors earn ~2.5% standard, without any notification when that gap opened.
 
-If your gratuity is in a FAB flexible account or a standard current account, the gap between what you're earning and what you could be earning has widened substantially.
+If your gratuity is in a standard savings account, the gap between what you're earning and what you could be earning has likely been widening quietly.
 
 The window to act is now, not after another few months of drift.
 

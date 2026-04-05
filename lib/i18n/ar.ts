@@ -19,8 +19,8 @@ export const ar = {
   bannerDesktopCta: "Vault لا يزال يحقق ~5.4% — بدون عرض ترويجي، بدون تاريخ انتهاء. ←",
 
   // Hero
-  heroTitle1: "انتهت العروض البنكية الإماراتية.",
-  heroTitle2: "Vault لا يزال يدفع ~5.4%.",
+  heroTitle1: "العروض البنكية تنتهي.",
+  heroTitle2: "Vault يدفع ~5.4%، دائمًا.",
   heroSubtitle: "بدون تجميد، بدون شروط. أموالك محفوظة باسمك.",
   heroDisclaimer: "بدون رسائل مزعجة. بدون التزام. ألغِ في أي وقت.",
   heroNoMinimum: "بدون حد أدنى للإيداع",

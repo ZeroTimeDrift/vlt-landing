@@ -19,8 +19,8 @@ export const en = {
   bannerDesktopCta: "Vault still earns ~5.4% — no promo, no expiry date. →",
 
   // Hero
-  heroTitle1: "UAE bank promos ended.",
-  heroTitle2: "Vault still pays ~5.4%.",
+  heroTitle1: "Bank promos expire.",
+  heroTitle2: "Vault pays ~5.4%, always.",
   heroSubtitle: "No lock-ups, no conditions. Your funds are held in your name.",
   heroDisclaimer: "No spam. No commitment. Cancel anytime.",
   heroNoMinimum: "No minimum deposit",

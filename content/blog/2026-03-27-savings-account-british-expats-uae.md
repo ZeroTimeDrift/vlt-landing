@@ -34,13 +34,13 @@ Without salary routing conditions, standard flexible savings at UAE banks pay:
 |------|-------------------------------|
 | Emirates NBD | 1.0–1.25% standard; Apr–Jun 2026 promo 2.5–2.75% (new money only; 5% headline requires AED 10M+) |
 | ADCB | 0.5–1% standard; up to 4.5% Super Saver (AED 50K+, new external money only) |
-| FAB | ~2.5% (4% promo ended March 31, 2026) |
+| FAB iSave | ~2.5% standard; 4% on new funds until Jun 30, 2026 |
 | Standard Chartered UAE | 1–2% |
 | HSBC UAE | 0.5–1.5% |
 | RAKBank | 1–1.5% |
 | Wio flexible | 2.75% USD / 3.25% AED |
 
-The FAB 4% promotional rate many expats used expired March 31, 2026. Standard rates are much lower.
+FAB iSave pays 4% on new external funds until June 30, 2026 — but existing FAB depositors typically earn ~2.5% standard. Standard rates across all banks remain much lower than most expats expect.
 
 The top conditional rates — Mashreq NEO PLUS at 6.25%, Wio at up to 6% — require routing your monthly salary through that specific bank. If your employer pays into Emirates NBD or you receive freelance income, these aren't accessible. ADCB's 5% Active Saver campaign expired March 2025. ADCB now has a live Super Saver at up to 4.5% AED — but only on balances of AED 50,000 or more, and only on new external money that also increases your total ADCB relationship balance. Below AED 50,000, you earn 0.01%.
 

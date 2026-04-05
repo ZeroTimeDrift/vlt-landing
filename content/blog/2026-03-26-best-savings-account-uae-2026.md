@@ -80,12 +80,19 @@ StashAway Simple holds money market instruments that follow the Fed rate. That's
 
 ## Sharia-compliant options
 
-For Islamic savings without lock-in:
-- **Sarwa Halal**: ~3.5% net (ADGM/DFSA licensed, Islamic-compliant funds)
-- **DIB Savings**: ~0.5–1.5% profit distribution (no guaranteed rate)
-- **ADIB Savings**: ~0.5–1.0% profit sharing
+UAE halal savings products fall into four categories — and confusing them is the most common trap:
 
-Vault is not currently Sharia-compliant.
+**Prize accounts** (ADIB Ghina, Emirates Islamic Kunooz): You earn a low profit rate (0.33–0.35%) and enter prize draws. The prize is real; the profit rate is not the headline.
+
+**Promotional savings accounts** (Emirates Islamic e-Savings): Up to 6.00% until April 30, 2026 — but only with new funds plus salary transfer. The standard Emirates Islamic savings rate is 0.35%.
+
+**Wakala term deposits** (DIB Retail Wakala ~3.85–3.95%, Emirates Islamic Wakala ~3.70%): The strongest Islamic-bank rates in the market, but with fixed tenors. Not flexible cash.
+
+**Projected-return wrappers** (Sarwa Save Halal ~3.5% net, National Bonds ~3.50%): Flexible access, regulated platforms, Sharia-certified. Sarwa takes a 0.5% annual fee and withdrawals take 4 business days. These are investment platforms, not bank deposits.
+
+For Islamic savings without lock-in, **Sarwa Halal** (~3.5% net, ADGM and DFSA licensed) is currently the strongest flexible option.
+
+Vault is not Sharia-certified and is not an Islamic savings product.
 
 ---
 

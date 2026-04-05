@@ -32,13 +32,13 @@ Without salary routing or meeting balance conditions, typical UAE savings rates 
 | Bank | Flexible rate (no conditions) |
 |------|-------------------------------|
 | Emirates NBD | 1.0–1.25% standard; Apr–Jun 2026 promo 2.5–2.75% (new money only; 5% headline requires AED 10M+) |
-| FAB | ~2.5% (4% promo ended March 31, 2026) |
+| FAB iSave | ~2.5% standard; 4% on new funds until Jun 30, 2026 |
 | ADCB | 0.5–1% standard; up to 4.5% Super Saver (AED 50K+, new external money only) |
 | Standard Chartered | 0.5–1% |
 | RAKBank | 1–1.5% |
 | Wio flexible | 2.75% USD / 3.25% AED |
 
-The FAB 4% promotional rate many expats relied on expired March 31, 2026. Most Filipinos using FAB are now earning around 2.5% or less.
+FAB iSave pays 4% on new funds until June 30, 2026 — most existing FAB depositors earn ~2.5% standard. Conditions and expiry dates mean the headline rates rarely reflect what most savers actually earn.
 
 ---
 

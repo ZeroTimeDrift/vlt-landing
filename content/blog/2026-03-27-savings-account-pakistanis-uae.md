@@ -30,13 +30,13 @@ If your employer pays into a bank you didn't choose, or you receive client payme
 | Bank | Flexible savings (no salary req) |
 |------|----------------------------------|
 | Emirates NBD | 1.0–1.25% standard; Apr–Jun 2026 promo 2.5–2.75% (new money only; 5% headline requires AED 10M+) |
-| FAB | ~2.5% (4% promo ended March 31, 2026) |
+| FAB iSave | ~2.5% standard; 4% on new funds until Jun 30, 2026 |
 | ADCB | 0.5–1% standard; up to 4.5% Super Saver (AED 50K+, new external money only) |
 | Standard Chartered | 0.5–1% |
 | Meezan Bank UAE | Islamic savings (profit rate varies) |
 | Wio flexible | 2.75% USD / 3.25% AED |
 
-The FAB 4% promotional rate ended March 31, 2026. Those earning 4% without salary conditions are now on approximately 2.5%.
+FAB iSave pays 4% on new external funds until June 30, 2026 — existing depositors earn ~2.5% standard. Across all banks, standard flexible rates without conditions remain low.
 
 ---
 

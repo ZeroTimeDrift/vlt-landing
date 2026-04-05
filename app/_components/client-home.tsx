@@ -502,9 +502,9 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               {/* Left: Copy + Form */}
               <div className="flex-1 text-center lg:text-left">
                 <h1 className="hero-animate delay-1 text-[1.65rem] sm:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-tight text-vault-text mb-6 break-words">
-                  UAE bank promos ended.
+                  Bank promos expire.
                   <br />
-                  <span style={{ color: "#0066FF" }}>Vault still pays ~5.4%.</span>
+                  <span style={{ color: "#0066FF" }}>Vault pays ~5.4%, always.</span>
                 </h1>
 
                 <p className="hero-animate delay-2 text-[17px] text-vault-text-dim leading-relaxed mb-4 max-w-lg mx-auto lg:mx-0">
