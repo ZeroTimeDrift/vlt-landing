@@ -136,7 +136,7 @@ function LiveBalanceCard() {
 
 // ── Savings Calculator ────────────────────────────────────────────────────────
 const CURRENCY_CONFIG = {
-  AED: { prefix: "AED ", min: 5000, max: 1800000, step: 5000, defaultVal: 180000, bankRate: 0.025, bankLabel: "~2.5% best no-lock rate" },
+  AED: { prefix: "AED ", min: 5000, max: 1800000, step: 5000, defaultVal: 180000, bankRate: 0.025, bankLabel: "~2.5% standard (FAB iSave: 4% new funds*)" },
   USD: { prefix: "$", min: 1000, max: 500000, step: 1000, defaultVal: 50000, bankRate: 0.015, bankLabel: "~1.5% rate" },
 } as const;
 
@@ -370,12 +370,12 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
           <p className="text-xs font-medium" style={{ color: "#9CA3AF" }}>
             {/* Mobile: short */}
             <span className="sm:hidden">
-              Bank promos ended.{" "}
+              FAB iSave: 4% on new funds only.{" "}
               <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% →</a>
             </span>
             {/* Desktop: full */}
             <span className="hidden sm:inline">
-              UAE bank promos expired.{" "}
+              FAB iSave 4% runs to June 30 — new funds only. Most depositors earn ~2.5%.{" "}
               <a href="#waitlist" className="font-bold" style={{ color: "#FFFFFF" }}>Vault still earns ~5.4% — no promo, no expiry date. →</a>
             </span>
           </p>
@@ -713,7 +713,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               ~5.4% is current, not guaranteed. Earnings vary with market activity.
             </p>
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 mt-3 text-xs text-vault-muted">
-              <span>FAB (post-promo): ~2.5%</span>
+              <span>FAB iSave‡: 4% on new funds · FAB standard: ~2.5%</span>
               <span>·</span>
               <span>Sarwa Save+: ~3.2% net</span>
               <span>·</span>
@@ -725,6 +725,9 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             </div>
             <p className="text-center text-[10px] text-vault-muted mt-1 opacity-60">
               †Mashreq NEO PLUS non-salary tier: AED 50,000+ avg balance required · &gt;2 withdrawals/month forfeits all interest earned that month
+            </p>
+            <p className="text-center text-[10px] text-vault-muted mt-1 opacity-60">
+              ‡FAB iSave: 4% p.a. on new funds only (above April 2023 base balance). Campaign runs through June 30, 2026. Interest paid August 2026.
             </p>
           </div>
         </section>

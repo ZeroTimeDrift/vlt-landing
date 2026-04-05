@@ -13,9 +13,9 @@ export const en = {
   navForIndividuals: "For individuals",
 
   // Banner
-  bannerMobile: "Bank promos ended.",
+  bannerMobile: "FAB iSave: 4% on new funds only.",
   bannerMobileCta: "Vault still earns ~5.4% →",
-  bannerDesktop: "UAE bank promos expired.",
+  bannerDesktop: "FAB iSave 4% runs to June 30 — new funds only. Most depositors earn ~2.5%.",
   bannerDesktopCta: "Vault still earns ~5.4% — no promo, no expiry date. →",
 
   // Hero
@@ -70,7 +70,7 @@ export const en = {
   // Calculator
   calcMyBalance: "My savings balance",
   calcTraditionalBank: "Traditional bank",
-  calcBestNoLock: "~2.5% best no-lock rate",
+  calcBestNoLock: "~2.5% standard (FAB iSave: 4% new funds*)",
   calcRate15: "~1.5% rate",
   calcVault: "Vault",
   calcVaultRate: "~5.4% current",
@@ -82,7 +82,7 @@ export const en = {
   compareTraditional: "Traditional bank",
   compareVault: "Vault",
   compareReturns: "Returns",
-  compareBankReturns: "Best: Mashreq NEO PLUS† 5% · StashAway 3.9%",
+  compareBankReturns: "Best: Mashreq NEO PLUS† 5% · FAB iSave‡ 4% · StashAway 3.9%",
   compareVaultReturns: "~5.4% current",
   compareAccess: "Access",
   compareBankAccess: "Limited",
@@ -91,7 +91,7 @@ export const en = {
   compareBankMinimum: "Often $1,000+",
   compareVaultMinimum: "No minimum",
   compareDisclaimer: "~5.4% is current, not guaranteed. Earnings vary with market activity.",
-  compareFab: "FAB (post-promo): ~2.5%",
+  compareFab: "FAB iSave‡: 4% on new funds · FAB standard: ~2.5%",
   compareSarwa: "Sarwa Save+: ~3.2% net",
   compareStashaway: "StashAway: 3.9%",
   compareMashreq: "Mashreq NEO PLUS†: 5%",

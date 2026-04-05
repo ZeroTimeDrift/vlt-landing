@@ -13,9 +13,9 @@ export const ar = {
   navForIndividuals: "للأفراد",
 
   // Banner
-  bannerMobile: "انتهت العروض البنكية.",
+  bannerMobile: "FAB iSave: 4% على الأموال الجديدة فقط.",
   bannerMobileCta: "Vault لا يزال يحقق ~5.4% ←",
-  bannerDesktop: "انتهت العروض الترويجية للبنوك الإماراتية.",
+  bannerDesktop: "FAB iSave 4% حتى 30 يونيو — الأموال الجديدة فقط. معظم المودعين يحصلون على ~2.5%.",
   bannerDesktopCta: "Vault لا يزال يحقق ~5.4% — بدون عرض ترويجي، بدون تاريخ انتهاء. ←",
 
   // Hero
@@ -70,7 +70,7 @@ export const ar = {
   // Calculator
   calcMyBalance: "رصيد مدّخراتي",
   calcTraditionalBank: "البنك التقليدي",
-  calcBestNoLock: "~2.5% أفضل معدّل بدون تجميد",
+  calcBestNoLock: "~2.5% القياسي (FAB iSave: 4% أموال جديدة*)",
   calcRate15: "~1.5% معدّل",
   calcVault: "Vault",
   calcVaultRate: "~5.4% حالياً",
@@ -82,7 +82,7 @@ export const ar = {
   compareTraditional: "البنك التقليدي",
   compareVault: "Vault",
   compareReturns: "العوائد",
-  compareBankReturns: "الأفضل: Mashreq NEO PLUS† 5% · StashAway 3.9%",
+  compareBankReturns: "الأفضل: Mashreq NEO PLUS† 5% · FAB iSave‡ 4% · StashAway 3.9%",
   compareVaultReturns: "~5.4% حالياً",
   compareAccess: "الوصول",
   compareBankAccess: "محدود",
@@ -91,7 +91,7 @@ export const ar = {
   compareBankMinimum: "غالباً 1,000$+",
   compareVaultMinimum: "بدون حد أدنى",
   compareDisclaimer: "~5.4% هو المعدّل الحالي، وليس مضموناً. الأرباح تتغيّر مع نشاط السوق.",
-  compareFab: "FAB (بعد العرض): ~2.5%",
+  compareFab: "FAB iSave‡: 4% أموال جديدة · FAB القياسي: ~2.5%",
   compareSarwa: "Sarwa Save+: ~3.2% صافي",
   compareStashaway: "StashAway: 3.9%",
   compareMashreq: "Mashreq NEO PLUS†: 5%",
