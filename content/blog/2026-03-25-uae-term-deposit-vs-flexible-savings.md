@@ -18,7 +18,7 @@ The UAE Central Bank cut its base rate three times in 2025, ending the year at 3
 
 Today, a 12-month term deposit at a major UAE bank pays 2.0–3.7%. The top rates — around 4.0–4.25% — are only available at smaller digital banks, and they still require full lock-in. Miss the window, need the money early, or the bank changes terms? You may lose the rate entirely, or face penalties.
 
-The promotional rates that made FDs attractive in 2023 and 2024 are largely gone. As of March 31, 2026, the last prominent 4% promo rate expired.
+The promotional rates that made FDs attractive in 2023 and 2024 are largely gone. FAB's iSave 4% (new funds only, through June 30, 2026) is one of the few remaining promotional flexible savings rates.
 
 ## The flexibility gap
 

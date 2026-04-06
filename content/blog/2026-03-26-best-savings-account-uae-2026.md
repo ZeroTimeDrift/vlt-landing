@@ -27,7 +27,7 @@ This page covers every major no-lock-in option for UAE expats, with the real cat
 | StashAway Simple | ~3.9% | None | Yes | Money market fund |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee deducted | Yes | Investment platform |
 | Wio Bank Flexible | 3.25% (AED) | None | Yes | Digital bank |
-| FAB Savings | ~2.5% | Standard account (promo expired March 31) | Yes | Bank |
+| FAB iSave / Savings | ~2.5% standard; 4% on new funds until Jun 30 | New-funds-only promo; standard balance ~2.5% | Yes | Bank |
 | Emirates NBD Plus Saver | 1.0–2.75% promo* | *Promo "up to 5%" requires AED 10M+ and net new money; most retail balances get 2.75% or less; bonus paid Aug 2026 | Max 5/month | Bank |
 | ADIB Savings | ~0.5–1.0% | Profit-sharing, not guaranteed | Yes | Islamic bank |
 | Standard Chartered | ~0.5–1.5% | Standard account | Yes | Bank |
@@ -49,7 +49,7 @@ Advertised rates rarely reflect what you'll earn. The common catches:
 
 **Annual fees.** Sarwa Save+ deducts a 0.5% annual management fee. A ~3.7% gross rate becomes approximately 3.2% net. The fee is real; the headline rate is not what lands in your account.
 
-**Promotional expiry and delayed bonuses.** FAB ran a 4% promotional rate through March 31, 2026. It expired. Standard FAB savings returned to approximately 2.5%. Emirates NBD's current April–June 2026 promotion advertises "up to 5%" on Plus Saver — but the 5% only applies from AED 10 million, most retail bands (under AED 1M) get 2.5–2.75%, and the bonus interest itself is paid within 45 days after June 30. You earn during the promotion but only receive the uplift in August 2026. Promotional rate headlines are a recurring pattern: check the actual table, the conditions, and when you get paid.
+**Promotional expiry and delayed bonuses.** FAB's iSave currently offers 4% on new funds until June 30, 2026 — but only on net new money. Standard FAB savings earn approximately 2.5%. Emirates NBD's current April–June 2026 promotion advertises "up to 5%" on Plus Saver — but the 5% only applies from AED 10 million, most retail bands (under AED 1M) get 2.5–2.75%, and the bonus interest itself is paid within 45 days after June 30. You earn during the promotion but only receive the uplift in August 2026. Promotional rate headlines are a recurring pattern: check the actual table, the conditions, and when you get paid.
 
 ---
 

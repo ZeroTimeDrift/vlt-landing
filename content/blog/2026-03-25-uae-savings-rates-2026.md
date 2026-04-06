@@ -3,8 +3,8 @@ title: "UAE Savings Rates in 2026: What You're Actually Earning Now"
 date: "2026-03-25"
 slug: "uae-savings-rates-2026"
 heroImage: "/blog/uae-savings-rates-2026.svg"
-description: "FAB's 4% promo expired March 31. Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
-excerpt: "FAB's 4% promo expired March 31. Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
+description: "FAB's iSave 4% runs through June 30 (new funds only). Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
+excerpt: "FAB's iSave 4% runs through June 30 (new funds only). Most UAE bank flexible accounts pay 1–2%. Here's an honest breakdown of what's available — and where Vault sits."
 readTime: "5 min read"
 ---
 
@@ -24,7 +24,7 @@ The typical conditions: route your salary through the account, maintain a minimu
 
 For many expats, meeting all conditions consistently isn't practical — especially if your salary comes from outside the UAE, if you hold multiple accounts, or if your balance fluctuates.
 
-**FAB's 4% promotional savings rate expired March 31, 2026.** Standard flexible FAB balances now earn approximately 2.5% for typical users — one of the bigger drops in the market when a promo ends. The 3.25% rate only applies to balances of AED 500,000 or more.
+**FAB's iSave offers 4% on new funds until June 30, 2026 — but standard flexible FAB balances earn approximately 2.5% for typical users.** The 3.25% rate only applies to balances of AED 500,000 or more.
 
 Wio Bank still advertises 6% — but only for accounts with active salary routing. Their unrestricted flexible balance pays 3.25%. Mashreq NEO PLUS shows 6.25% with the same salary requirement. They also offer a 5% non-salary tier — but only if you maintain an AED 50,000 average monthly balance (~$13,600) and make no more than two withdrawals per month. Exceed that limit and you forfeit that month's interest entirely.
 

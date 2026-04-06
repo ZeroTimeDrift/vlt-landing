@@ -36,7 +36,7 @@ UAE commercial banks earn significant margins on deposits: they take your saving
 
 This isn't unique to HSBC. Emirates NBD, ADCB, FAB, and Mashreq all pay broadly similar rates on standard savings accounts. The exception is a handful of promotional or conditional accounts requiring salary routing or minimum balances.
 
-The FAB 4% promotional rate, for example, expired March 31, 2026 — and returned to around 2.5% for most customers.
+FAB's iSave 4%, for example, runs through June 30, 2026 on new funds only — standard FAB flexible savings earn around 2.5% for most customers.
 
 ---
 

@@ -26,7 +26,7 @@ Here's what that decline looks like in practice:
 
 **UAE bank flexible savings** — already the lowest tier — remain in the 0.5–2.5% range, where they've stayed through most rate cycles.
 
-**FAB's 4% promotional rate** expired March 31, 2026. For most FAB customers, the flexible savings rate has reverted to approximately 2.5%.
+**FAB's iSave** offers 4% on new funds until June 30, 2026. Standard FAB flexible savings sit at approximately 2.5% for most customers.
 
 These products share a common structure: they hold money in money market instruments or bank accounts that earn based on overnight central bank rates. When central banks cut, these rates fall almost immediately.
 

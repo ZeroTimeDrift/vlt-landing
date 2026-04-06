@@ -30,7 +30,7 @@ Your bank isn't keeping your deposits idle. It lends your money to businesses, p
 
 This isn't hidden. It's just not advertised.
 
-The UAE's most recent headline rate — FAB's 4% promotional savings offer — expired March 31, 2026. Post-promo, FAB reverts to around 2.5% for most users. The best no-condition, no-lock-in alternatives are StashAway Simple (3.9%) and Wio's flexible account (3.25% AED). These are genuinely better than the standard bank account. But none of them clear inflation by a meaningful margin.
+FAB's iSave currently offers 4% on new funds until June 30, 2026 — but standard FAB flexible savings sit at around 2.5% for most users. The best no-condition, no-lock-in alternatives are StashAway Simple (3.9%) and Wio's flexible account (3.25% AED). These are genuinely better than the standard bank account. But none of them clear inflation by a meaningful margin.
 
 ## Optimise, don't sacrifice
 
