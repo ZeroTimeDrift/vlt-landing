@@ -63,7 +63,7 @@ For UAE residents seeking Sharia-compliant savings, Islamic banks offer:
 | Provider | Rate | Islamic? | Conditions |
 |---|---|---|---|
 | Vault | ~5.4% | Not yet certified | None (pre-launch) |
-| StashAway Simple | 3.9% | No | None |
+| StashAway Simple | 3.6% | No | None |
 | Sarwa Save+ (Halal) | ~3.5% net | Yes (Sharia-certified) | None |
 | Sarwa Save+ (conventional) | ~3.2% net | No | None |
 | Wio flexible | 3.25% AED / 2.75% USD | No | None |

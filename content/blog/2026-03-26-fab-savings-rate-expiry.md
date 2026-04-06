@@ -22,7 +22,7 @@ Here's where things stand for savers who want liquidity — no lock-in, no fixed
 |---|---|---|
 | FAB iSave (new funds only) | 4% | New money above April 2023 balance; payout in August 2026 |
 | FAB iSave (existing funds) | ~2.465% | Standard prevailing rate, most balances |
-| StashAway Simple | 3.9% | No condition, money market fund |
+| StashAway Simple | 3.6% | No condition, money market fund |
 | Sarwa Save+ | ~3.2% net | 3.7% gross minus 0.5% annual fee |
 | Wio Bank flexible | 3.25% | No condition |
 | Wio Bank (full rate) | 6% | Salary routing required |

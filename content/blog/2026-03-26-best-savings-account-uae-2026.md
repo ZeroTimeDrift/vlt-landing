@@ -24,7 +24,7 @@ This page covers every major no-lock-in option for UAE expats, with the real cat
 | Mashreq NEO Plus | 5.0–6.25% | AED 50K avg balance or salary routing AED 10K+/month | Yes | Bank |
 | Wio Bank High-Return | ~6.0% | Salary routing required | Yes | Digital bank |
 | Nexo | ~5.5% | $5,000+ total portfolio minimum | Yes | Digital platform |
-| StashAway Simple | ~3.9% | None | Yes | Money market fund |
+| StashAway Simple | ~3.6% | None | Yes | Money market fund |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee deducted | Yes | Investment platform |
 | Wio Bank Flexible | 3.25% (AED) | None | Yes | Digital bank |
 | FAB iSave / Savings | ~2.5% standard; 4% on new funds until Jun 30 | New-funds-only promo; standard balance ~2.5% | Yes | Bank |
@@ -62,7 +62,7 @@ Require salary routing or large minimum balances. Worth considering if you have 
 
 **Tier 2 — no conditions, access anytime**
 - Vault: ~5.4% current (waitlist)
-- StashAway Simple: ~3.9%
+- StashAway Simple: ~3.6%
 - Wio Flexible: 3.25% AED
 - Standard bank accounts: 0.5–2%
 
@@ -74,7 +74,7 @@ For most UAE expats, Tier 2 is the actual market.
 
 Vault's ~5.4% comes from fees paid by institutional borrowers who need access to funds — not from a promotional budget, and not from tracking the US Federal Reserve.
 
-StashAway Simple holds money market instruments that follow the Fed rate. That's why it's declined from 4.6% in mid-2024 to ~3.9% today. Vault's rate is set by borrower demand in vetted lending markets. Different mechanism, different rate behavior.
+StashAway Simple holds money market instruments that follow the Fed rate. That's why it's declined from 4.6% in mid-2024 to ~3.6% today. Vault's rate is set by borrower demand in vetted lending markets. Different mechanism, different rate behavior.
 
 ---
 
@@ -101,7 +101,7 @@ Vault is not Sharia-certified and is not an Islamic savings product.
 | If you... | Best option |
 |---|---|
 | Want the best no-conditions rate | Vault (~5.4%) — waitlist |
-| Want a licensed no-lock-in product now | StashAway Simple (~3.9%) |
+| Want a licensed no-lock-in product now | StashAway Simple (~3.6%) |
 | Have a UAE salary, want full banking | Mashreq NEO Plus (if salary-eligible) |
 | Need Sharia-compliant | Sarwa Halal (~3.5% net) |
 | Want AED savings at a digital bank | Wio Flexible (3.25%) |

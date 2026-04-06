@@ -40,7 +40,7 @@
 
   <!-- StashAway -->
   <rect x="130" y="240" width="310" height="28" rx="4" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-  <text x="450" y="259" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)" dominant-baseline="middle">StashAway Simple (3.9%)</text>
+  <text x="450" y="259" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)" dominant-baseline="middle">StashAway Simple (3.6%)</text>
   <text x="620" y="259" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)" dominant-baseline="middle">+AED 7,800</text>
 
   <!-- Vault hero bar -->

@@ -59,7 +59,7 @@ This is the gap. The UK/EU Revolut savings feature earns ~3.5–5% on GBP/EUR vi
 | Option | Rate | Notes |
 |---|---|---|
 | UAE bank savings (standard) | 0.5–2.5% | Low, often conditional |
-| StashAway Simple | 3.9% | DFSA-regulated MMF |
+| StashAway Simple | 3.6% | DFSA-regulated MMF |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee |
 | **Vault** | **~5.4% (variable)** | **No fee, no lock-in** |
 

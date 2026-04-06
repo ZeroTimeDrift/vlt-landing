@@ -22,7 +22,7 @@
   <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">STASHAWAY ALTERNATIVES — UAE 2026</text>
 
   <!-- Title -->
-  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">StashAway Simple pays 3.9%. Vault pays 5.4%.</text>
+  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">StashAway Simple pays 3.6%. Vault pays 5.4%.</text>
 
   <!-- Comparison rows -->
   <text x="100" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">UAE major banks (standard, flexible)</text>
@@ -33,9 +33,9 @@
   <rect x="280" y="171" width="100" height="18" rx="3" fill="url(#dimBar)"/>
   <text x="388" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)" dx="8">3.25%</text>
 
-  <text x="100" y="222" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple UAE (no fee)</text>
+  <text x="100" y="222" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple UAE (net rate)</text>
   <rect x="280" y="208" width="137" height="18" rx="3" fill="url(#dimBar)" opacity="0.8"/>
-  <text x="425" y="222" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.45)" dx="8">3.9%</text>
+  <text x="425" y="222" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.45)" dx="8">3.6%</text>
 
   <text x="100" y="259" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Sarwa Save+ (net, after 0.5% fee)</text>
   <rect x="280" y="245" width="113" height="18" rx="3" fill="url(#dimBar)"/>
@@ -56,9 +56,9 @@
 
   <text x="920" y="155" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)">ANNUAL GAP ON AED 100,000</text>
 
-  <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="#0066FF">AED 1,500</text>
+  <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="#0066FF">AED 1,800</text>
   <text x="920" y="255" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.5)">more per year at Vault vs StashAway Simple</text>
-  <text x="920" y="285" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">At 3.9% (StashAway) vs 5.4% (Vault)</text>
+  <text x="920" y="285" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">At 3.6% (StashAway) vs 5.4% (Vault)</text>
   <text x="920" y="315" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">No fee. No lock-in. vlt.money</text>
 
   <!-- Footer -->

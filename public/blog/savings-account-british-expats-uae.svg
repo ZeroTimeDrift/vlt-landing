@@ -34,7 +34,7 @@
   <!-- Row 2: StashAway Simple -->
   <text x="80" y="158" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple</text>
   <rect x="280" y="145" width="176" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="464" y="159" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.35)">3.9%</text>
+  <text x="464" y="159" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.35)">3.6%</text>
 
   <!-- Row 3: Sarwa Save+ -->
   <text x="80" y="188" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Sarwa Save+</text>

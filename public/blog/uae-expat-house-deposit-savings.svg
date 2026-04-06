@@ -50,7 +50,7 @@
 
   <!-- Row 4: StashAway -->
   <text x="280" y="260" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">StashAway Simple UAE</text>
-  <text x="520" y="260" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,200,0,0.6)">3.9%</text>
+  <text x="520" y="260" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,200,0,0.6)">3.6%</text>
   <text x="720" y="260" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(16,185,129,0.5)">None</text>
   <text x="940" y="260" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,200,0,0.6)">~AED 23,780</text>
 

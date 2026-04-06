@@ -34,7 +34,7 @@ Here's the realistic picture for UAE flexible savings, accounting for real condi
 | FAB iSave (new funds only) | 4% | New money above April 2023 balance; payout delayed to August 2026 |
 | FAB iSave (existing funds) | ~2.465% | Standard prevailing rate for most balances |
 | Wio Bank | 3.25% | Flexible (6% requires salary routing) |
-| StashAway Simple | 3.9% | No conditions, money market fund |
+| StashAway Simple | 3.6% | No conditions, money market fund |
 | Sarwa Save+ | ~3.2% net | 3.7% gross minus 0.5% annual fee |
 | Mashreq NEO PLUS | 5–6.25% | AED 50K min or salary routing; max 2 withdrawals/month |
 | Most UAE banks | 1–2% | Standard flexible |

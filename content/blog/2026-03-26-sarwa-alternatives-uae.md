@@ -40,9 +40,9 @@ Gap vs Sarwa Save+ net: ~220bps. On AED 100,000, that's approximately AED 2,200/
 
 **The trade-off:** Vault is not yet ADGM-regulated. Sarwa has been licensed since 2018 and has a long track record. If regulatory status is your priority, Sarwa remains the safer choice.
 
-### 2. StashAway Simple — ~3.9%
+### 2. StashAway Simple — ~3.6%
 
-**Rate:** ~3.9% projected
+**Rate:** ~3.6% projected
 **Fee:** Zero management fee
 **Regulation:** Licensed by MAS (Singapore) and DIFC (UAE)
 **Lock-in:** None
@@ -89,7 +89,7 @@ Nexo offers a comparable headline rate to Vault but with conditions: you need a 
 |---|---|---|---|---|---|
 | **Vault** | **~5.4%** | **0%** | Pursuing ADGM | No | Waitlist |
 | Nexo | ~5.5% (base) | 0% | VARA only | No | $5K+ minimum |
-| StashAway Simple | ~3.9% | 0% | DIFC-licensed | No | — |
+| StashAway Simple | ~3.6% | 0% | DIFC-licensed | No | — |
 | Sarwa Halal | ~3.5% net | 0.5% | ADGM + DFSA | No | Islamic |
 | Sarwa Save+ | ~3.2% net | 0.5% | ADGM + DFSA | No | Declining rate |
 | Wio Flexible | 3.25% (AED) | 0% | CBUAE | No | Full bank |

@@ -47,7 +47,7 @@ This means when the Federal Reserve cuts rates, DIB's profit distributions tend 
 |---|---|---|---|
 | DIB Savings | 0.5–1.25% | Islamic bank | None for standard |
 | Sarwa Halal | ~3.5% net | Islamic MMF | 0.5% fee |
-| StashAway Simple | ~3.9% | Conventional MMF | None |
+| StashAway Simple | ~3.6% | Conventional MMF | None |
 | Wio Flexible | 3.25% AED | Digital bank | None |
 | **Vault (vlt.money)** | **~5.4% current** | **Savings app** | **None — waitlist** |
 

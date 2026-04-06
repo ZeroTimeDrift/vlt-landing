@@ -46,7 +46,7 @@
   <text x="890" y="105" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="2">STASHAWAY SIMPLE</text>
 
   <!-- StashAway rate -->
-  <text x="890" y="185" text-anchor="middle" fill="#D1D5DB" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700">3.9%</text>
+  <text x="890" y="185" text-anchor="middle" fill="#D1D5DB" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700">3.6%</text>
   <text x="890" y="212" text-anchor="middle" fill="#6B7280" font-family="Inter, system-ui, sans-serif" font-size="13">current projected rate</text>
 
   <!-- StashAway mechanism -->

@@ -35,7 +35,7 @@ The landscape for no-lock-in, no-condition savings in the UAE in 2026:
 |---|---|---|
 | Standard UAE current account | 0–0.5% | None |
 | UAE flexible savings account | 0.5–2% | None |
-| StashAway Simple UAE | 3.9% | None |
+| StashAway Simple UAE | 3.6% | None |
 | Vault | ~5.4% current | None |
 
 On AED 200,000 over three years, the difference between a standard savings account and Vault is approximately AED 24,000. That's a meaningful buffer — against a price movement, against exchange rate timing, against the unexpected costs that come with every property purchase.

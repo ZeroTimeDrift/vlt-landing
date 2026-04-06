@@ -59,7 +59,7 @@ It will change — markets move. But the change will track actual economic condi
 | Mashreq NEO PLUS (non-salary tier) | 5% AED | AED 50K min; forfeit interest if >2 withdrawals/month |
 | Wio (flexible, no lock-in) | 3.25% AED / 2.75% USD | Full |
 | FAB (standard balance) | ~2.5% | Full |
-| StashAway Simple UAE | 3.9% | Full — money market fund, DFSA-regulated |
+| StashAway Simple UAE | 3.6% | Full — money market fund, DFSA-regulated |
 | Sarwa Save+ | ~3.2% net (3.7% gross) | Full — 0.5% annual management fee |
 | UAE 12-month fixed deposit | 2–4.25% | Locked |
 | **Vault** | **~5.4% (variable)** | **Withdraw anytime, no minimum** |

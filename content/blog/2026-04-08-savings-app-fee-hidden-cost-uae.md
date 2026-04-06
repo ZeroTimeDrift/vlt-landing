@@ -37,7 +37,7 @@ The fee doesn't disappear. It compounds in reverse — every year, you're earnin
 
 ## What No-Fee Looks Like
 
-StashAway Simple charges no management fee. The 3.9% gross rate is the 3.9% you receive. There's nothing deducted before the number hits your account.
+StashAway Simple's 3.6% projected rate is already net of all fees — the fund management fee and StashAway's own 0.3% annual fee are both deducted before the rate is quoted. What you see is what you receive.
 
 Vault charges no management fee either. The ~5.4% current earnings rate is what you receive from borrower fees — not a headline number that gets trimmed before settlement.
 
@@ -46,7 +46,7 @@ Here's the comparison at AED 200,000 over 12 months:
 | Product | Rate | Net earned | Fee paid |
 |---|---|---|---|
 | Sarwa Save+ | 3.7% gross / ~3.2% net | AED 6,400 | AED 1,000 |
-| StashAway Simple | 3.9% (no fee) | AED 7,800 | AED 0 |
+| StashAway Simple | 3.6% (net rate) | AED 7,200 | AED 0 |
 | Vault | ~5.4% (no fee) | AED 10,800 | AED 0 |
 
 The gap between Sarwa Save+ and Vault isn't just the rate difference. It's the rate difference plus the fee. On AED 200,000, that gap is approximately AED 4,400 per year.

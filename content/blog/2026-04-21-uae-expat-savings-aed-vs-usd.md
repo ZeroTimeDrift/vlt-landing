@@ -31,7 +31,7 @@ Here's where the main options stand for UAE-based savers with flexible (no lock-
 
 **Conditional high-rate accounts:** Mashreq NEO's 5% requires AED 50,000+ average balance; 6.25% also requires AED 10,000/month salary routing. Strong if conditions fit, otherwise irrelevant.
 
-**Investment-linked products:** StashAway Simple projects 3.9% with no lock-in. Sarwa's Save+ runs at 3.7% gross — approximately 3.2% net after their 0.5% fee.
+**Investment-linked products:** StashAway Simple projects 3.6% with no lock-in. Sarwa's Save+ runs at 3.7% gross — approximately 3.2% net after their 0.5% fee.
 
 **Fixed deposits:** UAE 12-month deposits pay 2–4.25%. Wio and SIB at the higher end. Better rate in exchange for a year's lock-in.
 
@@ -52,7 +52,7 @@ The best no-condition option available right now is meaningfully above where it 
 For UAE expats with liquid savings, the hierarchy is relatively clean:
 
 - **If you have AED 50K+ and can route salary:** Mashreq NEO at 5% is the best conditional bank option.
-- **If you want a managed, no-condition product:** StashAway at 3.9% or Sarwa at ~3.2% net.
+- **If you want a managed, no-condition product:** StashAway at 3.6% or Sarwa at ~3.2% net.
 - **If you want the full flexible rate without conditions:** Vault at ~5.4% (variable, not guaranteed, Prometheus Labs pursuing ADGM authorisation).
 - **If you want lock-in:** Wio or SIB fixed deposits at up to 4.25% for 12 months.
 

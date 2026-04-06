@@ -60,7 +60,7 @@ UAE flexible savings at 1–2.5% is a significant step down. British expats ofte
 
 ## Options that work for British expats in UAE
 
-### StashAway Simple UAE — 3.9%
+### StashAway Simple UAE — 3.6%
 
 UAE-regulated (DFSA-licensed). No minimum, no lock-in, AED or USD. The rate tracks US Federal Reserve decisions — not BoE policy, since it's USD-denominated. No salary requirement.
 
@@ -105,7 +105,7 @@ Maintaining a UK account while UAE savings rates were poor was a common workarou
 | Option | Rate | Fee | Regulated |
 |--------|------|-----|-----------|
 | Vault | ~5.4% | None | Pursuing ADGM |
-| StashAway Simple | 3.9% | None | DFSA ✓ |
+| StashAway Simple | 3.6% | None | DFSA ✓ |
 | Sarwa Save+ | ~3.2% net | 0.5%/yr | ADGM + DFSA ✓ |
 | Wio / SIB fixed | 4–4.25% | None | CBUAE ✓ (lock-in) |
 | FAB flexible | ~2.5% | None | CBUAE ✓ |

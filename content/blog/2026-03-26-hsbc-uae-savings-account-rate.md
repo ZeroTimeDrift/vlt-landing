@@ -70,7 +70,7 @@ For UAE expats who want competitive earnings without surrendering flexibility, t
 |---|---|---|
 | HSBC UAE savings | 0.5–1.5% | Standard rates |
 | Wio flexible savings | 2.75% (USD) | No salary condition |
-| StashAway Simple | 3.9% | DFSA-regulated MMF |
+| StashAway Simple | 3.6% | DFSA-regulated MMF |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee |
 | **Vault** | **~5.4% (variable)** | **No fee, no lock-in** |
 

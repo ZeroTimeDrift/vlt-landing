@@ -69,7 +69,7 @@ These are solid, regulated options — but profit rates on standard Islamic savi
 
 ## Options that work without salary routing
 
-### StashAway Simple UAE — 3.9%
+### StashAway Simple UAE — 3.6%
 
 UAE-regulated (DFSA-licensed) money market fund. No minimum, no lock-in. Rate tracks US Federal Reserve — will move with Fed decisions. No salary requirement, no fee.
 
@@ -93,7 +93,7 @@ Vault earns from fees paid by institutional borrowers in vetted lending markets 
 |--------|------|----------|-----------|-------|
 | Vault | ~5.4% | USD | Pursuing ADGM | Pre-launch |
 | Naya Pakistan Cert (USD) | ~5–7% | USD | State Bank Pakistan | Pakistan bank risk |
-| StashAway Simple | 3.9% | USD/AED | DFSA UAE ✓ | Fed-linked |
+| StashAway Simple | 3.6% | USD/AED | DFSA UAE ✓ | Fed-linked |
 | Sarwa Halal | ~3.5% net | USD/AED | ADGM/DFSA UAE ✓ | Islamic |
 | Sarwa Save+ | ~3.2% net | USD/AED | ADGM/DFSA UAE ✓ | Conventional |
 | UAE Islamic savings | 1–3% | AED | CBUAE ✓ | Sharia-compliant |

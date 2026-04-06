@@ -56,7 +56,7 @@ FAB iSave pays 4% on new funds until June 30, 2026 — most existing FAB deposit
 
 ## Options that work without salary routing
 
-### StashAway Simple UAE — 3.9%
+### StashAway Simple UAE — 3.6%
 
 UAE-regulated (DFSA-licensed) money market fund. No minimum, no lock-in, accepts AED and USD. Rate tracks the US Federal Reserve — will decline as the Fed cuts rates. No salary requirement.
 
@@ -89,7 +89,7 @@ Because the rate comes from borrowing demand rather than central bank decisions,
 | Option | Rate | Fee | Lock-in | Regulated |
 |--------|------|-----|---------|-----------|
 | Vault | ~5.4% | None | None | Pursuing ADGM |
-| StashAway Simple | 3.9% | None | None | DFSA ✓ |
+| StashAway Simple | 3.6% | None | None | DFSA ✓ |
 | Sarwa Save+ | ~3.2% net | 0.5%/yr | None | ADGM + DFSA ✓ |
 | Wio / SIB FD | 4–4.25% | None | 12 months | CBUAE ✓ |
 | FAB flexible | ~2.5% | None | None | CBUAE ✓ |

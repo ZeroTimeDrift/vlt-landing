@@ -56,7 +56,7 @@ A few patterns are specific to Indian expats in UAE:
 
 ## The options that actually work without salary routing
 
-### StashAway Simple UAE — 3.9%
+### StashAway Simple UAE — 3.6%
 
 A UAE-regulated money market fund (DFSA-licensed). No minimum, no lock-in, AED or USD. The rate tracks the US Federal Reserve — it will decline as the Fed cuts rates.
 
@@ -100,7 +100,7 @@ A reasonable structure for 2026:
 
 1. **UAE current account (FAB/ADCB/Emirates NBD):** Keep 1–2 months of UAE expenses here. Salary goes here if applicable.
 
-2. **USD savings for UAE goals:** StashAway Simple (3.9%, regulated) or Vault (~5.4%, higher rate, pre-launch risk). For an emergency fund or house deposit savings in USD.
+2. **USD savings for UAE goals:** StashAway Simple (3.6%, regulated) or Vault (~5.4%, higher rate, pre-launch risk). For an emergency fund or house deposit savings in USD.
 
 3. **NRE account in India:** For savings destined for India — SBI or HDFC NRE fixed deposits. Rupee-denominated, so keep only what you plan to spend in India.
 
@@ -112,7 +112,7 @@ A reasonable structure for 2026:
 
 If you don't have a UAE salary to route, you're not locked out of competitive savings rates — but you do need to look beyond the headline bank rates.
 
-StashAway Simple at 3.9% is the lowest-friction regulated option. Vault at ~5.4% offers a higher rate but is pre-launch. The gap between UAE standard savings (1–2%) and these options is material: on AED 100,000 (~$27,000), the difference between 1.5% and 5.4% is over AED 14,000 per year.
+StashAway Simple at 3.6% is the lowest-friction regulated option. Vault at ~5.4% offers a higher rate but is pre-launch. The gap between UAE standard savings (1–2%) and these options is material: on AED 100,000 (~$27,000), the difference between 1.5% and 5.4% is over AED 14,000 per year.
 
 [Join the Vault waitlist →](https://vlt.money)
 

@@ -22,7 +22,7 @@ Here's what that decline looks like in practice:
 
 **Sarwa Save+** peaked at around 5.1% in mid-2024. Today it pays 3.7% gross — approximately 3.2% net after their 0.5% annual management fee. That's a drop of nearly 200 basis points from peak.
 
-**StashAway Simple UAE** tracks a similar path. Currently sitting at 3.9%, down from highs near 5%.
+**StashAway Simple UAE** tracks a similar path. Currently sitting at 3.6%, down from highs near 5%.
 
 **UAE bank flexible savings** — already the lowest tier — remain in the 0.5–2.5% range, where they've stayed through most rate cycles.
 
@@ -51,7 +51,7 @@ This isn't a guarantee that Vault's rate stays high. Markets shift. Borrower dem
 | Standard UAE bank savings | 0.5–2.5% | Bank margin on deposits |
 | Wio (flexible, no lock-in) | 3.25% AED | Fed-linked |
 | Sarwa Save+ | ~3.2% net | Money market fund, Fed-linked |
-| StashAway Simple UAE | 3.9% | Money market fund, Fed-linked |
+| StashAway Simple UAE | 3.6% | Money market fund, Fed-linked |
 | UAE 12-month fixed deposit | 2–4.25% | Fed-linked, capital locked |
 | **Vault** | **~5.4% (variable)** | **Institutional borrower fees, demand-driven** |
 
@@ -75,7 +75,7 @@ On AED 50,000 (~$13,600):
 |---|---|
 | Standard UAE account (1%) | AED 500 |
 | Sarwa Save+ (~3.2% net) | AED 1,600 |
-| StashAway Simple (3.9%) | AED 1,950 |
+| StashAway Simple (3.6%) | AED 1,950 |
 | **Vault (~5.4%)** | **AED 2,700** |
 
 The difference between Sarwa and Vault on that balance is approximately AED 1,100 per year. Between a standard account and Vault: AED 2,200.

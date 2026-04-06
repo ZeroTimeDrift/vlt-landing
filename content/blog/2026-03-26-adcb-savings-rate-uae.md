@@ -71,7 +71,7 @@ If your ADCB savings are sitting at 0.5–1.5% on a standard account, these opti
 |---|---|---|
 | **Vault (vlt.money)** | **~5.4% current** | **None — waitlist open** |
 | ADCB Super Saver | Up to 4.5% AED | AED 50K+ balance, new external money only, existing ADCB account |
-| StashAway Simple | ~3.9% | None |
+| StashAway Simple | ~3.6% | None |
 | Wio Flexible Savings | 3.25% (AED) | None |
 | Sarwa Save+ | ~3.2% net | 0.5% fee |
 

@@ -2,14 +2,14 @@
 title: "Vault vs StashAway Simple UAE: Why the Rate Gap Exists"
 date: "2026-03-30"
 slug: "vault-vs-stashaway-simple"
-excerpt: "StashAway Simple UAE raised to 3.9%. Vault earns ~5.4%. Here's what creates that gap — and why it's likely to get wider as rates fall."
-description: "StashAway Simple UAE sits at 3.9%. Vault earns ~5.4%. Here's what creates the 150bps gap — and why it's likely to widen as rates fall."
+excerpt: "StashAway Simple UAE currently sits at 3.6%. Vault earns ~5.4%. Here's what creates that gap — and why it's likely to get wider as rates fall."
+description: "StashAway Simple UAE sits at 3.6%. Vault earns ~5.4%. Here's what creates the 180bps gap — and why it's likely to widen as rates fall."
 heroImage: "/blog/vault-vs-stashaway-simple.svg"
 ---
 
-StashAway Simple is one of the better flexible savings options in the UAE. No lock-in. DFSA-regulated. A clean interface. Their rate recently moved to 3.9% — meaningfully ahead of most bank accounts.
+StashAway Simple is one of the better flexible savings options in the UAE. No lock-in. DFSA-regulated. A clean interface. Their rate currently sits at 3.6% — meaningfully ahead of most bank accounts.
 
-Vault earns around 5.4%. That's roughly 150 basis points more — about AED 1,500 per year on every AED 100,000 saved.
+Vault earns around 5.4%. That's roughly 180 basis points more — about AED 1,800 per year on every AED 100,000 saved.
 
 The difference isn't a promotional rate, a hidden condition, or a rounding trick. It comes from how each product earns. Understanding that helps you decide which fits your situation.
 
@@ -19,7 +19,7 @@ StashAway Simple puts your money into a money market fund. That fund holds short
 
 The rate it earns follows the central bank rate cycle. When the US Federal Reserve and the UAE Central Bank raised rates sharply in 2022 and 2023, money market returns rose with them. StashAway Simple peaked near 5% in mid-2024.
 
-Then central banks started cutting. The CBUAE reduced its base rate three times in 2025, totalling 75 basis points. StashAway's rate fell with it. It now sits at 3.9%.
+Then central banks started cutting. The CBUAE reduced its base rate three times in 2025, totalling 75 basis points. StashAway's rate fell with it. It now sits at 3.6%.
 
 That's not a criticism of StashAway. It's how money market funds work. The rate tracks the rate cycle.
 
@@ -35,10 +35,10 @@ That's why both products can exist simultaneously at different rates. One is pri
 
 Right now:
 
-- StashAway Simple UAE: 3.9%
+- StashAway Simple UAE: 3.6%
 - Vault: ~5.4% (variable, not guaranteed)
 
-On AED 100,000, the difference is roughly AED 1,500 a year. On USD 50,000, around $750. Neither number is a guaranteed outcome — both rates move — but the current gap is material.
+On AED 100,000, the difference is roughly AED 1,800 a year. On USD 50,000, around $900. Neither number is a guaranteed outcome — both rates move — but the current gap is material.
 
 The structural question is how this gap behaves over time. The Fed has signalled further easing through 2026. Money market fund rates follow central bank rates down. Lending market fees respond to a separate driver. The gap may narrow or widen depending on how those two markets move, but the mechanism that determines each is different.
 
@@ -61,7 +61,7 @@ If you're comfortable being on a waitlist for a higher-rate product, and you wan
 
 Both are better than leaving money in a current account at 0.5%.
 
-The question is whether a ~150bps difference matters to you. On any meaningful amount of savings held over a year or more, it usually does.
+The question is whether a ~180bps difference matters to you. On any meaningful amount of savings held over a year or more, it usually does.
 
 Join the waitlist at [vlt.money](https://vlt.money)
 

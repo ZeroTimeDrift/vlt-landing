@@ -39,7 +39,7 @@ But even the comparison against active savings options tells a significant story
 | Option | Rate | Conditions |
 |---|---|---|
 | Vault | ~5.4% | No conditions, no lock-in |
-| StashAway Simple | 3.9% | Money market fund, projected |
+| StashAway Simple | 3.6% | Money market fund, projected |
 | Sarwa Save+ | ~3.2% net | After 0.5% annual fee |
 | FAB iSave | 4% new funds until Jun 30; ~2.5% standard | New money only, expiry date |
 | Most UAE current accounts | 0–0.5% | — |

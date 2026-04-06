@@ -53,7 +53,7 @@ The UAE's tax-free salary is only an advantage if you capture it. Many expats ea
 No lock-in, no salary routing required, rate beats inflation — that's the filter. Current no-condition options:
 - UAE banks (standard): 0.5–2.5%
 - Wio (no salary routing): 3.25% AED
-- StashAway Simple UAE: 3.9%
+- StashAway Simple UAE: 3.6%
 - Sarwa Save+: ~3.2% net (3.7% gross, 0.5% fee)
 - **Vault: ~5.4% variable, no fee** (waitlist at vlt.money)
 

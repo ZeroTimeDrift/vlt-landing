@@ -45,7 +45,7 @@ After a round of Fed rate cuts and the expiry of the FAB 4% promotional rate in 
 |---|---|---|
 | Standard Chartered standard | 0.5–1.5% | None |
 | Wio Flexible (AED) | 3.25% | None |
-| StashAway Simple | ~3.9% | None |
+| StashAway Simple | ~3.6% | None |
 | Sarwa Save+ | ~3.2% net | 0.5% fee, ADGM-regulated |
 | **Vault (vlt.money)** | **~5.4% current** | **None — waitlist open** |
 

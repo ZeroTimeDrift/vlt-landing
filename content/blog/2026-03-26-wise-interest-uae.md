@@ -46,7 +46,7 @@ On $10,000 sitting in a Wise USD account:
 
 - Wise earns: $0
 - UAE bank savings account (standard): ~$150/year (1.5%)
-- StashAway Simple UAE: ~$390/year (3.9%)
+- StashAway Simple UAE: ~$390/year (3.6%)
 - **Vault: ~$540/year (~5.4% variable, no fee)**
 
 Over three years at current rates, the gap between Wise (0%) and Vault (~5.4%) on $10,000 is over $1,700.
@@ -92,7 +92,7 @@ The most common pattern among UAE expats: keep Wise for what it's good at (trans
 |---|---|---|
 | Wise | 0% | Transfers only |
 | UAE bank savings | 0.5–2.5% | Variable |
-| StashAway Simple | 3.9% | Money market fund, DFSA-regulated |
+| StashAway Simple | 3.6% | Money market fund, DFSA-regulated |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee deducted |
 | **Vault** | **~5.4% (variable)** | **No fee, no lock-in** |
 

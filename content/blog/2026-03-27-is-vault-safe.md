@@ -98,7 +98,7 @@ For most people, the right answer is probably both: keep your operating expenses
 
 The closest comparable product globally is Aave App, which launched in the US in late 2025 offering ~5% on USD with no jargon or technical complexity. It is not available in the UAE.
 
-In the UAE, the closest regulated alternatives are StashAway Simple (3.9%) and Sarwa Save+ (~3.2% net after their 0.5% fee). Both are fully regulated and use money market funds that track the Fed rate — a different mechanism from Vault.
+In the UAE, the closest regulated alternatives are StashAway Simple (3.6%) and Sarwa Save+ (~3.2% net after their 0.5% fee). Both are fully regulated and use money market funds that track the Fed rate — a different mechanism from Vault.
 
 ---
 

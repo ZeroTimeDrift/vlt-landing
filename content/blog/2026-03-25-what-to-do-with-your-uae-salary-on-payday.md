@@ -35,7 +35,7 @@ If your average monthly balance is AED 15,000 — the amount sitting unspent bet
 |---|---|---|
 | UAE salary account | 0% | AED 0 |
 | Standard savings account | 0.5–1% | AED 75–150 |
-| StashAway Simple | 3.9% | AED 585 |
+| StashAway Simple | 3.6% | AED 585 |
 | **Vault** | **~5.4%** | **~AED 810** |
 
 That's the cost of a flight. Or two months of groceries. For doing nothing differently except where you park the money.

@@ -34,7 +34,7 @@
 
   <text x="100" y="259" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple UAE</text>
   <rect x="310" y="245" width="140" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="458" y="259" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.4)" dx="8">3.9%</text>
+  <text x="458" y="259" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.4)" dx="8">3.6%</text>
 
   <!-- Vault highlighted -->
   <rect x="80" y="286" width="580" height="58" rx="10" fill="rgba(0,102,255,0.07)" stroke="rgba(0,102,255,0.25)" stroke-width="1.5"/>

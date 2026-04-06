@@ -55,7 +55,7 @@ For those without a Sharia requirement:
 
 | Option | Rate | Notes |
 |---|---|---|
-| StashAway Simple | ~3.9% | No lock-in |
+| StashAway Simple | ~3.6% | No lock-in |
 | **Vault (vlt.money)** | **~5.4% current** | **No lock-in, zero fees, waitlist** |
 
 ---

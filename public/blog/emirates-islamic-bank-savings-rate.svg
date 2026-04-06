@@ -46,7 +46,7 @@
   <!-- Row 4: StashAway Simple -->
   <text x="80" y="241" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple</text>
   <rect x="300" y="228" width="115" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="423" y="242" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.35)">3.9%</text>
+  <text x="423" y="242" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.35)">3.6%</text>
 
   <!-- Divider -->
   <line x1="60" y1="260" x2="660" y2="260" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>

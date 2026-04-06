@@ -46,7 +46,7 @@ UAE banks broadly pay 0.5–2.5% on flexible savings. No lock-in, no salary requ
 | Option | Rate | Conditions |
 |---|---|---|
 | RAKBank standard savings | 0.5–1.0% | None |
-| StashAway Simple | ~3.9% | None |
+| StashAway Simple | ~3.6% | None |
 | Wio Flexible Savings | 3.25% (AED) | None |
 | **Vault (vlt.money)** | **~5.4% current** | **None — waitlist open** |
 

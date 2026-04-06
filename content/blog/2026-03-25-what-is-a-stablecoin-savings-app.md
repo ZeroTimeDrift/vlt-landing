@@ -54,7 +54,7 @@ Deposits flow into a vetted institutional lending market, where institutional bo
 
 Vault is in the process of obtaining ADGM regulatory approval. The goal: a fully regulated, simple savings product that earns more than a UAE bank account without requiring any specialist knowledge.
 
-The best flexible savings rate available in the UAE right now — no lock-in, no salary routing conditions — is StashAway Simple at 3.9%. FAB's iSave offers 4% on new funds until June 30, 2026, but standard FAB balances earn around 2.5%. Vault's ~5.4% sits well above both.
+The best flexible savings rate available in the UAE right now — no lock-in, no salary routing conditions — is StashAway Simple at 3.6%. FAB's iSave offers 4% on new funds until June 30, 2026, but standard FAB balances earn around 2.5%. Vault's ~5.4% sits well above both.
 
 ## The short version
 

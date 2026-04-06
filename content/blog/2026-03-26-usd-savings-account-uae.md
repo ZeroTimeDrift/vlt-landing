@@ -34,9 +34,9 @@ The trade-off is liquidity. If you need to repatriate funds unexpectedly — for
 
 ## Money market funds in USD
 
-StashAway Simple UAE holds its fund in USD (Fullerton USD Cash Fund) and earns approximately 3.9% with no lock-in. It's DFSA-regulated. This is a legitimate option — better than most bank USD savings accounts and fully flexible.
+StashAway Simple UAE holds its fund in USD (Fullerton USD Cash Fund) and earns approximately 3.6% with no lock-in. It's DFSA-regulated. This is a legitimate option — better than most bank USD savings accounts and fully flexible.
 
-The rate follows the US Federal Reserve cycle. When the Fed raised rates in 2022–2023, StashAway's rate rose with it. When the Fed cut rates three times in 2025, the rate fell. Current 3.9% reflects the post-cut environment. Further Fed cuts would reduce this.
+The rate follows the US Federal Reserve cycle. When the Fed raised rates in 2022–2023, StashAway's rate rose with it. When the Fed cut rates three times in 2025, the rate fell. Current 3.6% reflects the post-cut environment. Further Fed cuts would reduce this.
 
 Sarwa Save+ is similar in structure — money market fund, USD-denominated — but at 3.7% gross, approximately 3.2% net after their 0.5% annual management fee.
 
@@ -71,7 +71,7 @@ This is one reason many UAE expats prefer USD savings instruments: they avoid th
 | UAE bank standard savings | 0.5–1.5% | Full |
 | Wio flexible USD | 2.75% | Full |
 | UAE 12-month USD fixed deposit | 2–3.5% | Locked |
-| StashAway Simple UAE | 3.9% | Full — DFSA-regulated money market fund |
+| StashAway Simple UAE | 3.6% | Full — DFSA-regulated money market fund |
 | Sarwa Save+ | ~3.2% net | Full — 0.5% annual fee |
 | **Vault** | **~5.4% (variable)** | **Full — withdraw anytime** |
 
