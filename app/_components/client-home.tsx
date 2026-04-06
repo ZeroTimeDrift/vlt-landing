@@ -347,6 +347,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
   const trustRef = useReveal<HTMLDivElement>();
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
+  const rateCheckRef = useReveal<HTMLDivElement>();
   const b2bRef = useReveal<HTMLDivElement>();
   const fundRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
@@ -728,6 +729,136 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
             </p>
             <p className="text-center text-[10px] text-vault-muted mt-1 opacity-60">
               ‡FAB iSave: 4% p.a. on new funds only (above April 2023 base balance). Campaign runs through June 30, 2026. Interest paid August 2026.
+            </p>
+          </div>
+        </section>
+
+        <div className="section-divider max-w-5xl mx-auto" />
+
+        {/* ── UAE RATE CHECK ──────────────────────────────────────────── */}
+        <section className="py-28 px-6">
+          <div ref={rateCheckRef} className="reveal max-w-4xl mx-auto">
+            <div className="text-center mb-4">
+              <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">Rate check</p>
+              <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight">
+                UAE savings rates, checked April 6, 2026
+              </h2>
+            </div>
+            <p className="text-sm text-vault-muted text-center max-w-2xl mx-auto mb-10 leading-relaxed">
+              Official bank pages don&apos;t always show the current rate — some show campaigns that ended in 2024 or 2025. Here&apos;s what we found.
+            </p>
+
+            {(() => {
+              const rateRows = [
+                {
+                  bank: "ADCB",
+                  headline: '"Up to 5%" — Active Saver campaign, expired Mar 2025',
+                  live: "Up to 4.50% — Super Saver",
+                  condition: "New-to-bank funds only; internal transfers excluded",
+                  isVault: false,
+                },
+                {
+                  bank: "Al Hilal",
+                  headline: '"Up to 5.25%" — campaign ended Sep 2025',
+                  live: "Rate not shown on website",
+                  condition: "Check the app — no public number available",
+                  isVault: false,
+                },
+                {
+                  bank: "Liv",
+                  headline: "KFS PDFs from 2024 still indexed with older rate ladder",
+                  live: "3.50% (Max) / 4.00% with salary",
+                  condition: "Requires Max subscription; top rate needs salary routing",
+                  isVault: false,
+                },
+                {
+                  bank: "UAB",
+                  headline: "5.2% Current Saver promo PDF — ran Mar to Jul 2024",
+                  live: "Not shown on website",
+                  condition: "Promotion ended Jul 2024; page links to brochure only",
+                  isVault: false,
+                },
+                {
+                  bank: "Vault",
+                  headline: "~5.4%",
+                  live: "~5.4% — variable, as of today",
+                  condition: "No lock-in. No salary routing. No minimum. Withdraw anytime.",
+                  isVault: true,
+                },
+              ];
+              return (
+                <>
+                  {/* Desktop table */}
+                  <div className="vault-card overflow-hidden hidden sm:block">
+                    <div
+                      className="grid py-3.5 px-6"
+                      style={{ gridTemplateColumns: "100px 1fr 1fr 1fr", borderBottom: "1px solid rgba(255,255,255,0.08)" }}
+                    >
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">Bank</div>
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">Headline you can still find</div>
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">Live rate (Apr 2026)</div>
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">What unlocks it</div>
+                    </div>
+                    {rateRows.map((row, i) => (
+                      <div
+                        key={row.bank}
+                        className="grid px-6 py-4"
+                        style={{
+                          gridTemplateColumns: "100px 1fr 1fr 1fr",
+                          borderBottom: i < rateRows.length - 1 ? "1px solid rgba(255,255,255,0.08)" : undefined,
+                          background: row.isVault ? "rgba(0,102,255,0.06)" : undefined,
+                        }}
+                      >
+                        <span className={`text-sm font-semibold ${row.isVault ? "" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#0066FF" } : undefined}>
+                          {row.bank}
+                        </span>
+                        <span className="text-sm text-vault-muted pr-3">{row.headline}</span>
+                        <span className={`text-sm pr-3 ${row.isVault ? "font-bold" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#10B981" } : undefined}>
+                          {row.live}
+                        </span>
+                        <span className={`text-sm ${row.isVault ? "font-medium text-vault-text-dim" : "text-vault-muted"}`}>
+                          {row.condition}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Mobile card stack */}
+                  <div className="flex flex-col gap-3 sm:hidden">
+                    {rateRows.map((row) => (
+                      <div
+                        key={row.bank}
+                        className="vault-card p-5"
+                        style={row.isVault ? { border: "1px solid rgba(0,102,255,0.3)", background: "rgba(0,102,255,0.06)" } : undefined}
+                      >
+                        <p className={`text-sm font-semibold mb-3 ${row.isVault ? "" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#0066FF" } : undefined}>
+                          {row.bank}
+                        </p>
+                        <div className="space-y-2">
+                          <div>
+                            <p className="text-[10px] text-vault-muted uppercase tracking-wider mb-0.5">Headline you can still find</p>
+                            <p className="text-xs text-vault-muted">{row.headline}</p>
+                          </div>
+                          <div>
+                            <p className="text-[10px] text-vault-muted uppercase tracking-wider mb-0.5">Live rate (Apr 2026)</p>
+                            <p className={`text-sm ${row.isVault ? "font-bold" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#10B981" } : undefined}>
+                              {row.live}
+                            </p>
+                          </div>
+                          <div>
+                            <p className="text-[10px] text-vault-muted uppercase tracking-wider mb-0.5">What unlocks it</p>
+                            <p className={`text-xs ${row.isVault ? "text-vault-text-dim" : "text-vault-muted"}`}>{row.condition}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              );
+            })()}
+
+            <p className="text-[11px] text-vault-muted text-center mt-4 opacity-70">
+              Sources verified directly on official bank domains and published materials, April 6, 2026.
             </p>
           </div>
         </section>
