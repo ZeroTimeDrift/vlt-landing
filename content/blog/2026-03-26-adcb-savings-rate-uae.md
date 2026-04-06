@@ -54,7 +54,7 @@ The result: strong brand, strong backing — and a competitive rate on the Super
 |---|---|---|
 | ADCB | 0.5–1.5% standard / up to 4.5% Super Saver | Super Saver: AED 50K+ balance, new external money only |
 | Emirates NBD | 1.0–3.5% standard / 2.5–5.0% promo | Apr–Jun 2026 promo: "up to 5%" on new money — but 5% only from AED 10M; AED 100K earns 2.75%; 1.5% bonus paid August 2026 |
-| FAB | ~2.5% | Post-promo (promo expired Mar 31) |
+| FAB | ~2.5% standard; 4% on new funds until Jun 30 | iSave promo (new funds only) runs through June 30, 2026; standard balance ~2.5% |
 | Mashreq NEO PLUS | Up to 6.25% | Requires AED 10K/month salary routing |
 | HSBC UAE | 0.5–1.5% | International expat bank |
 | RAKBank | 0.5–1.0% | Retail-focused |

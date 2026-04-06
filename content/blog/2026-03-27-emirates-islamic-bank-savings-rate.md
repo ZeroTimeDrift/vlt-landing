@@ -68,7 +68,7 @@ For UAE residents seeking Sharia-compliant savings, Islamic banks offer:
 | Sarwa Save+ (conventional) | ~3.2% net | No | None |
 | Wio flexible | 3.25% AED / 2.75% USD | No | None |
 | Emirates Islamic Smart Saver | Up to 3% | Yes | Balance + conditions |
-| FAB flexible (post-promo) | ~2.5% | No | None |
+| FAB flexible / iSave | ~2.5% standard; 4% new funds until Jun 30 | No | iSave 4% on new money only; standard ~2.5% |
 | Emirates Islamic savings | 0.5–1.5% | Yes | None |
 
 For Islamic-preference investors, **Sarwa Halal** at ~3.5% net is currently the strongest no-condition, flexible UAE Islamic savings option. It is ADGM and DFSA regulated, and Sharia-certified by an independent board.

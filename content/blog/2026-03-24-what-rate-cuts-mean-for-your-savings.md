@@ -19,7 +19,7 @@ Traditional savings accounts are tied — loosely, but meaningfully — to the c
 
 The result: standard savings accounts at major UAE banks pay 0.5% to 2.5%. Some digital banks pushed into the 3.5–4% range, but almost all of those rates come with strings attached — route your salary here, lock in for twelve months, maintain a minimum balance.
 
-One bank ran a 4% promotional rate that caught attention. That promotion expired on March 31, 2026.
+One bank (FAB) runs a 4% promotional rate on new funds through June 30, 2026 — but standard flexible balances earn ~2.5%. Most other banks have never offered anything close to 4%.
 
 So right now, if you're a flexible saver — someone who wants to earn well and still access your money when you need it — your options in the traditional banking world are thin.
 
