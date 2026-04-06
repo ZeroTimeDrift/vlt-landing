@@ -348,6 +348,7 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
   const trustRef = useReveal<HTMLDivElement>();
   const howRef = useReveal<HTMLDivElement>();
   const compareRef = useReveal<HTMLDivElement>();
+  const rateCheckRef = useReveal<HTMLDivElement>();
   const b2bRef = useReveal<HTMLDivElement>();
   const fundRef = useReveal<HTMLDivElement>();
   const faqRef = useReveal<HTMLDivElement>();
@@ -655,6 +656,136 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
               <span className="font-semibold" style={{ color: "#10B981" }}>{t.compareVaultRate}</span>
             </div>
             <p className="text-center text-[10px] text-vault-muted mt-1 opacity-60">{t.compareMashreqNote}</p>
+          </div>
+        </section>
+
+        <div className="section-divider max-w-5xl mx-auto" />
+
+        {/* ── UAE RATE CHECK (AR) ──────────────────────────────────────── */}
+        <section className="py-28 px-6" dir="rtl">
+          <div ref={rateCheckRef} className="reveal max-w-4xl mx-auto">
+            <div className="text-center mb-4">
+              <p className="text-xs text-vault-muted font-medium uppercase tracking-[0.2em] mb-4">فحص الأسعار</p>
+              <h2 className="text-3xl sm:text-4xl font-bold text-vault-text tracking-tight">
+                أسعار الادخار في الإمارات، تم التحقق منها في 6 أبريل 2026
+              </h2>
+            </div>
+            <p className="text-sm text-vault-muted text-center max-w-2xl mx-auto mb-10 leading-relaxed">
+              صفحات البنوك الرسمية لا تعرض دائمًا السعر الحالي — بعضها لا يزال يعرض عروضًا انتهت في 2024 أو 2025. إليك ما وجدناه.
+            </p>
+
+            {(() => {
+              const rateRows = [
+                {
+                  bank: "ADCB",
+                  headline: '"حتى 5%" — حملة Active Saver، انتهت مارس 2025',
+                  live: "حتى 4.50% — Super Saver",
+                  condition: "للأموال الجديدة فقط؛ التحويلات الداخلية مستثناة",
+                  isVault: false,
+                },
+                {
+                  bank: "Al Hilal",
+                  headline: '"حتى 5.25%" — انتهت الحملة سبتمبر 2025',
+                  live: "السعر غير معروض على الموقع",
+                  condition: "تحقق من التطبيق — لا يوجد رقم متاح للعموم",
+                  isVault: false,
+                },
+                {
+                  bank: "Liv",
+                  headline: "ملفات KFS من 2024 لا تزال مفهرسة بسلّم أسعار قديم",
+                  live: "3.50% (Max) / 4.00% مع تحويل الراتب",
+                  condition: "يستلزم اشتراك Max؛ أعلى سعر يتطلب تحويل الراتب",
+                  isVault: false,
+                },
+                {
+                  bank: "UAB",
+                  headline: 'ملف PDF بـ 5.2% Current Saver — سرى من مارس إلى يوليو 2024',
+                  live: "غير معروض على الموقع",
+                  condition: "انتهى العرض يوليو 2024؛ الصفحة تحيل إلى الكتيّب فقط",
+                  isVault: false,
+                },
+                {
+                  bank: "Vault",
+                  headline: "~5.4%",
+                  live: "~5.4% — متغيّر، اعتبارًا من اليوم",
+                  condition: "لا قفل. لا اشتراط راتب. لا حد أدنى. سحب في أي وقت.",
+                  isVault: true,
+                },
+              ];
+              return (
+                <>
+                  {/* Desktop table */}
+                  <div className="vault-card overflow-hidden hidden sm:block">
+                    <div
+                      className="grid py-3.5 px-6"
+                      style={{ gridTemplateColumns: "100px 1fr 1fr 1fr", borderBottom: "1px solid rgba(255,255,255,0.08)" }}
+                    >
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">البنك</div>
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">العنوان الذي لا يزال موجودًا</div>
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">السعر الحالي (أبريل 2026)</div>
+                      <div className="text-[11px] text-vault-muted font-medium uppercase tracking-wider">الشروط</div>
+                    </div>
+                    {rateRows.map((row, i) => (
+                      <div
+                        key={row.bank}
+                        className="grid px-6 py-4"
+                        style={{
+                          gridTemplateColumns: "100px 1fr 1fr 1fr",
+                          borderBottom: i < rateRows.length - 1 ? "1px solid rgba(255,255,255,0.08)" : undefined,
+                          background: row.isVault ? "rgba(0,102,255,0.06)" : undefined,
+                        }}
+                      >
+                        <span className={`text-sm font-semibold ${row.isVault ? "" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#0066FF" } : undefined}>
+                          {row.bank}
+                        </span>
+                        <span className="text-sm text-vault-muted pr-3">{row.headline}</span>
+                        <span className={`text-sm pr-3 ${row.isVault ? "font-bold" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#10B981" } : undefined}>
+                          {row.live}
+                        </span>
+                        <span className={`text-sm ${row.isVault ? "font-medium text-vault-text-dim" : "text-vault-muted"}`}>
+                          {row.condition}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Mobile card stack */}
+                  <div className="flex flex-col gap-3 sm:hidden">
+                    {rateRows.map((row) => (
+                      <div
+                        key={row.bank}
+                        className="vault-card p-5"
+                        style={row.isVault ? { border: "1px solid rgba(0,102,255,0.3)", background: "rgba(0,102,255,0.06)" } : undefined}
+                      >
+                        <p className={`text-sm font-semibold mb-3 ${row.isVault ? "" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#0066FF" } : undefined}>
+                          {row.bank}
+                        </p>
+                        <div className="space-y-2">
+                          <div>
+                            <p className="text-[10px] text-vault-muted uppercase tracking-wider mb-0.5">العنوان الذي لا يزال موجودًا</p>
+                            <p className="text-xs text-vault-muted">{row.headline}</p>
+                          </div>
+                          <div>
+                            <p className="text-[10px] text-vault-muted uppercase tracking-wider mb-0.5">السعر الحالي (أبريل 2026)</p>
+                            <p className={`text-sm ${row.isVault ? "font-bold" : "text-vault-text-dim"}`} style={row.isVault ? { color: "#10B981" } : undefined}>
+                              {row.live}
+                            </p>
+                          </div>
+                          <div>
+                            <p className="text-[10px] text-vault-muted uppercase tracking-wider mb-0.5">الشروط</p>
+                            <p className={`text-xs ${row.isVault ? "text-vault-text-dim" : "text-vault-muted"}`}>{row.condition}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              );
+            })()}
+
+            <p className="text-[11px] text-vault-muted text-center mt-4 opacity-70">
+              المصادر: تم التحقق مباشرة من النطاقات الرسمية للبنوك والمواد المنشورة، 6 أبريل 2026.
+            </p>
           </div>
         </section>
 
