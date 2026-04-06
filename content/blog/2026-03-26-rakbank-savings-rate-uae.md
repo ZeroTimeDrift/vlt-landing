@@ -22,11 +22,12 @@ But what rate does RAKBank actually pay?
 | RAKBank Savings Account (AED) | 0.5–1.0% |
 | RAKBank USD Savings | 0.5–1.25% |
 | RAK Elite Savings (AED) | 1.5–2.0% (minimum balance required) |
+| RAKBooster (promotional, new customers only) | 6.25% until April 30, 2026 — reverts to ~1.75% after |
 | Fixed Deposits (12 months) | 2.5–3.5% (with lock-in) |
 
 Standard RAKBank savings accounts pay between 0.5% and 2% depending on balance tiers and account type. Fixed deposits offer higher rates but lock your money away for months.
 
-The bank also occasionally runs promotional rates — but these expire and revert to standard levels. The FAB 4% promo expiring in March 2026 is a recent example of how temporary these headline rates can be.
+RAKBank currently runs a **RAKBooster promotional rate of 6.25%** — but only for new-to-bank customers, and only until April 30, 2026. After that date it reverts to the standard RAKBooster rate of approximately 1.75%. This is a common pattern across UAE banks: a headline promotional rate used to attract new deposits, followed by a sharp reversion once the window closes.
 
 ---
 
@@ -75,6 +76,6 @@ In January 2026, RAKBank received CBUAE in-principle approval to issue an AED-ba
 
 ---
 
-*Rates sourced from RAKBank.ae and market comparisons as of March 2026. RAKBank rates subject to change. Vault rate is variable and not guaranteed.*
+*Rates sourced from RAKBank.ae and market comparisons as of April 2026. RAKBooster 6.25% promo expires April 30, 2026. RAKBank rates subject to change. Vault rate is variable and not guaranteed.*
 
 **Not earning enough on your UAE savings?** Join the waitlist at [vlt.money](https://vlt.money).
