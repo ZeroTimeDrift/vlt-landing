@@ -69,7 +69,7 @@ For USD savings with no salary routing requirement, no lock-in, and no AED restr
 | UAE bank standard | 0.5–2.5% | Variable |
 | Wio (no salary) | 3.25% AED | AED only, flexible |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee, money market fund |
-| StashAway Simple UAE | 3.6% | No fee, DFSA-regulated |
+| StashAway Simple UAE | 3.6% net | DFSA-regulated |
 | **Vault** | **~5.4% (variable)** | **No fee, no lock-in, USD** |
 
 Vault is designed specifically for this gap: UAE residents who want idle savings to earn without the complexity of investing, the restrictions of fixed deposits, or the conditions attached to high-rate bank accounts.

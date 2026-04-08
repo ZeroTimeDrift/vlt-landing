@@ -95,7 +95,7 @@ Some banks have historically been more friction-free for freelance visa holders.
 | UAE bank standard | 0.5–2.5% | No conditions, no routing |
 | Wio (no salary routing) | 3.25% AED | AED only, no routing required |
 | Sarwa Save+ | ~3.2% net | 0.5% annual fee, USD money market |
-| StashAway Simple UAE | 3.6% | No fee, DFSA-regulated |
+| StashAway Simple UAE | 3.6% net | DFSA-regulated |
 | Mashreq NEO PLUS (non-salary) | 5% AED | AED 50K minimum; max 2 withdrawals/month or forfeit interest |
 | **Vault** | **~5.4% (variable)** | **No fee, no routing, no minimum, USD** |
 

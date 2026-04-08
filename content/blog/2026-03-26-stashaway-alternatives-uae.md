@@ -25,7 +25,7 @@ As of March 2026:
 - **Lock-in:** None
 - **Status:** Live, fully operational
 
-StashAway's strengths are real: clean app, reputable regulation, no fee, no conditions. It's a genuinely good product.
+StashAway's strengths are real: clean app, reputable regulation, 3.6% net after fees, no conditions. It's a genuinely good product.
 
 The question is whether you want to settle for 3.6% when alternatives offer more.
 
