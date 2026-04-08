@@ -1,0 +1,92 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+    <linearGradient id="vaultBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#020810"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+
+  <!-- Blue glow behind Vault card -->
+  <ellipse cx="835" cy="215" rx="290" ry="160" fill="rgba(0,102,255,0.045)"/>
+
+  <!-- ── HEADER ── -->
+  <text x="600" y="44" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" letter-spacing="0.12em">THREE PROMOS. ONE DEADLINE. APRIL 30, 2026.</text>
+  <text x="600" y="80" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.9)">When UAE bank promos expire, rates fall sharply. Vault stays at ~5.4%.</text>
+
+  <!-- ── COLUMN 1: RAKBANK RAKBooster ── -->
+  <!-- Column header -->
+  <text x="110" y="112" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" letter-spacing="0.08em" fill="rgba(255,255,255,0.2)">RAKBANK</text>
+  <!-- Rate label -->
+  <text x="110" y="126" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="800" fill="rgba(239,68,68,0.75)">6.25%</text>
+  <!-- Bar (tallest — 6.25% = baseline 215px, y=130 bottom=345) -->
+  <rect x="80" y="130" width="60" height="215" rx="6" fill="rgba(239,68,68,0.08)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <!-- Expiry badge -->
+  <rect x="50" y="353" width="120" height="20" rx="10" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.3)" stroke-width="1"/>
+  <text x="110" y="367" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" font-weight="600" fill="rgba(239,68,68,0.7)">EXPIRES APR 30</text>
+  <!-- Post-promo note -->
+  <text x="110" y="385" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">→ ~1.75% after</text>
+  <text x="110" y="399" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.15)">new customers only</text>
+
+  <!-- ── COLUMN 2: HSBC UAE ── -->
+  <!-- Column header -->
+  <text x="265" y="232" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" letter-spacing="0.08em" fill="rgba(255,255,255,0.2)">HSBC UAE</text>
+  <!-- Rate label -->
+  <text x="265" y="244" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800" fill="rgba(239,68,68,0.6)">2.80%</text>
+  <!-- Bar (2.80% = 215 × 2.8/6.25 ≈ 96px, bottom=345 → y=249) -->
+  <rect x="235" y="249" width="60" height="96" rx="6" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.18)" stroke-width="1"/>
+  <!-- Expiry badge -->
+  <rect x="205" y="353" width="120" height="20" rx="10" fill="rgba(239,68,68,0.08)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="265" y="367" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" font-weight="600" fill="rgba(239,68,68,0.6)">EXPIRES APR 30</text>
+  <!-- Post-promo note -->
+  <text x="265" y="385" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">→ ~0.5–1.0%</text>
+  <text x="265" y="399" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.15)">new money only</text>
+
+  <!-- ── COLUMN 3: Emirates Islamic e-Savings ── -->
+  <!-- Column header -->
+  <text x="420" y="120" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" letter-spacing="0.08em" fill="rgba(255,255,255,0.2)">EMIRATES ISLAMIC</text>
+  <!-- Rate label -->
+  <text x="420" y="132" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="800" fill="rgba(239,68,68,0.7)">6%*</text>
+  <!-- Bar (6.0% = 215 × 6/6.25 ≈ 207px, bottom=345 → y=138) -->
+  <rect x="390" y="138" width="60" height="207" rx="6" fill="rgba(239,68,68,0.07)" stroke="rgba(239,68,68,0.22)" stroke-width="1"/>
+  <!-- Expiry badge -->
+  <rect x="360" y="353" width="120" height="20" rx="10" fill="rgba(239,68,68,0.08)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
+  <text x="420" y="367" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" font-weight="600" fill="rgba(239,68,68,0.6)">EXPIRES APR 30</text>
+  <!-- Post-promo note -->
+  <text x="420" y="385" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.2)">→ ~1.5% after</text>
+  <text x="420" y="399" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.15)">AED 50K+ new + salary</text>
+
+  <!-- ── DIVIDER ── -->
+  <line x1="510" y1="100" x2="510" y2="375" stroke="rgba(255,255,255,0.07)" stroke-width="1" stroke-dasharray="4,6"/>
+
+  <!-- ── COLUMN 4: VAULT CARD ── -->
+  <rect x="548" y="95" width="572" height="290" rx="20" fill="rgba(0,102,255,0.05)" stroke="rgba(0,102,255,0.2)" stroke-width="1"/>
+
+  <!-- Vault header label -->
+  <text x="834" y="128" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" letter-spacing="0.08em" fill="rgba(255,255,255,0.3)">VAULT — ALWAYS</text>
+
+  <!-- Vault rate -->
+  <text x="834" y="218" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#0066FF">~5.4%</text>
+
+  <!-- Vault sub-rate label -->
+  <text x="834" y="244" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">current, variable</text>
+
+  <!-- Vault decorative bar (proportional 5.4/6.25 × competitor scale, shown faintly) -->
+  <rect x="790" y="256" width="88" height="80" rx="6" fill="url(#vaultBar)" opacity="0.12"/>
+
+  <!-- Vault NO EXPIRY badge -->
+  <rect x="714" y="344" width="240" height="24" rx="12" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <text x="834" y="360" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="700" fill="#10B981">NO EXPIRY DATE</text>
+
+  <!-- Vault sub-label -->
+  <text x="834" y="378" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.25)">No lock-in · No conditions · Always on</text>
+
+  <!-- ── FOOTER ── -->
+  <text x="600" y="413" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.15)">*RAKBANK new cust. only → ~1.75% Apr 30. HSBC new money only → ~0.5–1% Apr 30. EI e-Savings AED 50K+ new money + salary for 6% → ~1.5% Apr 30. Vault ~5.4% variable, not guaranteed. vlt.money</text>
+</svg>
