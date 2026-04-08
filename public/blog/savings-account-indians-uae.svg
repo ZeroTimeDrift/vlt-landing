@@ -38,17 +38,10 @@
   <rect x="500" y="160" width="72" height="14" rx="7" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
   <text x="536" y="170" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(239,68,68,0.6)" text-anchor="middle">SALARY REQ</text>
 
-  <!-- Row 3: ADCB Active Saver -->
-  <text x="80" y="205" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">ADCB Active Saver</text>
-  <rect x="280" y="192" width="155" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="443" y="206" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.6)">~5%</text>
-  <rect x="470" y="196" width="72" height="14" rx="7" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="1"/>
-  <text x="506" y="206" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="600" fill="rgba(239,68,68,0.6)" text-anchor="middle">SALARY REQ</text>
-
-  <!-- Row 4: UAE banks (flexible) -->
-  <text x="80" y="241" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">UAE banks (flexible)</text>
-  <rect x="280" y="228" width="25" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="313" y="242" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)">0.5–2.5%</text>
+  <!-- Row 3: UAE banks (flexible) -->
+  <text x="80" y="205" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">UAE banks (flexible)</text>
+  <rect x="280" y="192" width="25" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="313" y="206" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)">0.5–2.5%</text>
 
   <!-- Divider -->
   <line x1="60" y1="270" x2="660" y2="270" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>

@@ -1,13 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#020810;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#060f1e;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1f38;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#091628;stop-opacity:1" />
-    </linearGradient>
     <linearGradient id="checkGlow" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0066FF;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#0066FF;stop-opacity:1" />
@@ -29,10 +21,10 @@
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="#020810"/>
 
   <!-- Subtle grid lines -->
-  <g opacity="0.04" stroke="#4a90d9" stroke-width="1">
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
     <line x1="0" y1="105" x2="1200" y2="105"/>
     <line x1="0" y1="210" x2="1200" y2="210"/>
     <line x1="0" y1="315" x2="1200" y2="315"/>
@@ -46,35 +38,35 @@
   <ellipse cx="980" cy="180" rx="180" ry="140" fill="#0066FF" opacity="0.06"/>
 
   <!-- Main card -->
-  <rect x="80" y="60" width="520" height="300" rx="16" fill="url(#cardGrad)" stroke="#1e3a5f" stroke-width="1" opacity="0.9"/>
+  <rect x="80" y="60" width="520" height="300" rx="20" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
 
   <!-- Checklist items -->
   <!-- Item 1 -->
-  <circle cx="128" cy="138" r="14" fill="#0f172a" stroke="#0066FF" stroke-width="1.5"/>
+  <circle cx="128" cy="138" r="14" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
   <path d="M122 138 L126 142 L134 134" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
   <rect x="152" y="131" width="200" height="8" rx="4" fill="#0066FF" opacity="0.8"/>
-  <rect x="152" y="147" width="140" height="6" rx="3" fill="#4a90d9" opacity="0.3"/>
+  <rect x="152" y="147" width="140" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
 
   <!-- Item 2 -->
-  <circle cx="128" cy="190" r="14" fill="#0f172a" stroke="#0066FF" stroke-width="1.5"/>
+  <circle cx="128" cy="190" r="14" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
   <path d="M122 190 L126 194 L134 186" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
   <rect x="152" y="183" width="180" height="8" rx="4" fill="#0066FF" opacity="0.8"/>
-  <rect x="152" y="199" width="160" height="6" rx="3" fill="#4a90d9" opacity="0.3"/>
+  <rect x="152" y="199" width="160" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
 
   <!-- Item 3 -->
-  <circle cx="128" cy="242" r="14" fill="#0f172a" stroke="#0066FF" stroke-width="1.5"/>
+  <circle cx="128" cy="242" r="14" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
   <path d="M122 242 L126 246 L134 238" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
   <rect x="152" y="235" width="220" height="8" rx="4" fill="#0066FF" opacity="0.8"/>
-  <rect x="152" y="251" width="150" height="6" rx="3" fill="#4a90d9" opacity="0.3"/>
+  <rect x="152" y="251" width="150" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
 
   <!-- Item 4 -->
-  <circle cx="128" cy="294" r="14" fill="#0f172a" stroke="#0066FF" stroke-width="1.5"/>
+  <circle cx="128" cy="294" r="14" fill="rgba(0,102,255,0.08)" stroke="#0066FF" stroke-width="1.5"/>
   <path d="M122 294 L126 298 L134 290" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
   <rect x="152" y="287" width="190" height="8" rx="4" fill="#0066FF" opacity="0.8"/>
-  <rect x="152" y="303" width="130" height="6" rx="3" fill="#4a90d9" opacity="0.3"/>
+  <rect x="152" y="303" width="130" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
 
   <!-- Card title label -->
-  <rect x="96" y="78" width="130" height="26" rx="6" fill="#0d2545" stroke="#1e4a7a" stroke-width="1"/>
+  <rect x="96" y="78" width="130" height="26" rx="6" fill="rgba(0,102,255,0.1)" stroke="rgba(0,102,255,0.25)" stroke-width="1"/>
   <text x="161" y="95" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.6)" text-anchor="middle" font-weight="600" letter-spacing="1">CHECKLIST</text>
 
   <!-- Right side content -->
@@ -85,7 +77,7 @@
   <text x="720" y="270" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">4 questions every saver should ask.</text>
 
   <!-- Divider -->
-  <line x1="720" y1="300" x2="1100" y2="300" stroke="#1e3a5f" stroke-width="1"/>
+  <line x1="720" y1="300" x2="1100" y2="300" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
 
   <!-- Bottom label -->
   <text x="720" y="330" font-family="Inter, system-ui, sans-serif" font-size="15" fill="rgba(255,255,255,0.18)" font-weight="500" letter-spacing="0.5">vlt.money</text>
