@@ -1,13 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#020810"/>
-      <stop offset="100%" style="stop-color:#071020"/>
-    </linearGradient>
-  </defs>
-
   <!-- Background -->
-  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="#020810"/>
 
   <!-- Subtle grid lines -->
   <line x1="0" y1="140" x2="1200" y2="140" stroke="#ffffff08" stroke-width="1"/>
