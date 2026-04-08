@@ -19,21 +19,21 @@
   <ellipse cx="900" cy="200" rx="400" ry="200" fill="rgba(0,102,255,0.03)"/>
 
   <!-- Header label -->
-  <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">HSBC UAE — WHAT YOUR SAVINGS ACTUALLY EARN</text>
+  <text x="100" y="52" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em" fill="rgba(255,255,255,0.25)">HSBC UAE — E-SAVER: 0.30% TODAY · DROPS TO 0.20% ON MAY 1, 2026</text>
 
   <!-- Title -->
-  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">HSBC UAE pays 0.5–1.5%. Here's what earns.</text>
+  <text x="100" y="92" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.9)">HSBC E-Saver pays 0.30% for most retail balances.</text>
 
   <!-- Comparison rows -->
-  <!-- HSBC UAE savings -->
-  <text x="100" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">HSBC UAE savings</text>
-  <rect x="280" y="134" width="28" height="18" rx="3" fill="url(#dimBar)" opacity="0.5"/>
-  <text x="316" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.7)" dx="8">0.5–1.5%</text>
+  <!-- HSBC E-Saver -->
+  <text x="100" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">HSBC E-Saver (AED, retail)</text>
+  <rect x="280" y="134" width="9" height="18" rx="3" fill="url(#dimBar)" opacity="0.5"/>
+  <text x="297" y="148" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(239,68,68,0.7)" dx="8">0.30% → 0.20% May 1</text>
 
   <!-- Wio flexible savings -->
   <text x="100" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">Wio flexible savings</text>
-  <rect x="280" y="171" width="77" height="18" rx="3" fill="url(#dimBar)"/>
-  <text x="365" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)" dx="8">2.75%</text>
+  <rect x="280" y="171" width="93" height="18" rx="3" fill="url(#dimBar)"/>
+  <text x="381" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)" dx="8">3.25% AED</text>
 
   <!-- StashAway -->
   <text x="100" y="222" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">StashAway Simple</text>
@@ -60,9 +60,9 @@
 
   <text x="920" y="155" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.1em" fill="rgba(255,255,255,0.3)">ANNUAL GAP ON AED 50,000</text>
 
-  <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="#0066FF">AED 2,200</text>
-  <text x="920" y="255" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.5)">more per year at Vault vs HSBC standard</text>
-  <text x="920" y="285" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">AED 500 (HSBC 1%) vs AED 2,700 (Vault 5.4%)</text>
+  <text x="920" y="215" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="#0066FF">AED 2,550</text>
+  <text x="920" y="255" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.5)">more per year at Vault vs HSBC E-Saver</text>
+  <text x="920" y="285" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)">AED 150 (HSBC 0.30%) vs AED 2,700 (Vault 5.4%)</text>
   <text x="920" y="315" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.2)">Vault. Your savings doing more.</text>
 
   <!-- Footer -->
