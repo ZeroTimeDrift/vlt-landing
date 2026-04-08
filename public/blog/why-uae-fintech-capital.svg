@@ -17,7 +17,7 @@
   <ellipse cx="800" cy="210" rx="400" ry="280" fill="url(#glow)"/>
 
   <!-- Skyline silhouette (abstract Dubai/Abu Dhabi) -->
-  <g fill="#0d1a2e" opacity="0.8">
+  <g fill="rgba(255,255,255,0.04)" opacity="0.8">
     <!-- Building cluster left -->
     <rect x="60" y="280" width="18" height="80"/>
     <rect x="82" y="260" width="24" height="100"/>
@@ -57,7 +57,7 @@
   </g>
 
   <!-- Ground line -->
-  <rect x="0" y="358" width="1200" height="2" fill="#0d1a2e" opacity="0.6"/>
+  <rect x="0" y="358" width="1200" height="2" fill="rgba(255,255,255,0.06)" opacity="0.6"/>
 
   <!-- Network nodes and connections (financial network motif) -->
   <!-- Connection lines -->
