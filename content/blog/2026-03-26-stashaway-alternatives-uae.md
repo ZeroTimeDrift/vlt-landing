@@ -8,7 +8,7 @@ heroImage: "/blog/stashaway-alternatives-uae.svg"
 readTime: "5 min read"
 ---
 
-StashAway Simple is the most popular no-lock-in savings option for UAE expats — well-known, well-regulated, and easy to use. At ~3.6% projected with no management fee, it has been the benchmark for expat savings for several years.
+StashAway Simple is the most popular no-lock-in savings option for UAE expats — well-known, well-regulated, and easy to use. At ~3.6% net after fees, it has been the benchmark for expat savings for several years.
 
 But it's not the highest rate available in 2026. Here's how alternatives compare.
 
@@ -20,7 +20,7 @@ StashAway Simple invests in money market funds — a mix of short-term US govern
 
 As of March 2026:
 - **Rate:** ~3.6% projected annual return
-- **Fee:** Zero management fee
+- **Fee:** ~0.6% total (0.33% fund + 0.3% StashAway — deducted before the 3.6% rate is quoted)
 - **Regulation:** MAS (Singapore) and DIFC (UAE)
 - **Lock-in:** None
 - **Status:** Live, fully operational
@@ -86,7 +86,7 @@ For UAE residents with salary routing to Mashreq and enough discipline to limit 
 |---|---|---|---|---|---|
 | **Vault (vlt.money)** | **~5.4%** | **0%** | **Yes** | Waitlist | Pursuing ADGM |
 | Mashreq NEO Plus | 5.0–6.25% | 0% | **No** (salary/balance) | Live | CBUAE |
-| StashAway Simple | ~3.6% | 0% | Yes | Live | DIFC |
+| StashAway Simple | ~3.6% (net) | ~0.6% (in fund) | Yes | Live | DIFC |
 | Sarwa Halal | ~3.5% net | 0.5% | Yes | Live | ADGM + DFSA |
 | Sarwa Save+ | ~3.2% net | 0.5% | Yes | Live | ADGM + DFSA |
 | Wio Flexible | 3.25% AED | 0% | Yes | Live | CBUAE |

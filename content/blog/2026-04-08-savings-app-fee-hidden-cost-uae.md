@@ -35,19 +35,19 @@ On AED 200,000, that's AED 1,000 per year leaving your account before you see it
 
 The fee doesn't disappear. It compounds in reverse — every year, you're earning on a slightly smaller effective balance than the headline rate suggests.
 
-## What No-Fee Looks Like
+## When the Fee Is Already Counted In
 
-StashAway Simple's 3.6% projected rate is already net of all fees — the fund management fee and StashAway's own 0.3% annual fee are both deducted before the rate is quoted. What you see is what you receive.
+StashAway Simple's 3.6% projected rate is already net of all fees — the fund management fee and StashAway's own 0.3% annual management fee are both deducted from the underlying gross return before the rate is quoted. The fee exists; you just don't see it separately. That's better than seeing a gross rate and calculating the deduction yourself, but it's not the same as no fee.
 
-Vault charges no management fee either. The ~5.4% current earnings rate is what you receive from borrower fees — not a headline number that gets trimmed before settlement.
+Vault charges no management fee. The ~5.4% current earnings rate is what you receive from borrower fees — not a headline number that gets trimmed before settlement.
 
 Here's the comparison at AED 200,000 over 12 months:
 
-| Product | Rate | Net earned | Fee paid |
+| Product | Rate | Net earned | Fee structure |
 |---|---|---|---|
-| Sarwa Save+ | 3.7% gross / ~3.2% net | AED 6,400 | AED 1,000 |
-| StashAway Simple | 3.6% (net rate) | AED 7,200 | AED 0 |
-| Vault | ~5.4% (no fee) | AED 10,800 | AED 0 |
+| Sarwa Save+ | 3.7% gross / ~3.2% net | AED 6,400 | AED 1,000/year charged separately |
+| StashAway Simple | 3.6% (net rate) | AED 7,200 | ~AED 1,260/year deducted before quoting |
+| Vault | ~5.4% (no management fee) | AED 10,800 | AED 0 |
 
 The gap between Sarwa Save+ and Vault isn't just the rate difference. It's the rate difference plus the fee. On AED 200,000, that gap is approximately AED 4,400 per year.
 
