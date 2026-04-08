@@ -689,7 +689,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 <div className="text-center text-[11px] font-medium uppercase tracking-wider" style={{ color: "#0066FF" }}>Vault</div>
               </div>
               {[
-                { label: "Returns",    bank: "Best: Mashreq NEO PLUS† 5% · StashAway 3.9%",   vault: "~5.4% current",     win: true },
+                { label: "Returns",    bank: "Best: Mashreq NEO PLUS† 5% · StashAway 3.6%",   vault: "~5.4% current",     win: true },
                 { label: "Access",     bank: "Limited",          vault: "Withdraw anytime", win: true },
                 { label: "Minimum",    bank: "Often $1,000+",   vault: "No minimum",       win: true },
               ].map((row, i, arr) => (
@@ -718,7 +718,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
               <span>·</span>
               <span>Sarwa Save+: ~3.2% net</span>
               <span>·</span>
-              <span>StashAway: 3.9%</span>
+              <span>StashAway: 3.6%</span>
               <span>·</span>
               <span>Mashreq NEO PLUS†: 5%</span>
               <span>·</span>
@@ -767,8 +767,8 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 {
                   bank: "Liv",
                   headline: "KFS PDFs from 2024 still indexed with older rate ladder",
-                  live: "3.50% (Max) / 4.00% with salary",
-                  condition: "Requires Max subscription; top rate needs salary routing",
+                  live: "0.50% standard / 4.00% with AED 5K+ salary",
+                  condition: "Goal Account; Classic tier now 0%; Max 4% requires monthly salary ≥ AED 5,000; promo campaign 5–6% for new/returning customers (6 months)",
                   isVault: false,
                 },
                 {

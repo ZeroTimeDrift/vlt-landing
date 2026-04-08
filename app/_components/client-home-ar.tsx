@@ -693,8 +693,8 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
                 {
                   bank: "Liv",
                   headline: "ملفات KFS من 2024 لا تزال مفهرسة بسلّم أسعار قديم",
-                  live: "3.50% (Max) / 4.00% مع تحويل الراتب",
-                  condition: "يستلزم اشتراك Max؛ أعلى سعر يتطلب تحويل الراتب",
+                  live: "0.50% معدل قياسي / 4.00% مع راتب ≥ 5,000 د.إ",
+                  condition: "حساب Goal؛ الفئة Classic الآن 0%؛ Max بنسبة 4% يشترط تحويل راتب شهري ≥ 5,000 د.إ؛ عرض ترويجي 5–6% للعملاء الجدد والعائدين (6 أشهر)",
                   isVault: false,
                 },
                 {
