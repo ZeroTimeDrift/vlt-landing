@@ -21,9 +21,11 @@ Emirates Islamic uses **hibah** (voluntary gifts) and **murabaha** (profit-shari
 | Current account (AED) | 0% |
 | Savings account (AED) | 0.5–1.5% |
 | Smart Saver (tiered balance) | Up to 3% (conditions apply) |
+| e-Savings Account (standard) | ~1.5% |
+| e-Savings Account (promo, until April 30, 2026) | 5% (new money, AED 50K+) / 6% (+ salary transfer) |
 | Fixed deposits (3–12 months) | 2.5–4% |
 
-Rates vary and are reviewed periodically. Promotional rates exist but may require balance minimums or salary routing conditions.
+Rates vary and are reviewed periodically. The e-Savings promotional rate of 5–6% runs from February 1 to April 30, 2026 only — after that, it reverts to the standard ~1.5% rate. The full 6% requires both AED 50,000+ in new money and salary transfer to Emirates Islamic.
 
 ---
 
@@ -67,6 +69,7 @@ For UAE residents seeking Sharia-compliant savings, Islamic banks offer:
 | Sarwa Save+ (Halal) | ~3.5% net | Yes (Sharia-certified) | None |
 | Sarwa Save+ (conventional) | ~3.2% net | No | None |
 | Wio flexible | 3.25% AED / 2.75% USD | No | None |
+| Emirates Islamic e-Savings (promo) | 5–6% (until April 30, 2026) | Yes | AED 50K+ new money; +1% with salary transfer; reverts to ~1.5% after April 30 |
 | Emirates Islamic Smart Saver | Up to 3% | Yes | Balance + conditions |
 | FAB flexible / iSave | ~2.5% standard; 4% new funds until Jun 30 | No | iSave 4% on new money only; standard ~2.5% |
 | Emirates Islamic savings | 0.5–1.5% | Yes | None |

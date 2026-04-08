@@ -112,7 +112,7 @@ If regulatory assurance is your primary concern, Sarwa is the established choice
 
 If you're primarily trying to maximise the return on idle cash:
 - Vault offers ~220bps more than Sarwa Save+ net, with no fee
-- StashAway Simple offers ~70bps more with no fee and DIFC licensing
+- StashAway Simple offers ~40bps more with no fee and DIFC licensing
 - Both have no lock-in
 
 ---

@@ -85,7 +85,7 @@ This is the standard banking model — and it's not unique to ENBD. FAB, ADCB, M
 | ENBD Standard Savings (1%) | AED 1,000/year |
 | ENBD Plus Saver standard (1.25%) | AED 1,250/year |
 | ENBD Plus Saver promo (2.75%, new money only) | AED 2,750/year — bonus paid August 2026 |
-| StashAway Simple (~3.6%) | AED 3,900/year |
+| StashAway Simple (~3.6%) | AED 3,600/year |
 | Sarwa Save+ (~3.2% net) | AED 3,200/year |
 | **Vault (~5.4%, variable)** | **AED 5,400/year** |
 

@@ -64,7 +64,7 @@ It will change — markets move. But the change will track actual economic condi
 | UAE 12-month fixed deposit | 2–4.25% | Locked |
 | **Vault** | **~5.4% (variable)** | **Withdraw anytime, no minimum** |
 
-Not a complete market survey. Rates accurate as of late March 2026.
+Not a complete market survey. Rates accurate as of April 2026.
 
 ## What to do with this
 

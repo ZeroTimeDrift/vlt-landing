@@ -35,7 +35,7 @@ The question is whether you want to settle for 3.6% when alternatives offer more
 
 ### 1. Vault (vlt.money) — ~5.4% current
 
-**Gap vs StashAway:** ~150bps more
+**Gap vs StashAway:** ~180bps more
 **Fee:** Zero
 **Regulation:** Pursuing ADGM regulation — not yet licensed
 **Lock-in:** None
@@ -43,13 +43,13 @@ The question is whether you want to settle for 3.6% when alternatives offer more
 
 Vault earns from fees paid by institutional borrowers in regulated lending markets. The rate isn't tied to the Federal Reserve in the same way money market funds are.
 
-On AED 100,000: Vault earns approximately AED 5,400/year vs StashAway's ~AED 3,900/year — a difference of ~AED 1,500/year.
+On AED 100,000: Vault earns approximately AED 5,400/year vs StashAway's ~AED 3,600/year — a difference of ~AED 1,800/year.
 
 **The trade-off:** StashAway is fully regulated and live. Vault is pursuing ADGM regulation and not yet available (waitlist). If regulatory certainty matters more than the rate difference, StashAway remains the better choice for now.
 
 ### 2. Sarwa Save+ — ~3.2% net (lower, but notable)
 
-**Gap vs StashAway:** ~70bps less
+**Gap vs StashAway:** ~40bps less
 **Fee:** 0.5% annual fee (eats into gross return)
 **Regulation:** ADGM + DFSA — dual-licensed
 **Lock-in:** None
@@ -58,7 +58,7 @@ Sarwa Save+ is similar in structure to StashAway Simple (money market fund-based
 
 ### 3. Wio Bank Flexible Savings — 3.25% (AED)
 
-**Gap vs StashAway:** ~65bps less
+**Gap vs StashAway:** ~35bps less
 **Fee:** Zero
 **Regulation:** CBUAE-licensed digital bank
 **Lock-in:** None
@@ -69,7 +69,7 @@ Note: comparison sites sometimes show Wio at 4.5% — this is incorrect. The con
 
 ### 4. Mashreq NEO Plus — 5.0–6.25% (conditional)
 
-**Gap vs StashAway:** up to +235bps more
+**Gap vs StashAway:** up to +265bps more
 **Fee:** Zero
 **Regulation:** CBUAE-licensed bank
 **Lock-in:** No lock-in, but conditions apply
@@ -109,6 +109,6 @@ Vault is designed with the same user in mind: deposit from anywhere, withdraw an
 
 ---
 
-*StashAway Simple rate as of March 2026. All rates subject to change. Vault rate is variable and not guaranteed. Not ADGM-regulated yet.*
+*StashAway Simple rate as of April 2026. All rates subject to change. Vault rate is variable and not guaranteed. Not ADGM-regulated yet.*
 
 **Earning less than you should?** Join the waitlist at [vlt.money](https://vlt.money).

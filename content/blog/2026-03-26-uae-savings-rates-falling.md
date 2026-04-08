@@ -75,7 +75,7 @@ On AED 50,000 (~$13,600):
 |---|---|
 | Standard UAE account (1%) | AED 500 |
 | Sarwa Save+ (~3.2% net) | AED 1,600 |
-| StashAway Simple (3.6%) | AED 1,950 |
+| StashAway Simple (3.6%) | AED 1,800 |
 | **Vault (~5.4%)** | **AED 2,700** |
 
 The difference between Sarwa and Vault on that balance is approximately AED 1,100 per year. Between a standard account and Vault: AED 2,200.

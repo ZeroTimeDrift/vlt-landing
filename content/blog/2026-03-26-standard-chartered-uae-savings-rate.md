@@ -39,12 +39,13 @@ Many expats hold large USD balances in StanChart at 1.5% when 5%+ no-lock-in rat
 
 ## UAE savings rate landscape: 2026
 
-After a round of Fed rate cuts and the expiry of the FAB 4% promotional rate in March 2026, the no-lock-in landscape looks like this:
+With Fed rate cuts still in effect, the no-lock-in landscape for April 2026 looks like this:
 
 | Option | Rate | Conditions |
 |---|---|---|
 | Standard Chartered standard | 0.5–1.5% | None |
 | Wio Flexible (AED) | 3.25% | None |
+| FAB iSave | 4% (new funds only) | New funds until Jun 30, 2026; standard ~2.5% |
 | StashAway Simple | ~3.6% | None |
 | Sarwa Save+ | ~3.2% net | 0.5% fee, ADGM-regulated |
 | **Vault (vlt.money)** | **~5.4% current** | **None — waitlist open** |
@@ -86,6 +87,6 @@ Many Standard Chartered UAE customers are globally mobile — they work in UAE f
 
 ---
 
-*Standard Chartered UAE rates as of March 2026. Vault rate is variable and not guaranteed. Not ADGM-regulated yet.*
+*Standard Chartered UAE rates as of April 2026. FAB iSave 4% applies to new funds only, until June 30, 2026; standard FAB savings ~2.5%. Vault rate is variable and not guaranteed. Not ADGM-regulated yet.*
 
 **Earning under 2% on your UAE savings?** Join the waitlist at [vlt.money](https://vlt.money).
