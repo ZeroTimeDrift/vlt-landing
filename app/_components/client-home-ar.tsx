@@ -679,7 +679,7 @@ export default function ClientHomeAr({ blogPosts = [] }: { blogPosts?: BlogPostD
                 {
                   bank: "ADCB",
                   headline: '"حتى 5%" — حملة Active Saver، انتهت مارس 2025',
-                  live: "حتى 4.50% — Super Saver",
+                  live: "حتى 4.50% — Super Saver (⚠ ~4.25% من 1 مايو 2026)",
                   condition: "للأموال الجديدة فقط؛ التحويلات الداخلية مستثناة",
                   isVault: false,
                 },

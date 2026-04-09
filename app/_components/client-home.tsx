@@ -753,7 +753,7 @@ export default function ClientHome({ blogPosts = [] }: { blogPosts?: BlogPostDat
                 {
                   bank: "ADCB",
                   headline: '"Up to 5%" — Active Saver campaign, expired Mar 2025',
-                  live: "Up to 4.50% — Super Saver",
+                  live: "Up to 4.50% — Super Saver (⚠ ~4.25% from May 1, 2026)",
                   condition: "New-to-bank funds only; internal transfers excluded",
                   isVault: false,
                 },
